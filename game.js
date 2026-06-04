@@ -4,6 +4,14 @@ let GAME = null;
 let STATE = null;
 let QUESTION_POOL = [];
 
+/* Difficulty presets — length only (small_per_wave). HP/skill/boss structure unchanged. */
+const DIFFICULTY_PRESETS = {
+  easy:   { small_per_wave: 3,  totalFights: 20, label: 'Easy',   emoji: '🌱', desc: '20 fights · 5 waves · 5 bosses' },
+  normal: { small_per_wave: 5,  totalFights: 30, label: 'Normal', emoji: '⚔️',  desc: '30 fights · 5 waves · 5 bosses' },
+  master: { small_per_wave: 9,  totalFights: 50, label: 'Master', emoji: '👑', desc: '50 fights · 5 waves · 5 bosses' }
+};
+let SELECTED_DIFFICULTY = null;
+
 /* 5 bosses — each has unique name + sprite + theme */
 const BOSS_THEMES = [
   { name: 'Forest Beast',    sprite: 'assets/enemies/enemy_goblin.svg',     emoji: '🌳' },
@@ -48,16 +56,18 @@ async function loadGame() {
     charImg.src = charFile;
     charImg.onerror = () => { charImg.style.display = 'none'; };
 
-    // Subtitle: total fights count
-    const totalFights = (GAME.config.small_per_wave + GAME.config.boss_per_wave) * GAME.config.wave_count;
-    subtitle.textContent = `${GAME.subject || 'Quest'} · Grade ${GAME.grade || '?'} · ${GAME.wave_count || 5} waves · ${totalFights} fights`;
+    // Subtitle: total fights count (using Normal preset as default for display until user picks)
+    const preset = DIFFICULTY_PRESETS.normal;
+    const totalFights = (preset.small_per_wave + 1) * GAME.wave_count;
+    subtitle.textContent = `${GAME.subject || 'Quest'} · Grade ${GAME.grade || '?'} · ${GAME.wave_count || 5} waves · 5 bosses`;
 
     document.querySelector('.game-title').textContent = `⚔️ ${GAME.title}`;
 
-    startBtn.disabled = false;
-    startBtn.textContent = '⚔️ Start Quest';
-    startBtn.onclick = startQuest;
+    // Build difficulty selector (3 buttons)
+    renderDifficultySelector();
 
+    startBtn.disabled = true;
+    startBtn.textContent = '⚔️ Pick a difficulty first';
   } catch (err) {
     console.error('loadGame failed:', err);
     errEl.textContent = `Failed to load: ${err.message}. Please refresh.`;
@@ -68,8 +78,68 @@ async function loadGame() {
   }
 }
 
+/* ── DIFFICULTY SELECTOR ── */
+function renderDifficultySelector() {
+  // Insert container into landing if not already there
+  let container = document.getElementById('difficulty-selector');
+  if (container) container.remove();
+  container = document.createElement('div');
+  container.id = 'difficulty-selector';
+  container.className = 'difficulty-selector';
+
+  const heading = document.createElement('p');
+  heading.className = 'difficulty-heading';
+  heading.textContent = 'Choose your quest length:';
+  container.appendChild(heading);
+
+  const btnRow = document.createElement('div');
+  btnRow.className = 'difficulty-buttons';
+  ['easy', 'normal', 'master'].forEach(key => {
+    const preset = DIFFICULTY_PRESETS[key];
+    const btn = document.createElement('button');
+    btn.className = `btn-difficulty btn-difficulty-${key}`;
+    btn.dataset.difficulty = key;
+    btn.innerHTML = `
+      <span class="diff-emoji">${preset.emoji}</span>
+      <span class="diff-label">${preset.label}</span>
+      <span class="diff-desc">${preset.desc}</span>
+    `;
+    btn.onclick = () => selectDifficulty(key);
+    btnRow.appendChild(btn);
+  });
+  container.appendChild(btnRow);
+
+  // Insert before the start button
+  const startBtn = document.getElementById('btn-start');
+  startBtn.parentNode.insertBefore(container, startBtn);
+}
+
+function selectDifficulty(key) {
+  if (!DIFFICULTY_PRESETS[key]) return;
+  SELECTED_DIFFICULTY = key;
+
+  // Visual: highlight selected
+  document.querySelectorAll('.btn-difficulty').forEach(btn => {
+    btn.classList.toggle('selected', btn.dataset.difficulty === key);
+  });
+
+  // Enable start button
+  const startBtn = document.getElementById('btn-start');
+  startBtn.disabled = false;
+  startBtn.textContent = `⚔️ Start ${DIFFICULTY_PRESETS[key].label} Quest`;
+  startBtn.onclick = startQuest;
+}
+
 /* ── START QUEST ── */
 function startQuest() {
+  if (!SELECTED_DIFFICULTY) {
+    selectDifficulty('normal');
+    return;
+  }
+  const preset = DIFFICULTY_PRESETS[SELECTED_DIFFICULTY];
+  // Override small_per_wave from selected difficulty; keep other config as-is
+  const runtimeConfig = { ...GAME.config, small_per_wave: preset.small_per_wave };
+
   STATE = {
     hero: {
       hp: GAME.config.hero_hp,
@@ -88,7 +158,9 @@ function startQuest() {
     totalAnswered: 0,
     wrongQuestions: [],
     domainStats: {},
-    runStartTime: Date.now()
+    runStartTime: Date.now(),
+    difficulty: SELECTED_DIFFICULTY,
+    runtimeConfig: runtimeConfig
   };
 
   QUESTION_POOL = [...GAME.questions].sort(() => Math.random() - 0.5);
@@ -99,7 +171,7 @@ function startQuest() {
 
 /* ── NEXT FIGHT (small or boss within current wave) ── */
 function nextFight() {
-  const cfg = GAME.config;
+  const cfg = STATE.runtimeConfig;
   const isLastSmall = STATE.smallIndex === cfg.small_per_wave - 1;
   const isBossTime = isLastSmall; // boss appears after last small in wave
   STATE.isBoss = isBossTime;
@@ -291,7 +363,7 @@ function showRest() {
   showScreen('screen-rest');
   // Update rest flavor
   document.querySelector('.rest-flavor').textContent =
-    `You defeated ${STATE.currentEnemy.name}! Wave ${STATE.wave} of ${GAME.config.wave_count} complete. Take a moment to recover.`;
+    `You defeated ${STATE.currentEnemy.name}! Wave ${STATE.wave} of ${STATE.runtimeConfig.wave_count} complete. Take a moment to recover.`;
 
   document.getElementById('btn-heal').onclick = () => {
     STATE.hero.hp = Math.min(STATE.hero.hp + 2, STATE.hero.maxHp);
@@ -318,8 +390,9 @@ function proceedAfterRest() {
 /* ── VICTORY ── */
 function showVictory() {
   showScreen('screen-victory');
+  const preset = DIFFICULTY_PRESETS[STATE.difficulty];
   document.querySelector('#screen-victory .end-flavor').textContent =
-    `You defeated the ${BOSS_THEMES[STATE.wave - 1].name}! All ${GAME.config.wave_count} waves complete!`;
+    `You defeated the ${BOSS_THEMES[STATE.wave - 1].name}! All ${STATE.runtimeConfig.wave_count} waves complete on ${preset.label} mode!`;
   const stats = computeRunStats();
   document.getElementById('end-stats').innerHTML = stats;
 }
@@ -365,7 +438,8 @@ function computeRunStats() {
   }
 
   return `
-    <p><span>Waves completed:</span><strong>${STATE.wave}/${GAME.config.wave_count}</strong></p>
+    <p><span>Waves completed:</span><strong>${STATE.wave}/${STATE.runtimeConfig.wave_count}</strong></p>
+    <p><span>Difficulty:</span><strong>${DIFFICULTY_PRESETS[STATE.difficulty].label} (${DIFFICULTY_PRESETS[STATE.difficulty].totalFights} fights)</strong></p>
     <p><span>Accuracy:</span><strong>${accuracy}%</strong></p>
     <p><span>Questions answered:</span><strong>${STATE.totalAnswered}</strong></p>
     <p><span>Time:</span><strong>${mins}m ${secs}s</strong></p>

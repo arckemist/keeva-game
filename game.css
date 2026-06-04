@@ -496,3 +496,58 @@ body {
   .hero-sprite, .enemy-sprite { height: 160px; }
   .question-text { font-size: 1.05rem; }
 }
+
+/* ── DIFFICULTY SELECTOR ── */
+.difficulty-selector {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 1rem 0;
+  width: 100%;
+  max-width: 420px;
+}
+.difficulty-heading {
+  color: #fce7f3;
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin: 0;
+  opacity: 0.9;
+}
+.difficulty-buttons {
+  display: flex;
+  gap: 0.75rem;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.btn-difficulty {
+  background: rgba(255,255,255,0.08);
+  border: 2px solid rgba(255,255,255,0.15);
+  border-radius: 12px;
+  padding: 12px 14px;
+  min-width: 110px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+  cursor: pointer;
+  font-family: inherit;
+  color: white;
+  transition: transform 0.1s, background 0.2s, border-color 0.2s;
+}
+.btn-difficulty:hover {
+  background: rgba(255,255,255,0.15);
+  transform: translateY(-2px);
+}
+.btn-difficulty.selected {
+  background: linear-gradient(135deg, #ec4899 0%, #be185d 100%);
+  border-color: #f9a8d4;
+  box-shadow: 0 4px 16px rgba(236,72,153,0.5);
+  transform: translateY(-2px);
+}
+.btn-difficulty-easy.selected   { background: linear-gradient(135deg, #34d399 0%, #059669 100%); border-color: #6ee7b7; box-shadow: 0 4px 16px rgba(52,211,153,0.4); }
+.btn-difficulty-master.selected { background: linear-gradient(135deg, #fbbf24 0%, #d97706 100%); border-color: #fde68a; box-shadow: 0 4px 16px rgba(251,191,36,0.4); }
+.diff-emoji { font-size: 1.8rem; }
+.diff-label { font-size: 1.1rem; font-weight: 700; }
+.diff-desc { font-size: 0.75rem; opacity: 0.85; text-align: center; }
