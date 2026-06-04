@@ -1,18 +1,20 @@
-/* ── game.js ── Quiz Game Mode state machine + fight loop */
+/* ── game.js ── Quiz Game Mode state machine + fight loop (5-wave multi-boss) */
 
-let GAME = null;       // game_data.json contents
-let STATE = null;      // runtime state
-let QUESTION_POOL = []; // shuffled subset for current run
+let GAME = null;
+let STATE = null;
+let QUESTION_POOL = [];
 
-const ENEMY_NAMES = {
-  small: ['Slime', 'Bat', 'Goblin', 'Skeleton', 'Wolf', 'Spider', 'Rat', 'Imp'],
-  boss: ['Dragon', 'Demon King', 'Dark Wizard', 'Lich Lord']
-};
+/* 5 bosses — each has unique name + sprite + theme */
+const BOSS_THEMES = [
+  { name: 'Forest Beast',    sprite: 'assets/enemies/enemy_goblin.svg',     emoji: '🌳' },
+  { name: 'Cave Troll',      sprite: 'assets/enemies/enemy_skeleton.svg',   emoji: '🪨' },
+  { name: 'Ice Wyrm',        sprite: 'assets/enemies/enemy_dragon_boss.svg', emoji: '❄️' },
+  { name: 'Dark Knight',     sprite: 'assets/enemies/enemy_dragon_boss.svg', emoji: '⚔️' },
+  { name: 'Demon King',      sprite: 'assets/enemies/enemy_dragon_boss.svg', emoji: '👑' }
+];
 
-const ENEMY_SPRITES = {
-  small: ['assets/enemies/enemy_goblin.svg', 'assets/enemies/enemy_skeleton.svg'],
-  boss: ['assets/enemies/enemy_dragon_boss.svg']
-};
+const SMALL_NAMES = ['Slime', 'Bat', 'Goblin', 'Skeleton', 'Wolf', 'Spider', 'Rat', 'Imp', 'Wisp', 'Mimic'];
+const SMALL_SPRITES = ['assets/enemies/enemy_goblin.svg', 'assets/enemies/enemy_skeleton.svg', 'assets/enemies/enemy_slime.svg', 'assets/enemies/enemy_bat.svg'];
 
 /* ── INITIALIZATION ── */
 async function loadGame() {
@@ -30,13 +32,11 @@ async function loadGame() {
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     GAME = await res.json();
 
-    // Validate
     if (!GAME.questions || GAME.questions.length < 10) {
       throw new Error('Not enough questions in game_data.json');
     }
 
-    // Show character portrait
-    // Map character id → file name
+    // Character portrait mapping
     const charFileMap = {
       'knight': 'keeva_warrior.svg',
       'warrior': 'keeva_warrior.svg',
@@ -46,14 +46,12 @@ async function loadGame() {
     const charKey = GAME.character || 'knight';
     const charFile = `assets/characters/${charFileMap[charKey] || 'keeva_warrior.svg'}`;
     charImg.src = charFile;
-    charImg.onerror = () => {
-      charImg.style.display = 'none';
-    };
+    charImg.onerror = () => { charImg.style.display = 'none'; };
 
-    // Update subtitle
-    subtitle.textContent = `${GAME.subject || 'Quest'} · Grade ${GAME.grade || '?'} · ${GAME.questions.length} questions`;
+    // Subtitle: total fights count
+    const totalFights = (GAME.config.small_per_wave + GAME.config.boss_per_wave) * GAME.config.wave_count;
+    subtitle.textContent = `${GAME.subject || 'Quest'} · Grade ${GAME.grade || '?'} · ${GAME.wave_count || 5} waves · ${totalFights} fights`;
 
-    // Update title
     document.querySelector('.game-title').textContent = `⚔️ ${GAME.title}`;
 
     startBtn.disabled = false;
@@ -72,7 +70,6 @@ async function loadGame() {
 
 /* ── START QUEST ── */
 function startQuest() {
-  // Initialize state
   STATE = {
     hero: {
       hp: GAME.config.hero_hp,
@@ -80,8 +77,10 @@ function startQuest() {
       skill: GAME.config.skill_max,
       maxSkill: GAME.config.skill_max
     },
-    floor: 1,             // 1..small_count+boss_count (6 total in v1)
+    wave: 1,             // 1..wave_count
+    smallIndex: 0,       // 0..small_per_wave-1 within current wave
     isBoss: false,
+    isFinalBoss: false,
     currentEnemy: null,
     currentQuestion: null,
     usedQuestionIds: new Set(),
@@ -92,23 +91,23 @@ function startQuest() {
     runStartTime: Date.now()
   };
 
-  // Shuffle question pool, mark all as unused
   QUESTION_POOL = [...GAME.questions].sort(() => Math.random() - 0.5);
 
   showScreen('screen-fight');
   nextFight();
 }
 
-/* ── NEXT FIGHT (small or boss) ── */
+/* ── NEXT FIGHT (small or boss within current wave) ── */
 function nextFight() {
-  const isFinal = STATE.floor === GAME.config.small_count + GAME.config.boss_count;
-  const isBoss = isFinal; // in v1, only 1 boss at the end
-  STATE.isBoss = isBoss;
+  const cfg = GAME.config;
+  const isLastSmall = STATE.smallIndex === cfg.small_per_wave - 1;
+  const isBossTime = isLastSmall; // boss appears after last small in wave
+  STATE.isBoss = isBossTime;
+  STATE.isFinalBoss = isBossTime && STATE.wave === cfg.wave_count;
 
   // Pick next question
   STATE.currentQuestion = pickNextQuestion();
   if (!STATE.currentQuestion) {
-    // Pool exhausted, reshuffle
     QUESTION_POOL = [...GAME.questions].sort(() => Math.random() - 0.5);
     STATE.usedQuestionIds.clear();
     STATE.currentQuestion = pickNextQuestion();
@@ -116,36 +115,42 @@ function nextFight() {
   STATE.usedQuestionIds.add(STATE.currentQuestion.id);
 
   // Setup enemy
-  const enemyNamePool = isBoss ? ENEMY_NAMES.boss : ENEMY_NAMES.small;
-  const enemySpritePool = isBoss ? ENEMY_SPRITES.boss : ENEMY_SPRITES.small;
-  const enemyHp = isBoss ? GAME.config.boss_hp : GAME.config.small_enemy_hp;
+  if (isBossTime) {
+    const themeIndex = Math.min(STATE.wave - 1, BOSS_THEMES.length - 1);
+    const theme = BOSS_THEMES[themeIndex];
+    STATE.currentEnemy = {
+      name: theme.name,
+      sprite: theme.sprite,
+      hp: cfg.boss_hp,
+      maxHp: cfg.boss_hp
+    };
+  } else {
+    STATE.currentEnemy = {
+      name: SMALL_NAMES[Math.floor(Math.random() * SMALL_NAMES.length)],
+      sprite: SMALL_SPRITES[Math.floor(Math.random() * SMALL_SPRITES.length)],
+      hp: cfg.small_enemy_hp,
+      maxHp: cfg.small_enemy_hp
+    };
+  }
 
-  STATE.currentEnemy = {
-    name: enemyNamePool[Math.floor(Math.random() * enemyNamePool.length)],
-    sprite: enemySpritePool[Math.floor(Math.random() * enemySpritePool.length)],
-    hp: enemyHp,
-    maxHp: enemyHp
-  };
-
-  // Update UI
-  document.getElementById('enemy-name').textContent = `${isBoss ? '🐉 ' : '👹 '}${STATE.currentEnemy.name}${isBoss ? ' (BOSS)' : ''}`;
+  // Update UI: enemy info
+  const isFinal = STATE.isFinalBoss;
+  document.getElementById('enemy-name').textContent = STATE.isBoss
+    ? `${STATE.currentEnemy.name} (BOSS${isFinal ? ' 👑 FINAL' : ''})`
+    : STATE.currentEnemy.name;
   document.getElementById('enemy-progress').textContent = `${STATE.currentEnemy.hp}/${STATE.currentEnemy.maxHp} HP`;
   document.getElementById('enemy-sprite').src = STATE.currentEnemy.sprite;
   document.getElementById('enemy-sprite').classList.remove('defeated');
 
-  // Floor counter
-  const totalFloors = GAME.config.small_count + GAME.config.boss_count;  // 5 + 1 = 6
-  document.getElementById('floor-counter').textContent = `Floor ${STATE.floor}/${totalFloors}`;
+  // Wave/floor counter
+  document.getElementById('floor-counter').textContent = `Wave ${STATE.wave}/${cfg.wave_count}`;
 
-  // Render question
+  // Render question + update HUD
   renderQuestion();
-
-  // Update HUD
   updateHUD();
 }
 
 function pickNextQuestion() {
-  // Find first unused question
   for (const q of QUESTION_POOL) {
     if (!STATE.usedQuestionIds.has(q.id)) return q;
   }
@@ -156,10 +161,8 @@ function pickNextQuestion() {
 function renderQuestion() {
   const q = STATE.currentQuestion;
 
-  // Hide feedback from previous question
   document.getElementById('feedback').style.display = 'none';
 
-  // Reset all answer buttons
   ['A', 'B', 'C', 'D'].forEach(opt => {
     const btn = document.getElementById(`ans-${opt}`);
     btn.disabled = false;
@@ -175,10 +178,7 @@ function renderQuestion() {
 function handleAnswer(chosen) {
   const q = STATE.currentQuestion;
   const correct = chosen === q.answer;
-  const ansBtn = document.getElementById(`ans-${chosen}`);
-  const fb = document.getElementById('feedback');
 
-  // Disable all answer buttons during feedback
   ['A', 'B', 'C', 'D'].forEach(opt => {
     document.getElementById(`ans-${opt}`).disabled = true;
   });
@@ -186,29 +186,25 @@ function handleAnswer(chosen) {
   STATE.totalAnswered++;
 
   if (correct) {
-    // CORRECT: damage enemy
+    const ansBtn = document.getElementById(`ans-${chosen}`);
     ansBtn.classList.add('correct');
     STATE.currentEnemy.hp--;
     STATE.correctCount++;
     trackDomain(q.domain, true);
     playFloatText(`-1`, 'enemy');
     showFeedback(`✅ Correct! ${q.options[q.answer]}`, 'correct');
-    // Animation: hero attacks
     document.getElementById('hero-sprite').classList.add('attack');
     setTimeout(() => document.getElementById('hero-sprite').classList.remove('attack'), 400);
-    // Enemy hit
     document.getElementById('enemy-sprite').classList.add('hit');
     setTimeout(() => document.getElementById('enemy-sprite').classList.remove('hit'), 400);
   } else {
-    // WRONG: check skill
+    const ansBtn = document.getElementById(`ans-${chosen}`);
     if (STATE.hero.skill > 0) {
-      // SKILL SAVES
       STATE.hero.skill--;
       ansBtn.classList.add('skill-saved');
       trackDomain(q.domain, false);
       showFeedback(`✨ Skill saved you! Correct: ${q.options[q.answer]}`, 'skill-saved');
     } else {
-      // NO SKILL: hero takes damage
       STATE.hero.hp--;
       ansBtn.classList.add('wrong');
       STATE.wrongQuestions.push({ q, chosen });
@@ -218,7 +214,6 @@ function handleAnswer(chosen) {
     }
   }
 
-  // After delay, advance
   setTimeout(() => {
     if (STATE.currentEnemy.hp <= 0) {
       onEnemyDefeated();
@@ -233,8 +228,6 @@ function handleAnswer(chosen) {
         STATE.currentQuestion = pickNextQuestion();
       }
       STATE.usedQuestionIds.add(STATE.currentQuestion.id);
-      // Re-render same fight (enemy still has HP)
-      // Update enemy progress
       document.getElementById('enemy-progress').textContent = `${STATE.currentEnemy.hp}/${STATE.currentEnemy.maxHp} HP`;
       updateHUD();
       renderQuestion();
@@ -256,7 +249,6 @@ function playFloatText(text, target) {
   floater.textContent = text;
   floater.style.color = target === 'enemy' ? '#fbbf24' : '#ef4444';
   floater.classList.remove('show');
-  // Force reflow to restart animation
   void floater.offsetWidth;
   floater.classList.add('show');
 }
@@ -270,17 +262,20 @@ function showFeedback(msg, type) {
 
 /* ── ENEMY DEFEATED ── */
 function onEnemyDefeated() {
-  // Defeat animation
   const enemy = document.getElementById('enemy-sprite');
   enemy.classList.add('defeated');
 
   setTimeout(() => {
     if (STATE.isBoss) {
-      // WIN
-      showVictory();
+      // Boss defeated — rest node (or victory if final)
+      if (STATE.isFinalBoss) {
+        showVictory();
+      } else {
+        showRest();
+      }
     } else {
-      // Next floor
-      STATE.floor++;
+      // Small defeated — advance to next small in same wave
+      STATE.smallIndex++;
       nextFight();
     }
   }, 700);
@@ -291,9 +286,13 @@ function onHeroDefeated() {
   showLose();
 }
 
-/* ── REST NODE (after boss) ── */
+/* ── REST NODE (after non-final boss) ── */
 function showRest() {
   showScreen('screen-rest');
+  // Update rest flavor
+  document.querySelector('.rest-flavor').textContent =
+    `You defeated ${STATE.currentEnemy.name}! Wave ${STATE.wave} of ${GAME.config.wave_count} complete. Take a moment to recover.`;
+
   document.getElementById('btn-heal').onclick = () => {
     STATE.hero.hp = Math.min(STATE.hero.hp + 2, STATE.hero.maxHp);
     proceedAfterRest();
@@ -306,15 +305,21 @@ function showRest() {
 }
 
 function proceedAfterRest() {
-  // In v1: only 1 boss, so no "next wave" after rest — game ends after boss.
-  // Rest node is reserved for v2 (multi-wave).
-  // For v1, treat rest as immediate end.
-  showVictory();
+  // Advance to next wave
+  STATE.wave++;
+  STATE.smallIndex = 0;
+  STATE.isBoss = false;
+  STATE.isFinalBoss = false;
+  STATE.currentEnemy = null;
+  showScreen('screen-fight');
+  nextFight();
 }
 
 /* ── VICTORY ── */
 function showVictory() {
   showScreen('screen-victory');
+  document.querySelector('#screen-victory .end-flavor').textContent =
+    `You defeated the ${BOSS_THEMES[STATE.wave - 1].name}! All ${GAME.config.wave_count} waves complete!`;
   const stats = computeRunStats();
   document.getElementById('end-stats').innerHTML = stats;
 }
@@ -324,7 +329,6 @@ function showLose() {
   const stats = computeRunStats();
   document.getElementById('lose-stats').innerHTML = stats;
 
-  // Build review list
   const reviewList = document.getElementById('review-list');
   if (STATE.wrongQuestions.length === 0) {
     reviewList.innerHTML = '<p style="text-align:center;opacity:0.7">No wrong questions to review 🎉</p>';
@@ -361,6 +365,7 @@ function computeRunStats() {
   }
 
   return `
+    <p><span>Waves completed:</span><strong>${STATE.wave}/${GAME.config.wave_count}</strong></p>
     <p><span>Accuracy:</span><strong>${accuracy}%</strong></p>
     <p><span>Questions answered:</span><strong>${STATE.totalAnswered}</strong></p>
     <p><span>Time:</span><strong>${mins}m ${secs}s</strong></p>
@@ -371,7 +376,6 @@ function computeRunStats() {
 
 /* ── HUD UPDATE ── */
 function updateHUD() {
-  // HP hearts
   const hearts = document.getElementById('hp-hearts');
   hearts.innerHTML = '';
   for (let i = 0; i < STATE.hero.maxHp; i++) {
@@ -381,7 +385,6 @@ function updateHUD() {
     hearts.appendChild(span);
   }
 
-  // Skill
   const skillSlot = document.getElementById('skill-slot');
   if (STATE.hero.skill > 0) {
     skillSlot.innerHTML = `<span class="skill-active">✨ Ready</span>`;
