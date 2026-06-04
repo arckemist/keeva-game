@@ -399,4 +399,17 @@ function showScreen(id) {
 }
 
 /* ── BOOT ── */
-window.addEventListener('DOMContentLoaded', loadGame);
+function wireAnswerButtons() {
+  ['A', 'B', 'C', 'D'].forEach(opt => {
+    const btn = document.getElementById(`ans-${opt}`);
+    if (btn && !btn.dataset.wired) {
+      btn.addEventListener('click', () => handleAnswer(opt));
+      btn.dataset.wired = 'true';
+    }
+  });
+}
+
+window.addEventListener('DOMContentLoaded', () => {
+  wireAnswerButtons();
+  loadGame();
+});
