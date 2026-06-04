@@ -190,7 +190,6 @@ function handleAnswer(chosen) {
     ansBtn.classList.add('correct');
     STATE.currentEnemy.hp--;
     STATE.correctCount++;
-    STATE.hero.skill = Math.min(STATE.hero.skill + 1, STATE.hero.maxSkill); // restore 1 skill on correct (optional, comment out if not)
     trackDomain(q.domain, true);
     playFloatText(`-1`, 'enemy');
     showFeedback(`✅ Correct! ${q.options[q.answer]}`, 'correct');
