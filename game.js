@@ -36,7 +36,15 @@ async function loadGame() {
     }
 
     // Show character portrait
-    const charFile = `assets/characters/${GAME.character || 'keeva_warrior'}.svg`;
+    // Map character id → file name
+    const charFileMap = {
+      'knight': 'keeva_warrior.svg',
+      'warrior': 'keeva_warrior.svg',
+      'mage': 'keisha_ice_mage.svg',
+      'ice_mage': 'keisha_ice_mage.svg'
+    };
+    const charKey = GAME.character || 'knight';
+    const charFile = `assets/characters/${charFileMap[charKey] || 'keeva_warrior.svg'}`;
     charImg.src = charFile;
     charImg.onerror = () => {
       charImg.style.display = 'none';
@@ -126,7 +134,7 @@ function nextFight() {
   document.getElementById('enemy-sprite').classList.remove('defeated');
 
   // Floor counter
-  const totalFloors = GAME.config.small_count + GAME.config.boss_count;
+  const totalFloors = GAME.config.small_count + GAME.config.boss_count;  // 5 + 1 = 6
   document.getElementById('floor-counter').textContent = `Floor ${STATE.floor}/${totalFloors}`;
 
   // Render question
