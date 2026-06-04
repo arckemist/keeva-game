@@ -1,0 +1,999 @@
+{
+  "kid": "keeva",
+  "subject": "PABP Islam",
+  "grade": 2,
+  "source_pdf": "keeva_agama.pdf",
+  "generated_at": "2026-06-04",
+  "title": "KeeVa's Agama Quest",
+  "character": "knight",
+  "config": {
+    "hero_hp": 5,
+    "skill_max": 1,
+    "small_enemy_hp": 1,
+    "boss_hp": 5,
+    "small_count": 5,
+    "boss_count": 1
+  },
+  "questions": [
+    {
+      "id": 1,
+      "domain": "kebersihan",
+      "text": "Bersih artinya adalah",
+      "image": null,
+      "options": {
+        "A": "Basah dan licin",
+        "B": "Kotor dan berantakan",
+        "C": "Kering dan keras",
+        "D": "Suci dan terawat"
+      },
+      "answer": "D",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "domain": "kebersihan",
+      "text": "Yang termasuk kebersihan tubuh adalah",
+      "image": null,
+      "options": {
+        "A": "Menjemur pakaian saja",
+        "B": "Mencuci piring saja",
+        "C": "Mandi dan menggosok gigi",
+        "D": "Menyapu lantai saja"
+      },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": 3,
+      "domain": "kebersihan",
+      "text": "Yang termasuk kebersihan tempat tinggal adalah",
+      "image": null,
+      "options": {
+        "A": "Bermain di luar rumah",
+        "B": "Duduk di kursi saja",
+        "C": "Tidur di lantai",
+        "D": "Merapikan tempat tidur"
+      },
+      "answer": "D",
+      "difficulty": "easy"
+    },
+    {
+      "id": 4,
+      "domain": "kebersihan",
+      "text": "Membersihkan halaman termasuk kebersihan",
+      "image": null,
+      "options": {
+        "A": "Tubuh saja",
+        "B": "Pakaian saja",
+        "C": "Tempat tinggal",
+        "D": "Makanan saja"
+      },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": 5,
+      "domain": "kebersihan",
+      "text": "Mencuci tangan sebelum makan adalah contoh",
+      "image": null,
+      "options": {
+        "A": "Kebersihan hati",
+        "B": "Kebersihan pikiran",
+        "C": "Kebersihan suara",
+        "D": "Kebersihan tubuh"
+      },
+      "answer": "D",
+      "difficulty": "easy"
+    },
+    {
+      "id": 6,
+      "domain": "kebersihan",
+      "text": "Mandi dua kali sehari adalah contoh",
+      "image": null,
+      "options": {
+        "A": "Kebersihan pakaian",
+        "B": "Kebersihan sekolah",
+        "C": "Kebersihan rumah",
+        "D": "Kebersihan tubuh"
+      },
+      "answer": "D",
+      "difficulty": "easy"
+    },
+    {
+      "id": 7,
+      "domain": "kebersihan",
+      "text": "Manfaat menjaga kebersihan adalah",
+      "image": null,
+      "options": {
+        "A": "Membuat orang malas",
+        "B": "Mudah jatuh sakit",
+        "C": "Tubuh sehat dan nyaman",
+        "D": "Mengganggu tetangga"
+      },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": 8,
+      "domain": "kebersihan",
+      "text": "Makanan yang bersih akan menjaga kita dari",
+      "image": null,
+      "options": {
+        "A": "Kegembiraan",
+        "B": "Kecepatan",
+        "C": "Penyakit",
+        "D": "Kekuatan"
+      },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": 9,
+      "domain": "kebersihan",
+      "text": "Lingkungan yang bersih membuat kita",
+      "image": null,
+      "options": {
+        "A": "Nyaman dan sehat",
+        "B": "Sering marah",
+        "C": "Malas belajar",
+        "D": "Tidak berteman"
+      },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": 10,
+      "domain": "kebersihan",
+      "text": "Sapu dan pel adalah alat untuk menjaga kebersihan",
+      "image": null,
+      "options": {
+        "A": "Pakaian",
+        "B": "Makanan",
+        "C": "Tempat tinggal",
+        "D": "Tubuh"
+      },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": 11,
+      "domain": "kebersihan",
+      "text": "Sabun digunakan untuk",
+      "image": null,
+      "options": {
+        "A": "Makan",
+        "B": "Menulis",
+        "C": "Minum",
+        "D": "Mandi dan mencuci"
+      },
+      "answer": "D",
+      "difficulty": "easy"
+    },
+    {
+      "id": 12,
+      "domain": "kebersihan",
+      "text": "Sikat gigi digunakan untuk",
+      "image": null,
+      "options": {
+        "A": "Membersihkan lantai",
+        "B": "Menyiram tanaman",
+        "C": "Mencuci piring",
+        "D": "Membersihkan gigi"
+      },
+      "answer": "D",
+      "difficulty": "easy"
+    },
+    {
+      "id": 13,
+      "domain": "rukun iman",
+      "text": "Rukun iman jumlahnya ada",
+      "image": null,
+      "options": {
+        "A": "Lima",
+        "B": "Tiga",
+        "C": "Enam",
+        "D": "Empat"
+      },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": 14,
+      "domain": "rukun iman",
+      "text": "Rukun iman yang pertama adalah iman kepada",
+      "image": null,
+      "options": {
+        "A": "Rasul",
+        "B": "Kitab",
+        "C": "Malaikat",
+        "D": "Allah"
+      },
+      "answer": "D",
+      "difficulty": "easy"
+    },
+    {
+      "id": 15,
+      "domain": "rukun iman",
+      "text": "Iman kepada Allah artinya",
+      "image": null,
+      "options": {
+        "A": "Meyakini bahwa Allah itu ada",
+        "B": "Melupakan Allah",
+        "C": "Takut pada Allah saja",
+        "D": "Tidak percaya pada Allah"
+      },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": 16,
+      "domain": "rukun iman",
+      "text": "Iman kepada malaikat artinya meyakini bahwa malaikat",
+      "image": null,
+      "options": {
+        "A": "Setan",
+        "B": "Makhluk ciptaan Allah",
+        "C": "Nabi-nabi",
+        "D": "Manusia biasa"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": 17,
+      "domain": "rukun iman",
+      "text": "Kitab-kitab Allah diturunkan kepada para",
+      "image": null,
+      "options": {
+        "A": "Malaikat",
+        "B": "Setan",
+        "C": "Manusia biasa",
+        "D": "Nabi dan Rasul"
+      },
+      "answer": "D",
+      "difficulty": "easy"
+    },
+    {
+      "id": 18,
+      "domain": "rukun iman",
+      "text": "Rukun iman yang kelima adalah iman kepada",
+      "image": null,
+      "options": {
+        "A": "Malaikat",
+        "B": "Rasul",
+        "C": "Hari Akhir",
+        "D": "Kitab"
+      },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": 19,
+      "domain": "rukun iman",
+      "text": "Iman kepada hari akhir artinya meyakini",
+      "image": null,
+      "options": {
+        "A": "Hari libur",
+        "B": "Hari ulang tahun",
+        "C": "Hari永远不会 datang",
+        "D": "Hari kiamat akan datang"
+      },
+      "answer": "D",
+      "difficulty": "easy"
+    },
+    {
+      "id": 20,
+      "domain": "rukun iman",
+      "text": "Iman kepada qada dan qadar artinya meyakini bahwa Allah",
+      "image": null,
+      "options": {
+        "A": "Telah menentukan segalanya",
+        "B": "Tidak mengatur apa-apa",
+        "C": "Membiarkan semua",
+        "D": "Acak-acakan"
+      },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": 21,
+      "domain": "rukun iman",
+      "text": "Semua rukun iman harus kita",
+      "image": null,
+      "options": {
+        "A": "Yakini dan imani",
+        "B": "Lupakan",
+        "C": "Tinggalkan",
+        "D": "Ragukan"
+      },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": 22,
+      "domain": "rukun iman",
+      "text": "Menyakini rukun iman membuat hati kita",
+      "image": null,
+      "options": {
+        "A": "Tenang dan damai",
+        "B": "Takut",
+        "C": "Marah",
+        "D": "Gelisah"
+      },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": 23,
+      "domain": "malaikat",
+      "text": "Malaikat diciptakan Allah dari",
+      "image": null,
+      "options": {
+        "A": "Tanah",
+        "B": "Api",
+        "C": "Air",
+        "D": "Cahaya (nur)"
+      },
+      "answer": "D",
+      "difficulty": "easy"
+    },
+    {
+      "id": 24,
+      "domain": "malaikat",
+      "text": "Malaikat adalah makhluk yang",
+      "image": null,
+      "options": {
+        "A": "Suka bermain",
+        "B": "Sering lupa",
+        "C": "Taat kepada Allah",
+        "D": "Selalu durhaka"
+      },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": 25,
+      "domain": "malaikat",
+      "text": "Gaib artinya",
+      "image": null,
+      "options": {
+        "A": "Sangat dekat",
+        "B": "Tidak bisa dilihat",
+        "C": "Bisa dilihat",
+        "D": "Sangat jelas"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": 26,
+      "domain": "malaikat",
+      "text": "Jumlah malaikat yang wajib kita imani ada",
+      "image": null,
+      "options": {
+        "A": "Lima",
+        "B": "Seribu",
+        "C": "Sepuluh",
+        "D": "Seratus"
+      },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": 27,
+      "domain": "malaikat",
+      "text": "Malaikat Jibril bertugas menyampaikan",
+      "image": null,
+      "options": {
+        "A": "Malaikat",
+        "B": "Rezeki",
+        "C": "Hujan",
+        "D": "Wahyu"
+      },
+      "answer": "D",
+      "difficulty": "easy"
+    },
+    {
+      "id": 28,
+      "domain": "malaikat",
+      "text": "Malaikat Mikail bertugas membagikan",
+      "image": null,
+      "options": {
+        "A": "Wahyu",
+        "B": "Panas",
+        "C": "Rezeki",
+        "D": "Hujan es"
+      },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": 29,
+      "domain": "malaikat",
+      "text": "Malaikat Israfil bertugas meniup",
+      "image": null,
+      "options": {
+        "A": "Terompet saja",
+        "B": "Suling",
+        "C": "Sangkalak",
+        "D": "Gendang"
+      },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": 30,
+      "domain": "malaikat",
+      "text": "Malaikat Izrail bertugas mencabut",
+      "image": null,
+      "options": {
+        "A": "Nyawa",
+        "B": "Rezeki",
+        "C": "Wahyu",
+        "D": "Hujan"
+      },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": 31,
+      "domain": "malaikat",
+      "text": "Malaikat selalu membaca",
+      "image": null,
+      "options": {
+        "A": "Surat kabar",
+        "B": "Dzikir kepada Allah",
+        "C": "Pesan singkat",
+        "D": "Buku cerita"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": 32,
+      "domain": "malaikat",
+      "text": "Malaikat tidak pernah",
+      "image": null,
+      "options": {
+        "A": "Berbuat dosa",
+        "B": "Bertasbih",
+        "C": "Berdoa",
+        "D": "Taat kepada Allah"
+      },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": 33,
+      "domain": "malaikat",
+      "text": "Cara menerapkan perilaku beriman kepada malaikat adalah",
+      "image": null,
+      "options": {
+        "A": "Patuh pada perintah Allah",
+        "B": "Marah-marah",
+        "C": "Berbohong",
+        "D": "Malas ibadah"
+      },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": 34,
+      "domain": "malaikat",
+      "text": "Hikmah beriman kepada malaikat adalah",
+      "image": null,
+      "options": {
+        "A": "Membuat sombong",
+        "B": "Membuat malas",
+        "C": "Menambah keimanan dan ketaatan",
+        "D": "Menambah dosa"
+      },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": 35,
+      "domain": "kerja keras",
+      "text": "Kerja keras adalah",
+      "image": null,
+      "options": {
+        "A": "Bekerja asal-asalan",
+        "B": "Tidak bekerja sama sekali",
+        "C": "Bekerja dengan sungguh-sungguh",
+        "D": "Bekerja sambil tidur"
+      },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": 36,
+      "domain": "kerja keras",
+      "text": "Contoh kerja keras sehari-hari adalah",
+      "image": null,
+      "options": {
+        "A": "Bermain seharian",
+        "B": "Tidur sepanjang hari",
+        "C": "Menonton TV terus",
+        "D": "Belajar dengan rajin"
+      },
+      "answer": "D",
+      "difficulty": "easy"
+    },
+    {
+      "id": 37,
+      "domain": "kerja keras",
+      "text": "Orang yang bekerja keras akan mendapat",
+      "image": null,
+      "options": {
+        "A": "Kegagalan",
+        "B": "Hasil yang baik",
+        "C": "Kesedihan",
+        "D": "Kemalasan"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": 38,
+      "domain": "kerja keras",
+      "text": "Cara membiasakan diri untuk kerja keras adalah",
+      "image": null,
+      "options": {
+        "A": "Disiplin dan pantang menyerah",
+        "B": "Mengeluh terus",
+        "C": "Menyerah saat sulit",
+        "D": "Meminta bantuan orang lain saja"
+      },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": 39,
+      "domain": "kerja keras",
+      "text": "Nabi yang terkenal pekerja keras adalah",
+      "image": null,
+      "options": {
+        "A": "Nabi tidur",
+        "B": "Nabi Nuh",
+        "C": "Nabi yang menyerah",
+        "D": "Nabi pemalas"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": 40,
+      "domain": "kerja keras",
+      "text": "Kerja keras sebaiknya dilakukan dengan",
+      "image": null,
+      "options": {
+        "A": "Menangis",
+        "B": "Memaksa orang lain",
+        "C": "Mengeluh",
+        "D": "Ikhlas dan sabar"
+      },
+      "answer": "D",
+      "difficulty": "easy"
+    },
+    {
+      "id": 41,
+      "domain": "kerja keras",
+      "text": "Hikmah kerja keras adalah",
+      "image": null,
+      "options": {
+        "A": "Kehilangan teman",
+        "B": "Dibenci orang",
+        "C": "Dicintai Allah dan sukses",
+        "D": "Mendapat malu"
+      },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": 42,
+      "domain": "kerja keras",
+      "text": "Kerja keras harus diiringi dengan",
+      "image": null,
+      "options": {
+        "A": "Sifat malas",
+        "B": "Kesombongan",
+        "C": "Doa dan tawakal",
+        "D": "Putus asa"
+      },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": 43,
+      "domain": "rendah hati",
+      "text": "Rendah hati artinya",
+      "image": null,
+      "options": {
+        "A": "Suka memerintah",
+        "B": "Sombong dan angkuh",
+        "C": "Marah-marah",
+        "D": "Tidak sombong dan mau menghargai orang lain"
+      },
+      "answer": "D",
+      "difficulty": "easy"
+    },
+    {
+      "id": 44,
+      "domain": "rendah hati",
+      "text": "Contoh perilaku rendah hati adalah",
+      "image": null,
+      "options": {
+        "A": "Meremehkan orang lain",
+        "B": "Mau mendengarkan nasihat orang lain",
+        "C": "Suka membanggakan diri",
+        "D": "Selalu memotong pembicaraan"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": 45,
+      "domain": "rendah hati",
+      "text": "Sifat rendah hati disukai oleh",
+      "image": null,
+      "options": {
+        "A": "Hanya manusia",
+        "B": "Allah dan manusia",
+        "C": "Tidak seorang pun",
+        "D": "Hanya Allah"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": 46,
+      "domain": "rendah hati",
+      "text": "Hikmah rendah hati adalah",
+      "image": null,
+      "options": {
+        "A": "Kehilangan rezeki",
+        "B": "Mendapat kebahagiaan dunia akhirat",
+        "C": "Dibenci teman",
+        "D": "Mendapat musuh"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": 47,
+      "domain": "rendah hati",
+      "text": "Lawannya rendah hati adalah",
+      "image": null,
+      "options": {
+        "A": "Sabar",
+        "B": "Baik hati",
+        "C": "Jujur",
+        "D": "Sombong"
+      },
+      "answer": "D",
+      "difficulty": "easy"
+    },
+    {
+      "id": 48,
+      "domain": "rendah hati",
+      "text": "Sikap rendah hati bisa kita praktikkan dengan",
+      "image": null,
+      "options": {
+        "A": "Mengejek teman",
+        "B": "Memamerkan barang",
+        "C": "Saling menghargai teman",
+        "D": "Menyombongkan diri"
+      },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": 49,
+      "domain": "zikir",
+      "text": "Zikir artinya",
+      "image": null,
+      "options": {
+        "A": "Bermain",
+        "B": "Mengingat dan menyebut nama Allah",
+        "C": "Makan",
+        "D": "Tidur"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": 50,
+      "domain": "zikir",
+      "text": "Zikir dilakukan dengan membaca",
+      "image": null,
+      "options": {
+        "A": "Buku cerita",
+        "B": "Surat kabar",
+        "C": "Puisi",
+        "D": "Kalimat thayyibah"
+      },
+      "answer": "D",
+      "difficulty": "easy"
+    },
+    {
+      "id": 51,
+      "domain": "zikir",
+      "text": "Bacaan istigfar adalah",
+      "image": null,
+      "options": {
+        "A": "Subhanallah",
+        "B": "Alhamdulillah",
+        "C": "Allahu Akbar",
+        "D": "Astaghfirullahaladzim"
+      },
+      "answer": "D",
+      "difficulty": "easy"
+    },
+    {
+      "id": 52,
+      "domain": "zikir",
+      "text": "Arti istigfar adalah",
+      "image": null,
+      "options": {
+        "A": "Memuji Allah",
+        "B": "Mensucikan Allah",
+        "C": "Memperbesar Allah",
+        "D": "Memohon ampunan kepada Allah"
+      },
+      "answer": "D",
+      "difficulty": "easy"
+    },
+    {
+      "id": 53,
+      "domain": "zikir",
+      "text": "Bacaan tasbih adalah",
+      "image": null,
+      "options": {
+        "A": "Subhanallah",
+        "B": "La ilaha illallah",
+        "C": "Allahu Akbar",
+        "D": "Alhamdulillah"
+      },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": 54,
+      "domain": "zikir",
+      "text": "Arti Subhanallah adalah",
+      "image": null,
+      "options": {
+        "A": "Maha Suci Allah",
+        "B": "Allah Maha Besar",
+        "C": "Tidak ada tuhan selain Allah",
+        "D": "Segala puji bagi Allah"
+      },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": 55,
+      "domain": "zikir",
+      "text": "Bacaan tahmid adalah",
+      "image": null,
+      "options": {
+        "A": "Astaghfirullah",
+        "B": "Alhamdulillah",
+        "C": "Allahu Akbar",
+        "D": "Subhanallah"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": 56,
+      "domain": "zikir",
+      "text": "Arti Alhamdulillah adalah",
+      "image": null,
+      "options": {
+        "A": "Segala puji bagi Allah",
+        "B": "Tidak ada tuhan selain Allah",
+        "C": "Maha Suci Allah",
+        "D": "Allah Maha Besar"
+      },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": 57,
+      "domain": "zikir",
+      "text": "Bacaan takbir adalah",
+      "image": null,
+      "options": {
+        "A": "Allahu Akbar",
+        "B": "Subhanallah",
+        "C": "Alhamdulillah",
+        "D": "La ilaha illallah"
+      },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": 58,
+      "domain": "zikir",
+      "text": "Arti Allahu Akbar adalah",
+      "image": null,
+      "options": {
+        "A": "Maha Suci Allah",
+        "B": "Segala puji bagi Allah",
+        "C": "Tidak ada tuhan selain Allah",
+        "D": "Allah Maha Besar"
+      },
+      "answer": "D",
+      "difficulty": "easy"
+    },
+    {
+      "id": 59,
+      "domain": "zikir",
+      "text": "Bacaan tahlil adalah",
+      "image": null,
+      "options": {
+        "A": "Alhamdulillah",
+        "B": "Allahu Akbar",
+        "C": "Subhanallah",
+        "D": "La ilaha illallah"
+      },
+      "answer": "D",
+      "difficulty": "easy"
+    },
+    {
+      "id": 60,
+      "domain": "zikir",
+      "text": "Arti La ilaha illallah adalah",
+      "image": null,
+      "options": {
+        "A": "Segala puji bagi Allah",
+        "B": "Tidak ada tuhan selain Allah",
+        "C": "Allah Maha Besar",
+        "D": "Maha Suci Allah"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": 61,
+      "domain": "zikir",
+      "text": "Doa adalah",
+      "image": null,
+      "options": {
+        "A": "Cerita kepada teman",
+        "B": "Surat kepada orang",
+        "C": "Pikiran sendiri",
+        "D": "Harapan kepada Allah"
+      },
+      "answer": "D",
+      "difficulty": "easy"
+    },
+    {
+      "id": 62,
+      "domain": "zikir",
+      "text": "Tata cara berdoa yang baik adalah",
+      "image": null,
+      "options": {
+        "A": "Marah-marah",
+        "B": "Berbohong",
+        "C": "Mengangkat kedua tangan",
+        "D": "Berteriak histeris"
+      },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": 63,
+      "domain": "nabi nuh",
+      "text": "Nabi Nuh adalah nabi yang",
+      "image": null,
+      "options": {
+        "A": "Pemalas",
+        "B": "Penakut",
+        "C": "Sabar dan pekerja keras",
+        "D": "Sombong"
+      },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": 64,
+      "domain": "nabi nuh",
+      "text": "Nabi Nuh membuat",
+      "image": null,
+      "options": {
+        "A": "Perahu besar (bahtera)",
+        "B": "Rumah biasa",
+        "C": "Pesawat",
+        "D": "Mobil"
+      },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": 65,
+      "domain": "nabi nuh",
+      "text": "Nabi Nuh berdakwah kepada kaumnya selama",
+      "image": null,
+      "options": {
+        "A": "100 tahun saja",
+        "B": "950 tahun",
+        "C": "1 tahun",
+        "D": "10 tahun"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": 66,
+      "domain": "nabi nuh",
+      "text": "Banjir besar terjadi pada zaman Nabi",
+      "image": null,
+      "options": {
+        "A": "Isa",
+        "B": "Muhammad",
+        "C": "Nuh",
+        "D": "Musa"
+      },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": 67,
+      "domain": "nabi nuh",
+      "text": "Nabi Nuh membawa penumpang bahtera selain keluarga yaitu",
+      "image": null,
+      "options": {
+        "A": "Teman-teman",
+        "B": "Tetangga",
+        "C": "Hewan-hewan",
+        "D": "Musuhnya"
+      },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": 68,
+      "domain": "nabi nuh",
+      "text": "Sikap teladan dari Nabi Nuh adalah",
+      "image": null,
+      "options": {
+        "A": "Menyerah",
+        "B": "Putus asa",
+        "C": "Marah terus",
+        "D": "Sabar dalam berdakwah"
+      },
+      "answer": "D",
+      "difficulty": "easy"
+    },
+    {
+      "id": 69,
+      "domain": "nabi nuh",
+      "text": "Nabi Nuh tetap sabar meskipun",
+      "image": null,
+      "options": {
+        "A": "Kaumnya menolak dakwahnya",
+        "B": "Langsung sukses",
+        "C": "Semua orang langsung percaya",
+        "D": "Tidak ada cobaan"
+      },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": 70,
+      "domain": "nabi nuh",
+      "text": "Pelajaran dari kisah Nabi Nuh adalah",
+      "image": null,
+      "options": {
+        "A": "Putus asa saat gagal",
+        "B": "Tetap sabar meskipun banyak rintangan",
+        "C": "Marah pada orang",
+        "D": "Menyerah pada keadaan"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    }
+  ]
+}
