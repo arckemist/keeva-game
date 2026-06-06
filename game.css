@@ -156,6 +156,24 @@ body {
 .hud-right { justify-content: flex-end; }
 .hud-center { justify-content: center; }
 
+.btn-mute {
+  background: rgba(0,0,0,0.4);
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 999px;
+  padding: 0.3rem 0.6rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  margin-bottom: 0.4rem;
+  transition: transform 0.1s, background 0.2s;
+  min-width: 44px;     /* touch target */
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-mute:hover { background: rgba(0,0,0,0.6); }
+.btn-mute:active { transform: scale(0.92); }
+
 .hp-bar, .skill-bar {
   display: flex;
   align-items: center;

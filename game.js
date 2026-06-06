@@ -4,6 +4,104 @@ let GAME = null;
 let STATE = null;
 let QUESTION_POOL = [];
 
+/* ── AUDIO MANAGER ──
+   Two channels (BGM + SFX) with separate gain nodes so the kid can hear SFX over BGM.
+   Init is LAZY — must be triggered by a user gesture (click) to satisfy iOS Safari
+   autoplay policy. We call initAudio() on the Start button click.
+   Mute state persists in localStorage so kid doesn't have to re-mute each visit. */
+const Audio = (() => {
+  let ctx = null;
+  let masterGain = null;
+  let bgmGain = null;
+  let sfxGain = null;
+  let bgmAudioEl = null;
+  let muted = false;
+
+  const SFX_FILES = {
+    correct: 'assets/sfx/collect1.mp3',
+    wrong:   'assets/sfx/hit1.mp3',
+    skill:   'assets/sfx/Powerup.mp3',
+    boss:    'assets/sfx/boss_growl.mp3',
+    win:     'assets/sfx/bonus.mp3',
+    lose:    'assets/sfx/fail.mp3'
+  };
+  const BGM_FILE = 'assets/sfx/bgm_battle.mp3';
+
+  // Hydrate mute preference from localStorage on module load
+  try {
+    muted = localStorage.getItem('keeva-game-muted') === '1';
+  } catch (e) { /* localStorage may be disabled — fall back to unmuted */ }
+
+  function init() {
+    if (ctx) return;  // already initialised
+    try {
+      const AC = window.AudioContext || window.webkitAudioContext;
+      ctx = new AC();
+      masterGain = ctx.createGain();
+      masterGain.gain.value = muted ? 0 : 1;
+      masterGain.connect(ctx.destination);
+
+      bgmGain = ctx.createGain();
+      bgmGain.gain.value = 0.4;   // BGM quieter than SFX
+      bgmGain.connect(masterGain);
+
+      sfxGain = ctx.createGain();
+      sfxGain.gain.value = 0.7;   // SFX louder so they cut through BGM
+      sfxGain.connect(masterGain);
+
+      // iOS Safari creates context in 'suspended' state; resume on first gesture
+      if (ctx.state === 'suspended') ctx.resume();
+    } catch (e) {
+      console.warn('AudioContext init failed:', e);
+    }
+  }
+
+  function playBGM() {
+    if (!ctx) return;
+    if (bgmAudioEl) return;  // already playing
+    bgmAudioEl = new Audio(BGM_FILE);
+    bgmAudioEl.loop = true;
+    bgmAudioEl.volume = 1;  // gain handled by bgmGain node
+    // Route through WebAudio so we can mix with SFX
+    const source = ctx.createMediaElementSource(bgmAudioEl);
+    source.connect(bgmGain);
+    bgmAudioEl.play().catch(e => console.warn('BGM play failed:', e));
+  }
+
+  function stopBGM() {
+    if (bgmAudioEl) {
+      bgmAudioEl.pause();
+      bgmAudioEl.currentTime = 0;
+      bgmAudioEl = null;
+    }
+  }
+
+  function playSFX(name) {
+    if (!ctx) return;
+    const src = SFX_FILES[name];
+    if (!src) return;
+    const el = new Audio(src);
+    const source = ctx.createMediaElementSource(el);
+    source.connect(sfxGain);
+    el.play().catch(e => console.warn(`SFX ${name} play failed:`, e));
+    // Clean up after playback ends
+    el.addEventListener('ended', () => {
+      source.disconnect();
+    }, { once: true });
+  }
+
+  function toggleMute() {
+    muted = !muted;
+    if (masterGain) masterGain.gain.value = muted ? 0 : 1;
+    try { localStorage.setItem('keeva-game-muted', muted ? '1' : '0'); } catch (e) {}
+    return muted;
+  }
+
+  function isMuted() { return muted; }
+
+  return { init, playBGM, stopBGM, playSFX, toggleMute, isMuted };
+})();
+
 /* Difficulty presets — length only (small_per_wave). HP/skill/boss structure unchanged. */
 const DIFFICULTY_PRESETS = {
   easy:   { small_per_wave: 3,  totalFights: 20, label: 'Easy',   emoji: '🌱', desc: '20 fights · 5 waves · 5 bosses' },
@@ -132,6 +230,10 @@ function selectDifficulty(key) {
 
 /* ── START QUEST ── */
 function startQuest() {
+  // User gesture (button click) — safe to init audio + start BGM
+  Audio.init();
+  Audio.playBGM();
+
   if (!SELECTED_DIFFICULTY) {
     selectDifficulty('normal');
     return;
@@ -196,6 +298,7 @@ function nextFight() {
       hp: cfg.boss_hp,
       maxHp: cfg.boss_hp
     };
+    Audio.playSFX('boss');
   } else {
     STATE.currentEnemy = {
       name: SMALL_NAMES[Math.floor(Math.random() * SMALL_NAMES.length)],
@@ -265,6 +368,7 @@ function handleAnswer(chosen) {
     trackDomain(q.domain, true);
     playFloatText(`-1`, 'enemy');
     showFeedback(`✅ Correct! ${q.options[q.answer]}`, 'correct');
+    Audio.playSFX('correct');
     document.getElementById('hero-sprite').classList.add('attack');
     setTimeout(() => document.getElementById('hero-sprite').classList.remove('attack'), 400);
     document.getElementById('enemy-sprite').classList.add('hit');
@@ -276,6 +380,7 @@ function handleAnswer(chosen) {
       ansBtn.classList.add('skill-saved');
       trackDomain(q.domain, false);
       showFeedback(`✨ Skill saved you! Correct: ${q.options[q.answer]}`, 'skill-saved');
+      Audio.playSFX('skill');
     } else {
       STATE.hero.hp--;
       ansBtn.classList.add('wrong');
@@ -283,6 +388,7 @@ function handleAnswer(chosen) {
       trackDomain(q.domain, false);
       playFloatText(`-1`, 'hero');
       showFeedback(`❌ Wrong! Correct: ${q.options[q.answer]}`, 'wrong');
+      Audio.playSFX('wrong');
     }
   }
 
@@ -390,6 +496,8 @@ function proceedAfterRest() {
 /* ── VICTORY ── */
 function showVictory() {
   showScreen('screen-victory');
+  Audio.stopBGM();
+  Audio.playSFX('win');
   const preset = DIFFICULTY_PRESETS[STATE.difficulty];
   document.querySelector('#screen-victory .end-flavor').textContent =
     `You defeated the ${BOSS_THEMES[STATE.wave - 1].name}! All ${STATE.runtimeConfig.wave_count} waves complete on ${preset.label} mode!`;
@@ -399,6 +507,8 @@ function showVictory() {
 
 function showLose() {
   showScreen('screen-lose');
+  Audio.stopBGM();
+  Audio.playSFX('lose');
   const stats = computeRunStats();
   document.getElementById('lose-stats').innerHTML = stats;
 
@@ -485,7 +595,20 @@ function wireAnswerButtons() {
   });
 }
 
+function wireMuteButton() {
+  const btn = document.getElementById('btn-mute');
+  if (!btn || btn.dataset.wired) return;
+  // Sync initial visual state with stored preference
+  btn.textContent = Audio.isMuted() ? '🔇' : '🔊';
+  btn.addEventListener('click', () => {
+    const nowMuted = Audio.toggleMute();
+    btn.textContent = nowMuted ? '🔇' : '🔊';
+  });
+  btn.dataset.wired = 'true';
+}
+
 window.addEventListener('DOMContentLoaded', () => {
   wireAnswerButtons();
+  wireMuteButton();
   loadGame();
 });
