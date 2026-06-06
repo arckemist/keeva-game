@@ -8,8 +8,11 @@ let QUESTION_POOL = [];
    Two channels (BGM + SFX) with separate gain nodes so the kid can hear SFX over BGM.
    Init is LAZY — must be triggered by a user gesture (click) to satisfy iOS Safari
    autoplay policy. We call initAudio() on the Start button click.
-   Mute state persists in localStorage so kid doesn't have to re-mute each visit. */
-const Audio = (() => {
+   Mute state persists in localStorage so kid doesn't have to re-mute each visit.
+   NOTE: named `AudioManager` (NOT `Audio`) to avoid shadowing the global HTMLAudioElement
+   constructor. We use `new Audio(BGM_FILE)` inside the methods, which must refer to
+   the browser's built-in HTMLAudioElement, not this module's IIFE. */
+const AudioManager = (() => {
   let ctx = null;
   let masterGain = null;
   let bgmGain = null;
@@ -231,8 +234,8 @@ function selectDifficulty(key) {
 /* ── START QUEST ── */
 function startQuest() {
   // User gesture (button click) — safe to init audio + start BGM
-  Audio.init();
-  Audio.playBGM();
+  AudioManager.init();
+  AudioManager.playBGM();
 
   if (!SELECTED_DIFFICULTY) {
     selectDifficulty('normal');
@@ -298,7 +301,7 @@ function nextFight() {
       hp: cfg.boss_hp,
       maxHp: cfg.boss_hp
     };
-    Audio.playSFX('boss');
+    AudioManager.playSFX('boss');
   } else {
     STATE.currentEnemy = {
       name: SMALL_NAMES[Math.floor(Math.random() * SMALL_NAMES.length)],
@@ -368,7 +371,7 @@ function handleAnswer(chosen) {
     trackDomain(q.domain, true);
     playFloatText(`-1`, 'enemy');
     showFeedback(`✅ Correct! ${q.options[q.answer]}`, 'correct');
-    Audio.playSFX('correct');
+    AudioManager.playSFX('correct');
     document.getElementById('hero-sprite').classList.add('attack');
     setTimeout(() => document.getElementById('hero-sprite').classList.remove('attack'), 400);
     document.getElementById('enemy-sprite').classList.add('hit');
@@ -380,7 +383,7 @@ function handleAnswer(chosen) {
       ansBtn.classList.add('skill-saved');
       trackDomain(q.domain, false);
       showFeedback(`✨ Skill saved you! Correct: ${q.options[q.answer]}`, 'skill-saved');
-      Audio.playSFX('skill');
+      AudioManager.playSFX('skill');
     } else {
       STATE.hero.hp--;
       ansBtn.classList.add('wrong');
@@ -388,7 +391,7 @@ function handleAnswer(chosen) {
       trackDomain(q.domain, false);
       playFloatText(`-1`, 'hero');
       showFeedback(`❌ Wrong! Correct: ${q.options[q.answer]}`, 'wrong');
-      Audio.playSFX('wrong');
+      AudioManager.playSFX('wrong');
     }
   }
 
@@ -496,8 +499,8 @@ function proceedAfterRest() {
 /* ── VICTORY ── */
 function showVictory() {
   showScreen('screen-victory');
-  Audio.stopBGM();
-  Audio.playSFX('win');
+  AudioManager.stopBGM();
+  AudioManager.playSFX('win');
   const preset = DIFFICULTY_PRESETS[STATE.difficulty];
   document.querySelector('#screen-victory .end-flavor').textContent =
     `You defeated the ${BOSS_THEMES[STATE.wave - 1].name}! All ${STATE.runtimeConfig.wave_count} waves complete on ${preset.label} mode!`;
@@ -507,8 +510,8 @@ function showVictory() {
 
 function showLose() {
   showScreen('screen-lose');
-  Audio.stopBGM();
-  Audio.playSFX('lose');
+  AudioManager.stopBGM();
+  AudioManager.playSFX('lose');
   const stats = computeRunStats();
   document.getElementById('lose-stats').innerHTML = stats;
 
@@ -599,9 +602,9 @@ function wireMuteButton() {
   const btn = document.getElementById('btn-mute');
   if (!btn || btn.dataset.wired) return;
   // Sync initial visual state with stored preference
-  btn.textContent = Audio.isMuted() ? '🔇' : '🔊';
+  btn.textContent = AudioManager.isMuted() ? '🔇' : '🔊';
   btn.addEventListener('click', () => {
-    const nowMuted = Audio.toggleMute();
+    const nowMuted = AudioManager.toggleMute();
     btn.textContent = nowMuted ? '🔇' : '🔊';
   });
   btn.dataset.wired = 'true';
