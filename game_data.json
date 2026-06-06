@@ -1,10 +1,10 @@
 {
   "kid": "keeva",
-  "subject": "PABP Islam",
+  "subject": "Bahasa Indonesia",
   "grade": 2,
-  "source_pdf": "keeva_agama.pdf",
-  "generated_at": "2026-06-04",
-  "title": "KeeVa's Agama Quest",
+  "source_pdf": "Keeva BI (1).pdf",
+  "generated_at": "2026-06-06",
+  "title": "KeeVa's Bahasa Quest",
   "character": "knight",
   "config": {
     "hero_hp": 5,
@@ -18,983 +18,983 @@
   "questions": [
     {
       "id": 1,
-      "domain": "kebersihan",
-      "text": "Bersih artinya adalah",
+      "domain": "teks_petunjuk",
+      "text": "Berikut ini cara mengepel yang tepat. Jenis teks tersebut adalah . . . .",
       "image": null,
       "options": {
-        "A": "Basah dan licin",
-        "B": "Kotor dan berantakan",
-        "C": "Kering dan keras",
-        "D": "Suci dan terawat"
-      },
-      "answer": "D",
-      "difficulty": "easy"
-    },
-    {
-      "id": 2,
-      "domain": "kebersihan",
-      "text": "Yang termasuk kebersihan tubuh adalah",
-      "image": null,
-      "options": {
-        "A": "Menjemur pakaian saja",
-        "B": "Mencuci piring saja",
-        "C": "Mandi dan menggosok gigi",
-        "D": "Menyapu lantai saja"
-      },
-      "answer": "C",
-      "difficulty": "easy"
-    },
-    {
-      "id": 3,
-      "domain": "kebersihan",
-      "text": "Yang termasuk kebersihan tempat tinggal adalah",
-      "image": null,
-      "options": {
-        "A": "Bermain di luar rumah",
-        "B": "Duduk di kursi saja",
-        "C": "Tidur di lantai",
-        "D": "Merapikan tempat tidur"
-      },
-      "answer": "D",
-      "difficulty": "easy"
-    },
-    {
-      "id": 4,
-      "domain": "kebersihan",
-      "text": "Membersihkan halaman termasuk kebersihan",
-      "image": null,
-      "options": {
-        "A": "Tubuh saja",
-        "B": "Pakaian saja",
-        "C": "Tempat tinggal",
-        "D": "Makanan saja"
-      },
-      "answer": "C",
-      "difficulty": "easy"
-    },
-    {
-      "id": 5,
-      "domain": "kebersihan",
-      "text": "Mencuci tangan sebelum makan adalah contoh",
-      "image": null,
-      "options": {
-        "A": "Kebersihan hati",
-        "B": "Kebersihan pikiran",
-        "C": "Kebersihan suara",
-        "D": "Kebersihan tubuh"
-      },
-      "answer": "D",
-      "difficulty": "easy"
-    },
-    {
-      "id": 6,
-      "domain": "kebersihan",
-      "text": "Mandi dua kali sehari adalah contoh",
-      "image": null,
-      "options": {
-        "A": "Kebersihan pakaian",
-        "B": "Kebersihan sekolah",
-        "C": "Kebersihan rumah",
-        "D": "Kebersihan tubuh"
-      },
-      "answer": "D",
-      "difficulty": "easy"
-    },
-    {
-      "id": 7,
-      "domain": "kebersihan",
-      "text": "Manfaat menjaga kebersihan adalah",
-      "image": null,
-      "options": {
-        "A": "Membuat orang malas",
-        "B": "Mudah jatuh sakit",
-        "C": "Tubuh sehat dan nyaman",
-        "D": "Mengganggu tetangga"
-      },
-      "answer": "C",
-      "difficulty": "easy"
-    },
-    {
-      "id": 8,
-      "domain": "kebersihan",
-      "text": "Makanan yang bersih akan menjaga kita dari",
-      "image": null,
-      "options": {
-        "A": "Kegembiraan",
-        "B": "Kecepatan",
-        "C": "Penyakit",
-        "D": "Kekuatan"
-      },
-      "answer": "C",
-      "difficulty": "easy"
-    },
-    {
-      "id": 9,
-      "domain": "kebersihan",
-      "text": "Lingkungan yang bersih membuat kita",
-      "image": null,
-      "options": {
-        "A": "Nyaman dan sehat",
-        "B": "Sering marah",
-        "C": "Malas belajar",
-        "D": "Tidak berteman"
-      },
-      "answer": "A",
-      "difficulty": "easy"
-    },
-    {
-      "id": 10,
-      "domain": "kebersihan",
-      "text": "Sapu dan pel adalah alat untuk menjaga kebersihan",
-      "image": null,
-      "options": {
-        "A": "Pakaian",
-        "B": "Makanan",
-        "C": "Tempat tinggal",
-        "D": "Tubuh"
-      },
-      "answer": "C",
-      "difficulty": "easy"
-    },
-    {
-      "id": 11,
-      "domain": "kebersihan",
-      "text": "Sabun digunakan untuk",
-      "image": null,
-      "options": {
-        "A": "Makan",
-        "B": "Menulis",
-        "C": "Minum",
-        "D": "Mandi dan mencuci"
-      },
-      "answer": "D",
-      "difficulty": "easy"
-    },
-    {
-      "id": 12,
-      "domain": "kebersihan",
-      "text": "Sikat gigi digunakan untuk",
-      "image": null,
-      "options": {
-        "A": "Membersihkan lantai",
-        "B": "Menyiram tanaman",
-        "C": "Mencuci piring",
-        "D": "Membersihkan gigi"
-      },
-      "answer": "D",
-      "difficulty": "easy"
-    },
-    {
-      "id": 13,
-      "domain": "rukun iman",
-      "text": "Rukun iman jumlahnya ada",
-      "image": null,
-      "options": {
-        "A": "Lima",
-        "B": "Tiga",
-        "C": "Enam",
-        "D": "Empat"
-      },
-      "answer": "C",
-      "difficulty": "easy"
-    },
-    {
-      "id": 14,
-      "domain": "rukun iman",
-      "text": "Rukun iman yang pertama adalah iman kepada",
-      "image": null,
-      "options": {
-        "A": "Rasul",
-        "B": "Kitab",
-        "C": "Malaikat",
-        "D": "Allah"
-      },
-      "answer": "D",
-      "difficulty": "easy"
-    },
-    {
-      "id": 15,
-      "domain": "rukun iman",
-      "text": "Iman kepada Allah artinya",
-      "image": null,
-      "options": {
-        "A": "Meyakini bahwa Allah itu ada",
-        "B": "Melupakan Allah",
-        "C": "Takut pada Allah saja",
-        "D": "Tidak percaya pada Allah"
-      },
-      "answer": "A",
-      "difficulty": "easy"
-    },
-    {
-      "id": 16,
-      "domain": "rukun iman",
-      "text": "Iman kepada malaikat artinya meyakini bahwa malaikat",
-      "image": null,
-      "options": {
-        "A": "Setan",
-        "B": "Makhluk ciptaan Allah",
-        "C": "Nabi-nabi",
-        "D": "Manusia biasa"
+        "A": "deskripsi",
+        "B": "petunjuk",
+        "C": "narasi",
+        "D": "puisi"
       },
       "answer": "B",
       "difficulty": "easy"
     },
     {
-      "id": 17,
-      "domain": "rukun iman",
-      "text": "Kitab-kitab Allah diturunkan kepada para",
+      "id": 2,
+      "domain": "teks_petunjuk",
+      "text": "Teks 'cara mengepel yang tepat' berisi tentang cara . . . .",
       "image": null,
       "options": {
-        "A": "Malaikat",
-        "B": "Setan",
-        "C": "Manusia biasa",
-        "D": "Nabi dan Rasul"
+        "A": "menyapu",
+        "B": "mengepel",
+        "C": "mengelap kaca",
+        "D": "mencuci piring"
       },
-      "answer": "D",
+      "answer": "B",
       "difficulty": "easy"
     },
     {
-      "id": 18,
-      "domain": "rukun iman",
-      "text": "Rukun iman yang kelima adalah iman kepada",
+      "id": 3,
+      "domain": "teks_petunjuk",
+      "text": "Benda yang TIDAK ada pada teks 'cara mengepel yang tepat' adalah . . . .",
       "image": null,
       "options": {
-        "A": "Malaikat",
-        "B": "Rasul",
-        "C": "Hari Akhir",
-        "D": "Kitab"
+        "A": "tisu",
+        "B": "ember",
+        "C": "kain pel",
+        "D": "air"
+      },
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "id": 4,
+      "domain": "teks_petunjuk",
+      "text": "Manfaat melakukan kegiatan 'mengepel' sesuai isi teks adalah . . . .",
+      "image": null,
+      "options": {
+        "A": "lantai menjadi bersih",
+        "B": "kuman makin banyak",
+        "C": "taman menjadi bersih",
+        "D": "udara menjadi segar"
+      },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": 5,
+      "domain": "teks_petunjuk",
+      "text": "Makna kata 'bakteri' yang bercetak tebal pada teks adalah . . . .",
+      "image": null,
+      "options": {
+        "A": "hewan melata",
+        "B": "penyebab sakit flu",
+        "C": "makhluk hidup terkecil",
+        "D": "tanaman kecil"
+      },
+      "answer": "C",
+      "difficulty": "medium"
+    },
+    {
+      "id": 6,
+      "domain": "puisi",
+      "text": "Isi puisi tentang 'dari puncak gunung kami melihat...' adalah keindahan . . . .",
+      "image": null,
+      "options": {
+        "A": "gunung",
+        "B": "sawah",
+        "C": "bukit",
+        "D": "pantai"
+      },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": 7,
+      "domain": "puisi",
+      "text": "Amanat puisi tersebut adalah . . . .",
+      "image": null,
+      "options": {
+        "A": "bermainlah di alam",
+        "B": "jagalah kelestarian alam",
+        "C": "makin dekat dengan alam",
+        "D": "naik gunung bersama"
+      },
+      "answer": "B",
+      "difficulty": "medium"
+    },
+    {
+      "id": 8,
+      "domain": "puisi",
+      "text": "Kata yang tepat untuk melengkapi 'terselimuti kabut pekat tetapi sebentar sudah bersih ditiup ____' adalah . . . .",
+      "image": null,
+      "options": {
+        "A": "awan",
+        "B": "angin",
+        "C": "kabut",
+        "D": "hujan"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": 9,
+      "domain": "puisi",
+      "text": "Ciri khas puisi adalah menggunakan . . . .",
+      "image": null,
+      "options": {
+        "A": "bahasa lugas",
+        "B": "bahasa sehari-hari",
+        "C": "kata-kata yang indah",
+        "D": "kalimat panjang"
       },
       "answer": "C",
       "difficulty": "easy"
     },
     {
-      "id": 19,
-      "domain": "rukun iman",
-      "text": "Iman kepada hari akhir artinya meyakini",
+      "id": 10,
+      "domain": "narasi",
+      "text": "Tokoh yang hanya beberapa kali muncul dalam cerita disebut tokoh . . . .",
       "image": null,
       "options": {
-        "A": "Hari libur",
-        "B": "Hari ulang tahun",
-        "C": "Hari永远不会 datang",
-        "D": "Hari kiamat akan datang"
+        "A": "tambahan",
+        "B": "pokok",
+        "C": "utama",
+        "D": "kepala"
       },
-      "answer": "D",
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "id": 11,
+      "domain": "narasi",
+      "text": "Teks langkah-langkah 'Siapkan mangkuk tahan panas, isi dengan 2 gelas air...' adalah jenis teks . . . .",
+      "image": null,
+      "options": {
+        "A": "deskripsi",
+        "B": "petunjuk / prosedur",
+        "C": "narasi",
+        "D": "puisi"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": 12,
+      "domain": "teks_petunjuk",
+      "text": "Judul yang tepat untuk teks 'Siapkan mangkuk tahan panas...' adalah cara . . . .",
+      "image": null,
+      "options": {
+        "A": "memasak mie",
+        "B": "membuat kue",
+        "C": "menanak nasi",
+        "D": "merebus telur"
+      },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": 13,
+      "domain": "teks_petunjuk",
+      "text": "Waktu yang digunakan untuk memasak mie pada teks petunjuk adalah . . . . menit.",
+      "image": null,
+      "options": {
+        "A": "3",
+        "B": "5",
+        "C": "10",
+        "D": "15"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": 14,
+      "domain": "ejaan",
+      "text": "Murid-murid masuk sekolah pukul 0700. Cara penulisan waktu yang tepat adalah . . . .",
+      "image": null,
+      "options": {
+        "A": "07.00",
+        "B": "07-00",
+        "C": "07;00",
+        "D": "07/00"
+      },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": 15,
+      "domain": "ejaan",
+      "text": "Ayah memberikan uang saku sebesar Rp. 25000. Cara penulisan uang yang tepat adalah . . . .",
+      "image": null,
+      "options": {
+        "A": "Rp. 25.000",
+        "B": "Rp 25,000",
+        "C": "Rp.25000",
+        "D": "Rp 25.000"
+      },
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "id": 16,
+      "domain": "kalimat_penghubung",
+      "text": "Kalimat: 'Bimo anak yang pintar, tetapi suka datang terlambat ke sekolah.' Kata 'tetapi' adalah . . . .",
+      "image": null,
+      "options": {
+        "A": "kata penghubung",
+        "B": "kata sifat",
+        "C": "kata benda",
+        "D": "kata kerja"
+      },
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "id": 17,
+      "domain": "antonim",
+      "text": "Antonim dari kata 'bersih' adalah . . . .",
+      "image": null,
+      "options": {
+        "A": "kotor",
+        "B": "sehat",
+        "C": "indah",
+        "D": "rapi"
+      },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": 18,
+      "domain": "antonim",
+      "text": "Antonim dari kata 'sedih' adalah . . . .",
+      "image": null,
+      "options": {
+        "A": "murung",
+        "B": "senang",
+        "C": "marah",
+        "D": "takut"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": 19,
+      "domain": "kalimat_penghubung",
+      "text": "Kata penghubung yang menandakan hubungan tambahan adalah . . . .",
+      "image": null,
+      "options": {
+        "A": "tetapi",
+        "B": "dan",
+        "C": "karena",
+        "D": "supaya"
+      },
+      "answer": "B",
       "difficulty": "easy"
     },
     {
       "id": 20,
-      "domain": "rukun iman",
-      "text": "Iman kepada qada dan qadar artinya meyakini bahwa Allah",
+      "domain": "brosur",
+      "text": "Brosur menjelaskan informasi dengan tulisan dan . . . .",
       "image": null,
       "options": {
-        "A": "Telah menentukan segalanya",
-        "B": "Tidak mengatur apa-apa",
-        "C": "Membiarkan semua",
-        "D": "Acak-acakan"
+        "A": "gambar",
+        "B": "suara",
+        "C": "musik",
+        "D": "video"
       },
       "answer": "A",
       "difficulty": "easy"
     },
     {
       "id": 21,
-      "domain": "rukun iman",
-      "text": "Semua rukun iman harus kita",
+      "domain": "puisi",
+      "text": "Makna peribahasa 'Besar pasak daripada tiang' adalah besarnya pengeluaran daripada . . . .",
       "image": null,
       "options": {
-        "A": "Yakini dan imani",
-        "B": "Lupakan",
-        "C": "Tinggalkan",
-        "D": "Ragukan"
+        "A": "pendapatan",
+        "B": "tabungan",
+        "C": "keuntungan",
+        "D": "gaji"
       },
       "answer": "A",
-      "difficulty": "easy"
+      "difficulty": "medium"
     },
     {
       "id": 22,
-      "domain": "rukun iman",
-      "text": "Menyakini rukun iman membuat hati kita",
+      "domain": "teks_petunjuk",
+      "text": "Urutan mencuci baju yang benar adalah . . . .",
       "image": null,
       "options": {
-        "A": "Tenang dan damai",
-        "B": "Takut",
-        "C": "Marah",
-        "D": "Gelisah"
+        "A": "sabun → bilas → perah → jemur",
+        "B": "bilas → sabun → jemur → perah",
+        "C": "jemur → sabun → bilas → perah",
+        "D": "sabun → jemur → bilas → perah"
       },
       "answer": "A",
-      "difficulty": "easy"
+      "difficulty": "medium"
     },
     {
       "id": 23,
-      "domain": "malaikat",
-      "text": "Malaikat diciptakan Allah dari",
+      "domain": "puisi",
+      "text": "Lengkapilah peribahasa: 'Sambil menyelam minum ____.'",
       "image": null,
       "options": {
-        "A": "Tanah",
-        "B": "Api",
-        "C": "Air",
-        "D": "Cahaya (nur)"
+        "A": "air",
+        "B": "susu",
+        "C": "teh",
+        "D": "kopi"
       },
-      "answer": "D",
+      "answer": "A",
       "difficulty": "easy"
     },
     {
       "id": 24,
-      "domain": "malaikat",
-      "text": "Malaikat adalah makhluk yang",
+      "domain": "puisi",
+      "text": "Kata yang tepat untuk melengkapi puisi 'Daun yang menari ____, Angin berbisik membawa damai' adalah . . . .",
       "image": null,
       "options": {
-        "A": "Suka bermain",
-        "B": "Sering lupa",
-        "C": "Taat kepada Allah",
-        "D": "Selalu durhaka"
+        "A": "riang",
+        "B": "sedih",
+        "C": "marah",
+        "D": "lelah"
       },
-      "answer": "C",
-      "difficulty": "easy"
+      "answer": "A",
+      "difficulty": "medium"
     },
     {
       "id": 25,
-      "domain": "malaikat",
-      "text": "Gaib artinya",
+      "domain": "puisi",
+      "text": "Puisi 'Daun yang menari' terdiri atas berapa baris?",
       "image": null,
       "options": {
-        "A": "Sangat dekat",
-        "B": "Tidak bisa dilihat",
-        "C": "Bisa dilihat",
-        "D": "Sangat jelas"
+        "A": "dua",
+        "B": "tiga",
+        "C": "empat",
+        "D": "lima"
       },
-      "answer": "B",
+      "answer": "C",
       "difficulty": "easy"
     },
     {
       "id": 26,
-      "domain": "malaikat",
-      "text": "Jumlah malaikat yang wajib kita imani ada",
+      "domain": "puisi",
+      "text": "Puisi 'Daun yang menari' menceritakan tentang . . . .",
       "image": null,
       "options": {
-        "A": "Lima",
-        "B": "Seribu",
-        "C": "Sepuluh",
-        "D": "Seratus"
+        "A": "alam",
+        "B": "sekolah",
+        "C": "rumah",
+        "D": "kota"
       },
-      "answer": "C",
+      "answer": "A",
       "difficulty": "easy"
     },
     {
       "id": 27,
-      "domain": "malaikat",
-      "text": "Malaikat Jibril bertugas menyampaikan",
+      "domain": "kalimat_penghubung",
+      "text": "Kata hubung yang tepat untuk melengkapi 'Linda pintar bernyanyi ___ tidak suka menari' adalah . . . .",
       "image": null,
       "options": {
-        "A": "Malaikat",
-        "B": "Rezeki",
-        "C": "Hujan",
-        "D": "Wahyu"
+        "A": "dan",
+        "B": "tetapi",
+        "C": "karena",
+        "D": "supaya"
       },
-      "answer": "D",
+      "answer": "B",
       "difficulty": "easy"
     },
     {
       "id": 28,
-      "domain": "malaikat",
-      "text": "Malaikat Mikail bertugas membagikan",
+      "domain": "ejaan",
+      "text": "Ibu membeli telur ___ susu ___ dan buah-buahan di pasar. Tanda baca yang tepat adalah . . . .",
       "image": null,
       "options": {
-        "A": "Wahyu",
-        "B": "Panas",
-        "C": "Rezeki",
-        "D": "Hujan es"
+        "A": "titik (.)",
+        "B": "koma (,)",
+        "C": "tanda seru (!)",
+        "D": "titik koma (;)"
       },
-      "answer": "C",
-      "difficulty": "easy"
+      "answer": "B",
+      "difficulty": "hard"
     },
     {
       "id": 29,
-      "domain": "malaikat",
-      "text": "Malaikat Israfil bertugas meniup",
+      "domain": "brosur",
+      "text": "Gambar LOMBA MENYANYI dalam rangka Hari Anak Nasional adalah contoh dari . . . .",
       "image": null,
       "options": {
-        "A": "Terompet saja",
-        "B": "Suling",
-        "C": "Sangkalak",
-        "D": "Gendang"
+        "A": "brosur",
+        "B": "buku",
+        "C": "majalah",
+        "D": "koran"
       },
-      "answer": "C",
-      "difficulty": "easy"
+      "answer": "A",
+      "difficulty": "hard"
     },
     {
       "id": 30,
-      "domain": "malaikat",
-      "text": "Malaikat Izrail bertugas mencabut",
+      "domain": "narasi",
+      "text": "Siapa tokoh utama dari cerita Malin Kundang?",
       "image": null,
       "options": {
-        "A": "Nyawa",
-        "B": "Rezeki",
-        "C": "Wahyu",
-        "D": "Hujan"
+        "A": "Ibu Malin",
+        "B": "Malin Kundang",
+        "C": "Bimo",
+        "D": "Pak Wirya"
       },
-      "answer": "A",
+      "answer": "B",
       "difficulty": "easy"
     },
     {
       "id": 31,
-      "domain": "malaikat",
-      "text": "Malaikat selalu membaca",
+      "domain": "narasi",
+      "text": "Di mana latar tempat cerita Malin Kundang?",
       "image": null,
       "options": {
-        "A": "Surat kabar",
-        "B": "Dzikir kepada Allah",
-        "C": "Pesan singkat",
-        "D": "Buku cerita"
+        "A": "Padang, Sumatera Barat",
+        "B": "Jakarta",
+        "C": "Surabaya",
+        "D": "Bandung"
       },
-      "answer": "B",
+      "answer": "A",
       "difficulty": "easy"
     },
     {
       "id": 32,
-      "domain": "malaikat",
-      "text": "Malaikat tidak pernah",
+      "domain": "narasi",
+      "text": "Mengapa ibu Malin menjadi sedih dan marah setelah bertemu Malin?",
       "image": null,
       "options": {
-        "A": "Berbuat dosa",
-        "B": "Bertasbih",
-        "C": "Berdoa",
-        "D": "Taat kepada Allah"
+        "A": "Karena Malin tidak pulang lama",
+        "B": "Karena Malin bersikeras tidak mau mengakui ibunya",
+        "C": "Karena Malin sudah punya istri",
+        "D": "Karena Malin kaya"
       },
-      "answer": "A",
-      "difficulty": "easy"
+      "answer": "B",
+      "difficulty": "medium"
     },
     {
       "id": 33,
-      "domain": "malaikat",
-      "text": "Cara menerapkan perilaku beriman kepada malaikat adalah",
+      "domain": "narasi",
+      "text": "Apakah pesan moral dari cerita Malin Kundang?",
       "image": null,
       "options": {
-        "A": "Patuh pada perintah Allah",
-        "B": "Marah-marah",
-        "C": "Berbohong",
-        "D": "Malas ibadah"
-      },
-      "answer": "A",
-      "difficulty": "easy"
-    },
-    {
-      "id": 34,
-      "domain": "malaikat",
-      "text": "Hikmah beriman kepada malaikat adalah",
-      "image": null,
-      "options": {
-        "A": "Membuat sombong",
-        "B": "Membuat malas",
-        "C": "Menambah keimanan dan ketaatan",
-        "D": "Menambah dosa"
-      },
-      "answer": "C",
-      "difficulty": "easy"
-    },
-    {
-      "id": 35,
-      "domain": "kerja keras",
-      "text": "Kerja keras adalah",
-      "image": null,
-      "options": {
-        "A": "Bekerja asal-asalan",
-        "B": "Tidak bekerja sama sekali",
-        "C": "Bekerja dengan sungguh-sungguh",
-        "D": "Bekerja sambil tidur"
-      },
-      "answer": "C",
-      "difficulty": "easy"
-    },
-    {
-      "id": 36,
-      "domain": "kerja keras",
-      "text": "Contoh kerja keras sehari-hari adalah",
-      "image": null,
-      "options": {
-        "A": "Bermain seharian",
-        "B": "Tidur sepanjang hari",
-        "C": "Menonton TV terus",
-        "D": "Belajar dengan rajin"
-      },
-      "answer": "D",
-      "difficulty": "easy"
-    },
-    {
-      "id": 37,
-      "domain": "kerja keras",
-      "text": "Orang yang bekerja keras akan mendapat",
-      "image": null,
-      "options": {
-        "A": "Kegagalan",
-        "B": "Hasil yang baik",
-        "C": "Kesedihan",
-        "D": "Kemalasan"
+        "A": "Jangan malas belajar",
+        "B": "Jangan berbohong kepada orang tua",
+        "C": "Jangan pergi ke kota",
+        "D": "Jangan menjadi saudagar"
       },
       "answer": "B",
       "difficulty": "easy"
     },
     {
-      "id": 38,
-      "domain": "kerja keras",
-      "text": "Cara membiasakan diri untuk kerja keras adalah",
+      "id": 34,
+      "domain": "brosur",
+      "text": "Informasi apa saja yang biasanya ada pada brosur lomba?",
       "image": null,
       "options": {
-        "A": "Disiplin dan pantang menyerah",
-        "B": "Mengeluh terus",
-        "C": "Menyerah saat sulit",
-        "D": "Meminta bantuan orang lain saja"
+        "A": "Nama lomba, tanggal, tempat, kontak",
+        "B": "Hanya judul lomba",
+        "C": "Hanya foto lomba",
+        "D": "Hanya deskripsi hadiah"
+      },
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "id": 35,
+      "domain": "teks_petunjuk",
+      "text": "Teks yang berisi cara melakukan kegiatan atau membuat sesuatu disebut teks . . . .",
+      "image": null,
+      "options": {
+        "A": "deskripsi",
+        "B": "petunjuk / prosedur",
+        "C": "narasi",
+        "D": "eksposisi"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": 36,
+      "domain": "teks_petunjuk",
+      "text": "Teks 'Menjaga Kebersihan Lingkungan' ditulis oleh . . . .",
+      "image": null,
+      "options": {
+        "A": "A. Indradi",
+        "B": "R. Kurnia",
+        "C": "S. Wahyu",
+        "D": "D. Sutanto"
+      },
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "id": 37,
+      "domain": "teks_petunjuk",
+      "text": "Langkah pertama yang harus dilakukan saat kerja bakti membersihkan lingkungan menurut teks adalah . . . .",
+      "image": null,
+      "options": {
+        "A": "menyapu halaman",
+        "B": "mencabut rumput-rumput liar",
+        "C": "membuang sampah",
+        "D": "membersihkan daun"
+      },
+      "answer": "B",
+      "difficulty": "medium"
+    },
+    {
+      "id": 38,
+      "domain": "teks_petunjuk",
+      "text": "Sapu, kantong sampah, dan sarung tangan adalah contoh . . . kerja bakti.",
+      "image": null,
+      "options": {
+        "A": "alat kebersihan",
+        "B": "makanan",
+        "C": "buku",
+        "D": "mainan"
       },
       "answer": "A",
       "difficulty": "easy"
     },
     {
       "id": 39,
-      "domain": "kerja keras",
-      "text": "Nabi yang terkenal pekerja keras adalah",
+      "domain": "teks_petunjuk",
+      "text": "Lingkungan yang bersih dan terawat akan membuat kita terhindar dari . . . .",
       "image": null,
       "options": {
-        "A": "Nabi tidur",
-        "B": "Nabi Nuh",
-        "C": "Nabi yang menyerah",
-        "D": "Nabi pemalas"
+        "A": "penyakit",
+        "B": "kejenuhan",
+        "C": "kebosanan",
+        "D": "kelaparan"
       },
-      "answer": "B",
+      "answer": "A",
       "difficulty": "easy"
     },
     {
       "id": 40,
-      "domain": "kerja keras",
-      "text": "Kerja keras sebaiknya dilakukan dengan",
+      "domain": "antonim",
+      "text": "Antonim dari kata 'sehat' pada teks 'Menjaga Kebersihan Lingkungan' adalah . . . .",
       "image": null,
       "options": {
-        "A": "Menangis",
-        "B": "Memaksa orang lain",
-        "C": "Mengeluh",
-        "D": "Ikhlas dan sabar"
+        "A": "bersih",
+        "B": "sakit",
+        "C": "segar",
+        "D": "nyaman"
       },
-      "answer": "D",
-      "difficulty": "easy"
+      "answer": "B",
+      "difficulty": "hard"
     },
     {
       "id": 41,
-      "domain": "kerja keras",
-      "text": "Hikmah kerja keras adalah",
+      "domain": "antonim",
+      "text": "Antonim dari kata 'nyaman' adalah . . . .",
       "image": null,
       "options": {
-        "A": "Kehilangan teman",
-        "B": "Dibenci orang",
-        "C": "Dicintai Allah dan sukses",
-        "D": "Mendapat malu"
+        "A": "tidak nyaman",
+        "B": "bersih",
+        "C": "sehat",
+        "D": "jernih"
       },
-      "answer": "C",
+      "answer": "A",
       "difficulty": "easy"
     },
     {
       "id": 42,
-      "domain": "kerja keras",
-      "text": "Kerja keras harus diiringi dengan",
+      "domain": "antonim",
+      "text": "Antonim dari kata 'jernih' (air) adalah . . . .",
       "image": null,
       "options": {
-        "A": "Sifat malas",
-        "B": "Kesombongan",
-        "C": "Doa dan tawakal",
-        "D": "Putus asa"
+        "A": "bersih",
+        "B": "keruh",
+        "C": "sejuk",
+        "D": "segar"
       },
-      "answer": "C",
+      "answer": "B",
       "difficulty": "easy"
     },
     {
       "id": 43,
-      "domain": "rendah hati",
-      "text": "Rendah hati artinya",
+      "domain": "antonim",
+      "text": "Antonim dari kata 'bersih' adalah . . . .",
       "image": null,
       "options": {
-        "A": "Suka memerintah",
-        "B": "Sombong dan angkuh",
-        "C": "Marah-marah",
-        "D": "Tidak sombong dan mau menghargai orang lain"
+        "A": "kotor",
+        "B": "rapi",
+        "C": "indah",
+        "D": "sehat"
       },
-      "answer": "D",
+      "answer": "A",
       "difficulty": "easy"
     },
     {
       "id": 44,
-      "domain": "rendah hati",
-      "text": "Contoh perilaku rendah hati adalah",
+      "domain": "teks_petunjuk",
+      "text": "Topik teks 'Menjaga Kebersihan Lingkungan' adalah . . . .",
       "image": null,
       "options": {
-        "A": "Meremehkan orang lain",
-        "B": "Mau mendengarkan nasihat orang lain",
-        "C": "Suka membanggakan diri",
-        "D": "Selalu memotong pembicaraan"
+        "A": "membersihkan lingkungan",
+        "B": "menanam pohon",
+        "C": "membuang sampah",
+        "D": "mencuci tangan"
       },
-      "answer": "B",
+      "answer": "A",
       "difficulty": "easy"
     },
     {
       "id": 45,
-      "domain": "rendah hati",
-      "text": "Sifat rendah hati disukai oleh",
+      "domain": "teks_petunjuk",
+      "text": "Kata kunci yang mewakili informasi teks 'Menjaga Kebersihan Lingkungan' adalah . . . .",
       "image": null,
       "options": {
-        "A": "Hanya manusia",
-        "B": "Allah dan manusia",
-        "C": "Tidak seorang pun",
-        "D": "Hanya Allah"
+        "A": "kebersihan, lingkungan, kerja bakti, bersih",
+        "B": "makan, minum, tidur, belajar",
+        "C": "rumah, sekolah, toko, pasar",
+        "D": "pagi, siang, sore, malam"
       },
-      "answer": "B",
-      "difficulty": "easy"
+      "answer": "A",
+      "difficulty": "medium"
     },
     {
       "id": 46,
-      "domain": "rendah hati",
-      "text": "Hikmah rendah hati adalah",
+      "domain": "teks_petunjuk",
+      "text": "Bagian-bagian teks petunjuk yang benar adalah . . . .",
       "image": null,
       "options": {
-        "A": "Kehilangan rezeki",
-        "B": "Mendapat kebahagiaan dunia akhirat",
-        "C": "Dibenci teman",
-        "D": "Mendapat musuh"
+        "A": "judul, pembuka, cara, penutup",
+        "B": "hanya judul saja",
+        "C": "hanya cara saja",
+        "D": "judul, daftar pustaka"
       },
-      "answer": "B",
-      "difficulty": "easy"
+      "answer": "A",
+      "difficulty": "medium"
     },
     {
       "id": 47,
-      "domain": "rendah hati",
-      "text": "Lawannya rendah hati adalah",
+      "domain": "teks_petunjuk",
+      "text": "Teks petunjuk ditulis dengan kalimat . . . .",
       "image": null,
       "options": {
-        "A": "Sabar",
-        "B": "Baik hati",
-        "C": "Jujur",
-        "D": "Sombong"
+        "A": "pertanyaan",
+        "B": "perintah",
+        "C": "seruan",
+        "D": "berita"
       },
-      "answer": "D",
+      "answer": "B",
       "difficulty": "easy"
     },
     {
       "id": 48,
-      "domain": "rendah hati",
-      "text": "Sikap rendah hati bisa kita praktikkan dengan",
+      "domain": "kata_ulang",
+      "text": "Di antara bagian kata ulang, digunakan tanda . . . .",
       "image": null,
       "options": {
-        "A": "Mengejek teman",
-        "B": "Memamerkan barang",
-        "C": "Saling menghargai teman",
-        "D": "Menyombongkan diri"
+        "A": "titik (.)",
+        "B": "koma (,)",
+        "C": "tanda hubung (-)",
+        "D": "titik dua (:)"
       },
       "answer": "C",
       "difficulty": "easy"
     },
     {
       "id": 49,
-      "domain": "zikir",
-      "text": "Zikir artinya",
+      "domain": "kata_ulang",
+      "text": "Kata 'rumput-rumput' bermakna . . . .",
       "image": null,
       "options": {
-        "A": "Bermain",
-        "B": "Mengingat dan menyebut nama Allah",
-        "C": "Makan",
-        "D": "Tidur"
+        "A": "ada banyak rumput",
+        "B": "satu rumput",
+        "C": "rumput yang tinggi",
+        "D": "rumput kering"
       },
-      "answer": "B",
+      "answer": "A",
       "difficulty": "easy"
     },
     {
       "id": 50,
-      "domain": "zikir",
-      "text": "Zikir dilakukan dengan membaca",
+      "domain": "kata_ulang",
+      "text": "Kata 'memanggil-manggil' bermakna . . . .",
       "image": null,
       "options": {
-        "A": "Buku cerita",
-        "B": "Surat kabar",
-        "C": "Puisi",
-        "D": "Kalimat thayyibah"
+        "A": "satu kali memanggil",
+        "B": "lebih dari satu kali menyebut nama seseorang",
+        "C": "tidak pernah memanggil",
+        "D": "memanggil dengan keras"
       },
-      "answer": "D",
-      "difficulty": "easy"
+      "answer": "B",
+      "difficulty": "medium"
     },
     {
       "id": 51,
-      "domain": "zikir",
-      "text": "Bacaan istigfar adalah",
+      "domain": "kata_ulang",
+      "text": "Kata 'Ibu-ibu' bermakna . . . .",
       "image": null,
       "options": {
-        "A": "Subhanallah",
-        "B": "Alhamdulillah",
-        "C": "Allahu Akbar",
-        "D": "Astaghfirullahaladzim"
+        "A": "satu ibu",
+        "B": "banyak ibu",
+        "C": "ibu tunggal",
+        "D": "ibu baru"
       },
-      "answer": "D",
-      "difficulty": "easy"
+      "answer": "B",
+      "difficulty": "hard"
     },
     {
       "id": 52,
-      "domain": "zikir",
-      "text": "Arti istigfar adalah",
+      "domain": "kata_ulang",
+      "text": "Kata 'bercakap-cakap' bermakna . . . .",
       "image": null,
       "options": {
-        "A": "Memuji Allah",
-        "B": "Mensucikan Allah",
-        "C": "Memperbesar Allah",
-        "D": "Memohon ampunan kepada Allah"
+        "A": "diam",
+        "B": "saling berbicara",
+        "C": "teriak",
+        "D": "berteriak"
       },
-      "answer": "D",
-      "difficulty": "easy"
+      "answer": "B",
+      "difficulty": "hard"
     },
     {
       "id": 53,
-      "domain": "zikir",
-      "text": "Bacaan tasbih adalah",
+      "domain": "narasi",
+      "text": "Siapa tokoh utama dalam teks 'Akibat Malas Menggosok Gigi'?",
       "image": null,
       "options": {
-        "A": "Subhanallah",
-        "B": "La ilaha illallah",
-        "C": "Allahu Akbar",
-        "D": "Alhamdulillah"
-      },
-      "answer": "A",
-      "difficulty": "easy"
-    },
-    {
-      "id": 54,
-      "domain": "zikir",
-      "text": "Arti Subhanallah adalah",
-      "image": null,
-      "options": {
-        "A": "Maha Suci Allah",
-        "B": "Allah Maha Besar",
-        "C": "Tidak ada tuhan selain Allah",
-        "D": "Segala puji bagi Allah"
-      },
-      "answer": "A",
-      "difficulty": "easy"
-    },
-    {
-      "id": 55,
-      "domain": "zikir",
-      "text": "Bacaan tahmid adalah",
-      "image": null,
-      "options": {
-        "A": "Astaghfirullah",
-        "B": "Alhamdulillah",
-        "C": "Allahu Akbar",
-        "D": "Subhanallah"
+        "A": "Ibu",
+        "B": "Heri",
+        "C": "Dokter",
+        "D": "Pak Wirya"
       },
       "answer": "B",
       "difficulty": "easy"
     },
     {
-      "id": 56,
-      "domain": "zikir",
-      "text": "Arti Alhamdulillah adalah",
+      "id": 54,
+      "domain": "narasi",
+      "text": "Apa yang dirasakan Heri di awal cerita?",
       "image": null,
       "options": {
-        "A": "Segala puji bagi Allah",
-        "B": "Tidak ada tuhan selain Allah",
-        "C": "Maha Suci Allah",
-        "D": "Allah Maha Besar"
+        "A": "senang",
+        "B": "sakit gigi",
+        "C": "lapar",
+        "D": "takut"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": 55,
+      "domain": "narasi",
+      "text": "Mengapa Heri pergi ke dokter gigi?",
+      "image": null,
+      "options": {
+        "A": "Karena gigi Heri berlubang dan terasa sakit",
+        "B": "Karena Heri ingin cabut gigi",
+        "C": "Karena Heri ingin periksa rutin",
+        "D": "Karena Heri ingin sikat gigi"
       },
       "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "id": 56,
+      "domain": "narasi",
+      "text": "Gigi berlubang dapat terjadi karena . . . .",
+      "image": null,
+      "options": {
+        "A": "terlalu banyak makan manis saja",
+        "B": "kurang menjaga kebersihan gigi",
+        "C": "tidak pernah ke dokter",
+        "D": "sikat gigi terlalu sering"
+      },
+      "answer": "B",
       "difficulty": "easy"
     },
     {
       "id": 57,
-      "domain": "zikir",
-      "text": "Bacaan takbir adalah",
+      "domain": "narasi",
+      "text": "Apa yang Heri janjikan di akhir cerita?",
       "image": null,
       "options": {
-        "A": "Allahu Akbar",
-        "B": "Subhanallah",
-        "C": "Alhamdulillah",
-        "D": "La ilaha illallah"
+        "A": "Akan makan lebih banyak",
+        "B": "Akan rajin menggosok gigi",
+        "C": "Akan bermain lebih sering",
+        "D": "Akan ke dokter setiap hari"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": 58,
+      "domain": "narasi",
+      "text": "Tokoh yang biasanya muncul dari awal hingga akhir cerita disebut tokoh . . . .",
+      "image": null,
+      "options": {
+        "A": "tambahan",
+        "B": "utama",
+        "C": "kedua",
+        "D": "pembantu"
+      },
+      "answer": "B",
+      "difficulty": "medium"
+    },
+    {
+      "id": 59,
+      "domain": "narasi",
+      "text": "Ilustrasi dalam teks narasi berfungsi untuk . . . .",
+      "image": null,
+      "options": {
+        "A": "membantu menjelaskan isi cerita",
+        "B": "menggantikan teks",
+        "C": "memperindah sampul saja",
+        "D": "membuat cerita panjang"
       },
       "answer": "A",
       "difficulty": "easy"
     },
     {
-      "id": 58,
-      "domain": "zikir",
-      "text": "Arti Allahu Akbar adalah",
-      "image": null,
-      "options": {
-        "A": "Maha Suci Allah",
-        "B": "Segala puji bagi Allah",
-        "C": "Tidak ada tuhan selain Allah",
-        "D": "Allah Maha Besar"
-      },
-      "answer": "D",
-      "difficulty": "easy"
-    },
-    {
-      "id": 59,
-      "domain": "zikir",
-      "text": "Bacaan tahlil adalah",
-      "image": null,
-      "options": {
-        "A": "Alhamdulillah",
-        "B": "Allahu Akbar",
-        "C": "Subhanallah",
-        "D": "La ilaha illallah"
-      },
-      "answer": "D",
-      "difficulty": "easy"
-    },
-    {
       "id": 60,
-      "domain": "zikir",
-      "text": "Arti La ilaha illallah adalah",
+      "domain": "puisi",
+      "text": "Puisi adalah karangan yang berisi kata-kata yang . . . .",
       "image": null,
       "options": {
-        "A": "Segala puji bagi Allah",
-        "B": "Tidak ada tuhan selain Allah",
-        "C": "Allah Maha Besar",
-        "D": "Maha Suci Allah"
+        "A": "panjang",
+        "B": "indah dan penuh makna",
+        "C": "pendek saja",
+        "D": "biasa"
       },
       "answer": "B",
       "difficulty": "easy"
     },
     {
       "id": 61,
-      "domain": "zikir",
-      "text": "Doa adalah",
+      "domain": "puisi",
+      "text": "Puisi anak biasanya membahas tentang . . . .",
       "image": null,
       "options": {
-        "A": "Cerita kepada teman",
-        "B": "Surat kepada orang",
-        "C": "Pikiran sendiri",
-        "D": "Harapan kepada Allah"
+        "A": "kehidupan orang dewasa",
+        "B": "kegiatan sehari-hari dan keadaan lingkungan rumah",
+        "C": "pekerjaan berat",
+        "D": "politik"
       },
-      "answer": "D",
+      "answer": "B",
       "difficulty": "easy"
     },
     {
       "id": 62,
-      "domain": "zikir",
-      "text": "Tata cara berdoa yang baik adalah",
+      "domain": "puisi",
+      "text": "Cara memperoleh informasi dalam puisi yang pertama adalah . . . .",
       "image": null,
       "options": {
-        "A": "Marah-marah",
-        "B": "Berbohong",
-        "C": "Mengangkat kedua tangan",
-        "D": "Berteriak histeris"
+        "A": "menulis puisi baru",
+        "B": "menyimak atau membaca keseluruhan isi puisi dengan saksama",
+        "C": "menghafal judul saja",
+        "D": "membaca cepat tanpa memperhatikan"
       },
-      "answer": "C",
-      "difficulty": "easy"
+      "answer": "B",
+      "difficulty": "medium"
     },
     {
       "id": 63,
-      "domain": "nabi nuh",
-      "text": "Nabi Nuh adalah nabi yang",
+      "domain": "puisi",
+      "text": "Puisi ditulis dalam bentuk . . . .",
       "image": null,
       "options": {
-        "A": "Pemalas",
-        "B": "Penakut",
-        "C": "Sabar dan pekerja keras",
-        "D": "Sombong"
+        "A": "paragraf",
+        "B": "bait",
+        "C": "kalimat",
+        "D": "daftar"
       },
-      "answer": "C",
+      "answer": "B",
       "difficulty": "easy"
     },
     {
       "id": 64,
-      "domain": "nabi nuh",
-      "text": "Nabi Nuh membuat",
+      "domain": "puisi",
+      "text": "Dalam membacakan puisi, hal yang perlu diperhatikan adalah . . . .",
       "image": null,
       "options": {
-        "A": "Perahu besar (bahtera)",
-        "B": "Rumah biasa",
-        "C": "Pesawat",
-        "D": "Mobil"
+        "A": "hanya lafal",
+        "B": "lafal, intonasi, dan ekspresi",
+        "C": "hanya ekspresi",
+        "D": "hanya intonasi"
       },
-      "answer": "A",
+      "answer": "B",
       "difficulty": "easy"
     },
     {
       "id": 65,
-      "domain": "nabi nuh",
-      "text": "Nabi Nuh berdakwah kepada kaumnya selama",
+      "domain": "puisi",
+      "text": "Ekspresi yang tepat saat membacakan puisi tentang hal sedih adalah ekspresi yang . . . .",
       "image": null,
       "options": {
-        "A": "100 tahun saja",
-        "B": "950 tahun",
-        "C": "1 tahun",
-        "D": "10 tahun"
+        "A": "semangat",
+        "B": "sedih",
+        "C": "marah",
+        "D": "tertawa"
       },
       "answer": "B",
       "difficulty": "easy"
     },
     {
       "id": 66,
-      "domain": "nabi nuh",
-      "text": "Banjir besar terjadi pada zaman Nabi",
+      "domain": "puisi",
+      "text": "Sikap yang diperlukan saat membacakan puisi di depan kelas adalah . . . .",
       "image": null,
       "options": {
-        "A": "Isa",
-        "B": "Muhammad",
-        "C": "Nuh",
-        "D": "Musa"
+        "A": " malu-malu",
+        "B": "percaya diri",
+        "C": "menghindar",
+        "D": "diam saja"
       },
-      "answer": "C",
+      "answer": "B",
       "difficulty": "easy"
     },
     {
       "id": 67,
-      "domain": "nabi nuh",
-      "text": "Nabi Nuh membawa penumpang bahtera selain keluarga yaitu",
+      "domain": "puisi",
+      "text": "Tema puisi 'Lingkungan yang Membanggakan' karya Az-Zahra adalah . . . .",
       "image": null,
       "options": {
-        "A": "Teman-teman",
-        "B": "Tetangga",
-        "C": "Hewan-hewan",
-        "D": "Musuhnya"
-      },
-      "answer": "C",
-      "difficulty": "easy"
-    },
-    {
-      "id": 68,
-      "domain": "nabi nuh",
-      "text": "Sikap teladan dari Nabi Nuh adalah",
-      "image": null,
-      "options": {
-        "A": "Menyerah",
-        "B": "Putus asa",
-        "C": "Marah terus",
-        "D": "Sabar dalam berdakwah"
-      },
-      "answer": "D",
-      "difficulty": "easy"
-    },
-    {
-      "id": 69,
-      "domain": "nabi nuh",
-      "text": "Nabi Nuh tetap sabar meskipun",
-      "image": null,
-      "options": {
-        "A": "Kaumnya menolak dakwahnya",
-        "B": "Langsung sukses",
-        "C": "Semua orang langsung percaya",
-        "D": "Tidak ada cobaan"
+        "A": "lingkungan yang bersih dan indah",
+        "B": "kegiatan sekolah",
+        "C": "permainan anak",
+        "D": "makanan"
       },
       "answer": "A",
       "difficulty": "easy"
     },
     {
-      "id": 70,
-      "domain": "nabi nuh",
-      "text": "Pelajaran dari kisah Nabi Nuh adalah",
+      "id": 68,
+      "domain": "puisi",
+      "text": "Amanat puisi 'Lingkungan yang Membanggakan' adalah . . . .",
       "image": null,
       "options": {
-        "A": "Putus asa saat gagal",
-        "B": "Tetap sabar meskipun banyak rintangan",
-        "C": "Marah pada orang",
-        "D": "Menyerah pada keadaan"
+        "A": "Merawat kebersihan dan keindahan lingkungan itu sangat penting",
+        "B": "Membersihkan rumah setiap hari",
+        "C": "Pergi ke taman bermain",
+        "D": "Membeli bunga"
       },
-      "answer": "B",
-      "difficulty": "easy"
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "id": 69,
+      "domain": "antonim",
+      "text": "Makna kata 'nyaman' (yang bercetak tebal pada teks AKM) yang paling tepat adalah . . . .",
+      "image": null,
+      "options": {
+        "A": "segar",
+        "B": "dingin",
+        "C": "kering",
+        "D": "nyaman dan tenteram"
+      },
+      "answer": "D",
+      "difficulty": "medium"
+    },
+    {
+      "id": 70,
+      "domain": "narasi",
+      "text": "Pada teks AKM, hal yang perlu dilakukan SETELAH 'mengeluakan air banjir dari dalam rumah' adalah . . . .",
+      "image": null,
+      "options": {
+        "A": "Membersihkan lantai dengan kain pel",
+        "B": "Mengecat tembok",
+        "C": "Menyiram tanaman",
+        "D": "Memasak di dapur"
+      },
+      "answer": "A",
+      "difficulty": "medium"
     }
   ]
 }
