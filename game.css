@@ -188,16 +188,45 @@ body {
 
 .hp-icon, .skill-icon { font-size: 1.1rem; }
 
-.hp-hearts, .skill-slot {
-  display: flex;
-  gap: 2px;
-  font-size: 0.95rem;
-}
+.hp-hearts { display: flex; gap: 2px; font-size: 0.95rem; }
 
 .hp-heart-full, .hp-heart-empty { color: #ef4444; }
 .hp-heart-empty { color: rgba(255,255,255,0.2); }
 
 .skill-active { color: #fbbf24; }
+
+/* 50/50 skill button — kid-friendly, big tap target, gold when ready, dim when empty */
+.btn-skill-use {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: linear-gradient(135deg, #fbbf24, #f59e0b);
+  color: #1f2937;
+  font-family: inherit;
+  font-size: 0.85rem;
+  font-weight: 700;
+  padding: 0.35rem 0.75rem;
+  border: 2px solid #fde68a;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: transform 0.1s, box-shadow 0.1s, opacity 0.15s;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  min-height: 36px;       /* 44px touch target w/ parent padding */
+}
+.btn-skill-use:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(251,191,36,0.5);
+}
+.btn-skill-use:active:not(:disabled) { transform: scale(0.95); }
+.btn-skill-use:disabled {
+  background: rgba(255,255,255,0.1);
+  color: rgba(255,255,255,0.4);
+  border-color: rgba(255,255,255,0.2);
+  cursor: not-allowed;
+  box-shadow: none;
+}
+.btn-skill-use-label { font-size: 0.95rem; }
+.btn-skill-use-status { font-size: 0.7rem; opacity: 0.85; }
 
 .enemy-info { text-align: center; }
 .enemy-name { font-size: 1rem; font-weight: 700; color: #fbbf24; }
@@ -367,6 +396,18 @@ body {
   border-color: #fde68a;
   color: #1e1b4b;
   font-weight: 700;
+}
+
+/* 50/50 disabled options — greyed, struck through, no hover */
+.answer-btn.fifty-fifty-disabled,
+.answer-btn.fifty-fifty-disabled:hover {
+  background: rgba(255,255,255,0.05);
+  color: rgba(255,255,255,0.3);
+  border-color: rgba(255,255,255,0.15);
+  text-decoration: line-through;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
 }
 
 @keyframes correct-pulse {

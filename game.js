@@ -265,7 +265,9 @@ function startQuest() {
     domainStats: {},
     runStartTime: Date.now(),
     difficulty: SELECTED_DIFFICULTY,
-    runtimeConfig: runtimeConfig
+    runtimeConfig: runtimeConfig,
+    fiftyFiftyApplied: false,   // resets per-fight in renderQuestion
+    fiftyFiftyUsedCount: 0      // running tally for end-screen stats
   };
 
   QUESTION_POOL = [...GAME.questions].sort(() => Math.random() - 0.5);
@@ -341,15 +343,51 @@ function renderQuestion() {
 
   document.getElementById('feedback').style.display = 'none';
 
+  // Reset 50/50 state for this fight (kid can re-tap if they used it last fight)
+  STATE.fiftyFiftyApplied = false;
+
   ['A', 'B', 'C', 'D'].forEach(opt => {
     const btn = document.getElementById(`ans-${opt}`);
     btn.disabled = false;
-    btn.classList.remove('correct', 'wrong', 'skill-saved');
+    btn.classList.remove('correct', 'wrong', 'skill-saved', 'fifty-fifty-disabled');
     btn.querySelector('.opt-text').textContent = q.options[opt];
   });
 
   document.getElementById('question-text').textContent = q.text;
   document.getElementById('question-domain').textContent = q.domain || 'general';
+  updateHUD();   // re-enable 50/50 button for the new fight
+}
+
+/* ── 50/50 SKILL MECHANIC ── */
+// Preemptive: kid taps btn-skill-use when stuck. Greys out 2 of 3 wrong options,
+// leaves the correct answer + 1 wrong option pickable. Charge consumed on tap.
+function applyFiftyFifty() {
+  if (!STATE || !STATE.currentQuestion) return;
+  if (STATE.fiftyFiftyApplied) return;        // already used this fight
+  if (STATE.hero.skill <= 0) return;          // no charge
+
+  const correct = STATE.currentQuestion.answer;  // 'A' | 'B' | 'C' | 'D'
+  const wrongOptions = ['A', 'B', 'C', 'D'].filter(o => o !== correct);
+
+  // Randomly pick 2 of the 3 wrong options to disable (ii = random per attempt)
+  const shuffled = wrongOptions.sort(() => Math.random() - 0.5);
+  const toDisable = shuffled.slice(0, 2);
+
+  toDisable.forEach(opt => {
+    const btn = document.getElementById(`ans-${opt}`);
+    if (btn) {
+      btn.classList.add('fifty-fifty-disabled');
+      btn.disabled = true;
+    }
+  });
+
+  // Consume charge + lock the per-fight flag + tally
+  STATE.hero.skill--;
+  STATE.fiftyFiftyApplied = true;
+  STATE.fiftyFiftyUsedCount++;
+  AudioManager.playSFX('skill');
+  showFeedback('✨ 50/50 — 2 wrong answers removed!', 'skill-saved');
+  updateHUD();
 }
 
 /* ── HANDLE ANSWER ── */
@@ -377,22 +415,17 @@ function handleAnswer(chosen) {
     document.getElementById('enemy-sprite').classList.add('hit');
     setTimeout(() => document.getElementById('enemy-sprite').classList.remove('hit'), 400);
   } else {
+    // v1 reactive skill-absorb removed (2026-06-06, v2 skill design).
+    // Skill is now preemptive 50/50 — consumed on tap in applyFiftyFifty(),
+    // NOT on wrong answer. So a wrong pick always costs 1 HP (no freebies).
+    STATE.hero.hp--;
     const ansBtn = document.getElementById(`ans-${chosen}`);
-    if (STATE.hero.skill > 0) {
-      STATE.hero.skill--;
-      ansBtn.classList.add('skill-saved');
-      trackDomain(q.domain, false);
-      showFeedback(`✨ Skill saved you! Correct: ${q.options[q.answer]}`, 'skill-saved');
-      AudioManager.playSFX('skill');
-    } else {
-      STATE.hero.hp--;
-      ansBtn.classList.add('wrong');
-      STATE.wrongQuestions.push({ q, chosen });
-      trackDomain(q.domain, false);
-      playFloatText(`-1`, 'hero');
-      showFeedback(`❌ Wrong! Correct: ${q.options[q.answer]}`, 'wrong');
-      AudioManager.playSFX('wrong');
-    }
+    ansBtn.classList.add('wrong');
+    STATE.wrongQuestions.push({ q, chosen });
+    trackDomain(q.domain, false);
+    playFloatText(`-1`, 'hero');
+    showFeedback(`❌ Wrong! Correct: ${q.options[q.answer]}`, 'wrong');
+    AudioManager.playSFX('wrong');
   }
 
   setTimeout(() => {
@@ -557,6 +590,8 @@ function computeRunStats() {
     <p><span>Questions answered:</span><strong>${STATE.totalAnswered}</strong></p>
     <p><span>Time:</span><strong>${mins}m ${secs}s</strong></p>
     <p><span>Final HP:</span><strong>${STATE.hero.hp}/${STATE.hero.maxHp}</strong></p>
+    <p><span>50/50 used:</span><strong>${STATE.fiftyFiftyUsedCount} time${STATE.fiftyFiftyUsedCount === 1 ? '' : 's'}</strong></p>
+    <p><span>Strategy:</span><strong>${STATE.fiftyFiftyUsedCount === 0 ? '🎯 No hints needed!' : 'Used 50/50 ' + STATE.fiftyFiftyUsedCount + ' time' + (STATE.fiftyFiftyUsedCount === 1 ? '' : 's')}</strong></p>
     ${domainLines}
   `;
 }
@@ -572,11 +607,19 @@ function updateHUD() {
     hearts.appendChild(span);
   }
 
-  const skillSlot = document.getElementById('skill-slot');
-  if (STATE.hero.skill > 0) {
-    skillSlot.innerHTML = `<span class="skill-active">✨ Ready</span>`;
-  } else {
-    skillSlot.textContent = 'Empty';
+  // 50/50 skill button — enabled only when skill>0 AND not already applied this fight
+  const skillBtn = document.getElementById('btn-skill-use');
+  const skillStatus = document.getElementById('btn-skill-use-status');
+  if (skillBtn) {
+    const canUse = STATE.hero.skill > 0 && !STATE.fiftyFiftyApplied;
+    skillBtn.disabled = !canUse;
+    if (!STATE.hero.skill) {
+      skillStatus.textContent = 'Empty';
+    } else if (STATE.fiftyFiftyApplied) {
+      skillStatus.textContent = 'Used';
+    } else {
+      skillStatus.textContent = 'Ready';
+    }
   }
 }
 
@@ -610,8 +653,16 @@ function wireMuteButton() {
   btn.dataset.wired = 'true';
 }
 
+function wireSkillButton() {
+  const btn = document.getElementById('btn-skill-use');
+  if (!btn || btn.dataset.wired) return;
+  btn.addEventListener('click', applyFiftyFifty);
+  btn.dataset.wired = 'true';
+}
+
 window.addEventListener('DOMContentLoaded', () => {
   wireAnswerButtons();
   wireMuteButton();
+  wireSkillButton();
   loadGame();
 });
