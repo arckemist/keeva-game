@@ -1,10 +1,10 @@
 {
   "kid": "keeva",
-  "subject": "Bahasa Indonesia",
+  "subject": "English",
   "grade": 2,
-  "source_pdf": "Keeva BI (1).pdf",
-  "generated_at": "2026-06-06",
-  "title": "KeeVa's Bahasa Quest",
+  "source_pdf": "English Keeva.pdf",
+  "generated_at": "2026-06-07T07:09:40.028385Z",
+  "title": "KeeVa's English Quest",
   "character": "knight",
   "config": {
     "hero_hp": 5,
@@ -17,984 +17,984 @@
   },
   "questions": [
     {
-      "id": 1,
-      "domain": "teks_petunjuk",
-      "text": "Berikut ini cara mengepel yang tepat. Jenis teks tersebut adalah . . . .",
+      "domain": "spelling_vocab",
+      "text": "My mum paid for a candy bar with a ___.",
       "image": null,
       "options": {
-        "A": "deskripsi",
-        "B": "petunjuk",
-        "C": "narasi",
-        "D": "puisi"
-      },
-      "answer": "B",
-      "difficulty": "easy"
-    },
-    {
-      "id": 2,
-      "domain": "teks_petunjuk",
-      "text": "Teks 'cara mengepel yang tepat' berisi tentang cara . . . .",
-      "image": null,
-      "options": {
-        "A": "menyapu",
-        "B": "mengepel",
-        "C": "mengelap kaca",
-        "D": "mencuci piring"
-      },
-      "answer": "B",
-      "difficulty": "easy"
-    },
-    {
-      "id": 3,
-      "domain": "teks_petunjuk",
-      "text": "Benda yang TIDAK ada pada teks 'cara mengepel yang tepat' adalah . . . .",
-      "image": null,
-      "options": {
-        "A": "tisu",
-        "B": "ember",
-        "C": "kain pel",
-        "D": "air"
+        "A": "penny",
+        "B": "paney",
+        "C": "pinney",
+        "D": "ponny"
       },
       "answer": "A",
-      "difficulty": "medium"
+      "difficulty": "easy",
+      "id": 1
     },
     {
-      "id": 4,
-      "domain": "teks_petunjuk",
-      "text": "Manfaat melakukan kegiatan 'mengepel' sesuai isi teks adalah . . . .",
+      "domain": "spelling_vocab",
+      "text": "I ___ my friend's arm as we walked down the dark street.",
       "image": null,
       "options": {
-        "A": "lantai menjadi bersih",
-        "B": "kuman makin banyak",
-        "C": "taman menjadi bersih",
-        "D": "udara menjadi segar"
-      },
-      "answer": "A",
-      "difficulty": "easy"
-    },
-    {
-      "id": 5,
-      "domain": "teks_petunjuk",
-      "text": "Makna kata 'bakteri' yang bercetak tebal pada teks adalah . . . .",
-      "image": null,
-      "options": {
-        "A": "hewan melata",
-        "B": "penyebab sakit flu",
-        "C": "makhluk hidup terkecil",
-        "D": "tanaman kecil"
+        "A": "clutshed",
+        "B": "cluched",
+        "C": "clutched",
+        "D": "cluchhed"
       },
       "answer": "C",
-      "difficulty": "medium"
+      "difficulty": "easy",
+      "id": 2
     },
     {
-      "id": 6,
-      "domain": "puisi",
-      "text": "Isi puisi tentang 'dari puncak gunung kami melihat...' adalah keindahan . . . .",
+      "domain": "spelling_vocab",
+      "text": "The children shouted with ___ when they saw the new puppies.",
       "image": null,
       "options": {
-        "A": "gunung",
-        "B": "sawah",
-        "C": "bukit",
-        "D": "pantai"
-      },
-      "answer": "A",
-      "difficulty": "easy"
-    },
-    {
-      "id": 7,
-      "domain": "puisi",
-      "text": "Amanat puisi tersebut adalah . . . .",
-      "image": null,
-      "options": {
-        "A": "bermainlah di alam",
-        "B": "jagalah kelestarian alam",
-        "C": "makin dekat dengan alam",
-        "D": "naik gunung bersama"
+        "A": "delite",
+        "B": "delight",
+        "C": "deleight",
+        "D": "dilight"
       },
       "answer": "B",
-      "difficulty": "medium"
+      "difficulty": "easy",
+      "id": 3
     },
     {
-      "id": 8,
-      "domain": "puisi",
-      "text": "Kata yang tepat untuk melengkapi 'terselimuti kabut pekat tetapi sebentar sudah bersih ditiup ____' adalah . . . .",
+      "domain": "spelling_vocab",
+      "text": "I had a chocolate ___ for breakfast this morning.",
       "image": null,
       "options": {
-        "A": "awan",
-        "B": "angin",
-        "C": "kabut",
-        "D": "hujan"
+        "A": "pankake",
+        "B": "pancake",
+        "C": "pancaike",
+        "D": "pankeke"
       },
       "answer": "B",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "id": 4
     },
     {
-      "id": 9,
-      "domain": "puisi",
-      "text": "Ciri khas puisi adalah menggunakan . . . .",
+      "domain": "spelling_vocab",
+      "text": "I love to blow ___ in my milk when I drink it.",
       "image": null,
       "options": {
-        "A": "bahasa lugas",
-        "B": "bahasa sehari-hari",
-        "C": "kata-kata yang indah",
-        "D": "kalimat panjang"
-      },
-      "answer": "C",
-      "difficulty": "easy"
-    },
-    {
-      "id": 10,
-      "domain": "narasi",
-      "text": "Tokoh yang hanya beberapa kali muncul dalam cerita disebut tokoh . . . .",
-      "image": null,
-      "options": {
-        "A": "tambahan",
-        "B": "pokok",
-        "C": "utama",
-        "D": "kepala"
-      },
-      "answer": "A",
-      "difficulty": "medium"
-    },
-    {
-      "id": 11,
-      "domain": "narasi",
-      "text": "Teks langkah-langkah 'Siapkan mangkuk tahan panas, isi dengan 2 gelas air...' adalah jenis teks . . . .",
-      "image": null,
-      "options": {
-        "A": "deskripsi",
-        "B": "petunjuk / prosedur",
-        "C": "narasi",
-        "D": "puisi"
-      },
-      "answer": "B",
-      "difficulty": "easy"
-    },
-    {
-      "id": 12,
-      "domain": "teks_petunjuk",
-      "text": "Judul yang tepat untuk teks 'Siapkan mangkuk tahan panas...' adalah cara . . . .",
-      "image": null,
-      "options": {
-        "A": "memasak mie",
-        "B": "membuat kue",
-        "C": "menanak nasi",
-        "D": "merebus telur"
-      },
-      "answer": "A",
-      "difficulty": "easy"
-    },
-    {
-      "id": 13,
-      "domain": "teks_petunjuk",
-      "text": "Waktu yang digunakan untuk memasak mie pada teks petunjuk adalah . . . . menit.",
-      "image": null,
-      "options": {
-        "A": "3",
-        "B": "5",
-        "C": "10",
-        "D": "15"
-      },
-      "answer": "B",
-      "difficulty": "easy"
-    },
-    {
-      "id": 14,
-      "domain": "ejaan",
-      "text": "Murid-murid masuk sekolah pukul 0700. Cara penulisan waktu yang tepat adalah . . . .",
-      "image": null,
-      "options": {
-        "A": "07.00",
-        "B": "07-00",
-        "C": "07;00",
-        "D": "07/00"
-      },
-      "answer": "A",
-      "difficulty": "easy"
-    },
-    {
-      "id": 15,
-      "domain": "ejaan",
-      "text": "Ayah memberikan uang saku sebesar Rp. 25000. Cara penulisan uang yang tepat adalah . . . .",
-      "image": null,
-      "options": {
-        "A": "Rp. 25.000",
-        "B": "Rp 25,000",
-        "C": "Rp.25000",
-        "D": "Rp 25.000"
-      },
-      "answer": "A",
-      "difficulty": "medium"
-    },
-    {
-      "id": 16,
-      "domain": "kalimat_penghubung",
-      "text": "Kalimat: 'Bimo anak yang pintar, tetapi suka datang terlambat ke sekolah.' Kata 'tetapi' adalah . . . .",
-      "image": null,
-      "options": {
-        "A": "kata penghubung",
-        "B": "kata sifat",
-        "C": "kata benda",
-        "D": "kata kerja"
-      },
-      "answer": "A",
-      "difficulty": "medium"
-    },
-    {
-      "id": 17,
-      "domain": "antonim",
-      "text": "Antonim dari kata 'bersih' adalah . . . .",
-      "image": null,
-      "options": {
-        "A": "kotor",
-        "B": "sehat",
-        "C": "indah",
-        "D": "rapi"
-      },
-      "answer": "A",
-      "difficulty": "easy"
-    },
-    {
-      "id": 18,
-      "domain": "antonim",
-      "text": "Antonim dari kata 'sedih' adalah . . . .",
-      "image": null,
-      "options": {
-        "A": "murung",
-        "B": "senang",
-        "C": "marah",
-        "D": "takut"
-      },
-      "answer": "B",
-      "difficulty": "easy"
-    },
-    {
-      "id": 19,
-      "domain": "kalimat_penghubung",
-      "text": "Kata penghubung yang menandakan hubungan tambahan adalah . . . .",
-      "image": null,
-      "options": {
-        "A": "tetapi",
-        "B": "dan",
-        "C": "karena",
-        "D": "supaya"
-      },
-      "answer": "B",
-      "difficulty": "easy"
-    },
-    {
-      "id": 20,
-      "domain": "brosur",
-      "text": "Brosur menjelaskan informasi dengan tulisan dan . . . .",
-      "image": null,
-      "options": {
-        "A": "gambar",
-        "B": "suara",
-        "C": "musik",
-        "D": "video"
-      },
-      "answer": "A",
-      "difficulty": "easy"
-    },
-    {
-      "id": 21,
-      "domain": "puisi",
-      "text": "Makna peribahasa 'Besar pasak daripada tiang' adalah besarnya pengeluaran daripada . . . .",
-      "image": null,
-      "options": {
-        "A": "pendapatan",
-        "B": "tabungan",
-        "C": "keuntungan",
-        "D": "gaji"
-      },
-      "answer": "A",
-      "difficulty": "medium"
-    },
-    {
-      "id": 22,
-      "domain": "teks_petunjuk",
-      "text": "Urutan mencuci baju yang benar adalah . . . .",
-      "image": null,
-      "options": {
-        "A": "sabun → bilas → perah → jemur",
-        "B": "bilas → sabun → jemur → perah",
-        "C": "jemur → sabun → bilas → perah",
-        "D": "sabun → jemur → bilas → perah"
-      },
-      "answer": "A",
-      "difficulty": "medium"
-    },
-    {
-      "id": 23,
-      "domain": "puisi",
-      "text": "Lengkapilah peribahasa: 'Sambil menyelam minum ____.'",
-      "image": null,
-      "options": {
-        "A": "air",
-        "B": "susu",
-        "C": "teh",
-        "D": "kopi"
-      },
-      "answer": "A",
-      "difficulty": "easy"
-    },
-    {
-      "id": 24,
-      "domain": "puisi",
-      "text": "Kata yang tepat untuk melengkapi puisi 'Daun yang menari ____, Angin berbisik membawa damai' adalah . . . .",
-      "image": null,
-      "options": {
-        "A": "riang",
-        "B": "sedih",
-        "C": "marah",
-        "D": "lelah"
-      },
-      "answer": "A",
-      "difficulty": "medium"
-    },
-    {
-      "id": 25,
-      "domain": "puisi",
-      "text": "Puisi 'Daun yang menari' terdiri atas berapa baris?",
-      "image": null,
-      "options": {
-        "A": "dua",
-        "B": "tiga",
-        "C": "empat",
-        "D": "lima"
-      },
-      "answer": "C",
-      "difficulty": "easy"
-    },
-    {
-      "id": 26,
-      "domain": "puisi",
-      "text": "Puisi 'Daun yang menari' menceritakan tentang . . . .",
-      "image": null,
-      "options": {
-        "A": "alam",
-        "B": "sekolah",
-        "C": "rumah",
-        "D": "kota"
-      },
-      "answer": "A",
-      "difficulty": "easy"
-    },
-    {
-      "id": 27,
-      "domain": "kalimat_penghubung",
-      "text": "Kata hubung yang tepat untuk melengkapi 'Linda pintar bernyanyi ___ tidak suka menari' adalah . . . .",
-      "image": null,
-      "options": {
-        "A": "dan",
-        "B": "tetapi",
-        "C": "karena",
-        "D": "supaya"
-      },
-      "answer": "B",
-      "difficulty": "easy"
-    },
-    {
-      "id": 28,
-      "domain": "ejaan",
-      "text": "Ibu membeli telur ___ susu ___ dan buah-buahan di pasar. Tanda baca yang tepat adalah . . . .",
-      "image": null,
-      "options": {
-        "A": "titik (.)",
-        "B": "koma (,)",
-        "C": "tanda seru (!)",
-        "D": "titik koma (;)"
-      },
-      "answer": "B",
-      "difficulty": "hard"
-    },
-    {
-      "id": 29,
-      "domain": "brosur",
-      "text": "Gambar LOMBA MENYANYI dalam rangka Hari Anak Nasional adalah contoh dari . . . .",
-      "image": null,
-      "options": {
-        "A": "brosur",
-        "B": "buku",
-        "C": "majalah",
-        "D": "koran"
-      },
-      "answer": "A",
-      "difficulty": "hard"
-    },
-    {
-      "id": 30,
-      "domain": "narasi",
-      "text": "Siapa tokoh utama dari cerita Malin Kundang?",
-      "image": null,
-      "options": {
-        "A": "Ibu Malin",
-        "B": "Malin Kundang",
-        "C": "Bimo",
-        "D": "Pak Wirya"
-      },
-      "answer": "B",
-      "difficulty": "easy"
-    },
-    {
-      "id": 31,
-      "domain": "narasi",
-      "text": "Di mana latar tempat cerita Malin Kundang?",
-      "image": null,
-      "options": {
-        "A": "Padang, Sumatera Barat",
-        "B": "Jakarta",
-        "C": "Surabaya",
-        "D": "Bandung"
-      },
-      "answer": "A",
-      "difficulty": "easy"
-    },
-    {
-      "id": 32,
-      "domain": "narasi",
-      "text": "Mengapa ibu Malin menjadi sedih dan marah setelah bertemu Malin?",
-      "image": null,
-      "options": {
-        "A": "Karena Malin tidak pulang lama",
-        "B": "Karena Malin bersikeras tidak mau mengakui ibunya",
-        "C": "Karena Malin sudah punya istri",
-        "D": "Karena Malin kaya"
-      },
-      "answer": "B",
-      "difficulty": "medium"
-    },
-    {
-      "id": 33,
-      "domain": "narasi",
-      "text": "Apakah pesan moral dari cerita Malin Kundang?",
-      "image": null,
-      "options": {
-        "A": "Jangan malas belajar",
-        "B": "Jangan berbohong kepada orang tua",
-        "C": "Jangan pergi ke kota",
-        "D": "Jangan menjadi saudagar"
-      },
-      "answer": "B",
-      "difficulty": "easy"
-    },
-    {
-      "id": 34,
-      "domain": "brosur",
-      "text": "Informasi apa saja yang biasanya ada pada brosur lomba?",
-      "image": null,
-      "options": {
-        "A": "Nama lomba, tanggal, tempat, kontak",
-        "B": "Hanya judul lomba",
-        "C": "Hanya foto lomba",
-        "D": "Hanya deskripsi hadiah"
-      },
-      "answer": "A",
-      "difficulty": "medium"
-    },
-    {
-      "id": 35,
-      "domain": "teks_petunjuk",
-      "text": "Teks yang berisi cara melakukan kegiatan atau membuat sesuatu disebut teks . . . .",
-      "image": null,
-      "options": {
-        "A": "deskripsi",
-        "B": "petunjuk / prosedur",
-        "C": "narasi",
-        "D": "eksposisi"
-      },
-      "answer": "B",
-      "difficulty": "easy"
-    },
-    {
-      "id": 36,
-      "domain": "teks_petunjuk",
-      "text": "Teks 'Menjaga Kebersihan Lingkungan' ditulis oleh . . . .",
-      "image": null,
-      "options": {
-        "A": "A. Indradi",
-        "B": "R. Kurnia",
-        "C": "S. Wahyu",
-        "D": "D. Sutanto"
-      },
-      "answer": "A",
-      "difficulty": "medium"
-    },
-    {
-      "id": 37,
-      "domain": "teks_petunjuk",
-      "text": "Langkah pertama yang harus dilakukan saat kerja bakti membersihkan lingkungan menurut teks adalah . . . .",
-      "image": null,
-      "options": {
-        "A": "menyapu halaman",
-        "B": "mencabut rumput-rumput liar",
-        "C": "membuang sampah",
-        "D": "membersihkan daun"
-      },
-      "answer": "B",
-      "difficulty": "medium"
-    },
-    {
-      "id": 38,
-      "domain": "teks_petunjuk",
-      "text": "Sapu, kantong sampah, dan sarung tangan adalah contoh . . . kerja bakti.",
-      "image": null,
-      "options": {
-        "A": "alat kebersihan",
-        "B": "makanan",
-        "C": "buku",
-        "D": "mainan"
-      },
-      "answer": "A",
-      "difficulty": "easy"
-    },
-    {
-      "id": 39,
-      "domain": "teks_petunjuk",
-      "text": "Lingkungan yang bersih dan terawat akan membuat kita terhindar dari . . . .",
-      "image": null,
-      "options": {
-        "A": "penyakit",
-        "B": "kejenuhan",
-        "C": "kebosanan",
-        "D": "kelaparan"
-      },
-      "answer": "A",
-      "difficulty": "easy"
-    },
-    {
-      "id": 40,
-      "domain": "antonim",
-      "text": "Antonim dari kata 'sehat' pada teks 'Menjaga Kebersihan Lingkungan' adalah . . . .",
-      "image": null,
-      "options": {
-        "A": "bersih",
-        "B": "sakit",
-        "C": "segar",
-        "D": "nyaman"
-      },
-      "answer": "B",
-      "difficulty": "hard"
-    },
-    {
-      "id": 41,
-      "domain": "antonim",
-      "text": "Antonim dari kata 'nyaman' adalah . . . .",
-      "image": null,
-      "options": {
-        "A": "tidak nyaman",
-        "B": "bersih",
-        "C": "sehat",
-        "D": "jernih"
-      },
-      "answer": "A",
-      "difficulty": "easy"
-    },
-    {
-      "id": 42,
-      "domain": "antonim",
-      "text": "Antonim dari kata 'jernih' (air) adalah . . . .",
-      "image": null,
-      "options": {
-        "A": "bersih",
-        "B": "keruh",
-        "C": "sejuk",
-        "D": "segar"
-      },
-      "answer": "B",
-      "difficulty": "easy"
-    },
-    {
-      "id": 43,
-      "domain": "antonim",
-      "text": "Antonim dari kata 'bersih' adalah . . . .",
-      "image": null,
-      "options": {
-        "A": "kotor",
-        "B": "rapi",
-        "C": "indah",
-        "D": "sehat"
-      },
-      "answer": "A",
-      "difficulty": "easy"
-    },
-    {
-      "id": 44,
-      "domain": "teks_petunjuk",
-      "text": "Topik teks 'Menjaga Kebersihan Lingkungan' adalah . . . .",
-      "image": null,
-      "options": {
-        "A": "membersihkan lingkungan",
-        "B": "menanam pohon",
-        "C": "membuang sampah",
-        "D": "mencuci tangan"
-      },
-      "answer": "A",
-      "difficulty": "easy"
-    },
-    {
-      "id": 45,
-      "domain": "teks_petunjuk",
-      "text": "Kata kunci yang mewakili informasi teks 'Menjaga Kebersihan Lingkungan' adalah . . . .",
-      "image": null,
-      "options": {
-        "A": "kebersihan, lingkungan, kerja bakti, bersih",
-        "B": "makan, minum, tidur, belajar",
-        "C": "rumah, sekolah, toko, pasar",
-        "D": "pagi, siang, sore, malam"
-      },
-      "answer": "A",
-      "difficulty": "medium"
-    },
-    {
-      "id": 46,
-      "domain": "teks_petunjuk",
-      "text": "Bagian-bagian teks petunjuk yang benar adalah . . . .",
-      "image": null,
-      "options": {
-        "A": "judul, pembuka, cara, penutup",
-        "B": "hanya judul saja",
-        "C": "hanya cara saja",
-        "D": "judul, daftar pustaka"
-      },
-      "answer": "A",
-      "difficulty": "medium"
-    },
-    {
-      "id": 47,
-      "domain": "teks_petunjuk",
-      "text": "Teks petunjuk ditulis dengan kalimat . . . .",
-      "image": null,
-      "options": {
-        "A": "pertanyaan",
-        "B": "perintah",
-        "C": "seruan",
-        "D": "berita"
-      },
-      "answer": "B",
-      "difficulty": "easy"
-    },
-    {
-      "id": 48,
-      "domain": "kata_ulang",
-      "text": "Di antara bagian kata ulang, digunakan tanda . . . .",
-      "image": null,
-      "options": {
-        "A": "titik (.)",
-        "B": "koma (,)",
-        "C": "tanda hubung (-)",
-        "D": "titik dua (:)"
-      },
-      "answer": "C",
-      "difficulty": "easy"
-    },
-    {
-      "id": 49,
-      "domain": "kata_ulang",
-      "text": "Kata 'rumput-rumput' bermakna . . . .",
-      "image": null,
-      "options": {
-        "A": "ada banyak rumput",
-        "B": "satu rumput",
-        "C": "rumput yang tinggi",
-        "D": "rumput kering"
-      },
-      "answer": "A",
-      "difficulty": "easy"
-    },
-    {
-      "id": 50,
-      "domain": "kata_ulang",
-      "text": "Kata 'memanggil-manggil' bermakna . . . .",
-      "image": null,
-      "options": {
-        "A": "satu kali memanggil",
-        "B": "lebih dari satu kali menyebut nama seseorang",
-        "C": "tidak pernah memanggil",
-        "D": "memanggil dengan keras"
-      },
-      "answer": "B",
-      "difficulty": "medium"
-    },
-    {
-      "id": 51,
-      "domain": "kata_ulang",
-      "text": "Kata 'Ibu-ibu' bermakna . . . .",
-      "image": null,
-      "options": {
-        "A": "satu ibu",
-        "B": "banyak ibu",
-        "C": "ibu tunggal",
-        "D": "ibu baru"
-      },
-      "answer": "B",
-      "difficulty": "hard"
-    },
-    {
-      "id": 52,
-      "domain": "kata_ulang",
-      "text": "Kata 'bercakap-cakap' bermakna . . . .",
-      "image": null,
-      "options": {
-        "A": "diam",
-        "B": "saling berbicara",
-        "C": "teriak",
-        "D": "berteriak"
-      },
-      "answer": "B",
-      "difficulty": "hard"
-    },
-    {
-      "id": 53,
-      "domain": "narasi",
-      "text": "Siapa tokoh utama dalam teks 'Akibat Malas Menggosok Gigi'?",
-      "image": null,
-      "options": {
-        "A": "Ibu",
-        "B": "Heri",
-        "C": "Dokter",
-        "D": "Pak Wirya"
-      },
-      "answer": "B",
-      "difficulty": "easy"
-    },
-    {
-      "id": 54,
-      "domain": "narasi",
-      "text": "Apa yang dirasakan Heri di awal cerita?",
-      "image": null,
-      "options": {
-        "A": "senang",
-        "B": "sakit gigi",
-        "C": "lapar",
-        "D": "takut"
-      },
-      "answer": "B",
-      "difficulty": "easy"
-    },
-    {
-      "id": 55,
-      "domain": "narasi",
-      "text": "Mengapa Heri pergi ke dokter gigi?",
-      "image": null,
-      "options": {
-        "A": "Karena gigi Heri berlubang dan terasa sakit",
-        "B": "Karena Heri ingin cabut gigi",
-        "C": "Karena Heri ingin periksa rutin",
-        "D": "Karena Heri ingin sikat gigi"
-      },
-      "answer": "A",
-      "difficulty": "medium"
-    },
-    {
-      "id": 56,
-      "domain": "narasi",
-      "text": "Gigi berlubang dapat terjadi karena . . . .",
-      "image": null,
-      "options": {
-        "A": "terlalu banyak makan manis saja",
-        "B": "kurang menjaga kebersihan gigi",
-        "C": "tidak pernah ke dokter",
-        "D": "sikat gigi terlalu sering"
-      },
-      "answer": "B",
-      "difficulty": "easy"
-    },
-    {
-      "id": 57,
-      "domain": "narasi",
-      "text": "Apa yang Heri janjikan di akhir cerita?",
-      "image": null,
-      "options": {
-        "A": "Akan makan lebih banyak",
-        "B": "Akan rajin menggosok gigi",
-        "C": "Akan bermain lebih sering",
-        "D": "Akan ke dokter setiap hari"
-      },
-      "answer": "B",
-      "difficulty": "easy"
-    },
-    {
-      "id": 58,
-      "domain": "narasi",
-      "text": "Tokoh yang biasanya muncul dari awal hingga akhir cerita disebut tokoh . . . .",
-      "image": null,
-      "options": {
-        "A": "tambahan",
-        "B": "utama",
-        "C": "kedua",
-        "D": "pembantu"
-      },
-      "answer": "B",
-      "difficulty": "medium"
-    },
-    {
-      "id": 59,
-      "domain": "narasi",
-      "text": "Ilustrasi dalam teks narasi berfungsi untuk . . . .",
-      "image": null,
-      "options": {
-        "A": "membantu menjelaskan isi cerita",
-        "B": "menggantikan teks",
-        "C": "memperindah sampul saja",
-        "D": "membuat cerita panjang"
-      },
-      "answer": "A",
-      "difficulty": "easy"
-    },
-    {
-      "id": 60,
-      "domain": "puisi",
-      "text": "Puisi adalah karangan yang berisi kata-kata yang . . . .",
-      "image": null,
-      "options": {
-        "A": "panjang",
-        "B": "indah dan penuh makna",
-        "C": "pendek saja",
-        "D": "biasa"
-      },
-      "answer": "B",
-      "difficulty": "easy"
-    },
-    {
-      "id": 61,
-      "domain": "puisi",
-      "text": "Puisi anak biasanya membahas tentang . . . .",
-      "image": null,
-      "options": {
-        "A": "kehidupan orang dewasa",
-        "B": "kegiatan sehari-hari dan keadaan lingkungan rumah",
-        "C": "pekerjaan berat",
-        "D": "politik"
-      },
-      "answer": "B",
-      "difficulty": "easy"
-    },
-    {
-      "id": 62,
-      "domain": "puisi",
-      "text": "Cara memperoleh informasi dalam puisi yang pertama adalah . . . .",
-      "image": null,
-      "options": {
-        "A": "menulis puisi baru",
-        "B": "menyimak atau membaca keseluruhan isi puisi dengan saksama",
-        "C": "menghafal judul saja",
-        "D": "membaca cepat tanpa memperhatikan"
-      },
-      "answer": "B",
-      "difficulty": "medium"
-    },
-    {
-      "id": 63,
-      "domain": "puisi",
-      "text": "Puisi ditulis dalam bentuk . . . .",
-      "image": null,
-      "options": {
-        "A": "paragraf",
-        "B": "bait",
-        "C": "kalimat",
-        "D": "daftar"
-      },
-      "answer": "B",
-      "difficulty": "easy"
-    },
-    {
-      "id": 64,
-      "domain": "puisi",
-      "text": "Dalam membacakan puisi, hal yang perlu diperhatikan adalah . . . .",
-      "image": null,
-      "options": {
-        "A": "hanya lafal",
-        "B": "lafal, intonasi, dan ekspresi",
-        "C": "hanya ekspresi",
-        "D": "hanya intonasi"
-      },
-      "answer": "B",
-      "difficulty": "easy"
-    },
-    {
-      "id": 65,
-      "domain": "puisi",
-      "text": "Ekspresi yang tepat saat membacakan puisi tentang hal sedih adalah ekspresi yang . . . .",
-      "image": null,
-      "options": {
-        "A": "semangat",
-        "B": "sedih",
-        "C": "marah",
-        "D": "tertawa"
-      },
-      "answer": "B",
-      "difficulty": "easy"
-    },
-    {
-      "id": 66,
-      "domain": "puisi",
-      "text": "Sikap yang diperlukan saat membacakan puisi di depan kelas adalah . . . .",
-      "image": null,
-      "options": {
-        "A": " malu-malu",
-        "B": "percaya diri",
-        "C": "menghindar",
-        "D": "diam saja"
-      },
-      "answer": "B",
-      "difficulty": "easy"
-    },
-    {
-      "id": 67,
-      "domain": "puisi",
-      "text": "Tema puisi 'Lingkungan yang Membanggakan' karya Az-Zahra adalah . . . .",
-      "image": null,
-      "options": {
-        "A": "lingkungan yang bersih dan indah",
-        "B": "kegiatan sekolah",
-        "C": "permainan anak",
-        "D": "makanan"
-      },
-      "answer": "A",
-      "difficulty": "easy"
-    },
-    {
-      "id": 68,
-      "domain": "puisi",
-      "text": "Amanat puisi 'Lingkungan yang Membanggakan' adalah . . . .",
-      "image": null,
-      "options": {
-        "A": "Merawat kebersihan dan keindahan lingkungan itu sangat penting",
-        "B": "Membersihkan rumah setiap hari",
-        "C": "Pergi ke taman bermain",
-        "D": "Membeli bunga"
-      },
-      "answer": "A",
-      "difficulty": "medium"
-    },
-    {
-      "id": 69,
-      "domain": "antonim",
-      "text": "Makna kata 'nyaman' (yang bercetak tebal pada teks AKM) yang paling tepat adalah . . . .",
-      "image": null,
-      "options": {
-        "A": "segar",
-        "B": "dingin",
-        "C": "kering",
-        "D": "nyaman dan tenteram"
+        "A": "bubbels",
+        "B": "bubles",
+        "C": "bubles",
+        "D": "bubbles"
       },
       "answer": "D",
-      "difficulty": "medium"
+      "difficulty": "easy",
+      "id": 5
     },
     {
-      "id": 70,
-      "domain": "narasi",
-      "text": "Pada teks AKM, hal yang perlu dilakukan SETELAH 'mengeluakan air banjir dari dalam rumah' adalah . . . .",
+      "domain": "spelling_vocab",
+      "text": "The tiger's strong ___ left marks on the ground.",
       "image": null,
       "options": {
-        "A": "Membersihkan lantai dengan kain pel",
-        "B": "Mengecat tembok",
-        "C": "Menyiram tanaman",
-        "D": "Memasak di dapur"
+        "A": "pau",
+        "B": "pawe",
+        "C": "paw",
+        "D": "pow"
+      },
+      "answer": "C",
+      "difficulty": "easy",
+      "id": 6
+    },
+    {
+      "domain": "spelling_vocab",
+      "text": "Which word means 'a small coin worth one cent'?",
+      "image": null,
+      "options": {
+        "A": "paw",
+        "B": "penny",
+        "C": "pancake",
+        "D": "puppy"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "id": 7
+    },
+    {
+      "domain": "spelling_vocab",
+      "text": "Which word means 'to hold something tightly'?",
+      "image": null,
+      "options": {
+        "A": "clutched",
+        "B": "blowing",
+        "C": "sprinkled",
+        "D": "poured"
       },
       "answer": "A",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "id": 8
+    },
+    {
+      "domain": "spelling_vocab",
+      "text": "Which word is a feeling of great happiness?",
+      "image": null,
+      "options": {
+        "A": "anger",
+        "B": "fear",
+        "C": "delight",
+        "D": "hunger"
+      },
+      "answer": "C",
+      "difficulty": "medium",
+      "id": 9
+    },
+    {
+      "domain": "spelling_vocab",
+      "text": "Which food is a flat cake made from batter?",
+      "image": null,
+      "options": {
+        "A": "pancake",
+        "B": "sandwich",
+        "C": "noodle",
+        "D": "pizza"
+      },
+      "answer": "A",
+      "difficulty": "medium",
+      "id": 10
+    },
+    {
+      "domain": "spelling_vocab",
+      "text": "Which word means 'small round pockets of air in liquid'?",
+      "image": null,
+      "options": {
+        "A": "bubbles",
+        "B": "bottles",
+        "C": "droplets",
+        "D": "ripples"
+      },
+      "answer": "A",
+      "difficulty": "medium",
+      "id": 11
+    },
+    {
+      "domain": "spelling_vocab",
+      "text": "An animal's foot is called a ___.",
+      "image": null,
+      "options": {
+        "A": "horn",
+        "B": "tail",
+        "C": "paw",
+        "D": "wing"
+      },
+      "answer": "C",
+      "difficulty": "medium",
+      "id": 12
+    },
+    {
+      "domain": "irregular_verbs",
+      "text": "Long ago, a hungry Crocodile ___ a Hen near the river.",
+      "image": null,
+      "options": {
+        "A": "see",
+        "B": "saw",
+        "C": "sees",
+        "D": "seeing"
+      },
+      "answer": "B",
+      "difficulty": "easy",
+      "id": 13
+    },
+    {
+      "domain": "irregular_verbs",
+      "text": "Every day, the Crocodile ___ 'Hello' to his friend the Lizard.",
+      "image": null,
+      "options": {
+        "A": "say",
+        "B": "says",
+        "C": "said",
+        "D": "saying"
+      },
+      "answer": "C",
+      "difficulty": "easy",
+      "id": 14
+    },
+    {
+      "domain": "irregular_verbs",
+      "text": "The Hen is brave right now, so she does not ___ away from the big teeth.",
+      "image": null,
+      "options": {
+        "A": "run",
+        "B": "runs",
+        "C": "running",
+        "D": "ran"
+      },
+      "answer": "A",
+      "difficulty": "medium",
+      "id": 15
+    },
+    {
+      "domain": "irregular_verbs",
+      "text": "Yesterday, the Lizard ___ the Crocodile that they were siblings.",
+      "image": null,
+      "options": {
+        "A": "tell",
+        "B": "tells",
+        "C": "telling",
+        "D": "told"
+      },
+      "answer": "D",
+      "difficulty": "easy",
+      "id": 16
+    },
+    {
+      "domain": "irregular_verbs",
+      "text": "Which word is the past tense of 'see'?",
+      "image": null,
+      "options": {
+        "A": "see",
+        "B": "saw",
+        "C": "seen",
+        "D": "seeing"
+      },
+      "answer": "B",
+      "difficulty": "easy",
+      "id": 17
+    },
+    {
+      "domain": "irregular_verbs",
+      "text": "Which word is the past tense of 'say'?",
+      "image": null,
+      "options": {
+        "A": "say",
+        "B": "said",
+        "C": "sayd",
+        "D": "saying"
+      },
+      "answer": "B",
+      "difficulty": "easy",
+      "id": 18
+    },
+    {
+      "domain": "irregular_verbs",
+      "text": "Which word is the past tense of 'run'?",
+      "image": null,
+      "options": {
+        "A": "runned",
+        "B": "ran",
+        "C": "runs",
+        "D": "running"
+      },
+      "answer": "B",
+      "difficulty": "easy",
+      "id": 19
+    },
+    {
+      "domain": "irregular_verbs",
+      "text": "Which word is the past tense of 'tell'?",
+      "image": null,
+      "options": {
+        "A": "telled",
+        "B": "told",
+        "C": "tell",
+        "D": "tells"
+      },
+      "answer": "B",
+      "difficulty": "easy",
+      "id": 20
+    },
+    {
+      "domain": "contractions",
+      "text": "Which sentence is written correctly?",
+      "image": null,
+      "options": {
+        "A": "Crocodile isn't sure if Hen is really his sister.",
+        "B": "Crocodile is'nt sure if Hen is really his sister.",
+        "C": "Crocodile isnot sure if Hen is really his sister.",
+        "D": "Crocodile isnt sure if Hen is really his sister."
+      },
+      "answer": "A",
+      "difficulty": "medium",
+      "id": 21
+    },
+    {
+      "domain": "contractions",
+      "text": "Lizard cried, '___ a very smart thing to say!'",
+      "image": null,
+      "options": {
+        "A": "That's",
+        "B": "Thats's",
+        "C": "Thats",
+        "D": "Tha'ts"
+      },
+      "answer": "A",
+      "difficulty": "medium",
+      "id": 22
+    },
+    {
+      "domain": "contractions",
+      "text": "___ my sister!' Crocodile shouted with joy.",
+      "image": null,
+      "options": {
+        "A": "She's",
+        "B": "Shes's",
+        "C": "Shes",
+        "D": "She'es"
+      },
+      "answer": "A",
+      "difficulty": "medium",
+      "id": 23
+    },
+    {
+      "domain": "contractions",
+      "text": "What does 'isn't' mean?",
+      "image": null,
+      "options": {
+        "A": "is not",
+        "B": "is no",
+        "C": "are not",
+        "D": "is"
+      },
+      "answer": "A",
+      "difficulty": "easy",
+      "id": 24
+    },
+    {
+      "domain": "contractions",
+      "text": "What does 'That's' mean?",
+      "image": null,
+      "options": {
+        "A": "That is",
+        "B": "That has",
+        "C": "Those are",
+        "D": "That was"
+      },
+      "answer": "A",
+      "difficulty": "easy",
+      "id": 25
+    },
+    {
+      "domain": "contractions",
+      "text": "What does 'She's' mean?",
+      "image": null,
+      "options": {
+        "A": "She is",
+        "B": "She was",
+        "C": "She has",
+        "D": "She does"
+      },
+      "answer": "A",
+      "difficulty": "easy",
+      "id": 26
+    },
+    {
+      "domain": "adverbs",
+      "text": "The children dance ___ (careful) around the tall Maypole.",
+      "image": null,
+      "options": {
+        "A": "careful",
+        "B": "carefully",
+        "C": "carefuly",
+        "D": "carefulness"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "id": 27
+    },
+    {
+      "domain": "adverbs",
+      "text": "In France, people give lily-of-the-valley flowers ___ (quiet) to their friends as a surprise.",
+      "image": null,
+      "options": {
+        "A": "quiet",
+        "B": "quietly",
+        "C": "quietness",
+        "D": "quieter"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "id": 28
+    },
+    {
+      "domain": "adverbs",
+      "text": "The festival music began ___ (sudden) when the sun came up.",
+      "image": null,
+      "options": {
+        "A": "sudden",
+        "B": "suddenly",
+        "C": "suddently",
+        "D": "sudenly"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "id": 29
+    },
+    {
+      "domain": "adverbs",
+      "text": "To change 'careful' into an adverb, you add:",
+      "image": null,
+      "options": {
+        "A": "-er",
+        "B": "-ly",
+        "C": "-ing",
+        "D": "-ed"
+      },
+      "answer": "B",
+      "difficulty": "easy",
+      "id": 30
+    },
+    {
+      "domain": "adverbs",
+      "text": "To change 'quiet' into an adverb, you add:",
+      "image": null,
+      "options": {
+        "A": "-ly",
+        "B": "-s",
+        "C": "-ing",
+        "D": "-ed"
+      },
+      "answer": "A",
+      "difficulty": "easy",
+      "id": 31
+    },
+    {
+      "domain": "adverbs",
+      "text": "To change 'sudden' into an adverb, you add:",
+      "image": null,
+      "options": {
+        "A": "-ed",
+        "B": "-ing",
+        "C": "-ly",
+        "D": "-s"
+      },
+      "answer": "C",
+      "difficulty": "easy",
+      "id": 32
+    },
+    {
+      "domain": "grammar",
+      "text": "I love ___ family very much.",
+      "image": null,
+      "options": {
+        "A": "me",
+        "B": "I",
+        "C": "my",
+        "D": "mine"
+      },
+      "answer": "C",
+      "difficulty": "medium",
+      "id": 33
+    },
+    {
+      "domain": "grammar",
+      "text": "Sheila brushes ___ teeth twice a day.",
+      "image": null,
+      "options": {
+        "A": "she",
+        "B": "her",
+        "C": "she's",
+        "D": "hers"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "id": 34
+    },
+    {
+      "domain": "grammar",
+      "text": "We play in ___ garden every afternoon.",
+      "image": null,
+      "options": {
+        "A": "us",
+        "B": "we",
+        "C": "our",
+        "D": "ours"
+      },
+      "answer": "C",
+      "difficulty": "medium",
+      "id": 35
+    },
+    {
+      "domain": "grammar",
+      "text": "This red bicycle belongs to me. It is ___.",
+      "image": null,
+      "options": {
+        "A": "my",
+        "B": "me",
+        "C": "I",
+        "D": "mine"
+      },
+      "answer": "D",
+      "difficulty": "medium",
+      "id": 36
+    },
+    {
+      "domain": "grammar",
+      "text": "Which word is a possessive pronoun (shows ownership)?",
+      "image": null,
+      "options": {
+        "A": "me",
+        "B": "I",
+        "C": "my",
+        "D": "we"
+      },
+      "answer": "C",
+      "difficulty": "easy",
+      "id": 37
+    },
+    {
+      "domain": "grammar",
+      "text": "Which word shows the girl owns the book?",
+      "image": null,
+      "options": {
+        "A": "her",
+        "B": "she",
+        "C": "herself",
+        "D": "her's"
+      },
+      "answer": "A",
+      "difficulty": "easy",
+      "id": 38
+    },
+    {
+      "domain": "grammar",
+      "text": "Which word shows the family owns the house?",
+      "image": null,
+      "options": {
+        "A": "we",
+        "B": "us",
+        "C": "our",
+        "D": "ourselves"
+      },
+      "answer": "C",
+      "difficulty": "easy",
+      "id": 39
+    },
+    {
+      "domain": "grammar",
+      "text": "Which word means 'belonging to me'?",
+      "image": null,
+      "options": {
+        "A": "I",
+        "B": "me",
+        "C": "my",
+        "D": "mine"
+      },
+      "answer": "D",
+      "difficulty": "medium",
+      "id": 40
+    },
+    {
+      "domain": "grammar",
+      "text": "The meeting starts ___ 8 o'clock in the morning.",
+      "image": null,
+      "options": {
+        "A": "in",
+        "B": "at",
+        "C": "on",
+        "D": "by"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "id": 41
+    },
+    {
+      "domain": "grammar",
+      "text": "Wash your hands ___ eating food.",
+      "image": null,
+      "options": {
+        "A": "after",
+        "B": "before",
+        "C": "during",
+        "D": "between"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "id": 42
+    },
+    {
+      "domain": "grammar",
+      "text": "Please be quiet ___ the lesson.",
+      "image": null,
+      "options": {
+        "A": "before",
+        "B": "after",
+        "C": "during",
+        "D": "between"
+      },
+      "answer": "C",
+      "difficulty": "medium",
+      "id": 43
+    },
+    {
+      "domain": "grammar",
+      "text": "The teacher is standing ___ front of the class.",
+      "image": null,
+      "options": {
+        "A": "on",
+        "B": "in",
+        "C": "at",
+        "D": "by"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "id": 44
+    },
+    {
+      "domain": "grammar",
+      "text": "I will see you ___ Monday at school.",
+      "image": null,
+      "options": {
+        "A": "in",
+        "B": "at",
+        "C": "on",
+        "D": "by"
+      },
+      "answer": "C",
+      "difficulty": "easy",
+      "id": 45
+    },
+    {
+      "domain": "grammar",
+      "text": "Which preposition shows a specific time of day?",
+      "image": null,
+      "options": {
+        "A": "in",
+        "B": "at",
+        "C": "on",
+        "D": "by"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "id": 46
+    },
+    {
+      "domain": "grammar",
+      "text": "Which preposition comes BEFORE an event?",
+      "image": null,
+      "options": {
+        "A": "after",
+        "B": "before",
+        "C": "during",
+        "D": "between"
+      },
+      "answer": "B",
+      "difficulty": "easy",
+      "id": 47
+    },
+    {
+      "domain": "grammar",
+      "text": "Which preposition means 'while something is happening'?",
+      "image": null,
+      "options": {
+        "A": "before",
+        "B": "after",
+        "C": "during",
+        "D": "between"
+      },
+      "answer": "C",
+      "difficulty": "medium",
+      "id": 48
+    },
+    {
+      "domain": "grammar",
+      "text": "Which preposition shows a position at the front?",
+      "image": null,
+      "options": {
+        "A": "behind",
+        "B": "in front of",
+        "C": "next to",
+        "D": "above"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "id": 49
+    },
+    {
+      "domain": "grammar",
+      "text": "Which preposition is used with days of the week?",
+      "image": null,
+      "options": {
+        "A": "in",
+        "B": "at",
+        "C": "on",
+        "D": "by"
+      },
+      "answer": "C",
+      "difficulty": "easy",
+      "id": 50
+    },
+    {
+      "domain": "reading_comp",
+      "text": "Songkran is a festival that celebrates the beginning of:",
+      "image": null,
+      "options": {
+        "A": "the winter season",
+        "B": "the summer season",
+        "C": "the school year",
+        "D": "the harvest"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "id": 51
+    },
+    {
+      "domain": "reading_comp",
+      "text": "Thai people spring clean their homes to 'wash away':",
+      "image": null,
+      "options": {
+        "A": "the rain",
+        "B": "the dust",
+        "C": "the old year",
+        "D": "bad luck"
+      },
+      "answer": "C",
+      "difficulty": "medium",
+      "id": 52
+    },
+    {
+      "domain": "reading_comp",
+      "text": "On April 13, it is a tradition for families to visit:",
+      "image": null,
+      "options": {
+        "A": "schools",
+        "B": "Buddhist temples",
+        "C": "markets",
+        "D": "the beach"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "id": 53
+    },
+    {
+      "domain": "reading_comp",
+      "text": "People sprinkle water on the hands of elders to show:",
+      "image": null,
+      "options": {
+        "A": "anger",
+        "B": "love and respect",
+        "C": "playfulness",
+        "D": "sadness"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "id": 54
+    },
+    {
+      "domain": "reading_comp",
+      "text": "During the celebration, villages have huge:",
+      "image": null,
+      "options": {
+        "A": "fireworks",
+        "B": "parades",
+        "C": "water fights",
+        "D": "cooking contests"
+      },
+      "answer": "C",
+      "difficulty": "easy",
+      "id": 55
+    },
+    {
+      "domain": "reading_comp",
+      "text": "Is this statement True or False? 'Songkran is a festival that celebrates the beginning of the winter season.'",
+      "image": null,
+      "options": {
+        "A": "True",
+        "B": "False",
+        "C": "Maybe",
+        "D": "Not in the story"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "id": 56
+    },
+    {
+      "domain": "reading_comp",
+      "text": "Is this statement True or False? 'Thai people spring clean their homes to wash away the old year.'",
+      "image": null,
+      "options": {
+        "A": "True",
+        "B": "False",
+        "C": "Maybe",
+        "D": "Not in the story"
+      },
+      "answer": "A",
+      "difficulty": "medium",
+      "id": 57
+    },
+    {
+      "domain": "reading_comp",
+      "text": "Is this statement True or False? 'On April 13, families visit Buddhist temples.'",
+      "image": null,
+      "options": {
+        "A": "True",
+        "B": "False",
+        "C": "Maybe",
+        "D": "Not in the story"
+      },
+      "answer": "A",
+      "difficulty": "medium",
+      "id": 58
+    },
+    {
+      "domain": "reading_comp",
+      "text": "Is this statement True or False? 'People sprinkle water on elders to show they are angry.'",
+      "image": null,
+      "options": {
+        "A": "True",
+        "B": "False",
+        "C": "Maybe",
+        "D": "Not in the story"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "id": 59
+    },
+    {
+      "domain": "reading_comp",
+      "text": "Is this statement True or False? 'During Songkran, villages have huge water fights.'",
+      "image": null,
+      "options": {
+        "A": "True",
+        "B": "False",
+        "C": "Maybe",
+        "D": "Not in the story"
+      },
+      "answer": "A",
+      "difficulty": "easy",
+      "id": 60
+    },
+    {
+      "domain": "reading_comp",
+      "text": "What is the topic of this text?",
+      "image": null,
+      "options": {
+        "A": "Thai food",
+        "B": "Songkran festival",
+        "C": "Buddhist prayers",
+        "D": "Thai animals"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "id": 61
+    },
+    {
+      "domain": "reading_comp",
+      "text": "Why is water so important to the Thai people during Songkran?",
+      "image": null,
+      "options": {
+        "A": "To cool off from heat",
+        "B": "To wash away the old year and bring good luck",
+        "C": "To grow rice",
+        "D": "To clean clothes"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "id": 62
+    },
+    {
+      "domain": "reading_comp",
+      "text": "What is the very first thing Thai people do the day before Songkran officially begins?",
+      "image": null,
+      "options": {
+        "A": "Visit the temple",
+        "B": "Throw water at friends",
+        "C": "Spring clean their homes",
+        "D": "Cook special food"
+      },
+      "answer": "C",
+      "difficulty": "medium",
+      "id": 63
+    },
+    {
+      "domain": "reading_comp",
+      "text": "On what specific date do people visit the temple during Songkran?",
+      "image": null,
+      "options": {
+        "A": "April 1",
+        "B": "April 13",
+        "C": "April 30",
+        "D": "May 1"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "id": 64
+    },
+    {
+      "domain": "reading_comp",
+      "text": "What do people do to the Buddha statues at the temple?",
+      "image": null,
+      "options": {
+        "A": "Decorate with flowers",
+        "B": "Wash them with water",
+        "C": "Paint them gold",
+        "D": "Move them outside"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "id": 65
+    },
+    {
+      "domain": "reading_comp",
+      "text": "Why do families spend time spring cleaning their homes and washing Buddha statues?",
+      "image": null,
+      "options": {
+        "A": "To make money",
+        "B": "To welcome the new year with a clean, fresh start",
+        "C": "To sell them",
+        "D": "To win a contest"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "id": 66
+    },
+    {
+      "domain": "reading_comp",
+      "text": "How do people show they are thankful for their elders during Songkran?",
+      "image": null,
+      "options": {
+        "A": "Give them money",
+        "B": "Sing songs to them",
+        "C": "Sprinkle water on their hands and ask for blessings",
+        "D": "Take them to dinner"
+      },
+      "answer": "C",
+      "difficulty": "medium",
+      "id": 67
+    },
+    {
+      "domain": "reading_comp",
+      "text": "How do the elders probably feel when children treat them kindly during Songkran?",
+      "image": null,
+      "options": {
+        "A": "Bored",
+        "B": "Hungry",
+        "C": "Happy and loved",
+        "D": "Sleepy"
+      },
+      "answer": "C",
+      "difficulty": "easy",
+      "id": 68
+    },
+    {
+      "domain": "reading_comp",
+      "text": "When does the Songkran festival take place?",
+      "image": null,
+      "options": {
+        "A": "Every December",
+        "B": "In April, around the middle of the month",
+        "C": "In January",
+        "D": "During summer holidays"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "id": 69
+    },
+    {
+      "domain": "reading_comp",
+      "text": "Which item would you bring to a Songkran water fight?",
+      "image": null,
+      "options": {
+        "A": "A warm coat",
+        "B": "A squirt gun or water bucket",
+        "C": "An umbrella for rain",
+        "D": "A scarf"
+      },
+      "answer": "B",
+      "difficulty": "easy",
+      "id": 70
     }
   ]
 }
