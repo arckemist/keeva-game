@@ -1,10 +1,10 @@
 {
   "kid": "keeva",
-  "subject": "English",
+  "subject": "Social Studies",
   "grade": 2,
-  "source_pdf": "English Keeva.pdf",
-  "generated_at": "2026-06-07T07:09:40.028385Z",
-  "title": "KeeVa's English Quest",
+  "source_pdf": "SS.pdf",
+  "generated_at": "2026-06-09T12:55:00.000000Z",
+  "title": "KeeVa's Social Studies Quest",
   "character": "knight",
   "config": {
     "hero_hp": 5,
@@ -17,984 +17,984 @@
   },
   "questions": [
     {
-      "domain": "spelling_vocab",
-      "text": "My mum paid for a candy bar with a ___.",
+      "id": 1,
+      "domain": "workers_jobs_income",
+      "text": "What does it mean to 'predict' something?",
       "image": null,
       "options": {
-        "A": "penny",
-        "B": "paney",
-        "C": "pinney",
-        "D": "ponny"
+        "A": "To forget what happened in the past",
+        "B": "To tell what you think will happen next",
+        "C": "To draw a picture of an animal",
+        "D": "To clean your house"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "domain": "workers_jobs_income",
+      "text": "What do animal shelter workers do?",
+      "image": null,
+      "options": {
+        "A": "They sell candy to children",
+        "B": "They help people choose the best cat for them",
+        "C": "They build houses for cats",
+        "D": "They drive trucks to other cities"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": 3,
+      "domain": "workers_jobs_income",
+      "text": "What is the money that people earn from their jobs called?",
+      "image": null,
+      "options": {
+        "A": "Income",
+        "B": "Wants",
+        "C": "Goods",
+        "D": "Budget"
       },
       "answer": "A",
-      "difficulty": "easy",
-      "id": 1
+      "difficulty": "easy"
     },
     {
-      "domain": "spelling_vocab",
-      "text": "I ___ my friend's arm as we walked down the dark street.",
+      "id": 4,
+      "domain": "workers_jobs_income",
+      "text": "Police officers remind people of important ___ that help us live together.",
       "image": null,
       "options": {
-        "A": "clutshed",
-        "B": "cluched",
-        "C": "clutched",
-        "D": "cluchhed"
+        "A": "songs",
+        "B": "laws",
+        "C": "toys",
+        "D": "food"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": 5,
+      "domain": "workers_jobs_income",
+      "text": "What does a teacher do for the community?",
+      "image": null,
+      "options": {
+        "A": "Cuts hair",
+        "B": "Teaches us the skills we need in life",
+        "C": "Drives a truck",
+        "D": "Sells groceries"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": 6,
+      "domain": "workers_jobs_income",
+      "text": "A barber helps men and boys by cutting, styling, and ___ their hair.",
+      "image": null,
+      "options": {
+        "A": "painting",
+        "B": "grooming",
+        "C": "eating",
+        "D": "driving"
+      },
+      "answer": "B",
+      "difficulty": "medium"
+    },
+    {
+      "id": 7,
+      "domain": "workers_jobs_income",
+      "text": "Online drivers help deliver ___ or packages to us, even in the heat and rain.",
+      "image": null,
+      "options": {
+        "A": "letters only",
+        "B": "food or packages",
+        "C": "school books only",
+        "D": "medicine only"
+      },
+      "answer": "B",
+      "difficulty": "medium"
+    },
+    {
+      "id": 8,
+      "domain": "workers_jobs_income",
+      "text": "Where do most teachers work?",
+      "image": null,
+      "options": {
+        "A": "In factories",
+        "B": "In schools, but also in learning centers",
+        "C": "On airplanes",
+        "D": "In the ocean"
+      },
+      "answer": "B",
+      "difficulty": "medium"
+    },
+    {
+      "id": 9,
+      "domain": "workers_jobs_income",
+      "text": "Why do many people choose to live near their jobs?",
+      "image": null,
+      "options": {
+        "A": "So they can be close to where they work",
+        "B": "So the weather is nicer",
+        "C": "So there are more trees around",
+        "D": "So schools are closer to the beach"
+      },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": 10,
+      "domain": "goods_services_needs_wants",
+      "text": "What are goods?",
+      "image": null,
+      "options": {
+        "A": "Things people make or grow",
+        "B": "Songs that people sing",
+        "C": "Jobs that people do to help others",
+        "D": "Letters that people write"
+      },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": 11,
+      "domain": "goods_services_needs_wants",
+      "text": "What is a service?",
+      "image": null,
+      "options": {
+        "A": "Something that you can hold in your hand",
+        "B": "Something that someone does for you, like a haircut or a lesson",
+        "C": "A kind of food that you can eat",
+        "D": "A place to sleep at night"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": 12,
+      "domain": "goods_services_needs_wants",
+      "text": "Which of these is a good?",
+      "image": null,
+      "options": {
+        "A": "A haircut",
+        "B": "A piano lesson",
+        "C": "A book",
+        "D": "A car repair"
       },
       "answer": "C",
-      "difficulty": "easy",
-      "id": 2
+      "difficulty": "easy"
     },
     {
-      "domain": "spelling_vocab",
-      "text": "The children shouted with ___ when they saw the new puppies.",
+      "id": 13,
+      "domain": "goods_services_needs_wants",
+      "text": "Which of these is a service?",
       "image": null,
       "options": {
-        "A": "delite",
-        "B": "delight",
-        "C": "deleight",
-        "D": "dilight"
+        "A": "A shirt",
+        "B": "An apple",
+        "C": "A haircut at the barber shop",
+        "D": "A book"
+      },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": 14,
+      "domain": "goods_services_needs_wants",
+      "text": "What are needs?",
+      "image": null,
+      "options": {
+        "A": "Things we would like to have but do not need to live",
+        "B": "Things we must have to live, like food and a home",
+        "C": "Things we can sell at the market",
+        "D": "Things that grow in the garden only"
       },
       "answer": "B",
-      "difficulty": "easy",
-      "id": 3
+      "difficulty": "medium"
     },
     {
-      "domain": "spelling_vocab",
-      "text": "I had a chocolate ___ for breakfast this morning.",
+      "id": 15,
+      "domain": "goods_services_needs_wants",
+      "text": "What are wants?",
       "image": null,
       "options": {
-        "A": "pankake",
-        "B": "pancake",
-        "C": "pancaike",
-        "D": "pankeke"
+        "A": "Things we must have to live",
+        "B": "Things we eat for breakfast",
+        "C": "Goods and services that people would like to have, but do not need to live",
+        "D": "Things that grow in the ocean"
+      },
+      "answer": "C",
+      "difficulty": "medium"
+    },
+    {
+      "id": 16,
+      "domain": "goods_services_needs_wants",
+      "text": "What is a budget?",
+      "image": null,
+      "options": {
+        "A": "A kind of cake",
+        "B": "A plan for spending and saving money",
+        "C": "A toy that you keep in your room",
+        "D": "A kind of vehicle"
       },
       "answer": "B",
-      "difficulty": "easy",
-      "id": 4
+      "difficulty": "medium"
     },
     {
-      "domain": "spelling_vocab",
-      "text": "I love to blow ___ in my milk when I drink it.",
+      "id": 17,
+      "domain": "goods_services_needs_wants",
+      "text": "Which item is most likely a 'need' for a family?",
       "image": null,
       "options": {
-        "A": "bubbels",
-        "B": "bubles",
-        "C": "bubles",
-        "D": "bubbles"
+        "A": "A new video game",
+        "B": "An ice cream cone",
+        "C": "Food for the week",
+        "D": "A new toy car"
+      },
+      "answer": "C",
+      "difficulty": "medium"
+    },
+    {
+      "id": 18,
+      "domain": "goods_services_needs_wants",
+      "text": "Why can the difference between a good and a service sometimes be hard to see?",
+      "image": null,
+      "options": {
+        "A": "Because they always taste the same",
+        "B": "Because goods are things you can hold, but a service is something done for you",
+        "C": "Because services and goods both grow in the garden",
+        "D": "Because they are all made of paper"
+      },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": 19,
+      "domain": "factory_to_consumer_trade",
+      "text": "What is a factory?",
+      "image": null,
+      "options": {
+        "A": "A building where people produce goods",
+        "B": "A place where people go swimming",
+        "C": "A kind of restaurant",
+        "D": "A type of school"
+      },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": 20,
+      "domain": "factory_to_consumer_trade",
+      "text": "What are many T-shirts made of?",
+      "image": null,
+      "options": {
+        "A": "Sand",
+        "B": "Cotton",
+        "C": "Glass",
+        "D": "Stone"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": 21,
+      "domain": "factory_to_consumer_trade",
+      "text": "What is a cotton gin?",
+      "image": null,
+      "options": {
+        "A": "A toy made of cotton",
+        "B": "A big machine that separates the cotton from its seeds",
+        "C": "A type of drink",
+        "D": "A kind of shirt"
+      },
+      "answer": "B",
+      "difficulty": "medium"
+    },
+    {
+      "id": 22,
+      "domain": "factory_to_consumer_trade",
+      "text": "After cotton is picked, what do machines do to the cotton fibers?",
+      "image": null,
+      "options": {
+        "A": "They are carded and spun into yarn",
+        "B": "They are baked into bread",
+        "C": "They are frozen into ice",
+        "D": "They are painted blue"
+      },
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "id": 23,
+      "domain": "factory_to_consumer_trade",
+      "text": "After the cloth is dyed and pressed, what do workers do next?",
+      "image": null,
+      "options": {
+        "A": "Throw the cloth away",
+        "B": "Cut out the pieces to make the T-shirt",
+        "C": "Plant new trees",
+        "D": "Cook the cloth"
+      },
+      "answer": "B",
+      "difficulty": "medium"
+    },
+    {
+      "id": 24,
+      "domain": "factory_to_consumer_trade",
+      "text": "How do T-shirts get from the factory to stores around the country?",
+      "image": null,
+      "options": {
+        "A": "By riding bicycles",
+        "B": "Trucks deliver them to stores",
+        "C": "By hot air balloons",
+        "D": "By letters in the mail"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": 25,
+      "domain": "factory_to_consumer_trade",
+      "text": "What does 'trade' mean?",
+      "image": null,
+      "options": {
+        "A": "To paint a picture",
+        "B": "To buy, sell, or exchange goods",
+        "C": "To grow vegetables",
+        "D": "To sing a song"
+      },
+      "answer": "B",
+      "difficulty": "medium"
+    },
+    {
+      "id": 26,
+      "domain": "factory_to_consumer_trade",
+      "text": "Why do countries trade with each other?",
+      "image": null,
+      "options": {
+        "A": "To make new holidays",
+        "B": "To get goods they do not have",
+        "C": "To learn new songs",
+        "D": "To plant more trees"
+      },
+      "answer": "B",
+      "difficulty": "medium"
+    },
+    {
+      "id": 27,
+      "domain": "factory_to_consumer_trade",
+      "text": "Indonesia sells some goods such as ___ and ___ to other countries.",
+      "image": null,
+      "options": {
+        "A": "rice and sugar",
+        "B": "rubber and clove",
+        "C": "ice cream and cake",
+        "D": "toys and books"
+      },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": 28,
+      "domain": "banking_savings",
+      "text": "What is a bank?",
+      "image": null,
+      "options": {
+        "A": "An institution where people can do economic activities",
+        "B": "A type of food",
+        "C": "A kind of bicycle",
+        "D": "A game you play with friends"
+      },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": 29,
+      "domain": "banking_savings",
+      "text": "What is a debit card?",
+      "image": null,
+      "options": {
+        "A": "A card issued by a bank that can be used to pay for goods and services",
+        "B": "A type of candy",
+        "C": "A small toy for children",
+        "D": "A kind of book"
+      },
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "id": 30,
+      "domain": "banking_savings",
+      "text": "What is a credit card?",
+      "image": null,
+      "options": {
+        "A": "A card to pay for goods and services, paid back at the end of the month",
+        "B": "A type of flower",
+        "C": "A school report",
+        "D": "A game token"
+      },
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "id": 31,
+      "domain": "banking_savings",
+      "text": "What does it mean to deposit money in a bank?",
+      "image": null,
+      "options": {
+        "A": "To throw it away",
+        "B": "To save money in a bank account",
+        "C": "To spend it on candy",
+        "D": "To give it to a friend"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": 32,
+      "domain": "banking_savings",
+      "text": "Where do people put money to keep it safe and to save for the future?",
+      "image": null,
+      "options": {
+        "A": "Under their pillow only",
+        "B": "In a savings account at a bank",
+        "C": "In a swimming pool",
+        "D": "In a refrigerator"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": 33,
+      "domain": "banking_savings",
+      "text": "When you use a debit card at the grocery store, what happens?",
+      "image": null,
+      "options": {
+        "A": "The bank takes the money out of your account and gives it to the store",
+        "B": "The store gives you free candy",
+        "C": "The bank sends you a toy",
+        "D": "Nothing happens"
+      },
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "id": 34,
+      "domain": "banking_savings",
+      "text": "When do people usually pay their credit card bill?",
+      "image": null,
+      "options": {
+        "A": "In the morning",
+        "B": "At the end of the month",
+        "C": "On their birthday only",
+        "D": "Every 10 years"
+      },
+      "answer": "B",
+      "difficulty": "medium"
+    },
+    {
+      "id": 35,
+      "domain": "banking_savings",
+      "text": "What does 'export' mean?",
+      "image": null,
+      "options": {
+        "A": "To bring goods from other countries into ours",
+        "B": "To send goods or services to other countries",
+        "C": "To hide goods in a box",
+        "D": "To throw goods in the ocean"
+      },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": 36,
+      "domain": "chart_graph_compass",
+      "text": "What is a pie chart?",
+      "image": null,
+      "options": {
+        "A": "A chart that shows the amount of data in the shape of a circle",
+        "B": "A chart that is made of paper only",
+        "C": "A type of food you can eat",
+        "D": "A map of the ocean"
+      },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": 37,
+      "domain": "chart_graph_compass",
+      "text": "In a pie chart, the size of a piece shows the ___ it stands for.",
+      "image": null,
+      "options": {
+        "A": "color",
+        "B": "amount",
+        "C": "smell",
+        "D": "weight"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": 38,
+      "domain": "chart_graph_compass",
+      "text": "What is a compass rose?",
+      "image": null,
+      "options": {
+        "A": "A type of flower",
+        "B": "A circle device printed on a map that shows the points of the compass and the directions",
+        "C": "A kind of cake",
+        "D": "A toy for children"
+      },
+      "answer": "B",
+      "difficulty": "medium"
+    },
+    {
+      "id": 39,
+      "domain": "chart_graph_compass",
+      "text": "In a compass rose, what does the letter N stand for?",
+      "image": null,
+      "options": {
+        "A": "November",
+        "B": "North",
+        "C": "New",
+        "D": "Number"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": 40,
+      "domain": "chart_graph_compass",
+      "text": "In a compass rose, what does the letter S stand for?",
+      "image": null,
+      "options": {
+        "A": "Sun",
+        "B": "South",
+        "C": "School",
+        "D": "Snow"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": 41,
+      "domain": "chart_graph_compass",
+      "text": "What is a 'route'?",
+      "image": null,
+      "options": {
+        "A": "A way to go from one place to another",
+        "B": "A type of cookie",
+        "C": "A kind of pencil",
+        "D": "A song"
+      },
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "id": 42,
+      "domain": "chart_graph_compass",
+      "text": "If a pie chart shows Eric's money: T-shirt, Savings, and Books and Games, what does the size of each slice tell you?",
+      "image": null,
+      "options": {
+        "A": "How much money Eric spent or saved in each category",
+        "B": "How many friends Eric has",
+        "C": "What Eric's favorite color is",
+        "D": "How tall Eric is"
+      },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": 43,
+      "domain": "chart_graph_compass",
+      "text": "If the truck goes 'east on Factory Street, south on Library Street, east on Post Street, stops at the Village Store,' what direction does it start going first?",
+      "image": null,
+      "options": {
+        "A": "West",
+        "B": "South",
+        "C": "East",
+        "D": "North"
+      },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": 44,
+      "domain": "immigrants_history_ancestors",
+      "text": "What is an immigrant?",
+      "image": null,
+      "options": {
+        "A": "A person who settles in a new country",
+        "B": "A type of fruit",
+        "C": "A kind of bird",
+        "D": "A toy you play with"
+      },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": 45,
+      "domain": "immigrants_history_ancestors",
+      "text": "What did many immigrants, like Eric's great-grandparents, come to Indonesia in search of?",
+      "image": null,
+      "options": {
+        "A": "A bigger house",
+        "B": "A better life",
+        "C": "More candy",
+        "D": "Colder weather"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": 46,
+      "domain": "immigrants_history_ancestors",
+      "text": "What was the first thing Eric's great-grandparents thought about when they came into Sunda Kelapa Harbor?",
+      "image": null,
+      "options": {
+        "A": "Eating dinner",
+        "B": "A new life",
+        "C": "Playing games",
+        "D": "Going to the beach"
+      },
+      "answer": "B",
+      "difficulty": "medium"
+    },
+    {
+      "id": 47,
+      "domain": "immigrants_history_ancestors",
+      "text": "What body of water did Eric's great-grandparents cross on their long journey?",
+      "image": null,
+      "options": {
+        "A": "The South China Sea",
+        "B": "The Atlantic Ocean",
+        "C": "The Red Sea",
+        "D": "The Pacific Ocean"
+      },
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "id": 48,
+      "domain": "immigrants_history_ancestors",
+      "text": "How did Eric's great-grandparents come to Indonesia?",
+      "image": null,
+      "options": {
+        "A": "By airplane",
+        "B": "By car",
+        "C": "By ship",
+        "D": "By train"
+      },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": 49,
+      "domain": "immigrants_history_ancestors",
+      "text": "Vijay's ancestors were immigrants who came to Indonesia from which country?",
+      "image": null,
+      "options": {
+        "A": "China",
+        "B": "India",
+        "C": "Japan",
+        "D": "Australia"
+      },
+      "answer": "B",
+      "difficulty": "medium"
+    },
+    {
+      "id": 50,
+      "domain": "immigrants_history_ancestors",
+      "text": "What ocean did Vijay's ancestors travel across on their journey to Indonesia?",
+      "image": null,
+      "options": {
+        "A": "Atlantic Ocean",
+        "B": "Arctic Ocean",
+        "C": "Indian Ocean",
+        "D": "Pacific Ocean"
+      },
+      "answer": "C",
+      "difficulty": "medium"
+    },
+    {
+      "id": 51,
+      "domain": "immigrants_history_ancestors",
+      "text": "What are ancestors?",
+      "image": null,
+      "options": {
+        "A": "Family members who lived a long time ago, like great-grandparents",
+        "B": "Animals that live in the jungle",
+        "C": "Types of flowers in the garden",
+        "D": "Toys you play with"
+      },
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "id": 52,
+      "domain": "immigrants_history_ancestors",
+      "text": "If you look at a map and see a red arrow from China to Jakarta, going past Singapore, what is the arrow showing?",
+      "image": null,
+      "options": {
+        "A": "The path that birds fly",
+        "B": "The route the immigrants took to come to Indonesia",
+        "C": "Where fish swim in the ocean",
+        "D": "A road for cars"
+      },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": 53,
+      "domain": "holidays_celebrations_customs",
+      "text": "What is a holiday?",
+      "image": null,
+      "options": {
+        "A": "A special day of celebration; people do not work",
+        "B": "A kind of candy",
+        "C": "A type of bicycle",
+        "D": "A school report"
+      },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": 54,
+      "domain": "holidays_celebrations_customs",
+      "text": "On what date is Indonesian Independence Day celebrated?",
+      "image": null,
+      "options": {
+        "A": "1 January",
+        "B": "17 August",
+        "C": "25 December",
+        "D": "10 November"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": 55,
+      "domain": "holidays_celebrations_customs",
+      "text": "On what date is Pancasila Day celebrated in Indonesia?",
+      "image": null,
+      "options": {
+        "A": "1 June",
+        "B": "21 April",
+        "C": "1 May",
+        "D": "28 October"
+      },
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "id": 56,
+      "domain": "holidays_celebrations_customs",
+      "text": "What does Heroes' Day (10 November) honor?",
+      "image": null,
+      "options": {
+        "A": "Teachers",
+        "B": "Indonesians who fought bravely to defend independence",
+        "C": "Musicians",
+        "D": "Doctors"
+      },
+      "answer": "B",
+      "difficulty": "medium"
+    },
+    {
+      "id": 57,
+      "domain": "holidays_celebrations_customs",
+      "text": "What is a custom?",
+      "image": null,
+      "options": {
+        "A": "A type of car",
+        "B": "A special way of a group in doing something",
+        "C": "A kind of sweet",
+        "D": "A school subject"
+      },
+      "answer": "B",
+      "difficulty": "medium"
+    },
+    {
+      "id": 58,
+      "domain": "holidays_celebrations_customs",
+      "text": "Galungan is a religious holiday in Bali related to which religion?",
+      "image": null,
+      "options": {
+        "A": "Islam",
+        "B": "Christian",
+        "C": "Hindu",
+        "D": "Buddhism"
+      },
+      "answer": "C",
+      "difficulty": "medium"
+    },
+    {
+      "id": 59,
+      "domain": "holidays_celebrations_customs",
+      "text": "How many days does Chinese New Year last?",
+      "image": null,
+      "options": {
+        "A": "1 day",
+        "B": "5 days",
+        "C": "10 days",
+        "D": "15 days"
       },
       "answer": "D",
-      "difficulty": "easy",
-      "id": 5
+      "difficulty": "medium"
     },
     {
-      "domain": "spelling_vocab",
-      "text": "The tiger's strong ___ left marks on the ground.",
+      "id": 60,
+      "domain": "holidays_celebrations_customs",
+      "text": "In England, Sophie celebrates May Day on 1 May by listening to music, picking spring flowers, and dancing around a ___.Fill in the blank.",
       "image": null,
       "options": {
-        "A": "pau",
-        "B": "pawe",
-        "C": "paw",
-        "D": "pow"
-      },
-      "answer": "C",
-      "difficulty": "easy",
-      "id": 6
-    },
-    {
-      "domain": "spelling_vocab",
-      "text": "Which word means 'a small coin worth one cent'?",
-      "image": null,
-      "options": {
-        "A": "paw",
-        "B": "penny",
-        "C": "pancake",
-        "D": "puppy"
-      },
-      "answer": "B",
-      "difficulty": "medium",
-      "id": 7
-    },
-    {
-      "domain": "spelling_vocab",
-      "text": "Which word means 'to hold something tightly'?",
-      "image": null,
-      "options": {
-        "A": "clutched",
-        "B": "blowing",
-        "C": "sprinkled",
-        "D": "poured"
+        "A": "maypole",
+        "B": "treehouse",
+        "C": "campfire",
+        "D": "snowman"
       },
       "answer": "A",
-      "difficulty": "medium",
-      "id": 8
+      "difficulty": "medium"
     },
     {
-      "domain": "spelling_vocab",
-      "text": "Which word is a feeling of great happiness?",
+      "id": 61,
+      "domain": "holidays_celebrations_customs",
+      "text": "What do many communities do as a custom on historical days in Indonesia?",
       "image": null,
       "options": {
-        "A": "anger",
-        "B": "fear",
-        "C": "delight",
-        "D": "hunger"
+        "A": "They go swimming",
+        "B": "They have flag ceremonies and march in parades",
+        "C": "They plant flowers",
+        "D": "They bake cookies"
       },
-      "answer": "C",
-      "difficulty": "medium",
-      "id": 9
+      "answer": "B",
+      "difficulty": "hard"
     },
     {
-      "domain": "spelling_vocab",
-      "text": "Which food is a flat cake made from batter?",
+      "id": 62,
+      "domain": "landmarks_country_inventions",
+      "text": "What is a landmark?",
       "image": null,
       "options": {
-        "A": "pancake",
-        "B": "sandwich",
-        "C": "noodle",
-        "D": "pizza"
+        "A": "A building or place that is important or interesting, often the pride of a city",
+        "B": "A type of food",
+        "C": "A kind of pencil",
+        "D": "A small toy"
       },
       "answer": "A",
-      "difficulty": "medium",
-      "id": 10
+      "difficulty": "easy"
     },
     {
-      "domain": "spelling_vocab",
-      "text": "Which word means 'small round pockets of air in liquid'?",
+      "id": 63,
+      "domain": "landmarks_country_inventions",
+      "text": "Jam Gadang is a big clock in which city?",
       "image": null,
       "options": {
-        "A": "bubbles",
-        "B": "bottles",
-        "C": "droplets",
-        "D": "ripples"
+        "A": "Jakarta",
+        "B": "Surabaya",
+        "C": "Bukittinggi, West Sumatera",
+        "D": "Denpasar, Bali"
+      },
+      "answer": "C",
+      "difficulty": "medium"
+    },
+    {
+      "id": 64,
+      "domain": "landmarks_country_inventions",
+      "text": "In what year was Jam Gadang built?",
+      "image": null,
+      "options": {
+        "A": "1926",
+        "B": "1945",
+        "C": "1800",
+        "D": "2000"
       },
       "answer": "A",
-      "difficulty": "medium",
-      "id": 11
+      "difficulty": "medium"
     },
     {
-      "domain": "spelling_vocab",
-      "text": "An animal's foot is called a ___.",
+      "id": 65,
+      "domain": "landmarks_country_inventions",
+      "text": "Candi Borobudur is the biggest ___ temple in the world.",
       "image": null,
       "options": {
-        "A": "horn",
-        "B": "tail",
-        "C": "paw",
-        "D": "wing"
-      },
-      "answer": "C",
-      "difficulty": "medium",
-      "id": 12
-    },
-    {
-      "domain": "irregular_verbs",
-      "text": "Long ago, a hungry Crocodile ___ a Hen near the river.",
-      "image": null,
-      "options": {
-        "A": "see",
-        "B": "saw",
-        "C": "sees",
-        "D": "seeing"
+        "A": "Hindu",
+        "B": "Buddhist",
+        "C": "Islam",
+        "D": "Catholic"
       },
       "answer": "B",
-      "difficulty": "easy",
-      "id": 13
+      "difficulty": "medium"
     },
     {
-      "domain": "irregular_verbs",
-      "text": "Every day, the Crocodile ___ 'Hello' to his friend the Lizard.",
+      "id": 66,
+      "domain": "landmarks_country_inventions",
+      "text": "Tugu Pahlawan is a monument in Surabaya built to remember fighters who died during the Battle of Surabaya in ___.",
       "image": null,
       "options": {
-        "A": "say",
-        "B": "says",
-        "C": "said",
-        "D": "saying"
+        "A": "1926",
+        "B": "1937",
+        "C": "1945",
+        "D": "1950"
       },
       "answer": "C",
-      "difficulty": "easy",
-      "id": 14
+      "difficulty": "medium"
     },
     {
-      "domain": "irregular_verbs",
-      "text": "The Hen is brave right now, so she does not ___ away from the big teeth.",
+      "id": 67,
+      "domain": "landmarks_country_inventions",
+      "text": "What does 'Monas' stand for?",
       "image": null,
       "options": {
-        "A": "run",
-        "B": "runs",
-        "C": "running",
-        "D": "ran"
+        "A": "Monumen Nasional",
+        "B": "Monumen Asia",
+        "C": "Monumen Alam",
+        "D": "Monumen Asia Tenggara"
       },
       "answer": "A",
-      "difficulty": "medium",
-      "id": 15
+      "difficulty": "easy"
     },
     {
-      "domain": "irregular_verbs",
-      "text": "Yesterday, the Lizard ___ the Crocodile that they were siblings.",
+      "id": 68,
+      "domain": "landmarks_country_inventions",
+      "text": "Garuda Wisnu Kencana (GWK) is a cultural park in Bali. How high is its giant statue of Wisnu?",
       "image": null,
       "options": {
-        "A": "tell",
-        "B": "tells",
-        "C": "telling",
-        "D": "told"
-      },
-      "answer": "D",
-      "difficulty": "easy",
-      "id": 16
-    },
-    {
-      "domain": "irregular_verbs",
-      "text": "Which word is the past tense of 'see'?",
-      "image": null,
-      "options": {
-        "A": "see",
-        "B": "saw",
-        "C": "seen",
-        "D": "seeing"
-      },
-      "answer": "B",
-      "difficulty": "easy",
-      "id": 17
-    },
-    {
-      "domain": "irregular_verbs",
-      "text": "Which word is the past tense of 'say'?",
-      "image": null,
-      "options": {
-        "A": "say",
-        "B": "said",
-        "C": "sayd",
-        "D": "saying"
-      },
-      "answer": "B",
-      "difficulty": "easy",
-      "id": 18
-    },
-    {
-      "domain": "irregular_verbs",
-      "text": "Which word is the past tense of 'run'?",
-      "image": null,
-      "options": {
-        "A": "runned",
-        "B": "ran",
-        "C": "runs",
-        "D": "running"
-      },
-      "answer": "B",
-      "difficulty": "easy",
-      "id": 19
-    },
-    {
-      "domain": "irregular_verbs",
-      "text": "Which word is the past tense of 'tell'?",
-      "image": null,
-      "options": {
-        "A": "telled",
-        "B": "told",
-        "C": "tell",
-        "D": "tells"
-      },
-      "answer": "B",
-      "difficulty": "easy",
-      "id": 20
-    },
-    {
-      "domain": "contractions",
-      "text": "Which sentence is written correctly?",
-      "image": null,
-      "options": {
-        "A": "Crocodile isn't sure if Hen is really his sister.",
-        "B": "Crocodile is'nt sure if Hen is really his sister.",
-        "C": "Crocodile isnot sure if Hen is really his sister.",
-        "D": "Crocodile isnt sure if Hen is really his sister."
-      },
-      "answer": "A",
-      "difficulty": "medium",
-      "id": 21
-    },
-    {
-      "domain": "contractions",
-      "text": "Lizard cried, '___ a very smart thing to say!'",
-      "image": null,
-      "options": {
-        "A": "That's",
-        "B": "Thats's",
-        "C": "Thats",
-        "D": "Tha'ts"
-      },
-      "answer": "A",
-      "difficulty": "medium",
-      "id": 22
-    },
-    {
-      "domain": "contractions",
-      "text": "___ my sister!' Crocodile shouted with joy.",
-      "image": null,
-      "options": {
-        "A": "She's",
-        "B": "Shes's",
-        "C": "Shes",
-        "D": "She'es"
-      },
-      "answer": "A",
-      "difficulty": "medium",
-      "id": 23
-    },
-    {
-      "domain": "contractions",
-      "text": "What does 'isn't' mean?",
-      "image": null,
-      "options": {
-        "A": "is not",
-        "B": "is no",
-        "C": "are not",
-        "D": "is"
-      },
-      "answer": "A",
-      "difficulty": "easy",
-      "id": 24
-    },
-    {
-      "domain": "contractions",
-      "text": "What does 'That's' mean?",
-      "image": null,
-      "options": {
-        "A": "That is",
-        "B": "That has",
-        "C": "Those are",
-        "D": "That was"
-      },
-      "answer": "A",
-      "difficulty": "easy",
-      "id": 25
-    },
-    {
-      "domain": "contractions",
-      "text": "What does 'She's' mean?",
-      "image": null,
-      "options": {
-        "A": "She is",
-        "B": "She was",
-        "C": "She has",
-        "D": "She does"
-      },
-      "answer": "A",
-      "difficulty": "easy",
-      "id": 26
-    },
-    {
-      "domain": "adverbs",
-      "text": "The children dance ___ (careful) around the tall Maypole.",
-      "image": null,
-      "options": {
-        "A": "careful",
-        "B": "carefully",
-        "C": "carefuly",
-        "D": "carefulness"
-      },
-      "answer": "B",
-      "difficulty": "medium",
-      "id": 27
-    },
-    {
-      "domain": "adverbs",
-      "text": "In France, people give lily-of-the-valley flowers ___ (quiet) to their friends as a surprise.",
-      "image": null,
-      "options": {
-        "A": "quiet",
-        "B": "quietly",
-        "C": "quietness",
-        "D": "quieter"
-      },
-      "answer": "B",
-      "difficulty": "medium",
-      "id": 28
-    },
-    {
-      "domain": "adverbs",
-      "text": "The festival music began ___ (sudden) when the sun came up.",
-      "image": null,
-      "options": {
-        "A": "sudden",
-        "B": "suddenly",
-        "C": "suddently",
-        "D": "sudenly"
-      },
-      "answer": "B",
-      "difficulty": "medium",
-      "id": 29
-    },
-    {
-      "domain": "adverbs",
-      "text": "To change 'careful' into an adverb, you add:",
-      "image": null,
-      "options": {
-        "A": "-er",
-        "B": "-ly",
-        "C": "-ing",
-        "D": "-ed"
-      },
-      "answer": "B",
-      "difficulty": "easy",
-      "id": 30
-    },
-    {
-      "domain": "adverbs",
-      "text": "To change 'quiet' into an adverb, you add:",
-      "image": null,
-      "options": {
-        "A": "-ly",
-        "B": "-s",
-        "C": "-ing",
-        "D": "-ed"
-      },
-      "answer": "A",
-      "difficulty": "easy",
-      "id": 31
-    },
-    {
-      "domain": "adverbs",
-      "text": "To change 'sudden' into an adverb, you add:",
-      "image": null,
-      "options": {
-        "A": "-ed",
-        "B": "-ing",
-        "C": "-ly",
-        "D": "-s"
+        "A": "12 meters",
+        "B": "50 meters",
+        "C": "120 meters",
+        "D": "200 meters"
       },
       "answer": "C",
-      "difficulty": "easy",
-      "id": 32
+      "difficulty": "hard"
     },
     {
-      "domain": "grammar",
-      "text": "I love ___ family very much.",
+      "id": 69,
+      "domain": "landmarks_country_inventions",
+      "text": "The Washington Monument in Washington, D.C., is built in the shape of a(n) ___, a huge monument that points toward the sky.",
       "image": null,
       "options": {
-        "A": "me",
-        "B": "I",
-        "C": "my",
-        "D": "mine"
-      },
-      "answer": "C",
-      "difficulty": "medium",
-      "id": 33
-    },
-    {
-      "domain": "grammar",
-      "text": "Sheila brushes ___ teeth twice a day.",
-      "image": null,
-      "options": {
-        "A": "she",
-        "B": "her",
-        "C": "she's",
-        "D": "hers"
+        "A": "pyramid",
+        "B": "obelisk",
+        "C": "sphere",
+        "D": "cube"
       },
       "answer": "B",
-      "difficulty": "medium",
-      "id": 34
+      "difficulty": "hard"
     },
     {
-      "domain": "grammar",
-      "text": "We play in ___ garden every afternoon.",
+      "id": 70,
+      "domain": "landmarks_country_inventions",
+      "text": "Which two Indonesian landmarks can be found in the province of Jakarta?",
       "image": null,
       "options": {
-        "A": "us",
-        "B": "we",
-        "C": "our",
-        "D": "ours"
-      },
-      "answer": "C",
-      "difficulty": "medium",
-      "id": 35
-    },
-    {
-      "domain": "grammar",
-      "text": "This red bicycle belongs to me. It is ___.",
-      "image": null,
-      "options": {
-        "A": "my",
-        "B": "me",
-        "C": "I",
-        "D": "mine"
-      },
-      "answer": "D",
-      "difficulty": "medium",
-      "id": 36
-    },
-    {
-      "domain": "grammar",
-      "text": "Which word is a possessive pronoun (shows ownership)?",
-      "image": null,
-      "options": {
-        "A": "me",
-        "B": "I",
-        "C": "my",
-        "D": "we"
-      },
-      "answer": "C",
-      "difficulty": "easy",
-      "id": 37
-    },
-    {
-      "domain": "grammar",
-      "text": "Which word shows the girl owns the book?",
-      "image": null,
-      "options": {
-        "A": "her",
-        "B": "she",
-        "C": "herself",
-        "D": "her's"
-      },
-      "answer": "A",
-      "difficulty": "easy",
-      "id": 38
-    },
-    {
-      "domain": "grammar",
-      "text": "Which word shows the family owns the house?",
-      "image": null,
-      "options": {
-        "A": "we",
-        "B": "us",
-        "C": "our",
-        "D": "ourselves"
-      },
-      "answer": "C",
-      "difficulty": "easy",
-      "id": 39
-    },
-    {
-      "domain": "grammar",
-      "text": "Which word means 'belonging to me'?",
-      "image": null,
-      "options": {
-        "A": "I",
-        "B": "me",
-        "C": "my",
-        "D": "mine"
-      },
-      "answer": "D",
-      "difficulty": "medium",
-      "id": 40
-    },
-    {
-      "domain": "grammar",
-      "text": "The meeting starts ___ 8 o'clock in the morning.",
-      "image": null,
-      "options": {
-        "A": "in",
-        "B": "at",
-        "C": "on",
-        "D": "by"
+        "A": "Jam Gadang and Borobudur",
+        "B": "Monas and Ancol Dreamland (Dufan)",
+        "C": "GWK and Tugu Pahlawan",
+        "D": "Borobudur and GWK"
       },
       "answer": "B",
-      "difficulty": "medium",
-      "id": 41
-    },
-    {
-      "domain": "grammar",
-      "text": "Wash your hands ___ eating food.",
-      "image": null,
-      "options": {
-        "A": "after",
-        "B": "before",
-        "C": "during",
-        "D": "between"
-      },
-      "answer": "B",
-      "difficulty": "medium",
-      "id": 42
-    },
-    {
-      "domain": "grammar",
-      "text": "Please be quiet ___ the lesson.",
-      "image": null,
-      "options": {
-        "A": "before",
-        "B": "after",
-        "C": "during",
-        "D": "between"
-      },
-      "answer": "C",
-      "difficulty": "medium",
-      "id": 43
-    },
-    {
-      "domain": "grammar",
-      "text": "The teacher is standing ___ front of the class.",
-      "image": null,
-      "options": {
-        "A": "on",
-        "B": "in",
-        "C": "at",
-        "D": "by"
-      },
-      "answer": "B",
-      "difficulty": "medium",
-      "id": 44
-    },
-    {
-      "domain": "grammar",
-      "text": "I will see you ___ Monday at school.",
-      "image": null,
-      "options": {
-        "A": "in",
-        "B": "at",
-        "C": "on",
-        "D": "by"
-      },
-      "answer": "C",
-      "difficulty": "easy",
-      "id": 45
-    },
-    {
-      "domain": "grammar",
-      "text": "Which preposition shows a specific time of day?",
-      "image": null,
-      "options": {
-        "A": "in",
-        "B": "at",
-        "C": "on",
-        "D": "by"
-      },
-      "answer": "B",
-      "difficulty": "medium",
-      "id": 46
-    },
-    {
-      "domain": "grammar",
-      "text": "Which preposition comes BEFORE an event?",
-      "image": null,
-      "options": {
-        "A": "after",
-        "B": "before",
-        "C": "during",
-        "D": "between"
-      },
-      "answer": "B",
-      "difficulty": "easy",
-      "id": 47
-    },
-    {
-      "domain": "grammar",
-      "text": "Which preposition means 'while something is happening'?",
-      "image": null,
-      "options": {
-        "A": "before",
-        "B": "after",
-        "C": "during",
-        "D": "between"
-      },
-      "answer": "C",
-      "difficulty": "medium",
-      "id": 48
-    },
-    {
-      "domain": "grammar",
-      "text": "Which preposition shows a position at the front?",
-      "image": null,
-      "options": {
-        "A": "behind",
-        "B": "in front of",
-        "C": "next to",
-        "D": "above"
-      },
-      "answer": "B",
-      "difficulty": "medium",
-      "id": 49
-    },
-    {
-      "domain": "grammar",
-      "text": "Which preposition is used with days of the week?",
-      "image": null,
-      "options": {
-        "A": "in",
-        "B": "at",
-        "C": "on",
-        "D": "by"
-      },
-      "answer": "C",
-      "difficulty": "easy",
-      "id": 50
-    },
-    {
-      "domain": "reading_comp",
-      "text": "Songkran is a festival that celebrates the beginning of:",
-      "image": null,
-      "options": {
-        "A": "the winter season",
-        "B": "the summer season",
-        "C": "the school year",
-        "D": "the harvest"
-      },
-      "answer": "B",
-      "difficulty": "medium",
-      "id": 51
-    },
-    {
-      "domain": "reading_comp",
-      "text": "Thai people spring clean their homes to 'wash away':",
-      "image": null,
-      "options": {
-        "A": "the rain",
-        "B": "the dust",
-        "C": "the old year",
-        "D": "bad luck"
-      },
-      "answer": "C",
-      "difficulty": "medium",
-      "id": 52
-    },
-    {
-      "domain": "reading_comp",
-      "text": "On April 13, it is a tradition for families to visit:",
-      "image": null,
-      "options": {
-        "A": "schools",
-        "B": "Buddhist temples",
-        "C": "markets",
-        "D": "the beach"
-      },
-      "answer": "B",
-      "difficulty": "medium",
-      "id": 53
-    },
-    {
-      "domain": "reading_comp",
-      "text": "People sprinkle water on the hands of elders to show:",
-      "image": null,
-      "options": {
-        "A": "anger",
-        "B": "love and respect",
-        "C": "playfulness",
-        "D": "sadness"
-      },
-      "answer": "B",
-      "difficulty": "medium",
-      "id": 54
-    },
-    {
-      "domain": "reading_comp",
-      "text": "During the celebration, villages have huge:",
-      "image": null,
-      "options": {
-        "A": "fireworks",
-        "B": "parades",
-        "C": "water fights",
-        "D": "cooking contests"
-      },
-      "answer": "C",
-      "difficulty": "easy",
-      "id": 55
-    },
-    {
-      "domain": "reading_comp",
-      "text": "Is this statement True or False? 'Songkran is a festival that celebrates the beginning of the winter season.'",
-      "image": null,
-      "options": {
-        "A": "True",
-        "B": "False",
-        "C": "Maybe",
-        "D": "Not in the story"
-      },
-      "answer": "B",
-      "difficulty": "medium",
-      "id": 56
-    },
-    {
-      "domain": "reading_comp",
-      "text": "Is this statement True or False? 'Thai people spring clean their homes to wash away the old year.'",
-      "image": null,
-      "options": {
-        "A": "True",
-        "B": "False",
-        "C": "Maybe",
-        "D": "Not in the story"
-      },
-      "answer": "A",
-      "difficulty": "medium",
-      "id": 57
-    },
-    {
-      "domain": "reading_comp",
-      "text": "Is this statement True or False? 'On April 13, families visit Buddhist temples.'",
-      "image": null,
-      "options": {
-        "A": "True",
-        "B": "False",
-        "C": "Maybe",
-        "D": "Not in the story"
-      },
-      "answer": "A",
-      "difficulty": "medium",
-      "id": 58
-    },
-    {
-      "domain": "reading_comp",
-      "text": "Is this statement True or False? 'People sprinkle water on elders to show they are angry.'",
-      "image": null,
-      "options": {
-        "A": "True",
-        "B": "False",
-        "C": "Maybe",
-        "D": "Not in the story"
-      },
-      "answer": "B",
-      "difficulty": "medium",
-      "id": 59
-    },
-    {
-      "domain": "reading_comp",
-      "text": "Is this statement True or False? 'During Songkran, villages have huge water fights.'",
-      "image": null,
-      "options": {
-        "A": "True",
-        "B": "False",
-        "C": "Maybe",
-        "D": "Not in the story"
-      },
-      "answer": "A",
-      "difficulty": "easy",
-      "id": 60
-    },
-    {
-      "domain": "reading_comp",
-      "text": "What is the topic of this text?",
-      "image": null,
-      "options": {
-        "A": "Thai food",
-        "B": "Songkran festival",
-        "C": "Buddhist prayers",
-        "D": "Thai animals"
-      },
-      "answer": "B",
-      "difficulty": "medium",
-      "id": 61
-    },
-    {
-      "domain": "reading_comp",
-      "text": "Why is water so important to the Thai people during Songkran?",
-      "image": null,
-      "options": {
-        "A": "To cool off from heat",
-        "B": "To wash away the old year and bring good luck",
-        "C": "To grow rice",
-        "D": "To clean clothes"
-      },
-      "answer": "B",
-      "difficulty": "medium",
-      "id": 62
-    },
-    {
-      "domain": "reading_comp",
-      "text": "What is the very first thing Thai people do the day before Songkran officially begins?",
-      "image": null,
-      "options": {
-        "A": "Visit the temple",
-        "B": "Throw water at friends",
-        "C": "Spring clean their homes",
-        "D": "Cook special food"
-      },
-      "answer": "C",
-      "difficulty": "medium",
-      "id": 63
-    },
-    {
-      "domain": "reading_comp",
-      "text": "On what specific date do people visit the temple during Songkran?",
-      "image": null,
-      "options": {
-        "A": "April 1",
-        "B": "April 13",
-        "C": "April 30",
-        "D": "May 1"
-      },
-      "answer": "B",
-      "difficulty": "medium",
-      "id": 64
-    },
-    {
-      "domain": "reading_comp",
-      "text": "What do people do to the Buddha statues at the temple?",
-      "image": null,
-      "options": {
-        "A": "Decorate with flowers",
-        "B": "Wash them with water",
-        "C": "Paint them gold",
-        "D": "Move them outside"
-      },
-      "answer": "B",
-      "difficulty": "medium",
-      "id": 65
-    },
-    {
-      "domain": "reading_comp",
-      "text": "Why do families spend time spring cleaning their homes and washing Buddha statues?",
-      "image": null,
-      "options": {
-        "A": "To make money",
-        "B": "To welcome the new year with a clean, fresh start",
-        "C": "To sell them",
-        "D": "To win a contest"
-      },
-      "answer": "B",
-      "difficulty": "medium",
-      "id": 66
-    },
-    {
-      "domain": "reading_comp",
-      "text": "How do people show they are thankful for their elders during Songkran?",
-      "image": null,
-      "options": {
-        "A": "Give them money",
-        "B": "Sing songs to them",
-        "C": "Sprinkle water on their hands and ask for blessings",
-        "D": "Take them to dinner"
-      },
-      "answer": "C",
-      "difficulty": "medium",
-      "id": 67
-    },
-    {
-      "domain": "reading_comp",
-      "text": "How do the elders probably feel when children treat them kindly during Songkran?",
-      "image": null,
-      "options": {
-        "A": "Bored",
-        "B": "Hungry",
-        "C": "Happy and loved",
-        "D": "Sleepy"
-      },
-      "answer": "C",
-      "difficulty": "easy",
-      "id": 68
-    },
-    {
-      "domain": "reading_comp",
-      "text": "When does the Songkran festival take place?",
-      "image": null,
-      "options": {
-        "A": "Every December",
-        "B": "In April, around the middle of the month",
-        "C": "In January",
-        "D": "During summer holidays"
-      },
-      "answer": "B",
-      "difficulty": "medium",
-      "id": 69
-    },
-    {
-      "domain": "reading_comp",
-      "text": "Which item would you bring to a Songkran water fight?",
-      "image": null,
-      "options": {
-        "A": "A warm coat",
-        "B": "A squirt gun or water bucket",
-        "C": "An umbrella for rain",
-        "D": "A scarf"
-      },
-      "answer": "B",
-      "difficulty": "easy",
-      "id": 70
+      "difficulty": "hard"
     }
   ]
 }
