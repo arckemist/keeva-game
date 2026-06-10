@@ -1,10 +1,10 @@
 {
   "kid": "keeva",
-  "subject": "Social Studies",
+  "subject": "Math",
   "grade": 2,
-  "source_pdf": "SS.pdf",
-  "generated_at": "2026-06-09T12:55:00.000000Z",
-  "title": "KeeVa's Social Studies Quest",
+  "source_pdf": "Math SA 2026 revision (Adobe Scan 10 Jun 2026).pdf",
+  "generated_at": "2026-06-10T12:27:36.000000Z",
+  "title": "KeeVa's Math Quest",
   "character": "knight",
   "config": {
     "hero_hp": 5,
@@ -18,983 +18,983 @@
   "questions": [
     {
       "id": 1,
-      "domain": "workers_jobs_income",
-      "text": "What does it mean to 'predict' something?",
+      "domain": "counting_patterns",
+      "text": "What comes next when counting by 3s? 3, 6, 9, ___",
       "image": null,
       "options": {
-        "A": "To forget what happened in the past",
-        "B": "To tell what you think will happen next",
-        "C": "To draw a picture of an animal",
-        "D": "To clean your house"
+        "A": "10",
+        "B": "11",
+        "C": "12",
+        "D": "13"
       },
-      "answer": "B",
+      "answer": "C",
       "difficulty": "easy"
     },
     {
       "id": 2,
-      "domain": "workers_jobs_income",
-      "text": "What do animal shelter workers do?",
+      "domain": "counting_patterns",
+      "text": "What comes next when counting by 3s? 3, 6, 9, 12, ___",
       "image": null,
       "options": {
-        "A": "They sell candy to children",
-        "B": "They help people choose the best cat for them",
-        "C": "They build houses for cats",
-        "D": "They drive trucks to other cities"
+        "A": "13",
+        "B": "14",
+        "C": "15",
+        "D": "16"
       },
-      "answer": "B",
+      "answer": "C",
       "difficulty": "easy"
     },
     {
       "id": 3,
-      "domain": "workers_jobs_income",
-      "text": "What is the money that people earn from their jobs called?",
+      "domain": "counting_patterns",
+      "text": "What comes next when counting by 3s? 3, 6, 9, 12, 15, ___",
       "image": null,
       "options": {
-        "A": "Income",
-        "B": "Wants",
-        "C": "Goods",
-        "D": "Budget"
+        "A": "16",
+        "B": "17",
+        "C": "18",
+        "D": "19"
       },
-      "answer": "A",
+      "answer": "C",
       "difficulty": "easy"
     },
     {
       "id": 4,
-      "domain": "workers_jobs_income",
-      "text": "Police officers remind people of important ___ that help us live together.",
+      "domain": "counting_patterns",
+      "text": "What number comes BEFORE 9 when counting by 3s?",
       "image": null,
       "options": {
-        "A": "songs",
-        "B": "laws",
-        "C": "toys",
-        "D": "food"
+        "A": "3",
+        "B": "6",
+        "C": "12",
+        "D": "15"
       },
       "answer": "B",
       "difficulty": "easy"
     },
     {
       "id": 5,
-      "domain": "workers_jobs_income",
-      "text": "What does a teacher do for the community?",
+      "domain": "counting_patterns",
+      "text": "If you count by 3s starting from 3, which set is correct?",
       "image": null,
       "options": {
-        "A": "Cuts hair",
-        "B": "Teaches us the skills we need in life",
-        "C": "Drives a truck",
-        "D": "Sells groceries"
+        "A": "3, 5, 7, 9",
+        "B": "3, 6, 9, 12",
+        "C": "3, 7, 11, 15",
+        "D": "3, 8, 13, 18"
       },
       "answer": "B",
-      "difficulty": "easy"
+      "difficulty": "medium"
     },
     {
       "id": 6,
-      "domain": "workers_jobs_income",
-      "text": "A barber helps men and boys by cutting, styling, and ___ their hair.",
+      "domain": "counting_patterns",
+      "text": "What is the missing number? 6, 9, ___, 15",
       "image": null,
       "options": {
-        "A": "painting",
-        "B": "grooming",
-        "C": "eating",
-        "D": "driving"
+        "A": "10",
+        "B": "11",
+        "C": "12",
+        "D": "13"
       },
-      "answer": "B",
+      "answer": "C",
       "difficulty": "medium"
     },
     {
       "id": 7,
-      "domain": "workers_jobs_income",
-      "text": "Online drivers help deliver ___ or packages to us, even in the heat and rain.",
+      "domain": "fractions",
+      "text": "What fraction do you need to add to 2/4 to make 1 whole?",
       "image": null,
       "options": {
-        "A": "letters only",
-        "B": "food or packages",
-        "C": "school books only",
-        "D": "medicine only"
+        "A": "1/4",
+        "B": "2/4",
+        "C": "3/4",
+        "D": "4/4"
       },
       "answer": "B",
-      "difficulty": "medium"
+      "difficulty": "easy"
     },
     {
       "id": 8,
-      "domain": "workers_jobs_income",
-      "text": "Where do most teachers work?",
+      "domain": "fractions",
+      "text": "Which fraction is greater than 5/8?",
       "image": null,
       "options": {
-        "A": "In factories",
-        "B": "In schools, but also in learning centers",
-        "C": "On airplanes",
-        "D": "In the ocean"
+        "A": "2/8",
+        "B": "3/8",
+        "C": "4/8",
+        "D": "6/8"
       },
-      "answer": "B",
+      "answer": "D",
       "difficulty": "medium"
     },
     {
       "id": 9,
-      "domain": "workers_jobs_income",
-      "text": "Why do many people choose to live near their jobs?",
+      "domain": "fractions",
+      "text": "What do 2/8 and 6/8 make together?",
       "image": null,
       "options": {
-        "A": "So they can be close to where they work",
-        "B": "So the weather is nicer",
-        "C": "So there are more trees around",
-        "D": "So schools are closer to the beach"
+        "A": "1 whole",
+        "B": "8/8 (1 whole)",
+        "C": "4/8",
+        "D": "6/8"
       },
-      "answer": "A",
-      "difficulty": "hard"
+      "answer": "B",
+      "difficulty": "medium"
     },
     {
       "id": 10,
-      "domain": "goods_services_needs_wants",
-      "text": "What are goods?",
+      "domain": "fractions",
+      "text": "What do 3/10 and 7/10 make together?",
       "image": null,
       "options": {
-        "A": "Things people make or grow",
-        "B": "Songs that people sing",
-        "C": "Jobs that people do to help others",
-        "D": "Letters that people write"
+        "A": "9/10",
+        "B": "10/10 (1 whole)",
+        "C": "1/10",
+        "D": "7/10"
+      },
+      "answer": "B",
+      "difficulty": "medium"
+    },
+    {
+      "id": 11,
+      "domain": "fractions",
+      "text": "What do 6/12 and 6/12 make together?",
+      "image": null,
+      "options": {
+        "A": "6/12",
+        "B": "12/12 (1 whole)",
+        "C": "1/12",
+        "D": "2/12"
+      },
+      "answer": "B",
+      "difficulty": "medium"
+    },
+    {
+      "id": 12,
+      "domain": "fractions",
+      "text": "What do 6/11 and 5/11 make together?",
+      "image": null,
+      "options": {
+        "A": "1/11",
+        "B": "10/11",
+        "C": "11/11 (1 whole)",
+        "D": "12/11"
+      },
+      "answer": "C",
+      "difficulty": "medium"
+    },
+    {
+      "id": 13,
+      "domain": "fractions",
+      "text": "If you have 3/5 of a pizza, how much more do you need to make 1 whole pizza?",
+      "image": null,
+      "options": {
+        "A": "1/5",
+        "B": "2/5",
+        "C": "3/5",
+        "D": "4/5"
+      },
+      "answer": "B",
+      "difficulty": "medium"
+    },
+    {
+      "id": 14,
+      "domain": "fractions",
+      "text": "Which fraction is the smallest?",
+      "image": null,
+      "options": {
+        "A": "1/4",
+        "B": "1/2",
+        "C": "3/4",
+        "D": "1 whole"
       },
       "answer": "A",
       "difficulty": "easy"
     },
     {
-      "id": 11,
-      "domain": "goods_services_needs_wants",
-      "text": "What is a service?",
-      "image": null,
-      "options": {
-        "A": "Something that you can hold in your hand",
-        "B": "Something that someone does for you, like a haircut or a lesson",
-        "C": "A kind of food that you can eat",
-        "D": "A place to sleep at night"
-      },
-      "answer": "B",
-      "difficulty": "easy"
-    },
-    {
-      "id": 12,
-      "domain": "goods_services_needs_wants",
-      "text": "Which of these is a good?",
-      "image": null,
-      "options": {
-        "A": "A haircut",
-        "B": "A piano lesson",
-        "C": "A book",
-        "D": "A car repair"
-      },
-      "answer": "C",
-      "difficulty": "easy"
-    },
-    {
-      "id": 13,
-      "domain": "goods_services_needs_wants",
-      "text": "Which of these is a service?",
-      "image": null,
-      "options": {
-        "A": "A shirt",
-        "B": "An apple",
-        "C": "A haircut at the barber shop",
-        "D": "A book"
-      },
-      "answer": "C",
-      "difficulty": "easy"
-    },
-    {
-      "id": 14,
-      "domain": "goods_services_needs_wants",
-      "text": "What are needs?",
-      "image": null,
-      "options": {
-        "A": "Things we would like to have but do not need to live",
-        "B": "Things we must have to live, like food and a home",
-        "C": "Things we can sell at the market",
-        "D": "Things that grow in the garden only"
-      },
-      "answer": "B",
-      "difficulty": "medium"
-    },
-    {
       "id": 15,
-      "domain": "goods_services_needs_wants",
-      "text": "What are wants?",
+      "domain": "fractions",
+      "text": "Which fraction is equal to 1 whole?",
       "image": null,
       "options": {
-        "A": "Things we must have to live",
-        "B": "Things we eat for breakfast",
-        "C": "Goods and services that people would like to have, but do not need to live",
-        "D": "Things that grow in the ocean"
+        "A": "2/4",
+        "B": "3/4",
+        "C": "4/4",
+        "D": "1/4"
       },
       "answer": "C",
-      "difficulty": "medium"
+      "difficulty": "easy"
     },
     {
       "id": 16,
-      "domain": "goods_services_needs_wants",
-      "text": "What is a budget?",
+      "domain": "fractions",
+      "text": "What is 1/2 + 1/2?",
       "image": null,
       "options": {
-        "A": "A kind of cake",
-        "B": "A plan for spending and saving money",
-        "C": "A toy that you keep in your room",
-        "D": "A kind of vehicle"
+        "A": "1/2",
+        "B": "2/2 (1 whole)",
+        "C": "1/4",
+        "D": "2/4"
       },
       "answer": "B",
-      "difficulty": "medium"
+      "difficulty": "easy"
     },
     {
       "id": 17,
-      "domain": "goods_services_needs_wants",
-      "text": "Which item is most likely a 'need' for a family?",
+      "domain": "fractions",
+      "text": "What is 1/4 + 2/4?",
       "image": null,
       "options": {
-        "A": "A new video game",
-        "B": "An ice cream cone",
-        "C": "Food for the week",
-        "D": "A new toy car"
+        "A": "2/4",
+        "B": "3/4",
+        "C": "4/4",
+        "D": "1/4"
       },
-      "answer": "C",
+      "answer": "B",
       "difficulty": "medium"
     },
     {
       "id": 18,
-      "domain": "goods_services_needs_wants",
-      "text": "Why can the difference between a good and a service sometimes be hard to see?",
+      "domain": "fractions",
+      "text": "What is 1/4 + 3/4?",
       "image": null,
       "options": {
-        "A": "Because they always taste the same",
-        "B": "Because goods are things you can hold, but a service is something done for you",
-        "C": "Because services and goods both grow in the garden",
-        "D": "Because they are all made of paper"
+        "A": "3/4",
+        "B": "4/4 (1 whole)",
+        "C": "2/4",
+        "D": "1/4"
       },
       "answer": "B",
-      "difficulty": "hard"
+      "difficulty": "medium"
     },
     {
       "id": 19,
-      "domain": "factory_to_consumer_trade",
-      "text": "What is a factory?",
+      "domain": "fractions",
+      "text": "If a chocolate bar is split into 4 equal pieces and you eat 1, what fraction is left?",
       "image": null,
       "options": {
-        "A": "A building where people produce goods",
-        "B": "A place where people go swimming",
-        "C": "A kind of restaurant",
-        "D": "A type of school"
+        "A": "1/4",
+        "B": "2/4",
+        "C": "3/4",
+        "D": "4/4"
       },
-      "answer": "A",
-      "difficulty": "easy"
+      "answer": "C",
+      "difficulty": "medium"
     },
     {
       "id": 20,
-      "domain": "factory_to_consumer_trade",
-      "text": "What are many T-shirts made of?",
+      "domain": "fractions",
+      "text": "Which is larger: 3/8 or 5/8?",
       "image": null,
       "options": {
-        "A": "Sand",
-        "B": "Cotton",
-        "C": "Glass",
-        "D": "Stone"
+        "A": "3/8",
+        "B": "5/8",
+        "C": "They are equal",
+        "D": "Cannot tell"
       },
       "answer": "B",
       "difficulty": "easy"
     },
     {
       "id": 21,
-      "domain": "factory_to_consumer_trade",
-      "text": "What is a cotton gin?",
+      "domain": "fractions",
+      "text": "You have 2/6 of a cake. Your friend gives you 3/6 more. How much do you have now?",
       "image": null,
       "options": {
-        "A": "A toy made of cotton",
-        "B": "A big machine that separates the cotton from its seeds",
-        "C": "A type of drink",
-        "D": "A kind of shirt"
+        "A": "4/6",
+        "B": "5/6",
+        "C": "6/6 (1 whole)",
+        "D": "1/6"
       },
       "answer": "B",
       "difficulty": "medium"
     },
     {
       "id": 22,
-      "domain": "factory_to_consumer_trade",
-      "text": "After cotton is picked, what do machines do to the cotton fibers?",
+      "domain": "fractions",
+      "text": "You ate 2/5 of a sandwich. What fraction is LEFT?",
       "image": null,
       "options": {
-        "A": "They are carded and spun into yarn",
-        "B": "They are baked into bread",
-        "C": "They are frozen into ice",
-        "D": "They are painted blue"
+        "A": "2/5",
+        "B": "3/5",
+        "C": "5/5",
+        "D": "1/5"
       },
-      "answer": "A",
+      "answer": "B",
       "difficulty": "medium"
     },
     {
       "id": 23,
-      "domain": "factory_to_consumer_trade",
-      "text": "After the cloth is dyed and pressed, what do workers do next?",
+      "domain": "fractions",
+      "text": "If 2/7 + ?/7 = 1 whole, what is the missing number?",
       "image": null,
       "options": {
-        "A": "Throw the cloth away",
-        "B": "Cut out the pieces to make the T-shirt",
-        "C": "Plant new trees",
-        "D": "Cook the cloth"
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "7"
       },
-      "answer": "B",
-      "difficulty": "medium"
+      "answer": "C",
+      "difficulty": "hard"
     },
     {
       "id": 24,
-      "domain": "factory_to_consumer_trade",
-      "text": "How do T-shirts get from the factory to stores around the country?",
+      "domain": "fractions",
+      "text": "Which of these fractions is the biggest?",
       "image": null,
       "options": {
-        "A": "By riding bicycles",
-        "B": "Trucks deliver them to stores",
-        "C": "By hot air balloons",
-        "D": "By letters in the mail"
+        "A": "1/8",
+        "B": "3/8",
+        "C": "5/8",
+        "D": "7/8"
       },
-      "answer": "B",
+      "answer": "D",
       "difficulty": "easy"
     },
     {
       "id": 25,
-      "domain": "factory_to_consumer_trade",
-      "text": "What does 'trade' mean?",
+      "domain": "fractions",
+      "text": "How many quarters (1/4) make 1 whole?",
       "image": null,
       "options": {
-        "A": "To paint a picture",
-        "B": "To buy, sell, or exchange goods",
-        "C": "To grow vegetables",
-        "D": "To sing a song"
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5"
       },
-      "answer": "B",
-      "difficulty": "medium"
+      "answer": "C",
+      "difficulty": "easy"
     },
     {
       "id": 26,
-      "domain": "factory_to_consumer_trade",
-      "text": "Why do countries trade with each other?",
+      "domain": "fractions",
+      "text": "If you share a pizza equally among 4 friends, what fraction does each friend get?",
       "image": null,
       "options": {
-        "A": "To make new holidays",
-        "B": "To get goods they do not have",
-        "C": "To learn new songs",
-        "D": "To plant more trees"
+        "A": "1/2",
+        "B": "1/3",
+        "C": "1/4",
+        "D": "1/5"
       },
-      "answer": "B",
+      "answer": "C",
       "difficulty": "medium"
     },
     {
       "id": 27,
-      "domain": "factory_to_consumer_trade",
-      "text": "Indonesia sells some goods such as ___ and ___ to other countries.",
+      "domain": "shapes_3d",
+      "text": "What is the name of a 3D shape that is perfectly round, like a ball?",
       "image": null,
       "options": {
-        "A": "rice and sugar",
-        "B": "rubber and clove",
-        "C": "ice cream and cake",
-        "D": "toys and books"
+        "A": "Cube",
+        "B": "Cuboid",
+        "C": "Sphere",
+        "D": "Cylinder"
       },
-      "answer": "B",
-      "difficulty": "hard"
+      "answer": "C",
+      "difficulty": "easy"
     },
     {
       "id": 28,
-      "domain": "banking_savings",
-      "text": "What is a bank?",
+      "domain": "shapes_3d",
+      "text": "How many flat faces does a cube have?",
       "image": null,
       "options": {
-        "A": "An institution where people can do economic activities",
-        "B": "A type of food",
-        "C": "A kind of bicycle",
-        "D": "A game you play with friends"
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "8"
       },
-      "answer": "A",
-      "difficulty": "easy"
+      "answer": "C",
+      "difficulty": "medium"
     },
     {
       "id": 29,
-      "domain": "banking_savings",
-      "text": "What is a debit card?",
+      "domain": "shapes_3d",
+      "text": "A box of cereal is shaped most like which 3D shape?",
       "image": null,
       "options": {
-        "A": "A card issued by a bank that can be used to pay for goods and services",
-        "B": "A type of candy",
-        "C": "A small toy for children",
-        "D": "A kind of book"
+        "A": "Sphere",
+        "B": "Cube",
+        "C": "Cuboid",
+        "D": "Cone"
       },
-      "answer": "A",
-      "difficulty": "medium"
+      "answer": "C",
+      "difficulty": "easy"
     },
     {
       "id": 30,
-      "domain": "banking_savings",
-      "text": "What is a credit card?",
+      "domain": "shapes_3d",
+      "text": "A dice (singular of dice) is shaped like which 3D shape?",
       "image": null,
       "options": {
-        "A": "A card to pay for goods and services, paid back at the end of the month",
-        "B": "A type of flower",
-        "C": "A school report",
-        "D": "A game token"
-      },
-      "answer": "A",
-      "difficulty": "medium"
-    },
-    {
-      "id": 31,
-      "domain": "banking_savings",
-      "text": "What does it mean to deposit money in a bank?",
-      "image": null,
-      "options": {
-        "A": "To throw it away",
-        "B": "To save money in a bank account",
-        "C": "To spend it on candy",
-        "D": "To give it to a friend"
+        "A": "Sphere",
+        "B": "Cube",
+        "C": "Cuboid",
+        "D": "Cylinder"
       },
       "answer": "B",
       "difficulty": "easy"
     },
     {
-      "id": 32,
-      "domain": "banking_savings",
-      "text": "Where do people put money to keep it safe and to save for the future?",
+      "id": 31,
+      "domain": "shapes_3d",
+      "text": "Look at the pattern: cube, cube, cuboid, sphere, cube, cube, cuboid, sphere, ___. What comes next?",
       "image": null,
       "options": {
-        "A": "Under their pillow only",
-        "B": "In a savings account at a bank",
-        "C": "In a swimming pool",
-        "D": "In a refrigerator"
+        "A": "Cuboid",
+        "B": "Sphere",
+        "C": "Cube",
+        "D": "Cone"
       },
-      "answer": "B",
+      "answer": "C",
+      "difficulty": "medium"
+    },
+    {
+      "id": 32,
+      "domain": "shapes_3d",
+      "text": "Which 3D shape can ROLL the farthest?",
+      "image": null,
+      "options": {
+        "A": "Cube",
+        "B": "Cuboid",
+        "C": "Sphere",
+        "D": "Pyramid"
+      },
+      "answer": "C",
       "difficulty": "easy"
     },
     {
       "id": 33,
-      "domain": "banking_savings",
-      "text": "When you use a debit card at the grocery store, what happens?",
+      "domain": "shapes_3d",
+      "text": "A sphere has how many flat faces?",
       "image": null,
       "options": {
-        "A": "The bank takes the money out of your account and gives it to the store",
-        "B": "The store gives you free candy",
-        "C": "The bank sends you a toy",
-        "D": "Nothing happens"
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "6"
       },
       "answer": "A",
       "difficulty": "medium"
     },
     {
       "id": 34,
-      "domain": "banking_savings",
-      "text": "When do people usually pay their credit card bill?",
+      "domain": "shapes_3d",
+      "text": "Which 3D shape has 6 faces, with all faces being squares?",
       "image": null,
       "options": {
-        "A": "In the morning",
-        "B": "At the end of the month",
-        "C": "On their birthday only",
-        "D": "Every 10 years"
+        "A": "Cuboid",
+        "B": "Cube",
+        "C": "Sphere",
+        "D": "Triangle"
       },
       "answer": "B",
       "difficulty": "medium"
     },
     {
       "id": 35,
-      "domain": "banking_savings",
-      "text": "What does 'export' mean?",
+      "domain": "shapes_3d",
+      "text": "A cuboid has how many faces?",
       "image": null,
       "options": {
-        "A": "To bring goods from other countries into ours",
-        "B": "To send goods or services to other countries",
-        "C": "To hide goods in a box",
-        "D": "To throw goods in the ocean"
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "8"
       },
-      "answer": "B",
-      "difficulty": "hard"
+      "answer": "C",
+      "difficulty": "medium"
     },
     {
       "id": 36,
-      "domain": "chart_graph_compass",
-      "text": "What is a pie chart?",
+      "domain": "shapes_3d",
+      "text": "Which 3D shape looks like a can of soup?",
       "image": null,
       "options": {
-        "A": "A chart that shows the amount of data in the shape of a circle",
-        "B": "A chart that is made of paper only",
-        "C": "A type of food you can eat",
-        "D": "A map of the ocean"
+        "A": "Cube",
+        "B": "Cylinder",
+        "C": "Sphere",
+        "D": "Cuboid"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": 37,
+      "domain": "volume",
+      "text": "Looking at 4 containers of water (A, B, C, D), which statement is correct?",
+      "image": null,
+      "options": {
+        "A": "Container A has the greatest volume of water",
+        "B": "Container D has the least volume of water",
+        "C": "Container A has less volume of water than container D",
+        "D": "Container D has more volume of water than container C"
+      },
+      "answer": "D",
+      "difficulty": "easy"
+    },
+    {
+      "id": 38,
+      "domain": "volume",
+      "text": "If 4 containers all hold the same total amount, which one is FULLEST?",
+      "image": null,
+      "options": {
+        "A": "The one with water at the top",
+        "B": "The one with water in the middle",
+        "C": "The one with water at the bottom",
+        "D": "The empty one"
       },
       "answer": "A",
       "difficulty": "easy"
     },
     {
-      "id": 37,
-      "domain": "chart_graph_compass",
-      "text": "In a pie chart, the size of a piece shows the ___ it stands for.",
-      "image": null,
-      "options": {
-        "A": "color",
-        "B": "amount",
-        "C": "smell",
-        "D": "weight"
-      },
-      "answer": "B",
-      "difficulty": "easy"
-    },
-    {
-      "id": 38,
-      "domain": "chart_graph_compass",
-      "text": "What is a compass rose?",
-      "image": null,
-      "options": {
-        "A": "A type of flower",
-        "B": "A circle device printed on a map that shows the points of the compass and the directions",
-        "C": "A kind of cake",
-        "D": "A toy for children"
-      },
-      "answer": "B",
-      "difficulty": "medium"
-    },
-    {
       "id": 39,
-      "domain": "chart_graph_compass",
-      "text": "In a compass rose, what does the letter N stand for?",
+      "domain": "volume",
+      "text": "Container A is HALF full. Container B is FULL. Which has MORE water?",
       "image": null,
       "options": {
-        "A": "November",
-        "B": "North",
-        "C": "New",
-        "D": "Number"
+        "A": "Container A",
+        "B": "Container B",
+        "C": "They have the same",
+        "D": "Cannot tell"
       },
       "answer": "B",
       "difficulty": "easy"
     },
     {
       "id": 40,
-      "domain": "chart_graph_compass",
-      "text": "In a compass rose, what does the letter S stand for?",
+      "domain": "volume",
+      "text": "What does 'volume' mean?",
       "image": null,
       "options": {
-        "A": "Sun",
-        "B": "South",
-        "C": "School",
-        "D": "Snow"
+        "A": "How heavy something is",
+        "B": "How much space something takes up (or how much it can hold)",
+        "C": "How tall something is",
+        "D": "How old something is"
       },
       "answer": "B",
       "difficulty": "easy"
     },
     {
       "id": 41,
-      "domain": "chart_graph_compass",
-      "text": "What is a 'route'?",
+      "domain": "volume",
+      "text": "If Container A holds 2 cups of water and Container B holds 5 cups, what is the total?",
       "image": null,
       "options": {
-        "A": "A way to go from one place to another",
-        "B": "A type of cookie",
-        "C": "A kind of pencil",
-        "D": "A song"
-      },
-      "answer": "A",
-      "difficulty": "medium"
-    },
-    {
-      "id": 42,
-      "domain": "chart_graph_compass",
-      "text": "If a pie chart shows Eric's money: T-shirt, Savings, and Books and Games, what does the size of each slice tell you?",
-      "image": null,
-      "options": {
-        "A": "How much money Eric spent or saved in each category",
-        "B": "How many friends Eric has",
-        "C": "What Eric's favorite color is",
-        "D": "How tall Eric is"
-      },
-      "answer": "A",
-      "difficulty": "hard"
-    },
-    {
-      "id": 43,
-      "domain": "chart_graph_compass",
-      "text": "If the truck goes 'east on Factory Street, south on Library Street, east on Post Street, stops at the Village Store,' what direction does it start going first?",
-      "image": null,
-      "options": {
-        "A": "West",
-        "B": "South",
-        "C": "East",
-        "D": "North"
-      },
-      "answer": "C",
-      "difficulty": "hard"
-    },
-    {
-      "id": 44,
-      "domain": "immigrants_history_ancestors",
-      "text": "What is an immigrant?",
-      "image": null,
-      "options": {
-        "A": "A person who settles in a new country",
-        "B": "A type of fruit",
-        "C": "A kind of bird",
-        "D": "A toy you play with"
-      },
-      "answer": "A",
-      "difficulty": "easy"
-    },
-    {
-      "id": 45,
-      "domain": "immigrants_history_ancestors",
-      "text": "What did many immigrants, like Eric's great-grandparents, come to Indonesia in search of?",
-      "image": null,
-      "options": {
-        "A": "A bigger house",
-        "B": "A better life",
-        "C": "More candy",
-        "D": "Colder weather"
+        "A": "6 cups",
+        "B": "7 cups",
+        "C": "8 cups",
+        "D": "10 cups"
       },
       "answer": "B",
       "difficulty": "easy"
     },
     {
-      "id": 46,
-      "domain": "immigrants_history_ancestors",
-      "text": "What was the first thing Eric's great-grandparents thought about when they came into Sunda Kelapa Harbor?",
+      "id": 42,
+      "domain": "volume",
+      "text": "A full jug of water is poured into 4 equal cups. Each cup has ___ of the water.",
       "image": null,
       "options": {
-        "A": "Eating dinner",
-        "B": "A new life",
-        "C": "Playing games",
-        "D": "Going to the beach"
+        "A": "1/2",
+        "B": "1/3",
+        "C": "1/4",
+        "D": "1/5"
+      },
+      "answer": "C",
+      "difficulty": "medium"
+    },
+    {
+      "id": 43,
+      "domain": "volume",
+      "text": "Which container has the LEAST volume of water?",
+      "image": null,
+      "options": {
+        "A": "The empty one",
+        "B": "The half-full one",
+        "C": "The nearly full one",
+        "D": "The full one"
+      },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": 44,
+      "domain": "volume",
+      "text": "If you have 1 litre of water and pour it into 2 equal containers, how much is in each?",
+      "image": null,
+      "options": {
+        "A": "1/2 litre",
+        "B": "1 litre",
+        "C": "2 litres",
+        "D": "1/4 litre"
+      },
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "id": 45,
+      "domain": "volume",
+      "text": "Container C has less water than container B but more than container A. Which has the MOST?",
+      "image": null,
+      "options": {
+        "A": "Container A",
+        "B": "Container B",
+        "C": "Container C",
+        "D": "Cannot tell"
+      },
+      "answer": "B",
+      "difficulty": "medium"
+    },
+    {
+      "id": 46,
+      "domain": "volume",
+      "text": "Order from LEAST to MOST: 50 mL, 200 mL, 100 mL, 25 mL",
+      "image": null,
+      "options": {
+        "A": "50, 200, 100, 25",
+        "B": "25, 50, 100, 200",
+        "C": "200, 100, 50, 25",
+        "D": "25, 100, 50, 200"
       },
       "answer": "B",
       "difficulty": "medium"
     },
     {
       "id": 47,
-      "domain": "immigrants_history_ancestors",
-      "text": "What body of water did Eric's great-grandparents cross on their long journey?",
+      "domain": "volume",
+      "text": "Two identical cups: Cup X is full, Cup Y is half full. How much MORE water does Cup X have than Cup Y?",
       "image": null,
       "options": {
-        "A": "The South China Sea",
-        "B": "The Atlantic Ocean",
-        "C": "The Red Sea",
-        "D": "The Pacific Ocean"
+        "A": "Half a cup",
+        "B": "One full cup",
+        "C": "One and a half cups",
+        "D": "They are equal"
       },
       "answer": "A",
-      "difficulty": "medium"
+      "difficulty": "hard"
     },
     {
       "id": 48,
-      "domain": "immigrants_history_ancestors",
-      "text": "How did Eric's great-grandparents come to Indonesia?",
+      "domain": "volume",
+      "text": "Which is a bigger unit of volume for water: mL or L?",
       "image": null,
       "options": {
-        "A": "By airplane",
-        "B": "By car",
-        "C": "By ship",
-        "D": "By train"
+        "A": "mL",
+        "B": "L",
+        "C": "They are equal",
+        "D": "Neither is a unit of volume"
       },
-      "answer": "C",
+      "answer": "B",
       "difficulty": "easy"
     },
     {
       "id": 49,
-      "domain": "immigrants_history_ancestors",
-      "text": "Vijay's ancestors were immigrants who came to Indonesia from which country?",
+      "domain": "money",
+      "text": "How do you write 95 cents in dollars?",
       "image": null,
       "options": {
-        "A": "China",
-        "B": "India",
-        "C": "Japan",
-        "D": "Australia"
+        "A": "$95",
+        "B": "$9.50",
+        "C": "$0.95",
+        "D": "$0.095"
       },
-      "answer": "B",
-      "difficulty": "medium"
+      "answer": "C",
+      "difficulty": "easy"
     },
     {
       "id": 50,
-      "domain": "immigrants_history_ancestors",
-      "text": "What ocean did Vijay's ancestors travel across on their journey to Indonesia?",
+      "domain": "money",
+      "text": "How many cents is $1.00?",
       "image": null,
       "options": {
-        "A": "Atlantic Ocean",
-        "B": "Arctic Ocean",
-        "C": "Indian Ocean",
-        "D": "Pacific Ocean"
+        "A": "10",
+        "B": "50",
+        "C": "100",
+        "D": "1000"
       },
       "answer": "C",
-      "difficulty": "medium"
+      "difficulty": "easy"
     },
     {
       "id": 51,
-      "domain": "immigrants_history_ancestors",
-      "text": "What are ancestors?",
+      "domain": "money",
+      "text": "How many cents is $5.00?",
       "image": null,
       "options": {
-        "A": "Family members who lived a long time ago, like great-grandparents",
-        "B": "Animals that live in the jungle",
-        "C": "Types of flowers in the garden",
-        "D": "Toys you play with"
+        "A": "50",
+        "B": "100",
+        "C": "500",
+        "D": "5000"
       },
-      "answer": "A",
-      "difficulty": "medium"
+      "answer": "C",
+      "difficulty": "easy"
     },
     {
       "id": 52,
-      "domain": "immigrants_history_ancestors",
-      "text": "If you look at a map and see a red arrow from China to Jakarta, going past Singapore, what is the arrow showing?",
+      "domain": "money",
+      "text": "If a toy costs $2.00 and you pay with 4 quarters (25¢ each), how much did you give?",
       "image": null,
       "options": {
-        "A": "The path that birds fly",
-        "B": "The route the immigrants took to come to Indonesia",
-        "C": "Where fish swim in the ocean",
-        "D": "A road for cars"
+        "A": "$0.50",
+        "B": "$1.00",
+        "C": "$2.00",
+        "D": "$4.00"
       },
       "answer": "B",
-      "difficulty": "hard"
+      "difficulty": "medium"
     },
     {
       "id": 53,
-      "domain": "holidays_celebrations_customs",
-      "text": "What is a holiday?",
+      "domain": "money",
+      "text": "You have 2 fifty-cent coins. How much money do you have?",
       "image": null,
       "options": {
-        "A": "A special day of celebration; people do not work",
-        "B": "A kind of candy",
-        "C": "A type of bicycle",
-        "D": "A school report"
+        "A": "50¢",
+        "B": "75¢",
+        "C": "$1.00",
+        "D": "$2.00"
       },
-      "answer": "A",
+      "answer": "C",
       "difficulty": "easy"
     },
     {
       "id": 54,
-      "domain": "holidays_celebrations_customs",
-      "text": "On what date is Indonesian Independence Day celebrated?",
+      "domain": "money",
+      "text": "A pencil costs 30¢ and an eraser costs 20¢. How much do they cost together?",
       "image": null,
       "options": {
-        "A": "1 January",
-        "B": "17 August",
-        "C": "25 December",
-        "D": "10 November"
+        "A": "40¢",
+        "B": "50¢",
+        "C": "60¢",
+        "D": "70¢"
       },
       "answer": "B",
       "difficulty": "easy"
     },
     {
       "id": 55,
-      "domain": "holidays_celebrations_customs",
-      "text": "On what date is Pancasila Day celebrated in Indonesia?",
+      "domain": "money",
+      "text": "You pay for a 75¢ candy with a $1 coin. How much change should you get?",
       "image": null,
       "options": {
-        "A": "1 June",
-        "B": "21 April",
-        "C": "1 May",
-        "D": "28 October"
+        "A": "15¢",
+        "B": "20¢",
+        "C": "25¢",
+        "D": "35¢"
       },
-      "answer": "A",
+      "answer": "C",
       "difficulty": "medium"
     },
     {
       "id": 56,
-      "domain": "holidays_celebrations_customs",
-      "text": "What does Heroes' Day (10 November) honor?",
+      "domain": "money",
+      "text": "Which is worth MORE: 4 quarters or 9 dimes?",
       "image": null,
       "options": {
-        "A": "Teachers",
-        "B": "Indonesians who fought bravely to defend independence",
-        "C": "Musicians",
-        "D": "Doctors"
+        "A": "4 quarters",
+        "B": "9 dimes",
+        "C": "They are equal",
+        "D": "Cannot tell"
       },
       "answer": "B",
       "difficulty": "medium"
     },
     {
       "id": 57,
-      "domain": "holidays_celebrations_customs",
-      "text": "What is a custom?",
+      "domain": "money",
+      "text": "How many 10¢ coins (dimes) do you need to make $1.00?",
       "image": null,
       "options": {
-        "A": "A type of car",
-        "B": "A special way of a group in doing something",
-        "C": "A kind of sweet",
-        "D": "A school subject"
+        "A": "5",
+        "B": "8",
+        "C": "10",
+        "D": "100"
+      },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": 58,
+      "domain": "money",
+      "text": "You have $3.00. You buy a book for $1.50. How much money is left?",
+      "image": null,
+      "options": {
+        "A": "$1.00",
+        "B": "$1.50",
+        "C": "$2.00",
+        "D": "$4.50"
       },
       "answer": "B",
       "difficulty": "medium"
     },
     {
-      "id": 58,
-      "domain": "holidays_celebrations_customs",
-      "text": "Galungan is a religious holiday in Bali related to which religion?",
+      "id": 59,
+      "domain": "mass",
+      "text": "A pickup truck carried 760 kg of carrots. At Market A, 280 kg were removed. How many kg were left after Market A?",
       "image": null,
       "options": {
-        "A": "Islam",
-        "B": "Christian",
-        "C": "Hindu",
-        "D": "Buddhism"
+        "A": "380 kg",
+        "B": "480 kg",
+        "C": "580 kg",
+        "D": "1,040 kg"
+      },
+      "answer": "B",
+      "difficulty": "medium"
+    },
+    {
+      "id": 60,
+      "domain": "mass",
+      "text": "A pickup truck had 480 kg of carrots. At Market B, another 200 kg were removed. How many kg are left on the truck?",
+      "image": null,
+      "options": {
+        "A": "200 kg",
+        "B": "240 kg",
+        "C": "280 kg",
+        "D": "680 kg"
       },
       "answer": "C",
       "difficulty": "medium"
     },
     {
-      "id": 59,
-      "domain": "holidays_celebrations_customs",
-      "text": "How many days does Chinese New Year last?",
+      "id": 61,
+      "domain": "mass",
+      "text": "What unit do we use to measure the weight of a bag of rice?",
       "image": null,
       "options": {
-        "A": "1 day",
-        "B": "5 days",
-        "C": "10 days",
-        "D": "15 days"
+        "A": "mL",
+        "B": "cm",
+        "C": "kg",
+        "D": "$"
+      },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": 62,
+      "domain": "mass",
+      "text": "1 kg = ___ grams",
+      "image": null,
+      "options": {
+        "A": "10",
+        "B": "100",
+        "C": "1,000",
+        "D": "10,000"
+      },
+      "answer": "C",
+      "difficulty": "medium"
+    },
+    {
+      "id": 63,
+      "domain": "mass",
+      "text": "A watermelon weighs 3 kg. A pineapple weighs 1 kg. How much do they weigh together?",
+      "image": null,
+      "options": {
+        "A": "2 kg",
+        "B": "3 kg",
+        "C": "4 kg",
+        "D": "31 kg"
+      },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": 64,
+      "domain": "mass",
+      "text": "A box weighs 5 kg. You take out 2 kg of apples. How much does the empty box weigh?",
+      "image": null,
+      "options": {
+        "A": "2 kg",
+        "B": "3 kg",
+        "C": "5 kg",
+        "D": "7 kg"
+      },
+      "answer": "B",
+      "difficulty": "medium"
+    },
+    {
+      "id": 65,
+      "domain": "mass",
+      "text": "Which is heavier: 1 kg of feathers or 1 kg of bricks?",
+      "image": null,
+      "options": {
+        "A": "1 kg of feathers",
+        "B": "1 kg of bricks",
+        "C": "They weigh the same",
+        "D": "Cannot tell"
+      },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": 66,
+      "domain": "mass",
+      "text": "A truck carries 500 kg of sand. 200 kg falls off. How much sand is still on the truck?",
+      "image": null,
+      "options": {
+        "A": "200 kg",
+        "B": "300 kg",
+        "C": "400 kg",
+        "D": "700 kg"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": 67,
+      "domain": "mass",
+      "text": "Sam is carrying 4 bags, each weighing 2 kg. What is the total weight Sam is carrying?",
+      "image": null,
+      "options": {
+        "A": "2 kg",
+        "B": "4 kg",
+        "C": "6 kg",
+        "D": "8 kg"
       },
       "answer": "D",
       "difficulty": "medium"
     },
     {
-      "id": 60,
-      "domain": "holidays_celebrations_customs",
-      "text": "In England, Sophie celebrates May Day on 1 May by listening to music, picking spring flowers, and dancing around a ___.Fill in the blank.",
-      "image": null,
-      "options": {
-        "A": "maypole",
-        "B": "treehouse",
-        "C": "campfire",
-        "D": "snowman"
-      },
-      "answer": "A",
-      "difficulty": "medium"
-    },
-    {
-      "id": 61,
-      "domain": "holidays_celebrations_customs",
-      "text": "What do many communities do as a custom on historical days in Indonesia?",
-      "image": null,
-      "options": {
-        "A": "They go swimming",
-        "B": "They have flag ceremonies and march in parades",
-        "C": "They plant flowers",
-        "D": "They bake cookies"
-      },
-      "answer": "B",
-      "difficulty": "hard"
-    },
-    {
-      "id": 62,
-      "domain": "landmarks_country_inventions",
-      "text": "What is a landmark?",
-      "image": null,
-      "options": {
-        "A": "A building or place that is important or interesting, often the pride of a city",
-        "B": "A type of food",
-        "C": "A kind of pencil",
-        "D": "A small toy"
-      },
-      "answer": "A",
-      "difficulty": "easy"
-    },
-    {
-      "id": 63,
-      "domain": "landmarks_country_inventions",
-      "text": "Jam Gadang is a big clock in which city?",
-      "image": null,
-      "options": {
-        "A": "Jakarta",
-        "B": "Surabaya",
-        "C": "Bukittinggi, West Sumatera",
-        "D": "Denpasar, Bali"
-      },
-      "answer": "C",
-      "difficulty": "medium"
-    },
-    {
-      "id": 64,
-      "domain": "landmarks_country_inventions",
-      "text": "In what year was Jam Gadang built?",
-      "image": null,
-      "options": {
-        "A": "1926",
-        "B": "1945",
-        "C": "1800",
-        "D": "2000"
-      },
-      "answer": "A",
-      "difficulty": "medium"
-    },
-    {
-      "id": 65,
-      "domain": "landmarks_country_inventions",
-      "text": "Candi Borobudur is the biggest ___ temple in the world.",
-      "image": null,
-      "options": {
-        "A": "Hindu",
-        "B": "Buddhist",
-        "C": "Islam",
-        "D": "Catholic"
-      },
-      "answer": "B",
-      "difficulty": "medium"
-    },
-    {
-      "id": 66,
-      "domain": "landmarks_country_inventions",
-      "text": "Tugu Pahlawan is a monument in Surabaya built to remember fighters who died during the Battle of Surabaya in ___.",
-      "image": null,
-      "options": {
-        "A": "1926",
-        "B": "1937",
-        "C": "1945",
-        "D": "1950"
-      },
-      "answer": "C",
-      "difficulty": "medium"
-    },
-    {
-      "id": 67,
-      "domain": "landmarks_country_inventions",
-      "text": "What does 'Monas' stand for?",
-      "image": null,
-      "options": {
-        "A": "Monumen Nasional",
-        "B": "Monumen Asia",
-        "C": "Monumen Alam",
-        "D": "Monumen Asia Tenggara"
-      },
-      "answer": "A",
-      "difficulty": "easy"
-    },
-    {
       "id": 68,
-      "domain": "landmarks_country_inventions",
-      "text": "Garuda Wisnu Kencana (GWK) is a cultural park in Bali. How high is its giant statue of Wisnu?",
+      "domain": "mass",
+      "text": "A 10 kg bag of rice is split into 2 equal bags. How much does each new bag weigh?",
       "image": null,
       "options": {
-        "A": "12 meters",
-        "B": "50 meters",
-        "C": "120 meters",
-        "D": "200 meters"
+        "A": "2 kg",
+        "B": "4 kg",
+        "C": "5 kg",
+        "D": "10 kg"
       },
       "answer": "C",
-      "difficulty": "hard"
+      "difficulty": "medium"
     },
     {
       "id": 69,
-      "domain": "landmarks_country_inventions",
-      "text": "The Washington Monument in Washington, D.C., is built in the shape of a(n) ___, a huge monument that points toward the sky.",
+      "domain": "mass",
+      "text": "You have a 6 kg bag of flour. You use 1 kg to bake a cake. Then you use 2 kg to bake bread. How much flour is left?",
       "image": null,
       "options": {
-        "A": "pyramid",
-        "B": "obelisk",
-        "C": "sphere",
-        "D": "cube"
+        "A": "2 kg",
+        "B": "3 kg",
+        "C": "4 kg",
+        "D": "5 kg"
       },
       "answer": "B",
       "difficulty": "hard"
     },
     {
       "id": 70,
-      "domain": "landmarks_country_inventions",
-      "text": "Which two Indonesian landmarks can be found in the province of Jakarta?",
+      "domain": "mass",
+      "text": "A truck had 760 kg of carrots. It dropped 480 kg. How much is still on the truck?",
       "image": null,
       "options": {
-        "A": "Jam Gadang and Borobudur",
-        "B": "Monas and Ancol Dreamland (Dufan)",
-        "C": "GWK and Tugu Pahlawan",
-        "D": "Borobudur and GWK"
+        "A": "180 kg",
+        "B": "200 kg",
+        "C": "280 kg",
+        "D": "1,240 kg"
       },
-      "answer": "B",
-      "difficulty": "hard"
+      "answer": "C",
+      "difficulty": "medium"
     }
   ]
 }
