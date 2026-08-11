@@ -1,10 +1,10 @@
 {
   "kid": "keeva",
-  "subject": "Science",
-  "grade": 4,
-  "source_pdf": "Adobe Scan Aug 09, 2026 (1).pdf",
-  "generated_at": "2026-08-09T00:00:00.000000Z",
-  "title": "Keeva's Science Quest",
+  "subject": "English",
+  "grade": "Grade 3",
+  "source_pdf": "Adobe Scan Aug 11 2026 - English Grammar Grade 3 (HMH)",
+  "generated_at": "2026-08-11T19:05:00+07:00",
+  "title": "Keeva's Grammar Quest",
   "character": "knight",
   "config": {
     "hero_hp": 5,
@@ -18,982 +18,982 @@
   "questions": [
     {
       "id": 1,
-      "domain": "organ_systems",
-      "text": "The heart, lungs and stomach are parts of our body. What are they called?",
+      "domain": "kinds_of_sentences",
+      "text": "A sentence that tells something is called a ___.",
       "image": null,
       "options": {
-        "A": "muscles",
-        "B": "joints",
-        "C": "bones",
-        "D": "organs"
+        "A": "question",
+        "B": "command",
+        "C": "statement",
+        "D": "exclamation"
       },
-      "answer": "D",
+      "answer": "C",
       "difficulty": "easy"
     },
     {
       "id": 2,
-      "domain": "organ_systems",
-      "text": "Organs in our body are grouped into what?",
+      "domain": "kinds_of_sentences",
+      "text": "What mark does a question end with?",
       "image": null,
       "options": {
-        "A": "skin layers",
-        "B": "muscle groups",
-        "C": "bone groups",
-        "D": "organ systems"
+        "A": "period",
+        "B": "question mark",
+        "C": "exclamation point",
+        "D": "comma"
       },
-      "answer": "D",
+      "answer": "B",
       "difficulty": "easy"
     },
     {
       "id": 3,
-      "domain": "organ_systems",
-      "text": "Each organ system carries out an important ___ to keep us alive.",
+      "domain": "kinds_of_sentences",
+      "text": "A sentence that asks something is called a ___.",
       "image": null,
       "options": {
-        "A": "shape",
-        "B": "colour",
-        "C": "size",
-        "D": "function"
+        "A": "question",
+        "B": "statement",
+        "C": "command",
+        "D": "exclamation"
       },
-      "answer": "D",
+      "answer": "A",
       "difficulty": "easy"
     },
     {
       "id": 4,
-      "domain": "organ_systems",
-      "text": "Which of these is NOT an organ system in our body?",
+      "domain": "kinds_of_sentences",
+      "text": "A sentence that tells someone to do something is called a ___.",
       "image": null,
       "options": {
-        "A": "circulatory system",
-        "B": "skeletal system",
-        "C": "sleeping system",
-        "D": "respiratory system"
+        "A": "statement",
+        "B": "question",
+        "C": "command",
+        "D": "exclamation"
       },
       "answer": "C",
       "difficulty": "medium"
     },
     {
       "id": 5,
-      "domain": "organ_systems",
-      "text": "Some of our organ systems help us to move, while others help us to get ___.",
+      "domain": "kinds_of_sentences",
+      "text": "A sentence that shows strong feeling, such as excitement or surprise, is called an ___.",
       "image": null,
       "options": {
-        "A": "more blood",
-        "B": "bigger lungs",
-        "C": "more bones",
-        "D": "the air and the food that we need"
+        "A": "statement",
+        "B": "question",
+        "C": "command",
+        "D": "exclamation"
       },
       "answer": "D",
       "difficulty": "medium"
     },
     {
       "id": 6,
-      "domain": "skeletal",
-      "text": "Our skeletal system is made up of how many bones?",
+      "domain": "kinds_of_sentences",
+      "text": "What mark does an exclamation end with?",
       "image": null,
       "options": {
-        "A": "106",
-        "B": "206",
-        "C": "506",
-        "D": "306"
+        "A": "period",
+        "B": "question mark",
+        "C": "exclamation point",
+        "D": "comma"
       },
-      "answer": "B",
+      "answer": "C",
       "difficulty": "easy"
     },
     {
       "id": 7,
-      "domain": "skeletal",
-      "text": "Our bones form a framework called the ___.",
+      "domain": "kinds_of_sentences",
+      "text": "\"Where is my new bracelet?\" — what kind of sentence is this?",
       "image": null,
       "options": {
-        "A": "skeleton",
-        "B": "rib",
-        "C": "joint",
-        "D": "skull"
+        "A": "statement",
+        "B": "question",
+        "C": "command",
+        "D": "exclamation"
       },
-      "answer": "A",
-      "difficulty": "easy"
+      "answer": "B",
+      "difficulty": "medium"
     },
     {
       "id": 8,
-      "domain": "skeletal",
-      "text": "Which system supports our body and gives it shape?",
+      "domain": "kinds_of_sentences",
+      "text": "\"Uncle Randy is a great storyteller.\" — what kind of sentence is this?",
       "image": null,
       "options": {
-        "A": "circulatory system",
-        "B": "skeletal system",
-        "C": "digestive system",
-        "D": "respiratory system"
+        "A": "statement",
+        "B": "question",
+        "C": "command",
+        "D": "exclamation"
       },
-      "answer": "B",
-      "difficulty": "easy"
+      "answer": "A",
+      "difficulty": "medium"
     },
     {
       "id": 9,
-      "domain": "skeletal",
-      "text": "Our skeletal system protects the ___ organs in our body.",
+      "domain": "kinds_of_sentences",
+      "text": "\"Get away from that snake!\" — what kind of sentence is this?",
       "image": null,
       "options": {
-        "A": "hard",
-        "B": "large",
-        "C": "small",
-        "D": "delicate"
+        "A": "statement",
+        "B": "question",
+        "C": "command",
+        "D": "exclamation"
       },
       "answer": "D",
-      "difficulty": "easy"
+      "difficulty": "medium"
     },
     {
       "id": 10,
-      "domain": "skeletal",
-      "text": "Which part of the skeleton protects our brain?",
+      "domain": "kinds_of_sentences",
+      "text": "\"Please take the garbage outside.\" — what kind of sentence is this?",
       "image": null,
       "options": {
-        "A": "joint",
-        "B": "rib cage",
-        "C": "skull",
-        "D": "backbone"
-      },
-      "answer": "C",
-      "difficulty": "medium"
-    },
-    {
-      "id": 11,
-      "domain": "skeletal",
-      "text": "Our rib cage protects our heart and lungs. It is made up of curved bones called ___.",
-      "image": null,
-      "options": {
-        "A": "muscles",
-        "B": "ribs",
-        "C": "joints",
-        "D": "skulls"
-      },
-      "answer": "B",
-      "difficulty": "medium"
-    },
-    {
-      "id": 12,
-      "domain": "skeletal",
-      "text": "Our bones are connected at ___.",
-      "image": null,
-      "options": {
-        "A": "bones",
-        "B": "skulls",
-        "C": "joints",
-        "D": "ribs"
-      },
-      "answer": "C",
-      "difficulty": "medium"
-    },
-    {
-      "id": 13,
-      "domain": "muscular",
-      "text": "The muscular system is made up of what?",
-      "image": null,
-      "options": {
-        "A": "bones",
-        "B": "blood",
-        "C": "nerves",
-        "D": "muscles"
-      },
-      "answer": "D",
-      "difficulty": "easy"
-    },
-    {
-      "id": 14,
-      "domain": "muscular",
-      "text": "Which system allows us to move different parts of our body?",
-      "image": null,
-      "options": {
-        "A": "digestive system",
-        "B": "circulatory system",
-        "C": "skeletal system",
-        "D": "muscular system"
-      },
-      "answer": "D",
-      "difficulty": "easy"
-    },
-    {
-      "id": 15,
-      "domain": "muscular",
-      "text": "Which two systems work together to help us move?",
-      "image": null,
-      "options": {
-        "A": "circulatory and skeletal systems",
-        "B": "respiratory and digestive systems",
-        "C": "skeletal and muscular systems",
-        "D": "digestive and respiratory systems"
-      },
-      "answer": "C",
-      "difficulty": "medium"
-    },
-    {
-      "id": 16,
-      "domain": "muscular",
-      "text": "Which of these is a function of the muscular system?",
-      "image": null,
-      "options": {
-        "A": "breaks down food",
-        "B": "takes air into our body",
-        "C": "carries blood around our body",
-        "D": "allows us to move different parts of our body"
-      },
-      "answer": "D",
-      "difficulty": "medium"
-    },
-    {
-      "id": 17,
-      "domain": "digestive",
-      "text": "Which system breaks down the food we eat into simple substances?",
-      "image": null,
-      "options": {
-        "A": "circulatory system",
-        "B": "digestive system",
-        "C": "muscular system",
-        "D": "skeletal system"
-      },
-      "answer": "B",
-      "difficulty": "easy"
-    },
-    {
-      "id": 18,
-      "domain": "digestive",
-      "text": "The digestive system absorbs the simple substances for our body to ___.",
-      "image": null,
-      "options": {
-        "A": "hide",
-        "B": "throw away",
-        "C": "use",
-        "D": "store forever"
-      },
-      "answer": "C",
-      "difficulty": "easy"
-    },
-    {
-      "id": 19,
-      "domain": "digestive",
-      "text": "Which of these is part of the digestive system?",
-      "image": null,
-      "options": {
-        "A": "windpipe",
-        "B": "lungs",
-        "C": "gullet",
-        "D": "blood vessels"
-      },
-      "answer": "C",
-      "difficulty": "medium"
-    },
-    {
-      "id": 20,
-      "domain": "digestive",
-      "text": "The digestive system is made up of the mouth, gullet, stomach, small intestine, large intestine and ___.",
-      "image": null,
-      "options": {
-        "A": "nose",
-        "B": "ribs",
-        "C": "anus",
-        "D": "heart"
-      },
-      "answer": "C",
-      "difficulty": "medium"
-    },
-    {
-      "id": 21,
-      "domain": "digestive",
-      "text": "The circulatory system carries digested food to all parts of our body. Which system breaks down the food into simple substances first?",
-      "image": null,
-      "options": {
-        "A": "muscular system",
-        "B": "skeletal system",
-        "C": "digestive system",
-        "D": "respiratory system"
+        "A": "question",
+        "B": "exclamation",
+        "C": "command",
+        "D": "statement"
       },
       "answer": "C",
       "difficulty": "hard"
     },
     {
-      "id": 22,
-      "domain": "respiratory",
-      "text": "Our respiratory system is made up of the nose, windpipe and ___.",
+      "id": 11,
+      "domain": "kinds_of_sentences",
+      "text": "Which sentence has the WRONG punctuation?",
       "image": null,
       "options": {
-        "A": "lungs",
-        "B": "bones",
-        "C": "stomach",
-        "D": "heart"
+        "A": "We worked really hard on our robot?",
+        "B": "After three weeks, our robot was complete.",
+        "C": "It was able to walk a short distance.",
+        "D": "We did!"
       },
       "answer": "A",
-      "difficulty": "easy"
+      "difficulty": "hard"
     },
     {
-      "id": 23,
-      "domain": "respiratory",
-      "text": "Which organs help us to breathe?",
+      "id": 12,
+      "domain": "subjects_predicates",
+      "text": "The part of a sentence that tells whom or what the sentence is about is the ___.",
       "image": null,
       "options": {
-        "A": "heart, blood and bones",
-        "B": "mouth, stomach and gullet",
-        "C": "muscles, joints and ribs",
-        "D": "nose, windpipe and lungs"
-      },
-      "answer": "D",
-      "difficulty": "easy"
-    },
-    {
-      "id": 24,
-      "domain": "respiratory",
-      "text": "Our respiratory system takes ___ into our body and removes it from our body.",
-      "image": null,
-      "options": {
-        "A": "food",
-        "B": "air",
-        "C": "blood",
-        "D": "water"
+        "A": "predicate",
+        "B": "subject",
+        "C": "verb",
+        "D": "noun"
       },
       "answer": "B",
       "difficulty": "easy"
     },
     {
-      "id": 25,
-      "domain": "respiratory",
-      "text": "Which system takes air into our body and removes air from our body?",
+      "id": 13,
+      "domain": "subjects_predicates",
+      "text": "The part of a sentence that tells what the subject does or is is the ___.",
       "image": null,
       "options": {
-        "A": "respiratory system",
-        "B": "skeletal system",
-        "C": "muscular system",
-        "D": "digestive system"
+        "A": "subject",
+        "B": "object",
+        "C": "predicate",
+        "D": "adjective"
+      },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": 14,
+      "domain": "subjects_predicates",
+      "text": "In \"Saturday is my birthday\", what is the complete subject?",
+      "image": null,
+      "options": {
+        "A": "is my birthday",
+        "B": "birthday",
+        "C": "Saturday",
+        "D": "Saturday is"
+      },
+      "answer": "C",
+      "difficulty": "medium"
+    },
+    {
+      "id": 15,
+      "domain": "subjects_predicates",
+      "text": "In \"The snow in the mountains was melting\", what is the complete subject?",
+      "image": null,
+      "options": {
+        "A": "was melting",
+        "B": "The snow",
+        "C": "the mountains",
+        "D": "The snow in the mountains"
+      },
+      "answer": "B",
+      "difficulty": "medium"
+    },
+    {
+      "id": 16,
+      "domain": "subjects_predicates",
+      "text": "A compound subject has ___.",
+      "image": null,
+      "options": {
+        "A": "one word only",
+        "B": "two or more subjects joined by a conjunction",
+        "C": "no subject at all",
+        "D": "a verb and an adverb"
+      },
+      "answer": "B",
+      "difficulty": "medium"
+    },
+    {
+      "id": 17,
+      "domain": "subjects_predicates",
+      "text": "\"My cousins and their parents live in New Jersey.\" — is the subject simple or compound?",
+      "image": null,
+      "options": {
+        "A": "simple",
+        "B": "compound",
+        "C": "there is no subject",
+        "D": "a fragment"
+      },
+      "answer": "B",
+      "difficulty": "medium"
+    },
+    {
+      "id": 18,
+      "domain": "subjects_predicates",
+      "text": "In \"Kyle eats a juicy apple\", what is the simple predicate?",
+      "image": null,
+      "options": {
+        "A": "Kyle",
+        "B": "a juicy apple",
+        "C": "eats",
+        "D": "apple"
+      },
+      "answer": "C",
+      "difficulty": "medium"
+    },
+    {
+      "id": 19,
+      "domain": "subjects_predicates",
+      "text": "\"I sit and read under the tree.\" — the predicate here is ___.",
+      "image": null,
+      "options": {
+        "A": "simple",
+        "B": "compound",
+        "C": "missing",
+        "D": "a noun"
+      },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": 20,
+      "domain": "subjects_predicates",
+      "text": "In \"My best friend and I like to play video games\", what is the complete subject?",
+      "image": null,
+      "options": {
+        "A": "My best friend and I",
+        "B": "like to play video games",
+        "C": "video games",
+        "D": "My best friend"
       },
       "answer": "A",
       "difficulty": "medium"
     },
     {
-      "id": 26,
-      "domain": "respiratory",
-      "text": "Which of these is NOT part of the respiratory system?",
+      "id": 21,
+      "domain": "fragments",
+      "text": "A group of words that does NOT tell a complete thought is called a ___.",
       "image": null,
       "options": {
-        "A": "windpipe",
-        "B": "lungs",
-        "C": "nose",
-        "D": "stomach"
+        "A": "sentence",
+        "B": "paragraph",
+        "C": "fragment",
+        "D": "predicate"
       },
-      "answer": "D",
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": 22,
+      "domain": "fragments",
+      "text": "Which of these is a COMPLETE sentence?",
+      "image": null,
+      "options": {
+        "A": "drove her car",
+        "B": "The robin looked for worms on the fence.",
+        "C": "Loves to eat fish treats.",
+        "D": "two small frogs"
+      },
+      "answer": "B",
+      "difficulty": "medium"
+    },
+    {
+      "id": 23,
+      "domain": "fragments",
+      "text": "Which of these is NOT a complete sentence?",
+      "image": null,
+      "options": {
+        "A": "Rhonda has a cat.",
+        "B": "He purrs when he sleeps.",
+        "C": "Loves to eat fish treats.",
+        "D": "This makes Rhonda laugh."
+      },
+      "answer": "C",
+      "difficulty": "medium"
+    },
+    {
+      "id": 24,
+      "domain": "fragments",
+      "text": "Which of these is NOT a complete sentence?",
+      "image": null,
+      "options": {
+        "A": "The cat her lap.",
+        "B": "The cat has a toy mouse.",
+        "C": "He likes to chase it around the living room.",
+        "D": "Her cat also sleeps a lot."
+      },
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "id": 25,
+      "domain": "fragments",
+      "text": "\"Two small frogs jumped to a lily pad.\" — is this a complete sentence or a fragment?",
+      "image": null,
+      "options": {
+        "A": "fragment",
+        "B": "complete sentence",
+        "C": "a question",
+        "D": "a command"
+      },
+      "answer": "B",
+      "difficulty": "medium"
+    },
+    {
+      "id": 26,
+      "domain": "fragments",
+      "text": "Which group of words would COMPLETE this sentence: \"Alexander ___\"?",
+      "image": null,
+      "options": {
+        "A": "is good at telling jokes",
+        "B": "good at telling",
+        "C": "at telling jokes",
+        "D": "telling jokes good"
+      },
+      "answer": "A",
       "difficulty": "medium"
     },
     {
       "id": 27,
-      "domain": "respiratory",
-      "text": "When there is haze, which organ system is directly affected?",
+      "domain": "prefixes",
+      "text": "A prefix is a word part added to the ___ of a base word.",
       "image": null,
       "options": {
-        "A": "skeletal system",
-        "B": "digestive system",
-        "C": "muscular system",
-        "D": "respiratory system"
+        "A": "end",
+        "B": "middle",
+        "C": "beginning",
+        "D": "everywhere"
       },
-      "answer": "D",
-      "difficulty": "medium"
+      "answer": "C",
+      "difficulty": "easy"
     },
     {
       "id": 28,
-      "domain": "circulatory",
-      "text": "Our circulatory system is made up of the heart, blood vessels and ___.",
+      "domain": "prefixes",
+      "text": "What does the prefix non- mean?",
       "image": null,
       "options": {
-        "A": "bones",
-        "B": "blood",
-        "C": "lungs",
-        "D": "muscles"
+        "A": "again",
+        "B": "not",
+        "C": "before",
+        "D": "full of"
       },
       "answer": "B",
       "difficulty": "easy"
     },
     {
       "id": 29,
-      "domain": "circulatory",
-      "text": "Which organ pumps blood around our body?",
+      "domain": "prefixes",
+      "text": "What does the prefix mis- mean?",
       "image": null,
       "options": {
-        "A": "brain",
-        "B": "stomach",
-        "C": "lungs",
-        "D": "heart"
+        "A": "wrongly or badly",
+        "B": "not",
+        "C": "full of",
+        "D": "again"
       },
-      "answer": "D",
-      "difficulty": "easy"
+      "answer": "A",
+      "difficulty": "medium"
     },
     {
       "id": 30,
-      "domain": "circulatory",
-      "text": "The circulatory system carries digested food, water and ___ in blood to all parts of our body.",
+      "domain": "prefixes",
+      "text": "non + stop = nonstop. What does nonstop mean?",
       "image": null,
       "options": {
-        "A": "bones",
-        "B": "oxygen",
-        "C": "air",
-        "D": "muscles"
+        "A": "stopping twice",
+        "B": "not stopping",
+        "C": "stopping slowly",
+        "D": "a bus stop"
       },
       "answer": "B",
-      "difficulty": "easy"
+      "difficulty": "medium"
     },
     {
       "id": 31,
-      "domain": "circulatory",
-      "text": "Our circulatory system carries ___ away from all parts of our body.",
+      "domain": "prefixes",
+      "text": "non + fiction = nonfiction. What kind of story is nonfiction?",
       "image": null,
       "options": {
-        "A": "digested food",
-        "B": "oxygen",
-        "C": "waste materials",
-        "D": "water"
+        "A": "make-believe",
+        "B": "about real facts, not make-believe",
+        "C": "a fairy tale",
+        "D": "a poem"
       },
-      "answer": "C",
+      "answer": "B",
       "difficulty": "medium"
     },
     {
       "id": 32,
-      "domain": "circulatory",
-      "text": "Which system carries digested food and oxygen to all parts of our body?",
+      "domain": "prefixes",
+      "text": "Tyler took the wrong route because he ___ the directions.",
       "image": null,
       "options": {
-        "A": "skeletal system",
-        "B": "muscular system",
-        "C": "circulatory system",
-        "D": "respiratory system"
+        "A": "unremembered",
+        "B": "misremembered",
+        "C": "nonremembered",
+        "D": "remembered"
       },
-      "answer": "C",
+      "answer": "B",
       "difficulty": "medium"
     },
     {
       "id": 33,
-      "domain": "circulatory",
-      "text": "Which parts of our body help move substances around our body?",
+      "domain": "prefixes",
+      "text": "It is easy to ___ some words, so check a dictionary.",
       "image": null,
       "options": {
-        "A": "nose, windpipe and lungs",
-        "B": "mouth, gullet and stomach",
-        "C": "heart, blood vessels and blood",
-        "D": "skull, ribs and joints"
+        "A": "spell",
+        "B": "unspell",
+        "C": "misspell",
+        "D": "nonspell"
       },
       "answer": "C",
       "difficulty": "medium"
     },
     {
       "id": 34,
-      "domain": "systems_together",
-      "text": "All our organ systems work together all the time to keep us ___.",
+      "domain": "suffixes",
+      "text": "A suffix is a word part added to the ___ of a base word.",
       "image": null,
       "options": {
-        "A": "sleepy",
-        "B": "healthy",
-        "C": "fast",
-        "D": "tall"
+        "A": "beginning",
+        "B": "middle",
+        "C": "end",
+        "D": "top"
+      },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": 35,
+      "domain": "suffixes",
+      "text": "The suffix -ful usually means ___.",
+      "image": null,
+      "options": {
+        "A": "without",
+        "B": "full of",
+        "C": "not",
+        "D": "again"
       },
       "answer": "B",
       "difficulty": "easy"
     },
     {
-      "id": 35,
-      "domain": "systems_together",
-      "text": "The digestive system breaks down food. Which system carries the food to all parts of our body?",
+      "id": 36,
+      "domain": "suffixes",
+      "text": "fear + less = fearless. What does fearless mean?",
       "image": null,
       "options": {
-        "A": "respiratory system",
-        "B": "muscular system",
-        "C": "skeletal system",
-        "D": "circulatory system"
+        "A": "full of fear",
+        "B": "without fear",
+        "C": "afraid of less",
+        "D": "scared"
       },
-      "answer": "D",
+      "answer": "B",
       "difficulty": "medium"
     },
     {
-      "id": 36,
-      "domain": "systems_together",
-      "text": "If the heart becomes weak, other organs may not receive enough ___.",
+      "id": 37,
+      "domain": "suffixes",
+      "text": "\"The movie seemed ___ because it lasted more than two hours.\"",
       "image": null,
       "options": {
-        "A": "air",
-        "B": "bones",
-        "C": "blood",
-        "D": "food"
+        "A": "hopeful",
+        "B": "wonderful",
+        "C": "endless",
+        "D": "fearless"
       },
       "answer": "C",
       "difficulty": "medium"
     },
     {
-      "id": 37,
-      "domain": "systems_together",
-      "text": "When the heart is weak and other organs do not get enough blood, what happens to our body?",
+      "id": 38,
+      "domain": "suffixes",
+      "text": "\"Mei gave a ___ performance and won first place in the competition.\"",
       "image": null,
       "options": {
-        "A": "we can breathe better",
-        "B": "our body grows faster",
-        "C": "our bones become stronger",
-        "D": "our body becomes weak and we fall sick easily"
+        "A": "wonderful",
+        "B": "windowless",
+        "C": "hopeless",
+        "D": "cloudless"
       },
-      "answer": "D",
+      "answer": "A",
       "difficulty": "medium"
     },
     {
-      "id": 38,
-      "domain": "systems_together",
-      "text": "If one part of an organ system does not work properly, what happens?",
+      "id": 39,
+      "domain": "figurative_language",
+      "text": "A simile compares two things using the words ___.",
       "image": null,
       "options": {
-        "A": "nothing happens to the system",
-        "B": "the rest of the system will not work properly",
-        "C": "the system makes new parts",
-        "D": "the rest of the system works better"
+        "A": "and or but",
+        "B": "like or as",
+        "C": "if or then",
+        "D": "so or because"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": 40,
+      "domain": "figurative_language",
+      "text": "An idiom is a phrase that means something ___.",
+      "image": null,
+      "options": {
+        "A": "exactly what the words say",
+        "B": "different from what the words literally mean",
+        "C": "the same in every language",
+        "D": "only in math"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": 41,
+      "domain": "figurative_language",
+      "text": "A hyperbole is ___.",
+      "image": null,
+      "options": {
+        "A": "an exaggeration",
+        "B": "a question",
+        "C": "a command",
+        "D": "a small word"
+      },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": 42,
+      "domain": "figurative_language",
+      "text": "A word that imitates the sound it represents is called ___.",
+      "image": null,
+      "options": {
+        "A": "a simile",
+        "B": "an idiom",
+        "C": "onomatopoeia",
+        "D": "a hyperbole"
+      },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": 43,
+      "domain": "figurative_language",
+      "text": "Which word is an example of onomatopoeia?",
+      "image": null,
+      "options": {
+        "A": "beep",
+        "B": "house",
+        "C": "quickly",
+        "D": "happy"
+      },
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "id": 44,
+      "domain": "figurative_language",
+      "text": "\"Stink snored up a storm\" — the idiom means he ___.",
+      "image": null,
+      "options": {
+        "A": "made a storm with his breath",
+        "B": "snored very loudly",
+        "C": "was afraid of storms",
+        "D": "slept outside"
+      },
+      "answer": "B",
+      "difficulty": "medium"
+    },
+    {
+      "id": 45,
+      "domain": "figurative_language",
+      "text": "Why is \"snored up a storm\" also an example of hyperbole?",
+      "image": null,
+      "options": {
+        "A": "it is a question",
+        "B": "it exaggerates how loud the snoring was",
+        "C": "it uses the word like",
+        "D": "it is a command"
       },
       "answer": "B",
       "difficulty": "hard"
     },
     {
-      "id": 39,
-      "domain": "systems_together",
-      "text": "Which two organ systems work together so that food reaches all parts of our body?",
-      "image": null,
-      "options": {
-        "A": "digestive and circulatory systems",
-        "B": "muscular and digestive systems",
-        "C": "skeletal and muscular systems",
-        "D": "respiratory and skeletal systems"
-      },
-      "answer": "A",
-      "difficulty": "medium"
-    },
-    {
-      "id": 40,
-      "domain": "artificial_heart",
-      "text": "Our heart works non-stop, day and ___.",
-      "image": null,
-      "options": {
-        "A": "year",
-        "B": "week",
-        "C": "month",
-        "D": "night"
-      },
-      "answer": "D",
-      "difficulty": "easy"
-    },
-    {
-      "id": 41,
-      "domain": "artificial_heart",
-      "text": "What did scientists invent to replace a heart that is not working properly?",
-      "image": null,
-      "options": {
-        "A": "a stronger lung",
-        "B": "a bigger heart",
-        "C": "a new bone",
-        "D": "an artificial heart"
-      },
-      "answer": "D",
-      "difficulty": "medium"
-    },
-    {
-      "id": 42,
-      "domain": "artificial_heart",
-      "text": "Artificial hearts can help ___ the lives of heart patients.",
-      "image": null,
-      "options": {
-        "A": "stop and start",
-        "B": "hide and find",
-        "C": "change and colour",
-        "D": "save and improve"
-      },
-      "answer": "D",
-      "difficulty": "medium"
-    },
-    {
-      "id": 43,
-      "domain": "balanced_diet",
-      "text": "A balanced diet means eating different types of food and drinking enough ___.",
-      "image": null,
-      "options": {
-        "A": "soup",
-        "B": "juice",
-        "C": "milk",
-        "D": "water"
-      },
-      "answer": "D",
-      "difficulty": "easy"
-    },
-    {
-      "id": 44,
-      "domain": "balanced_diet",
-      "text": "The different types of food we eat give us different ___ for our body to grow and stay healthy.",
-      "image": null,
-      "options": {
-        "A": "nutrients",
-        "B": "sizes",
-        "C": "shapes",
-        "D": "colours"
-      },
-      "answer": "A",
-      "difficulty": "easy"
-    },
-    {
-      "id": 45,
-      "domain": "balanced_diet",
-      "text": "Energy-giving food provides energy for our body to ___.",
-      "image": null,
-      "options": {
-        "A": "do work",
-        "B": "store heat",
-        "C": "sleep",
-        "D": "grow bones"
-      },
-      "answer": "A",
-      "difficulty": "easy"
-    },
-    {
       "id": 46,
-      "domain": "balanced_diet",
-      "text": "Which of these is energy-giving food?",
+      "domain": "figurative_language",
+      "text": "The author writes that a house is \"like a toothpick\" to help you imagine ___.",
       "image": null,
       "options": {
-        "A": "rice",
-        "B": "milk",
-        "C": "fish",
-        "D": "eggs"
+        "A": "the house is very small, easy for a giant to pick up",
+        "B": "the house is made of wood",
+        "C": "the house is dirty",
+        "D": "the house is very tall"
       },
       "answer": "A",
-      "difficulty": "easy"
+      "difficulty": "hard"
     },
     {
       "id": 47,
-      "domain": "balanced_diet",
-      "text": "Body-building food helps our body to grow and build ___.",
+      "domain": "figurative_language",
+      "text": "Which sentence uses a simile?",
       "image": null,
       "options": {
-        "A": "muscles",
-        "B": "air",
-        "C": "blood",
-        "D": "teeth"
+        "A": "The dog barked loudly.",
+        "B": "He ran like the wind.",
+        "C": "Please close the door.",
+        "D": "I have a cat."
       },
-      "answer": "A",
-      "difficulty": "medium"
+      "answer": "B",
+      "difficulty": "hard"
     },
     {
       "id": 48,
-      "domain": "balanced_diet",
-      "text": "Which of these is body-building food?",
+      "domain": "phonics_vowels",
+      "text": "In the word great, the letters ea make what sound?",
       "image": null,
       "options": {
-        "A": "rice",
-        "B": "corn",
-        "C": "fish",
-        "D": "potato"
+        "A": "long e",
+        "B": "short e",
+        "C": "long a",
+        "D": "short a"
       },
       "answer": "C",
       "difficulty": "medium"
     },
     {
       "id": 49,
-      "domain": "balanced_diet",
-      "text": "Which of these foods is in BOTH the body-building group AND the energy-storing group?",
+      "domain": "phonics_vowels",
+      "text": "In the word tree, the letters ee make what sound?",
       "image": null,
       "options": {
-        "A": "carrots",
-        "B": "rice",
-        "C": "milk",
-        "D": "corn"
-      },
-      "answer": "C",
-      "difficulty": "hard"
-    },
-    {
-      "id": 50,
-      "domain": "protective_food",
-      "text": "Protective food contains vitamins and ___ that help our body to work properly.",
-      "image": null,
-      "options": {
-        "A": "minerals",
-        "B": "muscles",
-        "C": "bones",
-        "D": "air"
+        "A": "long e",
+        "B": "long a",
+        "C": "short e",
+        "D": "long i"
       },
       "answer": "A",
       "difficulty": "easy"
     },
     {
-      "id": 51,
-      "domain": "protective_food",
-      "text": "Vitamin A is good for our ___.",
+      "id": 50,
+      "domain": "phonics_vowels",
+      "text": "Which word has a LONG A sound?",
       "image": null,
       "options": {
-        "A": "nose",
-        "B": "eyes",
-        "C": "hair",
-        "D": "ears"
+        "A": "tree",
+        "B": "clean",
+        "C": "plain",
+        "D": "sheep"
       },
-      "answer": "B",
-      "difficulty": "easy"
+      "answer": "C",
+      "difficulty": "medium"
+    },
+    {
+      "id": 51,
+      "domain": "phonics_vowels",
+      "text": "Which word has a LONG E sound?",
+      "image": null,
+      "options": {
+        "A": "clay",
+        "B": "mail",
+        "C": "way",
+        "D": "thief"
+      },
+      "answer": "D",
+      "difficulty": "medium"
     },
     {
       "id": 52,
-      "domain": "protective_food",
-      "text": "Which of these is rich in vitamin A?",
+      "domain": "phonics_vowels",
+      "text": "\"I ate a pancake for breakfast.\" — the word pancake has a ___.",
       "image": null,
       "options": {
-        "A": "bread",
-        "B": "carrots",
-        "C": "oranges",
-        "D": "milk"
+        "A": "long a sound",
+        "B": "short a sound",
+        "C": "long e sound",
+        "D": "short u sound"
       },
-      "answer": "B",
-      "difficulty": "easy"
+      "answer": "A",
+      "difficulty": "medium"
     },
     {
       "id": 53,
-      "domain": "protective_food",
-      "text": "Vitamin C keeps us from ___.",
+      "domain": "phonics_vowels",
+      "text": "If a joke was not funny, you can say the joke is ___.",
       "image": null,
       "options": {
-        "A": "sleeping too much",
-        "B": "growing too tall",
-        "C": "getting hungry",
-        "D": "falling sick easily"
+        "A": "broke",
+        "B": "lime",
+        "C": "plate",
+        "D": "tone"
       },
-      "answer": "D",
+      "answer": "A",
       "difficulty": "medium"
     },
     {
       "id": 54,
-      "domain": "protective_food",
-      "text": "Which of these is rich in vitamin C?",
+      "domain": "phonics_vowels",
+      "text": "A snake that shivers from the cold does a ___.",
       "image": null,
       "options": {
-        "A": "kale",
-        "B": "mangoes",
-        "C": "kiwifruits",
-        "D": "carrots"
+        "A": "snake shake",
+        "B": "snake bake",
+        "C": "snake lake",
+        "D": "snake take"
       },
-      "answer": "C",
+      "answer": "A",
       "difficulty": "medium"
     },
     {
       "id": 55,
-      "domain": "protective_food",
-      "text": "Calcium is a mineral that helps to build strong ___.",
+      "domain": "phonics_vowels",
+      "text": "If you put paper plates under your feet, you can go for a ___.",
       "image": null,
       "options": {
-        "A": "muscles and joints",
-        "B": "hair and skin",
-        "C": "bones and teeth",
-        "D": "eyes and ears"
+        "A": "plate skate",
+        "B": "plate gate",
+        "C": "plate state",
+        "D": "plate late"
       },
-      "answer": "C",
-      "difficulty": "medium"
+      "answer": "A",
+      "difficulty": "hard"
     },
     {
       "id": 56,
-      "domain": "cleanliness",
-      "text": "Germs are tiny living things that can ___ our body.",
+      "domain": "phonics_vowels",
+      "text": "Which word has a SHORT vowel sound?",
       "image": null,
       "options": {
-        "A": "colour",
-        "B": "warm",
-        "C": "harm",
-        "D": "grow"
+        "A": "rope",
+        "B": "apple",
+        "C": "home",
+        "D": "phone"
       },
-      "answer": "C",
-      "difficulty": "easy"
+      "answer": "B",
+      "difficulty": "medium"
     },
     {
       "id": 57,
-      "domain": "cleanliness",
-      "text": "To keep germs away, we should bathe ___.",
+      "domain": "nouns",
+      "text": "A noun names a person, a place, or a ___.",
       "image": null,
       "options": {
-        "A": "once a week",
-        "B": "never",
-        "C": "every day",
-        "D": "once a month"
+        "A": "color",
+        "B": "thing",
+        "C": "action",
+        "D": "feeling"
       },
-      "answer": "C",
+      "answer": "B",
       "difficulty": "easy"
     },
     {
       "id": 58,
-      "domain": "cleanliness",
-      "text": "Washing our hands before a meal helps prevent ___ from entering our food.",
+      "domain": "nouns",
+      "text": "Proper nouns begin with ___.",
       "image": null,
       "options": {
-        "A": "germs",
-        "B": "water",
-        "C": "vitamins",
-        "D": "nutrients"
+        "A": "capital letters",
+        "B": "small letters",
+        "C": "numbers",
+        "D": "question marks"
       },
       "answer": "A",
-      "difficulty": "medium"
+      "difficulty": "easy"
     },
     {
       "id": 59,
-      "domain": "cleanliness",
-      "text": "When should we wash our hands with soap?",
+      "domain": "nouns",
+      "text": "Which of these is a PROPER noun?",
       "image": null,
       "options": {
-        "A": "before and after a meal, and after using the toilet",
-        "B": "only when playing outside",
-        "C": "only in the morning",
-        "D": "only before sleeping"
-      },
-      "answer": "A",
-      "difficulty": "medium"
-    },
-    {
-      "id": 60,
-      "domain": "cleanliness",
-      "text": "Oral health refers to the health of our ___.",
-      "image": null,
-      "options": {
-        "A": "eyes and ears",
-        "B": "hair and skin",
-        "C": "hands and feet",
-        "D": "mouth and teeth"
-      },
-      "answer": "D",
-      "difficulty": "medium"
-    },
-    {
-      "id": 61,
-      "domain": "cleanliness",
-      "text": "How often should we brush our teeth to keep them clean?",
-      "image": null,
-      "options": {
-        "A": "twice a day",
-        "B": "once a week",
-        "C": "once a month",
-        "D": "only on birthdays"
-      },
-      "answer": "A",
-      "difficulty": "medium"
-    },
-    {
-      "id": 62,
-      "domain": "exercise_rest",
-      "text": "Regular exercise keeps our body ___.",
-      "image": null,
-      "options": {
-        "A": "fit and healthy",
-        "B": "sleepy and slow",
-        "C": "weak and tired",
-        "D": "big and heavy"
-      },
-      "answer": "A",
-      "difficulty": "easy"
-    },
-    {
-      "id": 63,
-      "domain": "exercise_rest",
-      "text": "We should get at least how many hours of sleep every night?",
-      "image": null,
-      "options": {
-        "A": "eight hours",
-        "B": "ten hours",
-        "C": "six hours",
-        "D": "four hours"
-      },
-      "answer": "A",
-      "difficulty": "easy"
-    },
-    {
-      "id": 64,
-      "domain": "exercise_rest",
-      "text": "Regular exercise makes our bones and muscles ___.",
-      "image": null,
-      "options": {
-        "A": "smaller",
-        "B": "slower",
-        "C": "softer",
-        "D": "stronger"
-      },
-      "answer": "D",
-      "difficulty": "medium"
-    },
-    {
-      "id": 65,
-      "domain": "exercise_rest",
-      "text": "Having enough rest helps us to ___ when we study.",
-      "image": null,
-      "options": {
-        "A": "sleep more",
-        "B": "focus",
-        "C": "eat more",
-        "D": "run faster"
-      },
-      "answer": "B",
-      "difficulty": "medium"
-    },
-    {
-      "id": 66,
-      "domain": "exercise_rest",
-      "text": "Regular exercise helps our body to ___.",
-      "image": null,
-      "options": {
-        "A": "function better",
-        "B": "stop growing",
-        "C": "need more sleep",
-        "D": "fall sick easily"
-      },
-      "answer": "A",
-      "difficulty": "medium"
-    },
-    {
-      "id": 67,
-      "domain": "environment_habits",
-      "text": "Our environment refers to the ___ in which we live.",
-      "image": null,
-      "options": {
-        "A": "clothes",
-        "B": "surroundings",
-        "C": "foods",
-        "D": "toys"
-      },
-      "answer": "B",
-      "difficulty": "easy"
-    },
-    {
-      "id": 68,
-      "domain": "environment_habits",
-      "text": "If our environment is clean, we will ___.",
-      "image": null,
-      "options": {
-        "A": "not fall sick easily",
-        "B": "need more food",
-        "C": "get hurt easily",
-        "D": "fall sick easily"
-      },
-      "answer": "A",
-      "difficulty": "medium"
-    },
-    {
-      "id": 69,
-      "domain": "environment_habits",
-      "text": "Which of these is a healthy habit?",
-      "image": null,
-      "options": {
-        "A": "being inactive",
-        "B": "never resting",
-        "C": "always having a balanced diet",
-        "D": "not eating a balanced diet"
+        "A": "movie",
+        "B": "bread",
+        "C": "Pacific Ocean",
+        "D": "dog"
       },
       "answer": "C",
       "difficulty": "medium"
     },
     {
-      "id": 70,
-      "domain": "environment_habits",
-      "text": "Which of these is an unhealthy habit?",
+      "id": 60,
+      "domain": "nouns",
+      "text": "Which sentence is capitalized CORRECTLY?",
       "image": null,
       "options": {
-        "A": "exercising regularly",
-        "B": "having enough rest",
-        "C": "bathing every day",
-        "D": "not getting enough exercise and rest"
+        "A": "Last week, ms. whittier took us to the museum of art.",
+        "B": "Last week, Ms. Whittier took us to the Museum of Art.",
+        "C": "last week, ms. whittier took us to the museum of art.",
+        "D": "Last week, Ms. whittier took us to the Museum of Art."
+      },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": 61,
+      "domain": "vocabulary",
+      "text": "\"The artist added more detail to show the story's setting.\" — which word does this sentence explain?",
+      "image": null,
+      "options": {
+        "A": "moody",
+        "B": "pesky",
+        "C": "illustrate",
+        "D": "snarled"
+      },
+      "answer": "C",
+      "difficulty": "medium"
+    },
+    {
+      "id": 62,
+      "domain": "vocabulary",
+      "text": "\"Ben's happiness suddenly changed to anger.\" — which word fits this sentence?",
+      "image": null,
+      "options": {
+        "A": "moody",
+        "B": "pesky",
+        "C": "illustrate",
+        "D": "snarled"
+      },
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "id": 63,
+      "domain": "vocabulary",
+      "text": "\"I told my sister over and over not to talk to me when I read.\" — the word that fits is ___.",
+      "image": null,
+      "options": {
+        "A": "moody",
+        "B": "pesky",
+        "C": "illustrate",
+        "D": "snarled"
+      },
+      "answer": "B",
+      "difficulty": "medium"
+    },
+    {
+      "id": 64,
+      "domain": "vocabulary",
+      "text": "\"The rubber bands got twisted together in the bag.\" — the word that fits is ___.",
+      "image": null,
+      "options": {
+        "A": "moody",
+        "B": "pesky",
+        "C": "illustrate",
+        "D": "snarled"
       },
       "answer": "D",
+      "difficulty": "hard"
+    },
+    {
+      "id": 65,
+      "domain": "vocabulary",
+      "text": "A person who can speak two languages is ___.",
+      "image": null,
+      "options": {
+        "A": "bilingual",
+        "B": "mismatched",
+        "C": "mushy",
+        "D": "winking"
+      },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": 66,
+      "domain": "literary_elements",
+      "text": "The people and animals in a story are called the ___.",
+      "image": null,
+      "options": {
+        "A": "setting",
+        "B": "characters",
+        "C": "plot",
+        "D": "title"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": 67,
+      "domain": "literary_elements",
+      "text": "The place and time where a story happens is called the ___.",
+      "image": null,
+      "options": {
+        "A": "plot",
+        "B": "characters",
+        "C": "setting",
+        "D": "idiom"
+      },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": 68,
+      "domain": "literary_elements",
+      "text": "The events that happen in a story are called the ___.",
+      "image": null,
+      "options": {
+        "A": "setting",
+        "B": "characters",
+        "C": "plot",
+        "D": "theme"
+      },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": 69,
+      "domain": "literary_elements",
+      "text": "In \"Stink and the Freaky Frog Freakout\", who is the main character?",
+      "image": null,
+      "options": {
+        "A": "Judy",
+        "B": "Stink",
+        "C": "Webster",
+        "D": "the frog"
+      },
+      "answer": "B",
+      "difficulty": "medium"
+    },
+    {
+      "id": 70,
+      "domain": "literary_elements",
+      "text": "A narrator who is part of the story and uses words like I, me, and we is ___.",
+      "image": null,
+      "options": {
+        "A": "third-person",
+        "B": "first-person",
+        "C": "second-person",
+        "D": "no narrator"
+      },
+      "answer": "B",
       "difficulty": "medium"
     }
   ]
