@@ -1,10 +1,10 @@
 {
   "kid": "keeva",
-  "subject": "English",
+  "subject": "Math",
   "grade": "Grade 3",
-  "source_pdf": "Adobe Scan Aug 11 2026 - English Grammar Grade 3 (HMH)",
-  "generated_at": "2026-08-11T19:05:00+07:00",
-  "title": "Keeva's Grammar Quest",
+  "source_pdf": "Primary Mathematics 3A (Marshall Cavendish) - Numbers to 10 000, Addition & Subtraction",
+  "generated_at": "2026-08-12T19:30:00+07:00",
+  "title": "Keeva's Math Quest",
   "character": "knight",
   "config": {
     "hero_hp": 5,
@@ -18,983 +18,983 @@
   "questions": [
     {
       "id": 1,
-      "domain": "kinds_of_sentences",
-      "text": "A sentence that tells something is called a ___.",
+      "domain": "counting_to_1000",
+      "text": "10 hundreds make 1 ___.",
       "image": null,
       "options": {
-        "A": "question",
-        "B": "command",
-        "C": "statement",
-        "D": "exclamation"
+        "A": "ten",
+        "B": "hundred",
+        "C": "thousand",
+        "D": "million"
       },
       "answer": "C",
       "difficulty": "easy"
     },
     {
       "id": 2,
-      "domain": "kinds_of_sentences",
-      "text": "What mark does a question end with?",
+      "domain": "counting_to_1000",
+      "text": "Count in hundreds: 100, 200, 300, 400, 500, 600, 700, 800, 900, ... What comes next?",
       "image": null,
       "options": {
-        "A": "period",
-        "B": "question mark",
-        "C": "exclamation point",
-        "D": "comma"
+        "A": "910",
+        "B": "1000",
+        "C": "990",
+        "D": "2000"
       },
       "answer": "B",
       "difficulty": "easy"
     },
     {
       "id": 3,
-      "domain": "kinds_of_sentences",
-      "text": "A sentence that asks something is called a ___.",
+      "domain": "counting_to_1000",
+      "text": "There are 10 boxes of paper clips. Each box has 100 paper clips. How many paper clips are there in all?",
       "image": null,
       "options": {
-        "A": "question",
-        "B": "statement",
-        "C": "command",
-        "D": "exclamation"
+        "A": "100",
+        "B": "110",
+        "C": "1000",
+        "D": "10000"
       },
-      "answer": "A",
-      "difficulty": "easy"
+      "answer": "C",
+      "difficulty": "medium"
     },
     {
       "id": 4,
-      "domain": "kinds_of_sentences",
-      "text": "A sentence that tells someone to do something is called a ___.",
+      "domain": "counting_to_1000",
+      "text": "How many (100) counters make one (1000) counter?",
       "image": null,
       "options": {
-        "A": "statement",
-        "B": "question",
-        "C": "command",
-        "D": "exclamation"
-      },
-      "answer": "C",
-      "difficulty": "medium"
-    },
-    {
-      "id": 5,
-      "domain": "kinds_of_sentences",
-      "text": "A sentence that shows strong feeling, such as excitement or surprise, is called an ___.",
-      "image": null,
-      "options": {
-        "A": "statement",
-        "B": "question",
-        "C": "command",
-        "D": "exclamation"
-      },
-      "answer": "D",
-      "difficulty": "medium"
-    },
-    {
-      "id": 6,
-      "domain": "kinds_of_sentences",
-      "text": "What mark does an exclamation end with?",
-      "image": null,
-      "options": {
-        "A": "period",
-        "B": "question mark",
-        "C": "exclamation point",
-        "D": "comma"
+        "A": "2",
+        "B": "5",
+        "C": "10",
+        "D": "100"
       },
       "answer": "C",
       "difficulty": "easy"
     },
     {
-      "id": 7,
-      "domain": "kinds_of_sentences",
-      "text": "\"Where is my new bracelet?\" — what kind of sentence is this?",
+      "id": 5,
+      "domain": "counting_to_1000",
+      "text": "There are 7 boxes of paper clips. Each box has 100 paper clips. How many paper clips are there?",
       "image": null,
       "options": {
-        "A": "statement",
-        "B": "question",
-        "C": "command",
-        "D": "exclamation"
+        "A": "107",
+        "B": "700",
+        "C": "70",
+        "D": "7000"
       },
       "answer": "B",
       "difficulty": "medium"
     },
     {
-      "id": 8,
-      "domain": "kinds_of_sentences",
-      "text": "\"Uncle Randy is a great storyteller.\" — what kind of sentence is this?",
+      "id": 6,
+      "domain": "counting_to_1000",
+      "text": "10 hundreds make 1 thousand. How many hundreds are there in 3 thousands?",
       "image": null,
       "options": {
-        "A": "statement",
-        "B": "question",
-        "C": "command",
-        "D": "exclamation"
+        "A": "3",
+        "B": "30",
+        "C": "300",
+        "D": "3000"
       },
-      "answer": "A",
+      "answer": "B",
       "difficulty": "medium"
     },
     {
-      "id": 9,
-      "domain": "kinds_of_sentences",
-      "text": "\"Get away from that snake!\" — what kind of sentence is this?",
+      "id": 7,
+      "domain": "place_value",
+      "text": "10 thousands make ___.",
       "image": null,
       "options": {
-        "A": "statement",
-        "B": "question",
-        "C": "command",
-        "D": "exclamation"
+        "A": "1000",
+        "B": "10 000",
+        "C": "100 000",
+        "D": "100"
       },
-      "answer": "D",
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": 8,
+      "domain": "place_value",
+      "text": "Count in thousands: 1000, 2000, 3000, ... What is 1000 more than 3000?",
+      "image": null,
+      "options": {
+        "A": "3100",
+        "B": "4000",
+        "C": "3010",
+        "D": "3001"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": 9,
+      "domain": "place_value",
+      "text": "In the number 5380, what does the digit 8 stand for?",
+      "image": null,
+      "options": {
+        "A": "8 ones",
+        "B": "8 hundreds",
+        "C": "8 tens",
+        "D": "8 thousands"
+      },
+      "answer": "C",
       "difficulty": "medium"
     },
     {
       "id": 10,
-      "domain": "kinds_of_sentences",
-      "text": "\"Please take the garbage outside.\" — what kind of sentence is this?",
+      "domain": "place_value",
+      "text": "Write in numbers: six thousand",
       "image": null,
       "options": {
-        "A": "question",
-        "B": "exclamation",
-        "C": "command",
-        "D": "statement"
+        "A": "600",
+        "B": "6000",
+        "C": "60 000",
+        "D": "6100"
       },
-      "answer": "C",
-      "difficulty": "hard"
+      "answer": "B",
+      "difficulty": "easy"
     },
     {
       "id": 11,
-      "domain": "kinds_of_sentences",
-      "text": "Which sentence has the WRONG punctuation?",
+      "domain": "place_value",
+      "text": "Write in numbers: five thousand, three hundred and eighty",
       "image": null,
       "options": {
-        "A": "We worked really hard on our robot?",
-        "B": "After three weeks, our robot was complete.",
-        "C": "It was able to walk a short distance.",
-        "D": "We did!"
+        "A": "5380",
+        "B": "5308",
+        "C": "5830",
+        "D": "5083"
       },
       "answer": "A",
-      "difficulty": "hard"
+      "difficulty": "medium"
     },
     {
       "id": 12,
-      "domain": "subjects_predicates",
-      "text": "The part of a sentence that tells whom or what the sentence is about is the ___.",
+      "domain": "place_value",
+      "text": "Write in words: 6000",
       "image": null,
       "options": {
-        "A": "predicate",
-        "B": "subject",
-        "C": "verb",
-        "D": "noun"
+        "A": "six hundred",
+        "B": "six thousand",
+        "C": "six hundred thousand",
+        "D": "sixty thousand"
       },
       "answer": "B",
       "difficulty": "easy"
     },
     {
       "id": 13,
-      "domain": "subjects_predicates",
-      "text": "The part of a sentence that tells what the subject does or is is the ___.",
+      "domain": "place_value",
+      "text": "What is 1000 more than 1952?",
       "image": null,
       "options": {
-        "A": "subject",
-        "B": "object",
-        "C": "predicate",
-        "D": "adjective"
+        "A": "2052",
+        "B": "1962",
+        "C": "2952",
+        "D": "1953"
       },
       "answer": "C",
-      "difficulty": "easy"
+      "difficulty": "medium"
     },
     {
       "id": 14,
-      "domain": "subjects_predicates",
-      "text": "In \"Saturday is my birthday\", what is the complete subject?",
+      "domain": "place_value",
+      "text": "In the number 2145, which digit is in the thousands place?",
       "image": null,
       "options": {
-        "A": "is my birthday",
-        "B": "birthday",
-        "C": "Saturday",
-        "D": "Saturday is"
+        "A": "1",
+        "B": "4",
+        "C": "5",
+        "D": "2"
       },
-      "answer": "C",
+      "answer": "D",
       "difficulty": "medium"
     },
     {
       "id": 15,
-      "domain": "subjects_predicates",
-      "text": "In \"The snow in the mountains was melting\", what is the complete subject?",
+      "domain": "more_less",
+      "text": "What is 1 more than 2326?",
       "image": null,
       "options": {
-        "A": "was melting",
-        "B": "The snow",
-        "C": "the mountains",
-        "D": "The snow in the mountains"
+        "A": "2327",
+        "B": "2325",
+        "C": "2336",
+        "D": "2426"
       },
-      "answer": "B",
-      "difficulty": "medium"
+      "answer": "A",
+      "difficulty": "easy"
     },
     {
       "id": 16,
-      "domain": "subjects_predicates",
-      "text": "A compound subject has ___.",
+      "domain": "more_less",
+      "text": "What is 1 less than 2326?",
       "image": null,
       "options": {
-        "A": "one word only",
-        "B": "two or more subjects joined by a conjunction",
-        "C": "no subject at all",
-        "D": "a verb and an adverb"
+        "A": "2327",
+        "B": "2325",
+        "C": "2316",
+        "D": "2226"
       },
       "answer": "B",
-      "difficulty": "medium"
+      "difficulty": "easy"
     },
     {
       "id": 17,
-      "domain": "subjects_predicates",
-      "text": "\"My cousins and their parents live in New Jersey.\" — is the subject simple or compound?",
+      "domain": "more_less",
+      "text": "What is 10 more than 4052?",
       "image": null,
       "options": {
-        "A": "simple",
-        "B": "compound",
-        "C": "there is no subject",
-        "D": "a fragment"
+        "A": "4053",
+        "B": "4062",
+        "C": "4152",
+        "D": "4042"
       },
       "answer": "B",
       "difficulty": "medium"
     },
     {
       "id": 18,
-      "domain": "subjects_predicates",
-      "text": "In \"Kyle eats a juicy apple\", what is the simple predicate?",
+      "domain": "more_less",
+      "text": "What is 10 less than 4052?",
       "image": null,
       "options": {
-        "A": "Kyle",
-        "B": "a juicy apple",
-        "C": "eats",
-        "D": "apple"
+        "A": "4062",
+        "B": "4051",
+        "C": "4042",
+        "D": "3952"
       },
       "answer": "C",
       "difficulty": "medium"
     },
     {
       "id": 19,
-      "domain": "subjects_predicates",
-      "text": "\"I sit and read under the tree.\" — the predicate here is ___.",
+      "domain": "more_less",
+      "text": "What is 100 more than 5569?",
       "image": null,
       "options": {
-        "A": "simple",
-        "B": "compound",
-        "C": "missing",
-        "D": "a noun"
+        "A": "5579",
+        "B": "5669",
+        "C": "6569",
+        "D": "5469"
       },
       "answer": "B",
-      "difficulty": "hard"
+      "difficulty": "medium"
     },
     {
       "id": 20,
-      "domain": "subjects_predicates",
-      "text": "In \"My best friend and I like to play video games\", what is the complete subject?",
+      "domain": "more_less",
+      "text": "What is 100 less than 5569?",
       "image": null,
       "options": {
-        "A": "My best friend and I",
-        "B": "like to play video games",
-        "C": "video games",
-        "D": "My best friend"
+        "A": "5469",
+        "B": "5559",
+        "C": "5669",
+        "D": "4569"
       },
       "answer": "A",
       "difficulty": "medium"
     },
     {
       "id": 21,
-      "domain": "fragments",
-      "text": "A group of words that does NOT tell a complete thought is called a ___.",
+      "domain": "more_less",
+      "text": "What is 1000 less than 2952?",
       "image": null,
       "options": {
-        "A": "sentence",
-        "B": "paragraph",
-        "C": "fragment",
-        "D": "predicate"
+        "A": "2852",
+        "B": "1952",
+        "C": "2942",
+        "D": "2052"
       },
-      "answer": "C",
-      "difficulty": "easy"
+      "answer": "B",
+      "difficulty": "medium"
     },
     {
       "id": 22,
-      "domain": "fragments",
-      "text": "Which of these is a COMPLETE sentence?",
+      "domain": "more_less",
+      "text": "What is 1000 more than 2952?",
       "image": null,
       "options": {
-        "A": "drove her car",
-        "B": "The robin looked for worms on the fence.",
-        "C": "Loves to eat fish treats.",
-        "D": "two small frogs"
+        "A": "3952",
+        "B": "2962",
+        "C": "3052",
+        "D": "2953"
       },
-      "answer": "B",
-      "difficulty": "medium"
+      "answer": "A",
+      "difficulty": "hard"
     },
     {
       "id": 23,
-      "domain": "fragments",
-      "text": "Which of these is NOT a complete sentence?",
+      "domain": "comparing",
+      "text": "Which number is greater: 5614 or 5328?",
       "image": null,
       "options": {
-        "A": "Rhonda has a cat.",
-        "B": "He purrs when he sleeps.",
-        "C": "Loves to eat fish treats.",
-        "D": "This makes Rhonda laugh."
+        "A": "5328",
+        "B": "5614",
+        "C": "they are equal",
+        "D": "5000"
       },
-      "answer": "C",
-      "difficulty": "medium"
+      "answer": "B",
+      "difficulty": "easy"
     },
     {
       "id": 24,
-      "domain": "fragments",
-      "text": "Which of these is NOT a complete sentence?",
+      "domain": "comparing",
+      "text": "Why is 5614 greater than 5328?",
       "image": null,
       "options": {
-        "A": "The cat her lap.",
-        "B": "The cat has a toy mouse.",
-        "C": "He likes to chase it around the living room.",
-        "D": "Her cat also sleeps a lot."
+        "A": "its ones digit is bigger",
+        "B": "its hundreds digit is bigger (600 > 300)",
+        "C": "it has more digits",
+        "D": "its tens digit is smaller"
       },
-      "answer": "A",
-      "difficulty": "medium"
+      "answer": "B",
+      "difficulty": "hard"
     },
     {
       "id": 25,
-      "domain": "fragments",
-      "text": "\"Two small frogs jumped to a lily pad.\" — is this a complete sentence or a fragment?",
+      "domain": "comparing",
+      "text": "Which number is smaller: 2638 or 2635?",
       "image": null,
       "options": {
-        "A": "fragment",
-        "B": "complete sentence",
-        "C": "a question",
-        "D": "a command"
+        "A": "2635",
+        "B": "2638",
+        "C": "they are equal",
+        "D": "2630"
       },
-      "answer": "B",
+      "answer": "A",
       "difficulty": "medium"
     },
     {
       "id": 26,
-      "domain": "fragments",
-      "text": "Which group of words would COMPLETE this sentence: \"Alexander ___\"?",
+      "domain": "comparing",
+      "text": "On a number line, the numbers become greater as we move to the ___.",
       "image": null,
       "options": {
-        "A": "is good at telling jokes",
-        "B": "good at telling",
-        "C": "at telling jokes",
-        "D": "telling jokes good"
+        "A": "left",
+        "B": "right",
+        "C": "top",
+        "D": "bottom"
       },
-      "answer": "A",
+      "answer": "B",
       "difficulty": "medium"
     },
     {
       "id": 27,
-      "domain": "prefixes",
-      "text": "A prefix is a word part added to the ___ of a base word.",
+      "domain": "comparing",
+      "text": "6963 is ___ 6517.",
       "image": null,
       "options": {
-        "A": "end",
-        "B": "middle",
-        "C": "beginning",
-        "D": "everywhere"
+        "A": "smaller than",
+        "B": "equal to",
+        "C": "greater than",
+        "D": "half of"
       },
       "answer": "C",
-      "difficulty": "easy"
+      "difficulty": "medium"
     },
     {
       "id": 28,
-      "domain": "prefixes",
-      "text": "What does the prefix non- mean?",
+      "domain": "comparing",
+      "text": "Which symbol makes this true: 5328 ___ 5614",
       "image": null,
       "options": {
-        "A": "again",
-        "B": "not",
-        "C": "before",
-        "D": "full of"
+        "A": ">",
+        "B": "<",
+        "C": "=",
+        "D": "+"
       },
       "answer": "B",
-      "difficulty": "easy"
+      "difficulty": "medium"
     },
     {
       "id": 29,
-      "domain": "prefixes",
-      "text": "What does the prefix mis- mean?",
+      "domain": "comparing",
+      "text": "Which number is greater: 4830 or 4860?",
       "image": null,
       "options": {
-        "A": "wrongly or badly",
-        "B": "not",
-        "C": "full of",
-        "D": "again"
+        "A": "4830",
+        "B": "4860",
+        "C": "they are equal",
+        "D": "4000"
       },
-      "answer": "A",
+      "answer": "B",
       "difficulty": "medium"
     },
     {
       "id": 30,
-      "domain": "prefixes",
-      "text": "non + stop = nonstop. What does nonstop mean?",
+      "domain": "comparing",
+      "text": "To compare 6517 and 6963, the thousands are both 6, so we compare the ___.",
       "image": null,
       "options": {
-        "A": "stopping twice",
-        "B": "not stopping",
-        "C": "stopping slowly",
-        "D": "a bus stop"
+        "A": "ones",
+        "B": "tens",
+        "C": "hundreds",
+        "D": "no need to compare"
       },
-      "answer": "B",
+      "answer": "C",
       "difficulty": "medium"
     },
     {
       "id": 31,
-      "domain": "prefixes",
-      "text": "non + fiction = nonfiction. What kind of story is nonfiction?",
+      "domain": "addition",
+      "text": "Find the sum of 432 and 536.",
       "image": null,
       "options": {
-        "A": "make-believe",
-        "B": "about real facts, not make-believe",
-        "C": "a fairy tale",
-        "D": "a poem"
+        "A": "968",
+        "B": "958",
+        "C": "1068",
+        "D": "868"
       },
-      "answer": "B",
-      "difficulty": "medium"
+      "answer": "A",
+      "difficulty": "easy"
     },
     {
       "id": 32,
-      "domain": "prefixes",
-      "text": "Tyler took the wrong route because he ___ the directions.",
+      "domain": "addition",
+      "text": "Find the sum of 1796 and 3628.",
       "image": null,
       "options": {
-        "A": "unremembered",
-        "B": "misremembered",
-        "C": "nonremembered",
-        "D": "remembered"
+        "A": "5324",
+        "B": "5424",
+        "C": "5414",
+        "D": "5524"
       },
       "answer": "B",
       "difficulty": "medium"
     },
     {
       "id": 33,
-      "domain": "prefixes",
-      "text": "It is easy to ___ some words, so check a dictionary.",
+      "domain": "addition",
+      "text": "Find the sum of 2457 and 5346.",
       "image": null,
       "options": {
-        "A": "spell",
-        "B": "unspell",
-        "C": "misspell",
-        "D": "nonspell"
+        "A": "7803",
+        "B": "7703",
+        "C": "7813",
+        "D": "7903"
       },
-      "answer": "C",
+      "answer": "A",
       "difficulty": "medium"
     },
     {
       "id": 34,
-      "domain": "suffixes",
-      "text": "A suffix is a word part added to the ___ of a base word.",
+      "domain": "addition",
+      "text": "Find the sum of 999 and 4836.",
       "image": null,
       "options": {
-        "A": "beginning",
-        "B": "middle",
-        "C": "end",
-        "D": "top"
+        "A": "5835",
+        "B": "5735",
+        "C": "4825",
+        "D": "5935"
       },
-      "answer": "C",
-      "difficulty": "easy"
+      "answer": "A",
+      "difficulty": "hard"
     },
     {
       "id": 35,
-      "domain": "suffixes",
-      "text": "The suffix -ful usually means ___.",
+      "domain": "addition",
+      "text": "Find the sum of 1234 and 4321.",
       "image": null,
       "options": {
-        "A": "without",
-        "B": "full of",
-        "C": "not",
-        "D": "again"
+        "A": "6555",
+        "B": "5555",
+        "C": "5565",
+        "D": "5455"
       },
       "answer": "B",
       "difficulty": "easy"
     },
     {
       "id": 36,
-      "domain": "suffixes",
-      "text": "fear + less = fearless. What does fearless mean?",
+      "domain": "addition",
+      "text": "The sum of two numbers is 146. One of the numbers is 32. What is the other number?",
       "image": null,
       "options": {
-        "A": "full of fear",
-        "B": "without fear",
-        "C": "afraid of less",
-        "D": "scared"
+        "A": "178",
+        "B": "146",
+        "C": "114",
+        "D": "104"
       },
-      "answer": "B",
+      "answer": "C",
       "difficulty": "medium"
     },
     {
       "id": 37,
-      "domain": "suffixes",
-      "text": "\"The movie seemed ___ because it lasted more than two hours.\"",
+      "domain": "addition",
+      "text": "The sum of two numbers is 127. One of the numbers is 86. What is the other number?",
       "image": null,
       "options": {
-        "A": "hopeful",
-        "B": "wonderful",
-        "C": "endless",
-        "D": "fearless"
+        "A": "213",
+        "B": "41",
+        "C": "51",
+        "D": "127"
       },
-      "answer": "C",
+      "answer": "B",
       "difficulty": "medium"
     },
     {
       "id": 38,
-      "domain": "suffixes",
-      "text": "\"Mei gave a ___ performance and won first place in the competition.\"",
+      "domain": "addition",
+      "text": "You know the sum of two numbers and the value of one number. To find the other number, you ___.",
       "image": null,
       "options": {
-        "A": "wonderful",
-        "B": "windowless",
-        "C": "hopeless",
-        "D": "cloudless"
+        "A": "add",
+        "B": "subtract",
+        "C": "multiply",
+        "D": "divide"
       },
-      "answer": "A",
+      "answer": "B",
       "difficulty": "medium"
     },
     {
       "id": 39,
-      "domain": "figurative_language",
-      "text": "A simile compares two things using the words ___.",
+      "domain": "subtraction",
+      "text": "Find the difference between 86 and 54.",
       "image": null,
       "options": {
-        "A": "and or but",
-        "B": "like or as",
-        "C": "if or then",
-        "D": "so or because"
+        "A": "32",
+        "B": "42",
+        "C": "22",
+        "D": "140"
       },
-      "answer": "B",
+      "answer": "A",
       "difficulty": "easy"
     },
     {
       "id": 40,
-      "domain": "figurative_language",
-      "text": "An idiom is a phrase that means something ___.",
+      "domain": "subtraction",
+      "text": "To find the difference between two numbers, we ___.",
       "image": null,
       "options": {
-        "A": "exactly what the words say",
-        "B": "different from what the words literally mean",
-        "C": "the same in every language",
-        "D": "only in math"
+        "A": "add",
+        "B": "subtract",
+        "C": "multiply",
+        "D": "count on"
       },
       "answer": "B",
-      "difficulty": "easy"
+      "difficulty": "medium"
     },
     {
       "id": 41,
-      "domain": "figurative_language",
-      "text": "A hyperbole is ___.",
+      "domain": "subtraction",
+      "text": "Subtract: 146 - 32 = ___",
       "image": null,
       "options": {
-        "A": "an exaggeration",
-        "B": "a question",
-        "C": "a command",
-        "D": "a small word"
+        "A": "178",
+        "B": "124",
+        "C": "114",
+        "D": "104"
       },
-      "answer": "A",
-      "difficulty": "easy"
+      "answer": "C",
+      "difficulty": "medium"
     },
     {
       "id": 42,
-      "domain": "figurative_language",
-      "text": "A word that imitates the sound it represents is called ___.",
+      "domain": "subtraction",
+      "text": "Subtract: 127 - 86 = ___",
       "image": null,
       "options": {
-        "A": "a simile",
-        "B": "an idiom",
-        "C": "onomatopoeia",
-        "D": "a hyperbole"
+        "A": "41",
+        "B": "31",
+        "C": "213",
+        "D": "51"
       },
-      "answer": "C",
-      "difficulty": "easy"
+      "answer": "A",
+      "difficulty": "medium"
     },
     {
       "id": 43,
-      "domain": "figurative_language",
-      "text": "Which word is an example of onomatopoeia?",
+      "domain": "subtraction",
+      "text": "Subtract mentally: 57 - 32 = ___",
       "image": null,
       "options": {
-        "A": "beep",
-        "B": "house",
-        "C": "quickly",
-        "D": "happy"
+        "A": "35",
+        "B": "25",
+        "C": "15",
+        "D": "89"
       },
-      "answer": "A",
+      "answer": "B",
       "difficulty": "medium"
     },
     {
       "id": 44,
-      "domain": "figurative_language",
-      "text": "\"Stink snored up a storm\" — the idiom means he ___.",
+      "domain": "subtraction",
+      "text": "Subtract mentally: 90 - 42 = ___",
       "image": null,
       "options": {
-        "A": "made a storm with his breath",
-        "B": "snored very loudly",
-        "C": "was afraid of storms",
-        "D": "slept outside"
+        "A": "52",
+        "B": "58",
+        "C": "48",
+        "D": "42"
       },
-      "answer": "B",
+      "answer": "C",
       "difficulty": "medium"
     },
     {
       "id": 45,
-      "domain": "figurative_language",
-      "text": "Why is \"snored up a storm\" also an example of hyperbole?",
+      "domain": "subtraction",
+      "text": "Subtract mentally: 78 - 45 = ___",
       "image": null,
       "options": {
-        "A": "it is a question",
-        "B": "it exaggerates how loud the snoring was",
-        "C": "it uses the word like",
-        "D": "it is a command"
+        "A": "23",
+        "B": "43",
+        "C": "33",
+        "D": "13"
       },
-      "answer": "B",
-      "difficulty": "hard"
+      "answer": "C",
+      "difficulty": "medium"
     },
     {
       "id": 46,
-      "domain": "figurative_language",
-      "text": "The author writes that a house is \"like a toothpick\" to help you imagine ___.",
+      "domain": "subtraction",
+      "text": "Subtract mentally: 70 - 35 = ___",
       "image": null,
       "options": {
-        "A": "the house is very small, easy for a giant to pick up",
-        "B": "the house is made of wood",
-        "C": "the house is dirty",
-        "D": "the house is very tall"
+        "A": "45",
+        "B": "25",
+        "C": "35",
+        "D": "15"
       },
-      "answer": "A",
-      "difficulty": "hard"
+      "answer": "C",
+      "difficulty": "medium"
     },
     {
       "id": 47,
-      "domain": "figurative_language",
-      "text": "Which sentence uses a simile?",
+      "domain": "mental_add",
+      "text": "Add mentally: 32 + 54 = ___",
       "image": null,
       "options": {
-        "A": "The dog barked loudly.",
-        "B": "He ran like the wind.",
-        "C": "Please close the door.",
-        "D": "I have a cat."
+        "A": "86",
+        "B": "76",
+        "C": "96",
+        "D": "84"
       },
-      "answer": "B",
-      "difficulty": "hard"
+      "answer": "A",
+      "difficulty": "medium"
     },
     {
       "id": 48,
-      "domain": "phonics_vowels",
-      "text": "In the word great, the letters ea make what sound?",
+      "domain": "mental_add",
+      "text": "Add 97 and 76. Make 100 first: 97 + 3 = 100, then 76 - 3 = 73. What is 100 + 73?",
       "image": null,
       "options": {
-        "A": "long e",
-        "B": "short e",
-        "C": "long a",
-        "D": "short a"
+        "A": "163",
+        "B": "173",
+        "C": "183",
+        "D": "153"
       },
-      "answer": "C",
+      "answer": "B",
       "difficulty": "medium"
     },
     {
       "id": 49,
-      "domain": "phonics_vowels",
-      "text": "In the word tree, the letters ee make what sound?",
+      "domain": "mental_add",
+      "text": "Add 49 and 14. Make 50 first: 49 + 1 = 50, then 14 - 1 = 13. What is 50 + 13?",
       "image": null,
       "options": {
-        "A": "long e",
-        "B": "long a",
-        "C": "short e",
-        "D": "long i"
+        "A": "63",
+        "B": "53",
+        "C": "73",
+        "D": "62"
       },
       "answer": "A",
-      "difficulty": "easy"
+      "difficulty": "medium"
     },
     {
       "id": 50,
-      "domain": "phonics_vowels",
-      "text": "Which word has a LONG A sound?",
+      "domain": "mental_add",
+      "text": "Add mentally: 12 + 35 = ___",
       "image": null,
       "options": {
-        "A": "tree",
-        "B": "clean",
-        "C": "plain",
-        "D": "sheep"
+        "A": "57",
+        "B": "37",
+        "C": "47",
+        "D": "67"
       },
       "answer": "C",
-      "difficulty": "medium"
+      "difficulty": "easy"
     },
     {
       "id": 51,
-      "domain": "phonics_vowels",
-      "text": "Which word has a LONG E sound?",
+      "domain": "mental_add",
+      "text": "Add mentally: 23 + 47 = ___",
       "image": null,
       "options": {
-        "A": "clay",
-        "B": "mail",
-        "C": "way",
-        "D": "thief"
+        "A": "70",
+        "B": "60",
+        "C": "80",
+        "D": "64"
       },
-      "answer": "D",
-      "difficulty": "medium"
+      "answer": "A",
+      "difficulty": "easy"
     },
     {
       "id": 52,
-      "domain": "phonics_vowels",
-      "text": "\"I ate a pancake for breakfast.\" — the word pancake has a ___.",
+      "domain": "mental_add",
+      "text": "Add mentally: 54 + 98 = ___",
       "image": null,
       "options": {
-        "A": "long a sound",
-        "B": "short a sound",
-        "C": "long e sound",
-        "D": "short u sound"
+        "A": "142",
+        "B": "152",
+        "C": "162",
+        "D": "148"
       },
-      "answer": "A",
-      "difficulty": "medium"
-    },
-    {
-      "id": 53,
-      "domain": "phonics_vowels",
-      "text": "If a joke was not funny, you can say the joke is ___.",
-      "image": null,
-      "options": {
-        "A": "broke",
-        "B": "lime",
-        "C": "plate",
-        "D": "tone"
-      },
-      "answer": "A",
-      "difficulty": "medium"
-    },
-    {
-      "id": 54,
-      "domain": "phonics_vowels",
-      "text": "A snake that shivers from the cold does a ___.",
-      "image": null,
-      "options": {
-        "A": "snake shake",
-        "B": "snake bake",
-        "C": "snake lake",
-        "D": "snake take"
-      },
-      "answer": "A",
-      "difficulty": "medium"
-    },
-    {
-      "id": 55,
-      "domain": "phonics_vowels",
-      "text": "If you put paper plates under your feet, you can go for a ___.",
-      "image": null,
-      "options": {
-        "A": "plate skate",
-        "B": "plate gate",
-        "C": "plate state",
-        "D": "plate late"
-      },
-      "answer": "A",
+      "answer": "B",
       "difficulty": "hard"
     },
     {
-      "id": 56,
-      "domain": "phonics_vowels",
-      "text": "Which word has a SHORT vowel sound?",
+      "id": 53,
+      "domain": "mental_add",
+      "text": "Add mentally: 67 + 72 = ___",
       "image": null,
       "options": {
-        "A": "rope",
-        "B": "apple",
-        "C": "home",
-        "D": "phone"
+        "A": "129",
+        "B": "149",
+        "C": "139",
+        "D": "135"
+      },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": 54,
+      "domain": "mental_add",
+      "text": "Add mentally: 97 + 99 = ___",
+      "image": null,
+      "options": {
+        "A": "186",
+        "B": "206",
+        "C": "196",
+        "D": "198"
+      },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": 55,
+      "domain": "mental_sub",
+      "text": "Subtract mentally: 76 - 32 = ___",
+      "image": null,
+      "options": {
+        "A": "54",
+        "B": "44",
+        "C": "34",
+        "D": "104"
       },
       "answer": "B",
       "difficulty": "medium"
     },
     {
-      "id": 57,
-      "domain": "nouns",
-      "text": "A noun names a person, a place, or a ___.",
+      "id": 56,
+      "domain": "mental_sub",
+      "text": "Subtract 48 from 83. 48 is near 50, so do 83 - 50 = 33. What must you do next?",
       "image": null,
       "options": {
-        "A": "color",
-        "B": "thing",
-        "C": "action",
-        "D": "feeling"
+        "A": "subtract 2 more",
+        "B": "add back 2",
+        "C": "add 5",
+        "D": "subtract 5"
       },
       "answer": "B",
-      "difficulty": "easy"
+      "difficulty": "hard"
+    },
+    {
+      "id": 57,
+      "domain": "mental_sub",
+      "text": "Subtract mentally: 83 - 46 = ___",
+      "image": null,
+      "options": {
+        "A": "47",
+        "B": "37",
+        "C": "27",
+        "D": "43"
+      },
+      "answer": "B",
+      "difficulty": "medium"
     },
     {
       "id": 58,
-      "domain": "nouns",
-      "text": "Proper nouns begin with ___.",
+      "domain": "mental_sub",
+      "text": "Subtract mentally: 67 - 38 = ___",
       "image": null,
       "options": {
-        "A": "capital letters",
-        "B": "small letters",
-        "C": "numbers",
-        "D": "question marks"
+        "A": "39",
+        "B": "29",
+        "C": "19",
+        "D": "35"
       },
-      "answer": "A",
-      "difficulty": "easy"
+      "answer": "B",
+      "difficulty": "medium"
     },
     {
       "id": 59,
-      "domain": "nouns",
-      "text": "Which of these is a PROPER noun?",
+      "domain": "mental_sub",
+      "text": "Subtract mentally: 57 - 32 = ___",
       "image": null,
       "options": {
-        "A": "movie",
-        "B": "bread",
-        "C": "Pacific Ocean",
-        "D": "dog"
+        "A": "15",
+        "B": "35",
+        "C": "25",
+        "D": "45"
       },
       "answer": "C",
       "difficulty": "medium"
     },
     {
       "id": 60,
-      "domain": "nouns",
-      "text": "Which sentence is capitalized CORRECTLY?",
+      "domain": "mental_sub",
+      "text": "Max has 64 biscuits. He sells 8. 8 is near to 10, so first do 64 - 10 = 54. What is the next step?",
       "image": null,
       "options": {
-        "A": "Last week, ms. whittier took us to the museum of art.",
-        "B": "Last week, Ms. Whittier took us to the Museum of Art.",
-        "C": "last week, ms. whittier took us to the museum of art.",
-        "D": "Last week, Ms. whittier took us to the Museum of Art."
+        "A": "54 - 2",
+        "B": "54 + 2",
+        "C": "54 + 8",
+        "D": "54 - 10"
       },
       "answer": "B",
       "difficulty": "hard"
     },
     {
       "id": 61,
-      "domain": "vocabulary",
-      "text": "\"The artist added more detail to show the story's setting.\" — which word does this sentence explain?",
+      "domain": "mental_sub",
+      "text": "Max has 64 biscuits and sells 8. How many biscuits does he have left?",
       "image": null,
       "options": {
-        "A": "moody",
-        "B": "pesky",
-        "C": "illustrate",
-        "D": "snarled"
-      },
-      "answer": "C",
-      "difficulty": "medium"
-    },
-    {
-      "id": 62,
-      "domain": "vocabulary",
-      "text": "\"Ben's happiness suddenly changed to anger.\" — which word fits this sentence?",
-      "image": null,
-      "options": {
-        "A": "moody",
-        "B": "pesky",
-        "C": "illustrate",
-        "D": "snarled"
+        "A": "56",
+        "B": "54",
+        "C": "46",
+        "D": "72"
       },
       "answer": "A",
       "difficulty": "medium"
     },
     {
-      "id": 63,
-      "domain": "vocabulary",
-      "text": "\"I told my sister over and over not to talk to me when I read.\" — the word that fits is ___.",
+      "id": 62,
+      "domain": "mental_sub",
+      "text": "Max has 96 brownies and sells 19. Use the near-20 way: 96 - 20 = 76. How many brownies are left?",
       "image": null,
       "options": {
-        "A": "moody",
-        "B": "pesky",
-        "C": "illustrate",
-        "D": "snarled"
+        "A": "76",
+        "B": "77",
+        "C": "75",
+        "D": "87"
+      },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": 63,
+      "domain": "word_problems",
+      "text": "There are 86 boys and 54 girls in a school hall. How many more boys than girls are there?",
+      "image": null,
+      "options": {
+        "A": "140",
+        "B": "22",
+        "C": "32",
+        "D": "42"
+      },
+      "answer": "C",
+      "difficulty": "medium"
+    },
+    {
+      "id": 64,
+      "domain": "word_problems",
+      "text": "A bar model shows the total 146 split into 32 and a question mark. What is the missing part?",
+      "image": null,
+      "options": {
+        "A": "178",
+        "B": "114",
+        "C": "124",
+        "D": "146"
       },
       "answer": "B",
       "difficulty": "medium"
     },
     {
-      "id": 64,
-      "domain": "vocabulary",
-      "text": "\"The rubber bands got twisted together in the bag.\" — the word that fits is ___.",
-      "image": null,
-      "options": {
-        "A": "moody",
-        "B": "pesky",
-        "C": "illustrate",
-        "D": "snarled"
-      },
-      "answer": "D",
-      "difficulty": "hard"
-    },
-    {
       "id": 65,
-      "domain": "vocabulary",
-      "text": "A person who can speak two languages is ___.",
+      "domain": "word_problems",
+      "text": "Count in thousands: \"One thousand, two thousand, three thousand... ten thousand!\" What number is ten thousand?",
       "image": null,
       "options": {
-        "A": "bilingual",
-        "B": "mismatched",
-        "C": "mushy",
-        "D": "winking"
+        "A": "10 000",
+        "B": "1000",
+        "C": "100 000",
+        "D": "10 100"
       },
       "answer": "A",
       "difficulty": "easy"
     },
     {
       "id": 66,
-      "domain": "literary_elements",
-      "text": "The people and animals in a story are called the ___.",
+      "domain": "word_problems",
+      "text": "Count: 5000, 5100, 5110, 5120, 5130, ... What comes next?",
       "image": null,
       "options": {
-        "A": "setting",
-        "B": "characters",
-        "C": "plot",
-        "D": "title"
+        "A": "5140",
+        "B": "5200",
+        "C": "5131",
+        "D": "5135"
       },
-      "answer": "B",
-      "difficulty": "easy"
+      "answer": "C",
+      "difficulty": "hard"
     },
     {
       "id": 67,
-      "domain": "literary_elements",
-      "text": "The place and time where a story happens is called the ___.",
+      "domain": "word_problems",
+      "text": "Count: 5130, 5131, 5132, 5133, ... What comes next?",
       "image": null,
       "options": {
-        "A": "plot",
-        "B": "characters",
-        "C": "setting",
-        "D": "idiom"
+        "A": "5140",
+        "B": "5134",
+        "C": "5130",
+        "D": "5234"
       },
-      "answer": "C",
-      "difficulty": "easy"
+      "answer": "B",
+      "difficulty": "medium"
     },
     {
       "id": 68,
-      "domain": "literary_elements",
-      "text": "The events that happen in a story are called the ___.",
+      "domain": "word_problems",
+      "text": "The digit 3 in 5380 is in the hundreds place. What is its value?",
       "image": null,
       "options": {
-        "A": "setting",
-        "B": "characters",
-        "C": "plot",
-        "D": "theme"
+        "A": "3",
+        "B": "30",
+        "C": "300",
+        "D": "3000"
       },
       "answer": "C",
-      "difficulty": "easy"
+      "difficulty": "medium"
     },
     {
       "id": 69,
-      "domain": "literary_elements",
-      "text": "In \"Stink and the Freaky Frog Freakout\", who is the main character?",
+      "domain": "word_problems",
+      "text": "There are 86 boys and 54 girls in a school hall. Which group has more people?",
       "image": null,
       "options": {
-        "A": "Judy",
-        "B": "Stink",
-        "C": "Webster",
-        "D": "the frog"
+        "A": "girls",
+        "B": "boys",
+        "C": "equal",
+        "D": "cannot tell"
       },
       "answer": "B",
-      "difficulty": "medium"
+      "difficulty": "easy"
     },
     {
       "id": 70,
-      "domain": "literary_elements",
-      "text": "A narrator who is part of the story and uses words like I, me, and we is ___.",
+      "domain": "word_problems",
+      "text": "A monster counts 1000, 1001, 1002, 1003, 1004, 1005. What is the number after counting?",
       "image": null,
       "options": {
-        "A": "third-person",
-        "B": "first-person",
-        "C": "second-person",
-        "D": "no narrator"
+        "A": "1004",
+        "B": "1005",
+        "C": "1015",
+        "D": "1105"
       },
       "answer": "B",
-      "difficulty": "medium"
+      "difficulty": "easy"
     }
   ]
 }
