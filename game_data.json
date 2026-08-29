@@ -622,7 +622,7 @@
       "id": 44,
       "domain": "mult6",
       "text": "1 insect has 6 legs. How many legs do 9 insects have?",
-      "image": "q_6x9_shells.svg",
+      "image": "q_6x9_beetles.svg",
       "options": {
         "A": "54",
         "B": "56",
@@ -706,7 +706,7 @@
       "id": 50,
       "domain": "mult6",
       "text": "48 markers are shared equally into packs of 6. How many packs?",
-      "image": "q_6packs_shells.svg",
+      "image": "q_6x8_markers.svg",
       "options": {
         "A": "6",
         "B": "7",
@@ -776,7 +776,7 @@
       "id": 55,
       "domain": "money_make",
       "text": "Which set of coins makes exactly $1?",
-      "image": "q_two50.svg",
+      "image": null,
       "options": {
         "A": "Two 50¢ coins",
         "B": "Three 30¢ coins",
@@ -860,7 +860,7 @@
       "id": 61,
       "domain": "mult7",
       "text": "35 cookies are packed equally into boxes of 7. How many boxes?",
-      "image": "q_7packs_shells.svg",
+      "image": "q_5x7_cookies.svg",
       "options": {
         "A": "4",
         "B": "5",
