@@ -370,7 +370,7 @@
       "id": 26,
       "domain": "money_make",
       "text": "Siti has $4 and Ravi has $2 more than Siti. How much do they have altogether?",
-      "image": null,
+      "image": "q_siti_ravi.svg",
       "options": {
         "A": "$6",
         "B": "$8",
