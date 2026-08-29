@@ -2,8 +2,8 @@
   "kid": "keeva",
   "subject": "Math",
   "grade": "Grade 3",
-  "source_pdf": "Primary Mathematics 3A (Marshall Cavendish) - Numbers to 10 000, Addition & Subtraction",
-  "generated_at": "2026-08-12T19:30:00+07:00",
+  "source_pdf": "Primary Mathematics 3A (Marshall Cavendish) - Money + Multiplication Tables 6 & 7",
+  "generated_at": "2026-08-29T00:00:00+07:00",
   "title": "Keeva's Math Quest",
   "character": "knight",
   "config": {
@@ -18,54 +18,96 @@
   "questions": [
     {
       "id": 1,
-      "domain": "counting_to_1000",
-      "text": "10 hundreds make 1 ___.",
+      "domain": "money_make",
+      "text": "Ali has 65¢. How much more money does he need to make $1?",
       "image": null,
       "options": {
-        "A": "ten",
-        "B": "hundred",
-        "C": "thousand",
-        "D": "million"
-      },
-      "answer": "C",
-      "difficulty": "easy"
-    },
-    {
-      "id": 2,
-      "domain": "counting_to_1000",
-      "text": "Count in hundreds: 100, 200, 300, 400, 500, 600, 700, 800, 900, ... What comes next?",
-      "image": null,
-      "options": {
-        "A": "910",
-        "B": "1000",
-        "C": "990",
-        "D": "2000"
+        "A": "25¢",
+        "B": "35¢",
+        "C": "45¢",
+        "D": "55¢"
       },
       "answer": "B",
       "difficulty": "easy"
     },
     {
-      "id": 3,
-      "domain": "counting_to_1000",
-      "text": "There are 10 boxes of paper clips. Each box has 100 paper clips. How many paper clips are there in all?",
+      "id": 2,
+      "domain": "money_make",
+      "text": "Belle has 40¢. How much more does she need to make $1?",
       "image": null,
       "options": {
-        "A": "100",
-        "B": "110",
-        "C": "1000",
-        "D": "10000"
+        "A": "40¢",
+        "B": "50¢",
+        "C": "60¢",
+        "D": "70¢"
+      },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": 3,
+      "domain": "money_make",
+      "text": "Meiling has $7.50. How much more does she need to make $10?",
+      "image": null,
+      "options": {
+        "A": "$2.50",
+        "B": "$2.00",
+        "C": "$3.50",
+        "D": "$1.50"
+      },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": 4,
+      "domain": "money_make",
+      "text": "55.70 and 44.30 make $100. What is 55.70 + 44.30?",
+      "image": null,
+      "options": {
+        "A": "$99.00",
+        "B": "$100.00",
+        "C": "$101.00",
+        "D": "$98.30"
+      },
+      "answer": "B",
+      "difficulty": "medium"
+    },
+    {
+      "id": 5,
+      "domain": "money_make",
+      "text": "$72.20 is how much less than $100?",
+      "image": null,
+      "options": {
+        "A": "$28.80",
+        "B": "$27.80",
+        "C": "$28.20",
+        "D": "$38.80"
+      },
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "id": 6,
+      "domain": "money_make",
+      "text": "6.75 is how much less than $10?",
+      "image": null,
+      "options": {
+        "A": "$4.25",
+        "B": "$3.35",
+        "C": "$3.25",
+        "D": "$2.25"
       },
       "answer": "C",
       "difficulty": "medium"
     },
     {
-      "id": 4,
-      "domain": "counting_to_1000",
-      "text": "How many (100) counters make one (1000) counter?",
+      "id": 7,
+      "domain": "money_make",
+      "text": "How many 10¢ coins make $1?",
       "image": null,
       "options": {
-        "A": "2",
-        "B": "5",
+        "A": "5",
+        "B": "8",
         "C": "10",
         "D": "100"
       },
@@ -73,927 +115,885 @@
       "difficulty": "easy"
     },
     {
-      "id": 5,
-      "domain": "counting_to_1000",
-      "text": "There are 7 boxes of paper clips. Each box has 100 paper clips. How many paper clips are there?",
-      "image": null,
-      "options": {
-        "A": "107",
-        "B": "700",
-        "C": "70",
-        "D": "7000"
-      },
-      "answer": "B",
-      "difficulty": "medium"
-    },
-    {
-      "id": 6,
-      "domain": "counting_to_1000",
-      "text": "10 hundreds make 1 thousand. How many hundreds are there in 3 thousands?",
-      "image": null,
-      "options": {
-        "A": "3",
-        "B": "30",
-        "C": "300",
-        "D": "3000"
-      },
-      "answer": "B",
-      "difficulty": "medium"
-    },
-    {
-      "id": 7,
-      "domain": "place_value",
-      "text": "10 thousands make ___.",
-      "image": null,
-      "options": {
-        "A": "1000",
-        "B": "10 000",
-        "C": "100 000",
-        "D": "100"
-      },
-      "answer": "B",
-      "difficulty": "easy"
-    },
-    {
       "id": 8,
-      "domain": "place_value",
-      "text": "Count in thousands: 1000, 2000, 3000, ... What is 1000 more than 3000?",
+      "domain": "money_make",
+      "text": "35¢ and ___¢ make $1.",
       "image": null,
       "options": {
-        "A": "3100",
-        "B": "4000",
-        "C": "3010",
-        "D": "3001"
+        "A": "55",
+        "B": "65",
+        "C": "75",
+        "D": "85"
       },
       "answer": "B",
       "difficulty": "easy"
     },
     {
       "id": 9,
-      "domain": "place_value",
-      "text": "In the number 5380, what does the digit 8 stand for?",
+      "domain": "money_make",
+      "text": "To make $10 from $7.50, Meiling counted on: +50¢ to $8.00, then +$2 to $10. How much is 50¢ + $2?",
       "image": null,
       "options": {
-        "A": "8 ones",
-        "B": "8 hundreds",
-        "C": "8 tens",
-        "D": "8 thousands"
+        "A": "$2.50",
+        "B": "$2.05",
+        "C": "$2.20",
+        "D": "$7.52"
       },
-      "answer": "C",
-      "difficulty": "medium"
+      "answer": "A",
+      "difficulty": "hard"
     },
     {
       "id": 10,
-      "domain": "place_value",
-      "text": "Write in numbers: six thousand",
+      "domain": "money_make",
+      "text": "$55.70 is how much less than $100?",
       "image": null,
       "options": {
-        "A": "600",
-        "B": "6000",
-        "C": "60 000",
-        "D": "6100"
+        "A": "$45.30",
+        "B": "$44.30",
+        "C": "$43.30",
+        "D": "$44.70"
       },
       "answer": "B",
-      "difficulty": "easy"
+      "difficulty": "hard"
     },
     {
       "id": 11,
-      "domain": "place_value",
-      "text": "Write in numbers: five thousand, three hundred and eighty",
+      "domain": "money_add",
+      "text": "Aini bought a cap for $7.20 and a hair clip for $1.35. How much did she spend altogether?",
       "image": null,
       "options": {
-        "A": "5380",
-        "B": "5308",
-        "C": "5830",
-        "D": "5083"
+        "A": "$8.55",
+        "B": "$8.45",
+        "C": "$7.55",
+        "D": "$9.55"
       },
       "answer": "A",
-      "difficulty": "medium"
+      "difficulty": "easy"
     },
     {
       "id": 12,
-      "domain": "place_value",
-      "text": "Write in words: 6000",
+      "domain": "money_add",
+      "text": "$10.50 + $4.05 = ?",
       "image": null,
       "options": {
-        "A": "six hundred",
-        "B": "six thousand",
-        "C": "six hundred thousand",
-        "D": "sixty thousand"
+        "A": "$14.55",
+        "B": "$14.45",
+        "C": "$6.45",
+        "D": "$15.50"
       },
-      "answer": "B",
+      "answer": "A",
       "difficulty": "easy"
     },
     {
       "id": 13,
-      "domain": "place_value",
-      "text": "What is 1000 more than 1952?",
+      "domain": "money_add",
+      "text": "$22.10 + $16.30 = ?",
       "image": null,
       "options": {
-        "A": "2052",
-        "B": "1962",
-        "C": "2952",
-        "D": "1953"
+        "A": "$37.40",
+        "B": "$38.40",
+        "C": "$39.40",
+        "D": "$36.40"
       },
-      "answer": "C",
-      "difficulty": "medium"
+      "answer": "B",
+      "difficulty": "easy"
     },
     {
       "id": 14,
-      "domain": "place_value",
-      "text": "In the number 2145, which digit is in the thousands place?",
+      "domain": "money_add",
+      "text": "Ben bought a belt for $12.45 and a wallet for $25.30. How much did he spend?",
       "image": null,
       "options": {
-        "A": "1",
-        "B": "4",
-        "C": "5",
-        "D": "2"
+        "A": "$37.75",
+        "B": "$36.75",
+        "C": "$38.75",
+        "D": "$37.85"
       },
-      "answer": "D",
+      "answer": "A",
       "difficulty": "medium"
     },
     {
       "id": 15,
-      "domain": "more_less",
-      "text": "What is 1 more than 2326?",
+      "domain": "money_add",
+      "text": "A bag costs $31.85. A watch costs $14.65 more than the bag. How much does the watch cost?",
       "image": null,
       "options": {
-        "A": "2327",
-        "B": "2325",
-        "C": "2336",
-        "D": "2426"
+        "A": "$46.50",
+        "B": "$45.50",
+        "C": "$47.50",
+        "D": "$46.40"
+      },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": 16,
+      "domain": "money_add",
+      "text": "When adding $2.50 + $3.75, we add the dollars first or the ___ first? (book shows cents-first works too)",
+      "image": null,
+      "options": {
+        "A": "hundreds",
+        "B": "tens",
+        "C": "cents",
+        "D": "thousands"
+      },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": 17,
+      "domain": "money_add",
+      "text": "$3.20 + $11.40 = ?",
+      "image": null,
+      "options": {
+        "A": "$14.60",
+        "B": "$14.50",
+        "C": "$15.60",
+        "D": "$13.60"
       },
       "answer": "A",
       "difficulty": "easy"
     },
     {
-      "id": 16,
-      "domain": "more_less",
-      "text": "What is 1 less than 2326?",
-      "image": null,
-      "options": {
-        "A": "2327",
-        "B": "2325",
-        "C": "2316",
-        "D": "2226"
-      },
-      "answer": "B",
-      "difficulty": "easy"
-    },
-    {
-      "id": 17,
-      "domain": "more_less",
-      "text": "What is 10 more than 4052?",
-      "image": null,
-      "options": {
-        "A": "4053",
-        "B": "4062",
-        "C": "4152",
-        "D": "4042"
-      },
-      "answer": "B",
-      "difficulty": "medium"
-    },
-    {
       "id": 18,
-      "domain": "more_less",
-      "text": "What is 10 less than 4052?",
+      "domain": "money_add",
+      "text": "$5.70 + $2.80 = ?",
       "image": null,
       "options": {
-        "A": "4062",
-        "B": "4051",
-        "C": "4042",
-        "D": "3952"
+        "A": "$7.50",
+        "B": "$8.50",
+        "C": "$8.05",
+        "D": "$8.60"
       },
-      "answer": "C",
+      "answer": "B",
       "difficulty": "medium"
     },
     {
       "id": 19,
-      "domain": "more_less",
-      "text": "What is 100 more than 5569?",
+      "domain": "money_add",
+      "text": "$12.65 + $46.50 = ?",
       "image": null,
       "options": {
-        "A": "5579",
-        "B": "5669",
-        "C": "6569",
-        "D": "5469"
+        "A": "$58.15",
+        "B": "$59.15",
+        "C": "$58.05",
+        "D": "$59.05"
       },
-      "answer": "B",
+      "answer": "A",
       "difficulty": "medium"
     },
     {
       "id": 20,
-      "domain": "more_less",
-      "text": "What is 100 less than 5569?",
+      "domain": "money_add",
+      "text": "$40.80 + $35.70 = ?",
       "image": null,
       "options": {
-        "A": "5469",
-        "B": "5559",
-        "C": "5669",
-        "D": "4569"
+        "A": "$76.50",
+        "B": "$75.50",
+        "C": "$76.40",
+        "D": "$77.50"
       },
       "answer": "A",
       "difficulty": "medium"
     },
     {
       "id": 21,
-      "domain": "more_less",
-      "text": "What is 1000 less than 2952?",
+      "domain": "money_subtract",
+      "text": "Max has $9.85. He buys a baseball for $4.70. How much does he have left?",
       "image": null,
       "options": {
-        "A": "2852",
-        "B": "1952",
-        "C": "2942",
-        "D": "2052"
+        "A": "$5.15",
+        "B": "$5.25",
+        "C": "$4.15",
+        "D": "$6.15"
+      },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": 22,
+      "domain": "money_subtract",
+      "text": "The T-shirt costs $15.45 and the dress $28.95. How much cheaper is the T-shirt?",
+      "image": null,
+      "options": {
+        "A": "$13.50",
+        "B": "$12.50",
+        "C": "$14.50",
+        "D": "$13.40"
+      },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": 23,
+      "domain": "money_subtract",
+      "text": "$52.10 − $30.80 = ?",
+      "image": null,
+      "options": {
+        "A": "$22.30",
+        "B": "$21.30",
+        "C": "$21.20",
+        "D": "$22.20"
       },
       "answer": "B",
       "difficulty": "medium"
     },
     {
-      "id": 22,
-      "domain": "more_less",
-      "text": "What is 1000 more than 2952?",
+      "id": 24,
+      "domain": "money_subtract",
+      "text": "$6.90 − $0.80 = ?",
       "image": null,
       "options": {
-        "A": "3952",
-        "B": "2962",
-        "C": "3052",
-        "D": "2953"
-      },
-      "answer": "A",
-      "difficulty": "hard"
-    },
-    {
-      "id": 23,
-      "domain": "comparing",
-      "text": "Which number is greater: 5614 or 5328?",
-      "image": null,
-      "options": {
-        "A": "5328",
-        "B": "5614",
-        "C": "they are equal",
-        "D": "5000"
+        "A": "$6.20",
+        "B": "$6.10",
+        "C": "$5.10",
+        "D": "$6.90"
       },
       "answer": "B",
       "difficulty": "easy"
     },
     {
-      "id": 24,
-      "domain": "comparing",
-      "text": "Why is 5614 greater than 5328?",
+      "id": 25,
+      "domain": "money_subtract",
+      "text": "$32.55 − $20.15 = ?",
       "image": null,
       "options": {
-        "A": "its ones digit is bigger",
-        "B": "its hundreds digit is bigger (600 > 300)",
-        "C": "it has more digits",
-        "D": "its tens digit is smaller"
+        "A": "$12.40",
+        "B": "$12.30",
+        "C": "$11.40",
+        "D": "$13.40"
       },
-      "answer": "B",
-      "difficulty": "hard"
+      "answer": "A",
+      "difficulty": "easy"
     },
     {
-      "id": 25,
-      "domain": "comparing",
-      "text": "Which number is smaller: 2638 or 2635?",
+      "id": 26,
+      "domain": "money_subtract",
+      "text": "$45.40 − $11.65 = ?",
       "image": null,
       "options": {
-        "A": "2635",
-        "B": "2638",
-        "C": "they are equal",
-        "D": "2630"
+        "A": "$33.75",
+        "B": "$33.85",
+        "C": "$34.75",
+        "D": "$32.75"
       },
       "answer": "A",
       "difficulty": "medium"
     },
     {
-      "id": 26,
-      "domain": "comparing",
-      "text": "On a number line, the numbers become greater as we move to the ___.",
-      "image": null,
-      "options": {
-        "A": "left",
-        "B": "right",
-        "C": "top",
-        "D": "bottom"
-      },
-      "answer": "B",
-      "difficulty": "medium"
-    },
-    {
       "id": 27,
-      "domain": "comparing",
-      "text": "6963 is ___ 6517.",
+      "domain": "money_subtract",
+      "text": "$100 − $23.50 = ?",
       "image": null,
       "options": {
-        "A": "smaller than",
-        "B": "equal to",
-        "C": "greater than",
-        "D": "half of"
+        "A": "$76.50",
+        "B": "$77.50",
+        "C": "$76.40",
+        "D": "$66.50"
       },
-      "answer": "C",
+      "answer": "A",
       "difficulty": "medium"
     },
     {
       "id": 28,
-      "domain": "comparing",
-      "text": "Which symbol makes this true: 5328 ___ 5614",
+      "domain": "money_subtract",
+      "text": "$60.30 − $5.85 = ?",
       "image": null,
       "options": {
-        "A": ">",
-        "B": "<",
-        "C": "=",
-        "D": "+"
+        "A": "$54.45",
+        "B": "$55.45",
+        "C": "$54.35",
+        "D": "$53.45"
       },
-      "answer": "B",
-      "difficulty": "medium"
+      "answer": "A",
+      "difficulty": "hard"
     },
     {
       "id": 29,
-      "domain": "comparing",
-      "text": "Which number is greater: 4830 or 4860?",
+      "domain": "money_subtract",
+      "text": "$5.60 − $0.90 = ?",
       "image": null,
       "options": {
-        "A": "4830",
-        "B": "4860",
-        "C": "they are equal",
-        "D": "4000"
+        "A": "$4.70",
+        "B": "$4.80",
+        "C": "$5.30",
+        "D": "$3.70"
       },
-      "answer": "B",
-      "difficulty": "medium"
+      "answer": "A",
+      "difficulty": "easy"
     },
     {
       "id": 30,
-      "domain": "comparing",
-      "text": "To compare 6517 and 6963, the thousands are both 6, so we compare the ___.",
+      "domain": "money_subtract",
+      "text": "$90.00 − $9.95 = ?",
       "image": null,
       "options": {
-        "A": "ones",
-        "B": "tens",
-        "C": "hundreds",
-        "D": "no need to compare"
+        "A": "$80.05",
+        "B": "$81.05",
+        "C": "$80.15",
+        "D": "$79.05"
       },
-      "answer": "C",
-      "difficulty": "medium"
+      "answer": "A",
+      "difficulty": "hard"
     },
     {
       "id": 31,
-      "domain": "addition",
-      "text": "Find the sum of 432 and 536.",
+      "domain": "word_problems",
+      "text": "Farah bought a sandwich for $8.90 and a drink for $2.30. How much did she pay for both?",
       "image": null,
       "options": {
-        "A": "968",
-        "B": "958",
-        "C": "1068",
-        "D": "868"
+        "A": "$11.20",
+        "B": "$10.20",
+        "C": "$11.10",
+        "D": "$12.20"
       },
       "answer": "A",
       "difficulty": "easy"
     },
     {
       "id": 32,
-      "domain": "addition",
-      "text": "Find the sum of 1796 and 3628.",
+      "domain": "word_problems",
+      "text": "Kai bought groceries for $79.70 and paid with a $100 note. How much change did he get?",
       "image": null,
       "options": {
-        "A": "5324",
-        "B": "5424",
-        "C": "5414",
-        "D": "5524"
+        "A": "$20.30",
+        "B": "$21.30",
+        "C": "$20.20",
+        "D": "$30.30"
       },
-      "answer": "B",
+      "answer": "A",
       "difficulty": "medium"
     },
     {
       "id": 33,
-      "domain": "addition",
-      "text": "Find the sum of 2457 and 5346.",
+      "domain": "word_problems",
+      "text": "A toy robot costs $56.25. A toy car costs $11.80 less. How much is the toy car?",
       "image": null,
       "options": {
-        "A": "7803",
-        "B": "7703",
-        "C": "7813",
-        "D": "7903"
+        "A": "$44.45",
+        "B": "$45.45",
+        "C": "$44.55",
+        "D": "$43.45"
       },
       "answer": "A",
       "difficulty": "medium"
     },
     {
       "id": 34,
-      "domain": "addition",
-      "text": "Find the sum of 999 and 4836.",
+      "domain": "word_problems",
+      "text": "Max bought a cake for $15.80 and biscuits for $6.10. How much did he spend altogether?",
       "image": null,
       "options": {
-        "A": "5835",
-        "B": "5735",
-        "C": "4825",
-        "D": "5935"
+        "A": "$21.90",
+        "B": "$22.90",
+        "C": "$21.80",
+        "D": "$20.90"
+      },
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "id": 35,
+      "domain": "word_problems",
+      "text": "A vase costs $26.40. A lamp costs $18.70 more. How much is the lamp?",
+      "image": null,
+      "options": {
+        "A": "$45.10",
+        "B": "$44.10",
+        "C": "$45.00",
+        "D": "$46.10"
       },
       "answer": "A",
       "difficulty": "hard"
     },
     {
-      "id": 35,
-      "domain": "addition",
-      "text": "Find the sum of 1234 and 4321.",
-      "image": null,
-      "options": {
-        "A": "6555",
-        "B": "5555",
-        "C": "5565",
-        "D": "5455"
-      },
-      "answer": "B",
-      "difficulty": "easy"
-    },
-    {
       "id": 36,
-      "domain": "addition",
-      "text": "The sum of two numbers is 146. One of the numbers is 32. What is the other number?",
+      "domain": "word_problems",
+      "text": "Mrs Tan had $86.85. She bought shoes for $33.25. How much had she left?",
       "image": null,
       "options": {
-        "A": "178",
-        "B": "146",
-        "C": "114",
-        "D": "104"
+        "A": "$53.60",
+        "B": "$54.60",
+        "C": "$52.60",
+        "D": "$53.50"
       },
-      "answer": "C",
+      "answer": "A",
       "difficulty": "medium"
     },
     {
       "id": 37,
-      "domain": "addition",
-      "text": "The sum of two numbers is 127. One of the numbers is 86. What is the other number?",
+      "domain": "word_problems",
+      "text": "Ali had $12. He and Becky each spent $4 on fruit. In the end Ali had $2.50 more than Becky. How much did Becky have in the end?",
       "image": null,
       "options": {
-        "A": "213",
-        "B": "41",
-        "C": "51",
-        "D": "127"
+        "A": "$5.50",
+        "B": "$6.50",
+        "C": "$4.50",
+        "D": "$7.50"
       },
-      "answer": "B",
-      "difficulty": "medium"
+      "answer": "A",
+      "difficulty": "hard"
     },
     {
       "id": 38,
-      "domain": "addition",
-      "text": "You know the sum of two numbers and the value of one number. To find the other number, you ___.",
+      "domain": "word_problems",
+      "text": "Kai had $72. He and Cindy each spent $10.20 on a gift. In the end Kai had $34 more than Cindy. How much did Cindy have in the end?",
       "image": null,
       "options": {
-        "A": "add",
-        "B": "subtract",
-        "C": "multiply",
-        "D": "divide"
+        "A": "$27.80",
+        "B": "$26.80",
+        "C": "$28.80",
+        "D": "$27.60"
       },
-      "answer": "B",
-      "difficulty": "medium"
+      "answer": "A",
+      "difficulty": "hard"
     },
     {
       "id": 39,
-      "domain": "subtraction",
-      "text": "Find the difference between 86 and 54.",
+      "domain": "word_problems",
+      "text": "In word problems, the four steps are: Understand, Plan, Do, and ___?",
       "image": null,
       "options": {
-        "A": "32",
+        "A": "Repeat",
+        "B": "Check",
+        "C": "Report",
+        "D": "Guess"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": 40,
+      "domain": "word_problems",
+      "text": "What tool does the book suggest to plan a money word problem?",
+      "image": null,
+      "options": {
+        "A": "A calculator",
+        "B": "A bar model",
+        "C": "A ruler",
+        "D": "A number line only"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": 41,
+      "domain": "mult6",
+      "text": "6 × 1 = ?",
+      "image": null,
+      "options": {
+        "A": "5",
+        "B": "6",
+        "C": "7",
+        "D": "12"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": 42,
+      "domain": "mult6",
+      "text": "6 × 4 = ?",
+      "image": null,
+      "options": {
+        "A": "20",
+        "B": "22",
+        "C": "24",
+        "D": "26"
+      },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": 43,
+      "domain": "mult6",
+      "text": "6 × 7 = ?",
+      "image": null,
+      "options": {
+        "A": "40",
         "B": "42",
-        "C": "22",
-        "D": "140"
+        "C": "44",
+        "D": "46"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": 44,
+      "domain": "mult6",
+      "text": "6 × 10 = ?",
+      "image": null,
+      "options": {
+        "A": "60",
+        "B": "50",
+        "C": "66",
+        "D": "610"
       },
       "answer": "A",
       "difficulty": "easy"
     },
     {
-      "id": 40,
-      "domain": "subtraction",
-      "text": "To find the difference between two numbers, we ___.",
+      "id": 45,
+      "domain": "mult6",
+      "text": "6 × 6 = ?",
       "image": null,
       "options": {
-        "A": "add",
-        "B": "subtract",
-        "C": "multiply",
-        "D": "count on"
-      },
-      "answer": "B",
-      "difficulty": "medium"
-    },
-    {
-      "id": 41,
-      "domain": "subtraction",
-      "text": "Subtract: 146 - 32 = ___",
-      "image": null,
-      "options": {
-        "A": "178",
-        "B": "124",
-        "C": "114",
-        "D": "104"
-      },
-      "answer": "C",
-      "difficulty": "medium"
-    },
-    {
-      "id": 42,
-      "domain": "subtraction",
-      "text": "Subtract: 127 - 86 = ___",
-      "image": null,
-      "options": {
-        "A": "41",
-        "B": "31",
-        "C": "213",
-        "D": "51"
-      },
-      "answer": "A",
-      "difficulty": "medium"
-    },
-    {
-      "id": 43,
-      "domain": "subtraction",
-      "text": "Subtract mentally: 57 - 32 = ___",
-      "image": null,
-      "options": {
-        "A": "35",
-        "B": "25",
-        "C": "15",
-        "D": "89"
-      },
-      "answer": "B",
-      "difficulty": "medium"
-    },
-    {
-      "id": 44,
-      "domain": "subtraction",
-      "text": "Subtract mentally: 90 - 42 = ___",
-      "image": null,
-      "options": {
-        "A": "52",
-        "B": "58",
-        "C": "48",
+        "A": "30",
+        "B": "32",
+        "C": "36",
         "D": "42"
       },
       "answer": "C",
-      "difficulty": "medium"
-    },
-    {
-      "id": 45,
-      "domain": "subtraction",
-      "text": "Subtract mentally: 78 - 45 = ___",
-      "image": null,
-      "options": {
-        "A": "23",
-        "B": "43",
-        "C": "33",
-        "D": "13"
-      },
-      "answer": "C",
-      "difficulty": "medium"
+      "difficulty": "easy"
     },
     {
       "id": 46,
-      "domain": "subtraction",
-      "text": "Subtract mentally: 70 - 35 = ___",
+      "domain": "mult6",
+      "text": "6 × 9 = ?",
       "image": null,
       "options": {
-        "A": "45",
-        "B": "25",
-        "C": "35",
-        "D": "15"
+        "A": "52",
+        "B": "54",
+        "C": "56",
+        "D": "58"
       },
-      "answer": "C",
-      "difficulty": "medium"
+      "answer": "B",
+      "difficulty": "easy"
     },
     {
       "id": 47,
-      "domain": "mental_add",
-      "text": "Add mentally: 32 + 54 = ___",
+      "domain": "mult6",
+      "text": "6 × 6 is 6 more than 5 × 6. If 5 × 6 = 30, what is 6 × 6?",
       "image": null,
       "options": {
-        "A": "86",
-        "B": "76",
-        "C": "96",
-        "D": "84"
+        "A": "32",
+        "B": "34",
+        "C": "36",
+        "D": "38"
       },
-      "answer": "A",
+      "answer": "C",
       "difficulty": "medium"
     },
     {
       "id": 48,
-      "domain": "mental_add",
-      "text": "Add 97 and 76. Make 100 first: 97 + 3 = 100, then 76 - 3 = 73. What is 100 + 73?",
+      "domain": "mult6",
+      "text": "8 × 6 is 12 less than 10 × 6. If 10 × 6 = 60, what is 8 × 6?",
       "image": null,
       "options": {
-        "A": "163",
-        "B": "173",
-        "C": "183",
-        "D": "153"
+        "A": "46",
+        "B": "48",
+        "C": "50",
+        "D": "52"
       },
       "answer": "B",
       "difficulty": "medium"
     },
     {
       "id": 49,
-      "domain": "mental_add",
-      "text": "Add 49 and 14. Make 50 first: 49 + 1 = 50, then 14 - 1 = 13. What is 50 + 13?",
+      "domain": "mult6",
+      "text": "There are 8 packs of markers, 6 markers in each pack. How many markers in all?",
       "image": null,
       "options": {
-        "A": "63",
-        "B": "53",
-        "C": "73",
-        "D": "62"
-      },
-      "answer": "A",
-      "difficulty": "medium"
-    },
-    {
-      "id": 50,
-      "domain": "mental_add",
-      "text": "Add mentally: 12 + 35 = ___",
-      "image": null,
-      "options": {
-        "A": "57",
-        "B": "37",
-        "C": "47",
-        "D": "67"
+        "A": "42",
+        "B": "46",
+        "C": "48",
+        "D": "54"
       },
       "answer": "C",
       "difficulty": "easy"
     },
     {
-      "id": 51,
-      "domain": "mental_add",
-      "text": "Add mentally: 23 + 47 = ___",
+      "id": 50,
+      "domain": "mult6",
+      "text": "48 markers are shared equally into packs of 6. How many packs?",
       "image": null,
       "options": {
-        "A": "70",
-        "B": "60",
-        "C": "80",
-        "D": "64"
+        "A": "6",
+        "B": "7",
+        "C": "8",
+        "D": "9"
       },
-      "answer": "A",
+      "answer": "C",
+      "difficulty": "medium"
+    },
+    {
+      "id": 51,
+      "domain": "mult7",
+      "text": "7 × 2 = ?",
+      "image": null,
+      "options": {
+        "A": "12",
+        "B": "14",
+        "C": "16",
+        "D": "18"
+      },
+      "answer": "B",
       "difficulty": "easy"
     },
     {
       "id": 52,
-      "domain": "mental_add",
-      "text": "Add mentally: 54 + 98 = ___",
+      "domain": "mult7",
+      "text": "7 × 4 = ?",
       "image": null,
       "options": {
-        "A": "142",
-        "B": "152",
-        "C": "162",
-        "D": "148"
+        "A": "24",
+        "B": "26",
+        "C": "28",
+        "D": "32"
       },
-      "answer": "B",
-      "difficulty": "hard"
+      "answer": "C",
+      "difficulty": "easy"
     },
     {
       "id": 53,
-      "domain": "mental_add",
-      "text": "Add mentally: 67 + 72 = ___",
+      "domain": "mult7",
+      "text": "7 × 6 = ?",
       "image": null,
       "options": {
-        "A": "129",
-        "B": "149",
-        "C": "139",
-        "D": "135"
+        "A": "40",
+        "B": "42",
+        "C": "44",
+        "D": "48"
       },
-      "answer": "C",
-      "difficulty": "hard"
+      "answer": "B",
+      "difficulty": "easy"
     },
     {
       "id": 54,
-      "domain": "mental_add",
-      "text": "Add mentally: 97 + 99 = ___",
-      "image": null,
-      "options": {
-        "A": "186",
-        "B": "206",
-        "C": "196",
-        "D": "198"
-      },
-      "answer": "C",
-      "difficulty": "hard"
-    },
-    {
-      "id": 55,
-      "domain": "mental_sub",
-      "text": "Subtract mentally: 76 - 32 = ___",
+      "domain": "mult7",
+      "text": "7 × 8 = ?",
       "image": null,
       "options": {
         "A": "54",
-        "B": "44",
-        "C": "34",
-        "D": "104"
+        "B": "56",
+        "C": "58",
+        "D": "63"
       },
       "answer": "B",
-      "difficulty": "medium"
+      "difficulty": "easy"
+    },
+    {
+      "id": 55,
+      "domain": "mult7",
+      "text": "7 × 10 = ?",
+      "image": null,
+      "options": {
+        "A": "63",
+        "B": "67",
+        "C": "70",
+        "D": "77"
+      },
+      "answer": "C",
+      "difficulty": "easy"
     },
     {
       "id": 56,
-      "domain": "mental_sub",
-      "text": "Subtract 48 from 83. 48 is near 50, so do 83 - 50 = 33. What must you do next?",
+      "domain": "mult7",
+      "text": "7 × 7 = ?",
       "image": null,
       "options": {
-        "A": "subtract 2 more",
-        "B": "add back 2",
-        "C": "add 5",
-        "D": "subtract 5"
+        "A": "42",
+        "B": "47",
+        "C": "49",
+        "D": "56"
       },
-      "answer": "B",
-      "difficulty": "hard"
+      "answer": "C",
+      "difficulty": "easy"
     },
     {
       "id": 57,
-      "domain": "mental_sub",
-      "text": "Subtract mentally: 83 - 46 = ___",
+      "domain": "mult7",
+      "text": "7 × 9 = ?",
       "image": null,
       "options": {
-        "A": "47",
-        "B": "37",
-        "C": "27",
-        "D": "43"
+        "A": "56",
+        "B": "60",
+        "C": "63",
+        "D": "66"
       },
-      "answer": "B",
-      "difficulty": "medium"
+      "answer": "C",
+      "difficulty": "easy"
     },
     {
       "id": 58,
-      "domain": "mental_sub",
-      "text": "Subtract mentally: 67 - 38 = ___",
+      "domain": "mult7",
+      "text": "6 × 7 is 7 more than 5 × 7. If 5 × 7 = 35, what is 6 × 7?",
       "image": null,
       "options": {
-        "A": "39",
-        "B": "29",
-        "C": "19",
-        "D": "35"
+        "A": "40",
+        "B": "41",
+        "C": "42",
+        "D": "43"
       },
-      "answer": "B",
+      "answer": "C",
       "difficulty": "medium"
     },
     {
       "id": 59,
-      "domain": "mental_sub",
-      "text": "Subtract mentally: 57 - 32 = ___",
+      "domain": "mult7",
+      "text": "8 × 7 is 14 less than 10 × 7. If 10 × 7 = 70, what is 8 × 7?",
       "image": null,
       "options": {
-        "A": "15",
-        "B": "35",
-        "C": "25",
-        "D": "45"
+        "A": "54",
+        "B": "56",
+        "C": "58",
+        "D": "60"
       },
-      "answer": "C",
+      "answer": "B",
       "difficulty": "medium"
     },
     {
       "id": 60,
-      "domain": "mental_sub",
-      "text": "Max has 64 biscuits. He sells 8. 8 is near to 10, so first do 64 - 10 = 54. What is the next step?",
+      "domain": "mult7",
+      "text": "There are 5 boxes of cookies, 7 cookies in each box. How many cookies in all?",
       "image": null,
       "options": {
-        "A": "54 - 2",
-        "B": "54 + 2",
-        "C": "54 + 8",
-        "D": "54 - 10"
+        "A": "30",
+        "B": "32",
+        "C": "35",
+        "D": "40"
       },
-      "answer": "B",
-      "difficulty": "hard"
+      "answer": "C",
+      "difficulty": "easy"
     },
     {
       "id": 61,
-      "domain": "mental_sub",
-      "text": "Max has 64 biscuits and sells 8. How many biscuits does he have left?",
+      "domain": "mult7",
+      "text": "35 cookies are packed equally into boxes of 7. How many boxes?",
       "image": null,
       "options": {
-        "A": "56",
-        "B": "54",
-        "C": "46",
-        "D": "72"
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "7"
       },
-      "answer": "A",
-      "difficulty": "medium"
+      "answer": "B",
+      "difficulty": "easy"
     },
     {
       "id": 62,
-      "domain": "mental_sub",
-      "text": "Max has 96 brownies and sells 19. Use the near-20 way: 96 - 20 = 76. How many brownies are left?",
+      "domain": "mult7",
+      "text": "Zara makes 60 brownies and gives each friend 6. How many friends get brownies?",
       "image": null,
       "options": {
-        "A": "76",
-        "B": "77",
-        "C": "75",
-        "D": "87"
-      },
-      "answer": "B",
-      "difficulty": "hard"
-    },
-    {
-      "id": 63,
-      "domain": "word_problems",
-      "text": "There are 86 boys and 54 girls in a school hall. How many more boys than girls are there?",
-      "image": null,
-      "options": {
-        "A": "140",
-        "B": "22",
-        "C": "32",
-        "D": "42"
+        "A": "8",
+        "B": "9",
+        "C": "10",
+        "D": "12"
       },
       "answer": "C",
       "difficulty": "medium"
     },
     {
-      "id": 64,
-      "domain": "word_problems",
-      "text": "A bar model shows the total 146 split into 32 and a question mark. What is the missing part?",
+      "id": 63,
+      "domain": "mult7",
+      "text": "Raj pours 42 L of milk equally into 6 bottles. How much milk in each bottle?",
       "image": null,
       "options": {
-        "A": "178",
-        "B": "114",
-        "C": "124",
-        "D": "146"
+        "A": "6 L",
+        "B": "7 L",
+        "C": "8 L",
+        "D": "36 L"
+      },
+      "answer": "B",
+      "difficulty": "medium"
+    },
+    {
+      "id": 64,
+      "domain": "mult7",
+      "text": "Mr Karim paints 7 artworks using 42 tubes of paint, the same amount for each. How many tubes per artwork?",
+      "image": null,
+      "options": {
+        "A": "5",
+        "B": "6",
+        "C": "7",
+        "D": "8"
       },
       "answer": "B",
       "difficulty": "medium"
     },
     {
       "id": 65,
-      "domain": "word_problems",
-      "text": "Count in thousands: \"One thousand, two thousand, three thousand... ten thousand!\" What number is ten thousand?",
+      "domain": "mult7",
+      "text": "Min jogged 56 days in a row. How many weeks is that? (1 week = 7 days)",
       "image": null,
       "options": {
-        "A": "10 000",
-        "B": "1000",
-        "C": "100 000",
-        "D": "10 100"
+        "A": "7",
+        "B": "8",
+        "C": "9",
+        "D": "14"
       },
-      "answer": "A",
-      "difficulty": "easy"
-    },
-    {
-      "id": 66,
-      "domain": "word_problems",
-      "text": "Count: 5000, 5100, 5110, 5120, 5130, ... What comes next?",
-      "image": null,
-      "options": {
-        "A": "5140",
-        "B": "5200",
-        "C": "5131",
-        "D": "5135"
-      },
-      "answer": "C",
+      "answer": "B",
       "difficulty": "hard"
     },
     {
-      "id": 67,
-      "domain": "word_problems",
-      "text": "Count: 5130, 5131, 5132, 5133, ... What comes next?",
+      "id": 66,
+      "domain": "review",
+      "text": "Ivy had $35.50 and bought a photo frame for $13.75. How much had she left?",
       "image": null,
       "options": {
-        "A": "5140",
-        "B": "5134",
-        "C": "5130",
-        "D": "5234"
+        "A": "$21.75",
+        "B": "$22.75",
+        "C": "$20.75",
+        "D": "$21.85"
       },
-      "answer": "B",
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "id": 67,
+      "domain": "review",
+      "text": "Adil has $74.10 in his coin bank and puts in another $9.95. How much now?",
+      "image": null,
+      "options": {
+        "A": "$83.05",
+        "B": "$84.05",
+        "C": "$83.15",
+        "D": "$84.15"
+      },
+      "answer": "A",
       "difficulty": "medium"
     },
     {
       "id": 68,
-      "domain": "word_problems",
-      "text": "The digit 3 in 5380 is in the hundreds place. What is its value?",
+      "domain": "review",
+      "text": "$58.75 + $7.95 = ?",
       "image": null,
       "options": {
-        "A": "3",
-        "B": "30",
-        "C": "300",
-        "D": "3000"
+        "A": "$66.70",
+        "B": "$65.70",
+        "C": "$66.80",
+        "D": "$67.70"
       },
-      "answer": "C",
-      "difficulty": "medium"
+      "answer": "A",
+      "difficulty": "hard"
     },
     {
       "id": 69,
-      "domain": "word_problems",
-      "text": "There are 86 boys and 54 girls in a school hall. Which group has more people?",
+      "domain": "review",
+      "text": "$47.85 − $5.40 = ?",
       "image": null,
       "options": {
-        "A": "girls",
-        "B": "boys",
-        "C": "equal",
-        "D": "cannot tell"
+        "A": "$42.45",
+        "B": "$42.35",
+        "C": "$43.45",
+        "D": "$41.45"
       },
-      "answer": "B",
-      "difficulty": "easy"
+      "answer": "A",
+      "difficulty": "medium"
     },
     {
       "id": 70,
-      "domain": "word_problems",
-      "text": "A monster counts 1000, 1001, 1002, 1003, 1004, 1005. What is the number after counting?",
+      "domain": "review",
+      "text": "$6.40 + $3.15 = ?",
       "image": null,
       "options": {
-        "A": "1004",
-        "B": "1005",
-        "C": "1015",
-        "D": "1105"
+        "A": "$9.55",
+        "B": "$9.45",
+        "C": "$10.55",
+        "D": "$9.65"
       },
-      "answer": "B",
+      "answer": "A",
       "difficulty": "easy"
     }
   ]
