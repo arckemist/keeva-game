@@ -172,31 +172,31 @@
     },
     {
       "id": 12,
-      "domain": "money_add",
-      "text": "$10.50 + $4.05 = ?",
+      "domain": "money_make",
+      "text": "Fill in the blank: $3.45 + □ = $10",
       "image": null,
       "options": {
-        "A": "$14.55",
-        "B": "$14.45",
-        "C": "$6.45",
-        "D": "$15.50"
+        "A": "$6.55",
+        "B": "$6.65",
+        "C": "$7.55",
+        "D": "$5.55"
       },
       "answer": "A",
-      "difficulty": "easy"
+      "difficulty": "medium"
     },
     {
       "id": 13,
-      "domain": "money_add",
-      "text": "$22.10 + $16.30 = ?",
+      "domain": "money_make",
+      "text": "Fill in the blank: 80¢ + □¢ = $1",
       "image": null,
       "options": {
-        "A": "$37.40",
-        "B": "$38.40",
-        "C": "$39.40",
-        "D": "$36.40"
+        "A": "10",
+        "B": "20",
+        "C": "30",
+        "D": "40"
       },
       "answer": "B",
-      "difficulty": "easy"
+      "difficulty": "medium"
     },
     {
       "id": 14,
@@ -243,57 +243,57 @@
     {
       "id": 17,
       "domain": "money_add",
-      "text": "$3.20 + $11.40 = ?",
+      "text": "Which amount is MORE?",
       "image": null,
       "options": {
-        "A": "$14.60",
-        "B": "$14.50",
-        "C": "$15.60",
-        "D": "$13.60"
+        "A": "$5.06",
+        "B": "$5.60",
+        "C": "$5.06 and $5.60 are equal",
+        "D": "Cannot tell"
       },
-      "answer": "A",
+      "answer": "B",
       "difficulty": "easy"
     },
     {
       "id": 18,
       "domain": "money_add",
-      "text": "$5.70 + $2.80 = ?",
+      "text": "Order these from greatest: $7.80, $7.08, $8.70. Which is GREATEST?",
       "image": null,
       "options": {
-        "A": "$7.50",
-        "B": "$8.50",
-        "C": "$8.05",
-        "D": "$8.60"
+        "A": "$7.80",
+        "B": "$7.08",
+        "C": "$8.70",
+        "D": "They are all equal"
+      },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": 19,
+      "domain": "word_problems",
+      "text": "Ali has $8.00 and buys a snack for $2.50. Which expression shows his change?",
+      "image": null,
+      "options": {
+        "A": "$8.00 + $2.50",
+        "B": "$8.00 - $2.50",
+        "C": "$8.00 × $2.50",
+        "D": "$2.50 - $8.00"
       },
       "answer": "B",
       "difficulty": "medium"
     },
     {
-      "id": 19,
-      "domain": "money_add",
-      "text": "$12.65 + $46.50 = ?",
-      "image": null,
-      "options": {
-        "A": "$58.15",
-        "B": "$59.15",
-        "C": "$58.05",
-        "D": "$59.05"
-      },
-      "answer": "A",
-      "difficulty": "medium"
-    },
-    {
       "id": 20,
-      "domain": "money_add",
-      "text": "$40.80 + $35.70 = ?",
+      "domain": "word_problems",
+      "text": "A pen costs $1.20. Which expression shows the cost of 3 pens?",
       "image": null,
       "options": {
-        "A": "$76.50",
-        "B": "$75.50",
-        "C": "$76.40",
-        "D": "$77.50"
+        "A": "$1.20 + 3",
+        "B": "$1.20 - 3",
+        "C": "3 × $1.20",
+        "D": "$1.20 ÷ 3"
       },
-      "answer": "A",
+      "answer": "C",
       "difficulty": "medium"
     },
     {
@@ -327,13 +327,13 @@
     {
       "id": 23,
       "domain": "money_subtract",
-      "text": "$52.10 − $30.80 = ?",
+      "text": "Which amount is LESS?",
       "image": null,
       "options": {
-        "A": "$22.30",
-        "B": "$21.30",
-        "C": "$21.20",
-        "D": "$22.20"
+        "A": "$9.90",
+        "B": "$9.09",
+        "C": "$9.90 and $9.09 are equal",
+        "D": "Cannot tell"
       },
       "answer": "B",
       "difficulty": "medium"
@@ -341,49 +341,49 @@
     {
       "id": 24,
       "domain": "money_subtract",
-      "text": "$6.90 − $0.80 = ?",
+      "text": "Order these from smallest: $4.50, $0.45, $4.05. Which is SMALLEST?",
       "image": null,
       "options": {
-        "A": "$6.20",
-        "B": "$6.10",
-        "C": "$5.10",
-        "D": "$6.90"
+        "A": "$4.50",
+        "B": "$4.05",
+        "C": "$0.45",
+        "D": "They are all equal"
       },
-      "answer": "B",
-      "difficulty": "easy"
+      "answer": "C",
+      "difficulty": "medium"
     },
     {
       "id": 25,
-      "domain": "money_subtract",
-      "text": "$32.55 − $20.15 = ?",
+      "domain": "money_add",
+      "text": "To make $10 from $6.20, the book counts on: +80¢ to $7, then +$3 to $10. How much is 80¢ + $3?",
       "image": null,
       "options": {
-        "A": "$12.40",
-        "B": "$12.30",
-        "C": "$11.40",
-        "D": "$13.40"
-      },
-      "answer": "A",
-      "difficulty": "easy"
-    },
-    {
-      "id": 26,
-      "domain": "money_subtract",
-      "text": "$45.40 − $11.65 = ?",
-      "image": null,
-      "options": {
-        "A": "$33.75",
-        "B": "$33.85",
-        "C": "$34.75",
-        "D": "$32.75"
+        "A": "$3.80",
+        "B": "$3.08",
+        "C": "$4.20",
+        "D": "$3.20"
       },
       "answer": "A",
       "difficulty": "medium"
     },
     {
+      "id": 26,
+      "domain": "money_make",
+      "text": "Siti has $4 and Ravi has $2 more than Siti. How much do they have altogether?",
+      "image": null,
+      "options": {
+        "A": "$6",
+        "B": "$8",
+        "C": "$10",
+        "D": "$12"
+      },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
       "id": 27,
       "domain": "money_subtract",
-      "text": "$100 − $23.50 = ?",
+      "text": "$100 - $23.50 = ?",
       "image": null,
       "options": {
         "A": "$76.50",
@@ -396,45 +396,45 @@
     },
     {
       "id": 28,
-      "domain": "money_subtract",
-      "text": "$60.30 − $5.85 = ?",
+      "domain": "word_problems",
+      "text": "Aisha buys a doll for $12.60 and a puzzle for $7.40. She pays with a $20 note. How much change?",
       "image": null,
       "options": {
-        "A": "$54.45",
-        "B": "$55.45",
-        "C": "$54.35",
-        "D": "$53.45"
+        "A": "$0.00 — exactly $20",
+        "B": "$1.00",
+        "C": "$2.00",
+        "D": "$5.00"
       },
       "answer": "A",
       "difficulty": "hard"
     },
     {
       "id": 29,
-      "domain": "money_subtract",
-      "text": "$5.60 − $0.90 = ?",
+      "domain": "word_problems",
+      "text": "Ben has $15. He buys 2 comics at $4.50 each. How much has he left?",
       "image": null,
       "options": {
-        "A": "$4.70",
-        "B": "$4.80",
-        "C": "$5.30",
-        "D": "$3.70"
+        "A": "$5.00",
+        "B": "$6.00",
+        "C": "$7.00",
+        "D": "$10.50"
       },
-      "answer": "A",
-      "difficulty": "easy"
+      "answer": "B",
+      "difficulty": "hard"
     },
     {
       "id": 30,
-      "domain": "money_subtract",
-      "text": "$90.00 − $9.95 = ?",
+      "domain": "word_problems",
+      "text": "5 erasers cost $3.50 altogether. How much does 1 eraser cost?",
       "image": null,
       "options": {
-        "A": "$80.05",
-        "B": "$81.05",
-        "C": "$80.15",
-        "D": "$79.05"
+        "A": "60¢",
+        "B": "70¢",
+        "C": "80¢",
+        "D": "$1.00"
       },
-      "answer": "A",
-      "difficulty": "hard"
+      "answer": "B",
+      "difficulty": "medium"
     },
     {
       "id": 31,
@@ -579,86 +579,86 @@
     {
       "id": 41,
       "domain": "mult6",
-      "text": "6 × 1 = ?",
+      "text": "Fill in the blank: □ × 6 = 42",
       "image": null,
       "options": {
-        "A": "5",
-        "B": "6",
-        "C": "7",
-        "D": "12"
+        "A": "6",
+        "B": "7",
+        "C": "8",
+        "D": "9"
       },
       "answer": "B",
-      "difficulty": "easy"
+      "difficulty": "medium"
     },
     {
       "id": 42,
       "domain": "mult6",
-      "text": "6 × 4 = ?",
+      "text": "Fill in the blank: 6 × □ = 54",
       "image": null,
       "options": {
-        "A": "20",
-        "B": "22",
-        "C": "24",
-        "D": "26"
+        "A": "7",
+        "B": "8",
+        "C": "9",
+        "D": "10"
       },
       "answer": "C",
-      "difficulty": "easy"
+      "difficulty": "medium"
     },
     {
       "id": 43,
       "domain": "mult6",
-      "text": "6 × 7 = ?",
+      "text": "Which is GREATER?",
       "image": null,
       "options": {
-        "A": "40",
-        "B": "42",
-        "C": "44",
-        "D": "46"
-      },
-      "answer": "B",
-      "difficulty": "easy"
-    },
-    {
-      "id": 44,
-      "domain": "mult6",
-      "text": "6 × 10 = ?",
-      "image": null,
-      "options": {
-        "A": "60",
-        "B": "50",
-        "C": "66",
-        "D": "610"
+        "A": "5 × 6",
+        "B": "4 × 6",
+        "C": "They are equal",
+        "D": "Cannot tell"
       },
       "answer": "A",
       "difficulty": "easy"
     },
     {
-      "id": 45,
+      "id": 44,
       "domain": "mult6",
-      "text": "6 × 6 = ?",
+      "text": "1 insect has 6 legs. How many legs do 9 insects have?",
       "image": null,
       "options": {
-        "A": "30",
-        "B": "32",
-        "C": "36",
-        "D": "42"
+        "A": "54",
+        "B": "56",
+        "C": "60",
+        "D": "63"
       },
-      "answer": "C",
-      "difficulty": "easy"
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "id": 45,
+      "domain": "mult6",
+      "text": "36 ÷ 6 = ?",
+      "image": null,
+      "options": {
+        "A": "5",
+        "B": "6",
+        "C": "7",
+        "D": "8"
+      },
+      "answer": "B",
+      "difficulty": "medium"
     },
     {
       "id": 46,
-      "domain": "mult6",
-      "text": "6 × 9 = ?",
+      "domain": "money_make",
+      "text": "How many 50¢ coins make $2?",
       "image": null,
       "options": {
-        "A": "52",
-        "B": "54",
-        "C": "56",
-        "D": "58"
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5"
       },
-      "answer": "B",
-      "difficulty": "easy"
+      "answer": "C",
+      "difficulty": "medium"
     },
     {
       "id": 47,
@@ -719,72 +719,72 @@
     {
       "id": 51,
       "domain": "mult7",
-      "text": "7 × 2 = ?",
+      "text": "Fill in the blank: □ × 7 = 35",
       "image": null,
       "options": {
-        "A": "12",
-        "B": "14",
-        "C": "16",
-        "D": "18"
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "7"
       },
       "answer": "B",
-      "difficulty": "easy"
+      "difficulty": "medium"
     },
     {
       "id": 52,
       "domain": "mult7",
-      "text": "7 × 4 = ?",
+      "text": "Fill in the blank: 7 × □ = 56",
       "image": null,
       "options": {
-        "A": "24",
-        "B": "26",
-        "C": "28",
-        "D": "32"
+        "A": "6",
+        "B": "7",
+        "C": "8",
+        "D": "9"
       },
       "answer": "C",
-      "difficulty": "easy"
+      "difficulty": "medium"
     },
     {
       "id": 53,
       "domain": "mult7",
-      "text": "7 × 6 = ?",
+      "text": "1 week has 7 days. How many days are there in 6 weeks?",
       "image": null,
       "options": {
-        "A": "40",
-        "B": "42",
-        "C": "44",
-        "D": "48"
+        "A": "36",
+        "B": "40",
+        "C": "42",
+        "D": "49"
       },
-      "answer": "B",
-      "difficulty": "easy"
+      "answer": "C",
+      "difficulty": "medium"
     },
     {
       "id": 54,
       "domain": "mult7",
-      "text": "7 × 8 = ?",
+      "text": "63 ÷ 7 = ?",
       "image": null,
       "options": {
-        "A": "54",
-        "B": "56",
-        "C": "58",
-        "D": "63"
+        "A": "8",
+        "B": "9",
+        "C": "10",
+        "D": "7"
       },
       "answer": "B",
-      "difficulty": "easy"
+      "difficulty": "medium"
     },
     {
       "id": 55,
-      "domain": "mult7",
-      "text": "7 × 10 = ?",
+      "domain": "money_make",
+      "text": "Which set of coins makes exactly $1?",
       "image": null,
       "options": {
-        "A": "63",
-        "B": "67",
-        "C": "70",
-        "D": "77"
+        "A": "Two 50¢ coins",
+        "B": "Three 30¢ coins",
+        "C": "Four 25¢ coins",
+        "D": "Five 10¢ coins"
       },
-      "answer": "C",
-      "difficulty": "easy"
+      "answer": "A",
+      "difficulty": "hard"
     },
     {
       "id": 56,
@@ -971,7 +971,7 @@
     {
       "id": 69,
       "domain": "review",
-      "text": "$47.85 − $5.40 = ?",
+      "text": "$47.85 - $5.40 = ?",
       "image": null,
       "options": {
         "A": "$42.45",
