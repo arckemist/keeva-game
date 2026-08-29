@@ -354,6 +354,15 @@ function renderQuestion() {
   });
 
   document.getElementById('question-text').textContent = q.text;
+  const imgWrap = document.getElementById('question-image-wrap');
+  const imgEl = document.getElementById('question-image');
+  if (q.image) {
+    imgEl.src = 'assets/questions/' + q.image;
+    imgWrap.style.display = 'block';
+  } else {
+    imgEl.src = '';
+    imgWrap.style.display = 'none';
+  }
   document.getElementById('question-domain').textContent = q.domain || 'general';
   updateHUD();   // re-enable 50/50 button for the new fight
 }

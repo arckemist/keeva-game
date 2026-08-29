@@ -188,7 +188,7 @@
       "id": 13,
       "domain": "money_make",
       "text": "Fill in the blank: 80¢ + □¢ = $1",
-      "image": null,
+      "image": "q_80c.svg",
       "options": {
         "A": "10",
         "B": "20",
@@ -216,7 +216,7 @@
       "id": 15,
       "domain": "money_add",
       "text": "A bag costs $31.85. A watch costs $14.65 more than the bag. How much does the watch cost?",
-      "image": null,
+      "image": "q_bag_watch.svg",
       "options": {
         "A": "$46.50",
         "B": "$45.50",
@@ -398,7 +398,7 @@
       "id": 28,
       "domain": "word_problems",
       "text": "Aisha buys a doll for $12.60 and a puzzle for $7.40. She pays with a $20 note. How much change?",
-      "image": null,
+      "image": "q_change_20.svg",
       "options": {
         "A": "$0.00 — exactly $20",
         "B": "$1.00",
@@ -412,7 +412,7 @@
       "id": 29,
       "domain": "word_problems",
       "text": "Ben has $15. He buys 2 comics at $4.50 each. How much has he left?",
-      "image": null,
+      "image": "q_comics.svg",
       "options": {
         "A": "$5.00",
         "B": "$6.00",
@@ -426,7 +426,7 @@
       "id": 30,
       "domain": "word_problems",
       "text": "5 erasers cost $3.50 altogether. How much does 1 eraser cost?",
-      "image": null,
+      "image": "q_erasers.svg",
       "options": {
         "A": "60¢",
         "B": "70¢",
@@ -440,7 +440,7 @@
       "id": 31,
       "domain": "word_problems",
       "text": "Farah bought a sandwich for $8.90 and a drink for $2.30. How much did she pay for both?",
-      "image": null,
+      "image": "q_farah.svg",
       "options": {
         "A": "$11.20",
         "B": "$10.20",
@@ -468,7 +468,7 @@
       "id": 33,
       "domain": "word_problems",
       "text": "A toy robot costs $56.25. A toy car costs $11.80 less. How much is the toy car?",
-      "image": null,
+      "image": "q_robot_car.svg",
       "options": {
         "A": "$44.45",
         "B": "$45.45",
@@ -496,7 +496,7 @@
       "id": 35,
       "domain": "word_problems",
       "text": "A vase costs $26.40. A lamp costs $18.70 more. How much is the lamp?",
-      "image": null,
+      "image": "q_vase_lamp.svg",
       "options": {
         "A": "$45.10",
         "B": "$44.10",
@@ -510,7 +510,7 @@
       "id": 36,
       "domain": "word_problems",
       "text": "Mrs Tan had $86.85. She bought shoes for $33.25. How much had she left?",
-      "image": null,
+      "image": "q_shoes.svg",
       "options": {
         "A": "$53.60",
         "B": "$54.60",
@@ -538,7 +538,7 @@
       "id": 38,
       "domain": "word_problems",
       "text": "Kai had $72. He and Cindy each spent $10.20 on a gift. In the end Kai had $34 more than Cindy. How much did Cindy have in the end?",
-      "image": null,
+      "image": "q_kai_cindy.svg",
       "options": {
         "A": "$27.80",
         "B": "$26.80",
@@ -622,7 +622,7 @@
       "id": 44,
       "domain": "mult6",
       "text": "1 insect has 6 legs. How many legs do 9 insects have?",
-      "image": null,
+      "image": "q_6x9_shells.svg",
       "options": {
         "A": "54",
         "B": "56",
@@ -706,7 +706,7 @@
       "id": 50,
       "domain": "mult6",
       "text": "48 markers are shared equally into packs of 6. How many packs?",
-      "image": null,
+      "image": "q_6packs_shells.svg",
       "options": {
         "A": "6",
         "B": "7",
@@ -776,7 +776,7 @@
       "id": 55,
       "domain": "money_make",
       "text": "Which set of coins makes exactly $1?",
-      "image": null,
+      "image": "q_two50.svg",
       "options": {
         "A": "Two 50¢ coins",
         "B": "Three 30¢ coins",
@@ -860,7 +860,7 @@
       "id": 61,
       "domain": "mult7",
       "text": "35 cookies are packed equally into boxes of 7. How many boxes?",
-      "image": null,
+      "image": "q_7packs_shells.svg",
       "options": {
         "A": "4",
         "B": "5",
