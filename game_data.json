@@ -1,10 +1,10 @@
 {
   "kid": "keeva",
-  "subject": "Math",
-  "grade": "Grade 3",
-  "source_pdf": "Primary Mathematics 3A (Marshall Cavendish) - Money + Multiplication Tables 6 & 7",
-  "generated_at": "2026-08-29T00:00:00+07:00",
-  "title": "Keeva's Math Quest",
+  "subject": "PAI (Agama Islam)",
+  "grade": "Grade 3 (Kelas III)",
+  "source_pdf": "PAI & Budi Pekerti Jilid 3 SD Kelas III - Bab 1 Q.S. Al-'Alaq/96:1-5 + Bab 2 Sifat-Sifat Allah dan Asmaulhusna",
+  "generated_at": "2026-09-06T00:00:00+07:00",
+  "title": "Keeva's PAI Quest",
   "character": "knight",
   "config": {
     "hero_hp": 5,
@@ -18,983 +18,983 @@
   "questions": [
     {
       "id": 1,
-      "domain": "money_make",
-      "text": "Ali has 65¢. How much more money does he need to make $1?",
+      "domain": "Surah Al-'Alaq",
+      "text": "Q.S. Al-'Alaq/96:1-5 merupakan wahyu yang diturunkan Allah Swt. untuk yang ... kali.",
       "image": null,
       "options": {
-        "A": "25¢",
-        "B": "35¢",
-        "C": "45¢",
-        "D": "55¢"
+        "A": "pertama",
+        "D": "kedua",
+        "C": "ketiga",
+        "B": "terakhir"
       },
-      "answer": "B",
+      "answer": "A",
       "difficulty": "easy"
     },
     {
       "id": 2,
-      "domain": "money_make",
-      "text": "Belle has 40¢. How much more does she need to make $1?",
+      "domain": "Surah Al-'Alaq",
+      "text": "Kata 'iqra'' pada awal surah Al-'Alaq artinya ...",
       "image": null,
       "options": {
-        "A": "40¢",
-        "B": "50¢",
-        "C": "60¢",
-        "D": "70¢"
+        "D": "Bacalah!",
+        "A": "Dengarlah!",
+        "C": "Sembahlah!",
+        "B": "Berdoalah!"
       },
-      "answer": "C",
+      "answer": "D",
       "difficulty": "easy"
     },
     {
       "id": 3,
-      "domain": "money_make",
-      "text": "Meiling has $7.50. How much more does she need to make $10?",
+      "domain": "Surah Al-'Alaq",
+      "text": "Surah Al-'Alaq terdiri atas ... ayat.",
       "image": null,
       "options": {
-        "A": "$2.50",
-        "B": "$2.00",
-        "C": "$3.50",
-        "D": "$1.50"
+        "A": "19",
+        "B": "9",
+        "C": "5",
+        "D": "99"
       },
       "answer": "A",
       "difficulty": "easy"
     },
     {
       "id": 4,
-      "domain": "money_make",
-      "text": "55.70 and 44.30 make $100. What is 55.70 + 44.30?",
+      "domain": "Surah Al-'Alaq",
+      "text": "Arti kata Al-'Alaq adalah ...",
       "image": null,
       "options": {
-        "A": "$99.00",
-        "B": "$100.00",
-        "C": "$101.00",
-        "D": "$98.30"
+        "C": "segumpal darah",
+        "D": "buah kurma",
+        "B": "bintang terang",
+        "A": "lembah yang dalam"
       },
-      "answer": "B",
-      "difficulty": "medium"
+      "answer": "C",
+      "difficulty": "easy"
     },
     {
       "id": 5,
-      "domain": "money_make",
-      "text": "$72.20 is how much less than $100?",
+      "domain": "Surah Al-'Alaq",
+      "text": "Ayat kedua Q.S. Al-'Alaq artinya \"Dia menciptakan manusia dari ...\"",
       "image": null,
       "options": {
-        "A": "$28.80",
-        "B": "$27.80",
-        "C": "$28.20",
-        "D": "$38.80"
+        "A": "segumpal darah",
+        "D": "tanah liat",
+        "B": "cahaya",
+        "C": "air"
       },
       "answer": "A",
       "difficulty": "medium"
     },
     {
       "id": 6,
-      "domain": "money_make",
-      "text": "6.75 is how much less than $10?",
+      "domain": "Surah Al-'Alaq",
+      "text": "Ayat keempat Q.S. Al-'Alaq menyebutkan bahwa Allah Swt. mengajar manusia dengan ...",
       "image": null,
       "options": {
-        "A": "$4.25",
-        "B": "$3.35",
-        "C": "$3.25",
-        "D": "$2.25"
+        "B": "pena (qalam)",
+        "A": "lisan",
+        "C": "perantara malaikat",
+        "D": "perantara guru"
+      },
+      "answer": "B",
+      "difficulty": "medium"
+    },
+    {
+      "id": 7,
+      "domain": "Surah Al-'Alaq",
+      "text": "Q.S. Al-'Alaq termasuk golongan surah ...",
+      "image": null,
+      "options": {
+        "C": "makkiyah",
+        "B": "madaniyah",
+        "A": "yang diturunkan di Madinah",
+        "D": "yang diturunkan setelah hijrah"
       },
       "answer": "C",
       "difficulty": "medium"
     },
     {
-      "id": 7,
-      "domain": "money_make",
-      "text": "How many 10¢ coins make $1?",
-      "image": null,
-      "options": {
-        "A": "5",
-        "B": "8",
-        "C": "10",
-        "D": "100"
-      },
-      "answer": "C",
-      "difficulty": "easy"
-    },
-    {
       "id": 8,
-      "domain": "money_make",
-      "text": "35¢ and ___¢ make $1.",
+      "domain": "Surah Al-'Alaq",
+      "text": "Surah Al-'Alaq ayat 1-5 diturunkan kepada Nabi Muhammad saw. di ...",
       "image": null,
       "options": {
-        "A": "55",
-        "B": "65",
-        "C": "75",
-        "D": "85"
+        "B": "Gua Hira",
+        "C": "Masjid Nabawi",
+        "A": "Bukit Safa",
+        "D": "Madinah"
       },
       "answer": "B",
-      "difficulty": "easy"
+      "difficulty": "hard"
     },
     {
       "id": 9,
-      "domain": "money_make",
-      "text": "To make $10 from $7.50, Meiling counted on: +50¢ to $8.00, then +$2 to $10. How much is 50¢ + $2?",
+      "domain": "Surah Al-'Alaq",
+      "text": "Salah satu ketentuan menulis lafal Al-Qur'an yang benar adalah ...",
       "image": null,
       "options": {
-        "A": "$2.50",
-        "B": "$2.05",
-        "C": "$2.20",
-        "D": "$7.52"
+        "A": "dimulai dari sebelah kanan",
+        "C": "dimulai dari sebelah kiri",
+        "B": "tidak perlu titik dan harakat",
+        "D": "boleh asal terbaca"
       },
       "answer": "A",
       "difficulty": "hard"
     },
     {
       "id": 10,
-      "domain": "money_make",
-      "text": "$55.70 is how much less than $100?",
+      "domain": "Pesan Pokok",
+      "text": "Salah satu pesan pokok Q.S. Al-'Alaq/96:1-5 adalah perintah untuk ...",
       "image": null,
       "options": {
-        "A": "$45.30",
-        "B": "$44.30",
-        "C": "$43.30",
-        "D": "$44.70"
+        "D": "rajin membaca atau belajar",
+        "C": "berpuasa",
+        "B": "bersedekah",
+        "A": "berzikir"
       },
-      "answer": "B",
-      "difficulty": "hard"
+      "answer": "D",
+      "difficulty": "easy"
     },
     {
       "id": 11,
-      "domain": "money_add",
-      "text": "Aini bought a cap for $7.20 and a hair clip for $1.35. How much did she spend altogether?",
+      "domain": "Pesan Pokok",
+      "text": "Allah Swt. menciptakan manusia dari ...",
       "image": null,
       "options": {
-        "A": "$8.55",
-        "B": "$8.45",
-        "C": "$7.55",
-        "D": "$9.55"
+        "C": "segumpal darah",
+        "A": "tanah",
+        "D": "api",
+        "B": "cahaya"
       },
-      "answer": "A",
+      "answer": "C",
       "difficulty": "easy"
     },
     {
       "id": 12,
-      "domain": "money_make",
-      "text": "Fill in the blank: $3.45 + □ = $10",
+      "domain": "Pesan Pokok",
+      "text": "Rara membaca buku cerita setiap malam sebelum tidur. Sikap Rara sesuai dengan pesan pokok surah ...",
       "image": null,
       "options": {
-        "A": "$6.55",
-        "B": "$6.65",
-        "C": "$7.55",
-        "D": "$5.55"
+        "C": "Al-'Alaq",
+        "B": "Al-Fatihah",
+        "A": "Al-Ikhlas",
+        "D": "Al-Falaq"
       },
-      "answer": "A",
+      "answer": "C",
       "difficulty": "medium"
     },
     {
       "id": 13,
-      "domain": "money_make",
-      "text": "Fill in the blank: 80¢ + □¢ = $1",
-      "image": "q_80c.svg",
+      "domain": "Pesan Pokok",
+      "text": "Dengan membaca atau belajar, manusia dapat ...",
+      "image": null,
       "options": {
-        "A": "10",
-        "B": "20",
-        "C": "30",
-        "D": "40"
+        "A": "mengetahui hal yang sebelumnya tidak diketahui",
+        "B": "menjadi kaya raya",
+        "C": "dipuji teman-temannya",
+        "D": "terkenal di sekolah"
       },
-      "answer": "B",
+      "answer": "A",
       "difficulty": "medium"
     },
     {
       "id": 14,
-      "domain": "money_add",
-      "text": "Ben bought a belt for $12.45 and a wallet for $25.30. How much did he spend?",
+      "domain": "Pesan Pokok",
+      "text": "Allah Swt. mengajarkan ilmu kepada manusia melalui ...",
       "image": null,
       "options": {
-        "A": "$37.75",
-        "B": "$36.75",
-        "C": "$38.75",
-        "D": "$37.85"
+        "B": "pena atau tulisan",
+        "C": "mimpi",
+        "D": "suara alam",
+        "A": "bintang"
       },
-      "answer": "A",
+      "answer": "B",
       "difficulty": "medium"
     },
     {
       "id": 15,
-      "domain": "money_add",
-      "text": "A bag costs $31.85. A watch costs $14.65 more than the bag. How much does the watch cost?",
-      "image": "q_bag_watch.svg",
-      "options": {
-        "A": "$46.50",
-        "B": "$45.50",
-        "C": "$47.50",
-        "D": "$46.40"
-      },
-      "answer": "A",
-      "difficulty": "hard"
-    },
-    {
-      "id": 16,
-      "domain": "money_add",
-      "text": "When adding $2.50 + $3.75, we add the dollars first or the ___ first? (book shows cents-first works too)",
+      "domain": "Pesan Pokok",
+      "text": "Perhatikan pernyataan berikut:\n(1) Perintah melaksanakan salat lima waktu\n(2) Perintah rajin membaca\n(3) Allah menciptakan manusia dari api\n(4) Allah mengajarkan manusia dengan pena\nYang merupakan pesan pokok Q.S. Al-'Alaq/96:1-5 ditunjukkan nomor ...",
       "image": null,
       "options": {
-        "A": "hundreds",
-        "B": "tens",
-        "C": "cents",
-        "D": "thousands"
+        "D": "(2) dan (4)",
+        "C": "(1) dan (2)",
+        "B": "(1) dan (3)",
+        "A": "(3) dan (4)"
       },
-      "answer": "C",
-      "difficulty": "easy"
-    },
-    {
-      "id": 17,
-      "domain": "money_add",
-      "text": "Which amount is MORE?",
-      "image": null,
-      "options": {
-        "A": "$5.06",
-        "B": "$5.60",
-        "C": "$5.06 and $5.60 are equal",
-        "D": "Cannot tell"
-      },
-      "answer": "B",
-      "difficulty": "easy"
-    },
-    {
-      "id": 18,
-      "domain": "money_add",
-      "text": "Order these from greatest: $7.80, $7.08, $8.70. Which is GREATEST?",
-      "image": null,
-      "options": {
-        "A": "$7.80",
-        "B": "$7.08",
-        "C": "$8.70",
-        "D": "They are all equal"
-      },
-      "answer": "C",
-      "difficulty": "hard"
-    },
-    {
-      "id": 19,
-      "domain": "word_problems",
-      "text": "Ali has $8.00 and buys a snack for $2.50. Which expression shows his change?",
-      "image": null,
-      "options": {
-        "A": "$8.00 + $2.50",
-        "B": "$8.00 - $2.50",
-        "C": "$8.00 × $2.50",
-        "D": "$2.50 - $8.00"
-      },
-      "answer": "B",
+      "answer": "D",
       "difficulty": "medium"
     },
     {
-      "id": 20,
-      "domain": "word_problems",
-      "text": "A pen costs $1.20. Which expression shows the cost of 3 pens?",
+      "id": 16,
+      "domain": "Pesan Pokok",
+      "text": "Mengapa perintah membaca menjadi wahyu pertama yang diturunkan Allah Swt.?",
       "image": null,
       "options": {
-        "A": "$1.20 + 3",
-        "B": "$1.20 - 3",
-        "C": "3 × $1.20",
-        "D": "$1.20 ÷ 3"
+        "B": "Karena membaca merupakan salah satu cara mendapat ilmu",
+        "A": "Karena membaca membuat badan sehat",
+        "D": "Karena Nabi Muhammad saw. gemar membaca",
+        "C": "Karena buku banyak dijual di pasar"
+      },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": 17,
+      "domain": "Pesan Pokok",
+      "text": "Sikap yang TIDAK sesuai dengan pesan pokok Q.S. Al-'Alaq/96:1-5 adalah ...",
+      "image": null,
+      "options": {
+        "B": "malas belajar dan jarang membaca",
+        "C": "rajin membaca buku",
+        "D": "tekun belajar",
+        "A": "gemar membaca Al-Qur'an"
+      },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": 18,
+      "domain": "Nuzululqur'an",
+      "text": "Wahyu pertama diturunkan Allah Swt. kepada Nabi Muhammad saw. melalui Malaikat ...",
+      "image": null,
+      "options": {
+        "B": "Jibril",
+        "A": "Mikail",
+        "C": "Israfil",
+        "D": "Izrail"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": 19,
+      "domain": "Nuzululqur'an",
+      "text": "Peristiwa turunnya wahyu pertama dikenal dengan nama ...",
+      "image": null,
+      "options": {
+        "C": "nuzululqur'an",
+        "D": "khatmilqur'an",
+        "B": "tilawatilqur'an",
+        "A": "tadarusan"
+      },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": 20,
+      "domain": "Nuzululqur'an",
+      "text": "Wahyu pertama diterima Nabi Muhammad saw. di ...",
+      "image": null,
+      "options": {
+        "C": "Gua Hira",
+        "A": "Masjidil Haram",
+        "D": "rumah Abu Bakar",
+        "B": "pasar Ukaz"
       },
       "answer": "C",
       "difficulty": "medium"
     },
     {
       "id": 21,
-      "domain": "money_subtract",
-      "text": "Max has $9.85. He buys a baseball for $4.70. How much does he have left?",
+      "domain": "Nuzululqur'an",
+      "text": "Nuzululqur'an diperingati umat Islam setiap tanggal ...",
       "image": null,
       "options": {
-        "A": "$5.15",
-        "B": "$5.25",
-        "C": "$4.15",
-        "D": "$6.15"
+        "A": "17 Ramadan",
+        "D": "1 Syawal",
+        "C": "10 Muharam",
+        "B": "12 Rabiul Awal"
       },
       "answer": "A",
-      "difficulty": "easy"
+      "difficulty": "medium"
     },
     {
       "id": 22,
-      "domain": "money_subtract",
-      "text": "The T-shirt costs $15.45 and the dress $28.95. How much cheaper is the T-shirt?",
+      "domain": "Nuzululqur'an",
+      "text": "Wahyu pertama diturunkan kepada Nabi Muhammad saw. pada tahun ...",
       "image": null,
       "options": {
-        "A": "$13.50",
-        "B": "$12.50",
-        "C": "$14.50",
-        "D": "$13.40"
-      },
-      "answer": "A",
-      "difficulty": "easy"
-    },
-    {
-      "id": 23,
-      "domain": "money_subtract",
-      "text": "Which amount is LESS?",
-      "image": null,
-      "options": {
-        "A": "$9.90",
-        "B": "$9.09",
-        "C": "$9.90 and $9.09 are equal",
-        "D": "Cannot tell"
+        "B": "610 M",
+        "C": "570 M",
+        "D": "622 M",
+        "A": "632 M"
       },
       "answer": "B",
       "difficulty": "medium"
     },
     {
-      "id": 24,
-      "domain": "money_subtract",
-      "text": "Order these from smallest: $4.50, $0.45, $4.05. Which is SMALLEST?",
+      "id": 23,
+      "domain": "Nuzululqur'an",
+      "text": "Wahyu pertama Allah Swt. kepada Nabi Muhammad saw. berisi perintah untuk ...",
       "image": null,
       "options": {
-        "A": "$4.50",
-        "B": "$4.05",
-        "C": "$0.45",
-        "D": "They are all equal"
+        "B": "membaca",
+        "A": "berperang",
+        "C": "berdagang",
+        "D": "berpindah tempat"
       },
-      "answer": "C",
-      "difficulty": "medium"
-    },
-    {
-      "id": 25,
-      "domain": "money_add",
-      "text": "To make $10 from $6.20, the book counts on: +80¢ to $7, then +$3 to $10. How much is 80¢ + $3?",
-      "image": null,
-      "options": {
-        "A": "$3.80",
-        "B": "$3.08",
-        "C": "$4.20",
-        "D": "$3.20"
-      },
-      "answer": "A",
-      "difficulty": "medium"
-    },
-    {
-      "id": 26,
-      "domain": "money_make",
-      "text": "Siti has $4 and Ravi has $2 more than Siti. How much do they have altogether?",
-      "image": "q_siti_ravi.svg",
-      "options": {
-        "A": "$6",
-        "B": "$8",
-        "C": "$10",
-        "D": "$12"
-      },
-      "answer": "C",
+      "answer": "B",
       "difficulty": "hard"
     },
     {
-      "id": 27,
-      "domain": "money_subtract",
-      "text": "$100 - $23.50 = ?",
+      "id": 24,
+      "domain": "Qalqalah",
+      "text": "Secara bahasa, qalqalah artinya ...",
       "image": null,
       "options": {
-        "A": "$76.50",
-        "B": "$77.50",
-        "C": "$76.40",
-        "D": "$66.50"
+        "A": "pantulan",
+        "B": "dengungan",
+        "C": "samar",
+        "D": "jelas"
       },
       "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": 25,
+      "domain": "Qalqalah",
+      "text": "Huruf qalqalah berjumlah ...",
+      "image": null,
+      "options": {
+        "D": "5",
+        "A": "3",
+        "B": "7",
+        "C": "10"
+      },
+      "answer": "D",
+      "difficulty": "easy"
+    },
+    {
+      "id": 26,
+      "domain": "Qalqalah",
+      "text": "Huruf-huruf qalqalah adalah ...",
+      "image": null,
+      "options": {
+        "C": "ba, jim, dal, tha, qaf",
+        "D": "ba, sin, dal, tha, qaf",
+        "A": "jim, ha, kha, shin, qaf",
+        "B": "dal, ra, za, tha, mim"
+      },
+      "answer": "C",
+      "difficulty": "medium"
+    },
+    {
+      "id": 27,
+      "domain": "Qalqalah",
+      "text": "Qalqalah sugra terjadi apabila huruf qalqalah ...",
+      "image": null,
+      "options": {
+        "D": "berharakat sukun di tengah kata",
+        "C": "berada di akhir kalimat",
+        "B": "berharakat fathah",
+        "A": "bertemu huruf alif"
+      },
+      "answer": "D",
       "difficulty": "medium"
     },
     {
       "id": 28,
-      "domain": "word_problems",
-      "text": "Aisha buys a doll for $12.60 and a puzzle for $7.40. She pays with a $20 note. How much change?",
-      "image": "q_change_20.svg",
+      "domain": "Qalqalah",
+      "text": "Qalqalah kubra terjadi apabila huruf qalqalah ...",
+      "image": null,
       "options": {
-        "A": "$0.00 — exactly $20",
-        "B": "$1.00",
-        "C": "$2.00",
-        "D": "$5.00"
+        "D": "diwaqafkan atau berhenti di akhir kalimat",
+        "B": "bersukun di tengah kata",
+        "C": "berharakat kasrah",
+        "A": "bertemu huruf nun"
       },
-      "answer": "A",
-      "difficulty": "hard"
+      "answer": "D",
+      "difficulty": "medium"
     },
     {
       "id": 29,
-      "domain": "word_problems",
-      "text": "Ben has $15. He buys 2 comics at $4.50 each. How much has he left?",
-      "image": "q_comics.svg",
+      "domain": "Qalqalah",
+      "text": "Perbedaan qalqalah kubra dengan qalqalah sugra adalah bunyi pantulannya lebih ...",
+      "image": null,
       "options": {
-        "A": "$5.00",
-        "B": "$6.00",
-        "C": "$7.00",
-        "D": "$10.50"
+        "C": "kuat",
+        "B": "lemah",
+        "D": "samar",
+        "A": "pendek"
       },
-      "answer": "B",
-      "difficulty": "hard"
+      "answer": "C",
+      "difficulty": "medium"
     },
     {
       "id": 30,
-      "domain": "word_problems",
-      "text": "5 erasers cost $3.50 altogether. How much does 1 eraser cost?",
-      "image": "q_erasers.svg",
+      "domain": "Qalqalah",
+      "text": "Agar mudah diingat, lima huruf qalqalah dapat disingkat dengan istilah ...",
+      "image": null,
       "options": {
-        "A": "60¢",
-        "B": "70¢",
-        "C": "80¢",
-        "D": "$1.00"
+        "B": "qutub jad",
+        "C": "batu jari",
+        "A": "qaf ba dal",
+        "D": "jim ba tha"
       },
       "answer": "B",
       "difficulty": "medium"
     },
     {
       "id": 31,
-      "domain": "word_problems",
-      "text": "Farah bought a sandwich for $8.90 and a drink for $2.30. How much did she pay for both?",
-      "image": "q_farah.svg",
+      "domain": "Qalqalah",
+      "text": "Lafal 'khalaq' pada Q.S. Al-'Alaq/96:2 mengandung huruf qaf. Huruf qaf pada lafal tersebut harus dibaca ...",
+      "image": null,
       "options": {
-        "A": "$11.20",
-        "B": "$10.20",
-        "C": "$11.10",
-        "D": "$12.20"
+        "B": "memantul",
+        "A": "jelas",
+        "C": "samar",
+        "D": "dengung"
+      },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": 32,
+      "domain": "Sifat Wajib",
+      "text": "Sifat wajib bagi Allah Swt. berjumlah ...",
+      "image": null,
+      "options": {
+        "C": "20",
+        "B": "10",
+        "A": "99",
+        "D": "5"
+      },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": 33,
+      "domain": "Sifat Wajib",
+      "text": "Sifat wajib Allah Swt. adalah sifat kesempurnaan yang ...",
+      "image": null,
+      "options": {
+        "A": "pasti ada pada Allah Swt.",
+        "B": "mungkin ada pada Allah Swt.",
+        "D": "tidak ada pada Allah Swt.",
+        "C": "hanya dimiliki makhluk"
       },
       "answer": "A",
       "difficulty": "easy"
     },
     {
-      "id": 32,
-      "domain": "word_problems",
-      "text": "Kai bought groceries for $79.70 and paid with a $100 note. How much change did he get?",
-      "image": null,
-      "options": {
-        "A": "$20.30",
-        "B": "$21.30",
-        "C": "$20.20",
-        "D": "$30.30"
-      },
-      "answer": "A",
-      "difficulty": "medium"
-    },
-    {
-      "id": 33,
-      "domain": "word_problems",
-      "text": "A toy robot costs $56.25. A toy car costs $11.80 less. How much is the toy car?",
-      "image": "q_robot_car.svg",
-      "options": {
-        "A": "$44.45",
-        "B": "$45.45",
-        "C": "$44.55",
-        "D": "$43.45"
-      },
-      "answer": "A",
-      "difficulty": "medium"
-    },
-    {
       "id": 34,
-      "domain": "word_problems",
-      "text": "Max bought a cake for $15.80 and biscuits for $6.10. How much did he spend altogether?",
+      "domain": "Sifat Wajib",
+      "text": "Sifat wajib Allah 'wujud' artinya ...",
       "image": null,
       "options": {
-        "A": "$21.90",
-        "B": "$22.90",
-        "C": "$21.80",
-        "D": "$20.90"
+        "C": "ada",
+        "A": "kekal",
+        "B": "terdahulu",
+        "D": "esa"
       },
-      "answer": "A",
-      "difficulty": "medium"
+      "answer": "C",
+      "difficulty": "easy"
     },
     {
       "id": 35,
-      "domain": "word_problems",
-      "text": "A vase costs $26.40. A lamp costs $18.70 more. How much is the lamp?",
-      "image": "q_vase_lamp.svg",
+      "domain": "Sifat Wajib",
+      "text": "Sifat wajib Allah 'qidam' artinya ...",
+      "image": null,
       "options": {
-        "A": "$45.10",
-        "B": "$44.10",
-        "C": "$45.00",
-        "D": "$46.10"
+        "B": "terdahulu",
+        "A": "berdiri sendiri",
+        "C": "berkuasa",
+        "D": "hidup"
       },
-      "answer": "A",
-      "difficulty": "hard"
+      "answer": "B",
+      "difficulty": "medium"
     },
     {
       "id": 36,
-      "domain": "word_problems",
-      "text": "Mrs Tan had $86.85. She bought shoes for $33.25. How much had she left?",
-      "image": "q_shoes.svg",
+      "domain": "Sifat Wajib",
+      "text": "Allah Swt. abadi selama-lamanya. Sifat wajib yang sesuai adalah ...",
+      "image": null,
       "options": {
-        "A": "$53.60",
-        "B": "$54.60",
-        "C": "$52.60",
-        "D": "$53.50"
+        "D": "baqa'",
+        "B": "fana'",
+        "A": "wujud",
+        "C": "qidam"
       },
-      "answer": "A",
+      "answer": "D",
       "difficulty": "medium"
     },
     {
       "id": 37,
-      "domain": "word_problems",
-      "text": "Ali had $12. He and Becky each spent $4 on fruit. In the end Ali had $2.50 more than Becky. How much did Becky have in the end?",
+      "domain": "Sifat Wajib",
+      "text": "Allah Swt. esa atau tunggal, tidak beranak dan tidak diperanakkan. Sifat wajib yang sesuai adalah ...",
       "image": null,
       "options": {
-        "A": "$5.50",
-        "B": "$6.50",
-        "C": "$4.50",
-        "D": "$7.50"
+        "A": "wahdaniyat",
+        "C": "qudrat",
+        "B": "iradat",
+        "D": "ilmu"
       },
       "answer": "A",
-      "difficulty": "hard"
-    },
-    {
-      "id": 38,
-      "domain": "word_problems",
-      "text": "Kai had $72. He and Cindy each spent $10.20 on a gift. In the end Kai had $34 more than Cindy. How much did Cindy have in the end?",
-      "image": "q_kai_cindy.svg",
-      "options": {
-        "A": "$27.80",
-        "B": "$26.80",
-        "C": "$28.80",
-        "D": "$27.60"
-      },
-      "answer": "A",
-      "difficulty": "hard"
-    },
-    {
-      "id": 39,
-      "domain": "word_problems",
-      "text": "In word problems, the four steps are: Understand, Plan, Do, and ___?",
-      "image": null,
-      "options": {
-        "A": "Repeat",
-        "B": "Check",
-        "C": "Report",
-        "D": "Guess"
-      },
-      "answer": "B",
-      "difficulty": "easy"
-    },
-    {
-      "id": 40,
-      "domain": "word_problems",
-      "text": "What tool does the book suggest to plan a money word problem?",
-      "image": null,
-      "options": {
-        "A": "A calculator",
-        "B": "A bar model",
-        "C": "A ruler",
-        "D": "A number line only"
-      },
-      "answer": "B",
-      "difficulty": "easy"
-    },
-    {
-      "id": 41,
-      "domain": "mult6",
-      "text": "Fill in the blank: □ × 6 = 42",
-      "image": null,
-      "options": {
-        "A": "6",
-        "B": "7",
-        "C": "8",
-        "D": "9"
-      },
-      "answer": "B",
       "difficulty": "medium"
     },
     {
-      "id": 42,
-      "domain": "mult6",
-      "text": "Fill in the blank: 6 × □ = 54",
+      "id": 38,
+      "domain": "Sifat Wajib",
+      "text": "Allah Swt. tidak membutuhkan bantuan siapa pun. Sifat wajib yang sesuai adalah ...",
       "image": null,
       "options": {
-        "A": "7",
-        "B": "8",
-        "C": "9",
-        "D": "10"
+        "A": "qiyamuhu binafsihi",
+        "B": "mukhalafatu lil hawadisi",
+        "C": "hayat",
+        "D": "kalam"
+      },
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "id": 39,
+      "domain": "Sifat Wajib",
+      "text": "Allah Swt. mengetahui segala sesuatu, baik yang tampak maupun yang tersembunyi. Sifat wajib yang sesuai adalah ...",
+      "image": null,
+      "options": {
+        "D": "ilmu",
+        "A": "sama'",
+        "B": "basar",
+        "C": "kalam"
+      },
+      "answer": "D",
+      "difficulty": "medium"
+    },
+    {
+      "id": 40,
+      "domain": "Sifat Wajib",
+      "text": "Allah Swt. berbeda dengan makhluk-Nya karena tidak ada yang serupa dengan-Nya. Sifat wajib tersebut adalah ...",
+      "image": null,
+      "options": {
+        "D": "mukhalafatu lil hawadisi",
+        "C": "wahdaniyat",
+        "B": "qudrat",
+        "A": "iradat"
+      },
+      "answer": "D",
+      "difficulty": "medium"
+    },
+    {
+      "id": 41,
+      "domain": "Sifat Wajib",
+      "text": "Perhatikan pasangan berikut:\n(1) Sama' - Maha Mendengar\n(2) Basar - Maha Melihat\n(3) Kalam - Maha Kuasa\n(4) Qudrat - Berkehendak\nPasangan sifat wajib dan artinya yang benar ditunjukkan nomor ...",
+      "image": null,
+      "options": {
+        "D": "(1) dan (2)",
+        "C": "(1) dan (3)",
+        "A": "(2) dan (4)",
+        "B": "(3) dan (4)"
+      },
+      "answer": "D",
+      "difficulty": "hard"
+    },
+    {
+      "id": 42,
+      "domain": "Sifat Mustahil",
+      "text": "Sifat mustahil Allah Swt. adalah kebalikan dari sifat ...",
+      "image": null,
+      "options": {
+        "C": "wajib",
+        "D": "jaiz",
+        "A": "terpuji",
+        "B": "manusia"
+      },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": 43,
+      "domain": "Sifat Mustahil",
+      "text": "Sifat mustahil Allah 'adam' artinya ...",
+      "image": null,
+      "options": {
+        "B": "tidak ada",
+        "A": "baru",
+        "C": "binasa",
+        "D": "lemah"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": 44,
+      "domain": "Sifat Mustahil",
+      "text": "Sifat mustahil Allah 'fana'' artinya ...",
+      "image": null,
+      "options": {
+        "D": "binasa",
+        "B": "kekal",
+        "A": "terdahulu",
+        "C": "kuat"
+      },
+      "answer": "D",
+      "difficulty": "medium"
+    },
+    {
+      "id": 45,
+      "domain": "Sifat Mustahil",
+      "text": "Allah Swt. mustahil bersifat fana' karena Allah Swt. ...",
+      "image": null,
+      "options": {
+        "C": "kekal selama-lamanya",
+        "B": "tidak ada",
+        "A": "lemah",
+        "D": "mati"
       },
       "answer": "C",
       "difficulty": "medium"
     },
     {
-      "id": 43,
-      "domain": "mult6",
-      "text": "Which is GREATER?",
-      "image": null,
-      "options": {
-        "A": "5 × 6",
-        "B": "4 × 6",
-        "C": "They are equal",
-        "D": "Cannot tell"
-      },
-      "answer": "A",
-      "difficulty": "easy"
-    },
-    {
-      "id": 44,
-      "domain": "mult6",
-      "text": "1 insect has 6 legs. How many legs do 9 insects have?",
-      "image": "q_6x9_beetles.svg",
-      "options": {
-        "A": "54",
-        "B": "56",
-        "C": "60",
-        "D": "63"
-      },
-      "answer": "A",
-      "difficulty": "medium"
-    },
-    {
-      "id": 45,
-      "domain": "mult6",
-      "text": "36 ÷ 6 = ?",
-      "image": null,
-      "options": {
-        "A": "5",
-        "B": "6",
-        "C": "7",
-        "D": "8"
-      },
-      "answer": "B",
-      "difficulty": "medium"
-    },
-    {
       "id": 46,
-      "domain": "money_make",
-      "text": "How many 50¢ coins make $2?",
+      "domain": "Sifat Mustahil",
+      "text": "Sifat mustahil yang artinya \"serupa dengan makhluk-Nya\" adalah ...",
       "image": null,
       "options": {
-        "A": "2",
-        "B": "3",
-        "C": "4",
-        "D": "5"
+        "C": "mumasalatu lil hawadisi",
+        "A": "mukhalafatu lil hawadisi",
+        "B": "ta'addud",
+        "D": "karahah"
       },
       "answer": "C",
       "difficulty": "medium"
     },
     {
       "id": 47,
-      "domain": "mult6",
-      "text": "6 × 6 is 6 more than 5 × 6. If 5 × 6 = 30, what is 6 × 6?",
+      "domain": "Sifat Mustahil",
+      "text": "Allah Swt. mustahil bersifat 'ajzun karena Allah Swt. ...",
       "image": null,
       "options": {
-        "A": "32",
-        "B": "34",
-        "C": "36",
-        "D": "38"
+        "A": "Maha Kuasa atas segala sesuatu",
+        "C": "lemah",
+        "B": "tuli",
+        "D": "bisu"
       },
-      "answer": "C",
+      "answer": "A",
       "difficulty": "medium"
     },
     {
       "id": 48,
-      "domain": "mult6",
-      "text": "8 × 6 is 12 less than 10 × 6. If 10 × 6 = 60, what is 8 × 6?",
+      "domain": "Sifat Mustahil",
+      "text": "Allah Swt. mustahil bersifat mautun karena Allah Swt. ...",
       "image": null,
       "options": {
-        "A": "46",
-        "B": "48",
-        "C": "50",
-        "D": "52"
+        "D": "Maha Hidup dan kekal",
+        "C": "Maha Melihat",
+        "B": "Maha Mendengar",
+        "A": "Maha Berkuasa"
       },
-      "answer": "B",
+      "answer": "D",
       "difficulty": "medium"
     },
     {
       "id": 49,
-      "domain": "mult6",
-      "text": "There are 8 packs of markers, 6 markers in each pack. How many markers in all?",
+      "domain": "Sifat Mustahil",
+      "text": "Sifat mustahil bagi Allah Swt. berjumlah ...",
       "image": null,
       "options": {
-        "A": "42",
-        "B": "46",
-        "C": "48",
-        "D": "54"
+        "D": "20",
+        "B": "10",
+        "C": "99",
+        "A": "5"
       },
-      "answer": "C",
-      "difficulty": "easy"
+      "answer": "D",
+      "difficulty": "medium"
     },
     {
       "id": 50,
-      "domain": "mult6",
-      "text": "48 markers are shared equally into packs of 6. How many packs?",
-      "image": "q_6x8_markers.svg",
+      "domain": "Sifat Mustahil",
+      "text": "Lawan dari sifat wajib 'ilmu' (Maha Mengetahui) adalah sifat mustahil ...",
+      "image": null,
       "options": {
-        "A": "6",
-        "B": "7",
-        "C": "8",
-        "D": "9"
+        "C": "jahlun (bodoh)",
+        "A": "mautun (mati)",
+        "B": "'umyun (buta)",
+        "D": "bukmun (bisu)"
       },
       "answer": "C",
-      "difficulty": "medium"
+      "difficulty": "hard"
     },
     {
       "id": 51,
-      "domain": "mult7",
-      "text": "Fill in the blank: □ × 7 = 35",
+      "domain": "Sifat Mustahil",
+      "text": "Lawan dari sifat wajib 'hayat' (Maha Hidup) adalah sifat mustahil ...",
       "image": null,
       "options": {
-        "A": "4",
-        "B": "5",
-        "C": "6",
-        "D": "7"
+        "B": "mautun (mati)",
+        "D": "jahlun (bodoh)",
+        "A": "hudus (baru)",
+        "C": "fana' (binasa)"
       },
       "answer": "B",
-      "difficulty": "medium"
+      "difficulty": "hard"
     },
     {
       "id": 52,
-      "domain": "mult7",
-      "text": "Fill in the blank: 7 × □ = 56",
+      "domain": "Sifat Jaiz",
+      "text": "Sifat jaiz bagi Allah Swt. berjumlah ...",
       "image": null,
       "options": {
-        "A": "6",
-        "B": "7",
-        "C": "8",
-        "D": "9"
+        "D": "satu",
+        "C": "dua",
+        "B": "lima",
+        "A": "dua puluh"
       },
-      "answer": "C",
-      "difficulty": "medium"
+      "answer": "D",
+      "difficulty": "easy"
     },
     {
       "id": 53,
-      "domain": "mult7",
-      "text": "1 week has 7 days. How many days are there in 6 weeks?",
+      "domain": "Sifat Jaiz",
+      "text": "Sifat jaiz artinya Allah Swt. boleh ...",
       "image": null,
       "options": {
-        "A": "36",
-        "B": "40",
-        "C": "42",
-        "D": "49"
+        "D": "berbuat sesuatu dan boleh meninggalkannya",
+        "C": "membutuhkan bantuan makhluk",
+        "A": "berubah seperti makhluk",
+        "B": "tidak berkuasa"
       },
-      "answer": "C",
-      "difficulty": "medium"
+      "answer": "D",
+      "difficulty": "easy"
     },
     {
       "id": 54,
-      "domain": "mult7",
-      "text": "63 ÷ 7 = ?",
+      "domain": "Sifat Jaiz",
+      "text": "Sifat jaiz Allah Swt. menunjukkan ...",
       "image": null,
       "options": {
-        "A": "8",
-        "B": "9",
-        "C": "10",
-        "D": "7"
+        "D": "kebebasan Allah dalam menentukan perbuatan-Nya",
+        "B": "kelemahan Allah Swt.",
+        "C": "keterbatasan Allah Swt.",
+        "A": "kebutuhan Allah pada makhluk"
       },
-      "answer": "B",
+      "answer": "D",
       "difficulty": "medium"
     },
     {
       "id": 55,
-      "domain": "money_make",
-      "text": "Which set of coins makes exactly $1?",
+      "domain": "Sifat Jaiz",
+      "text": "Pernyataan yang benar tentang sifat jaiz Allah Swt. adalah ...",
       "image": null,
       "options": {
-        "A": "Two 50¢ coins",
-        "B": "Three 30¢ coins",
-        "C": "Four 25¢ coins",
-        "D": "Five 10¢ coins"
+        "A": "Allah Swt. bebas berbuat atau tidak berbuat sesuai kehendak-Nya",
+        "C": "Allah Swt. wajib menciptakan semua makhluk",
+        "B": "Allah Swt. mustahil meninggalkan sesuatu",
+        "D": "Allah Swt. serupa dengan makhluk-Nya"
+      },
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "id": 56,
+      "domain": "Sifat Jaiz",
+      "text": "Allah Swt. boleh menciptakan alam semesta dan boleh tidak menciptakannya. Hal ini termasuk sifat ...",
+      "image": null,
+      "options": {
+        "A": "jaiz",
+        "D": "wajib",
+        "C": "mustahil",
+        "B": "terpuji"
       },
       "answer": "A",
       "difficulty": "hard"
     },
     {
-      "id": 56,
-      "domain": "mult7",
-      "text": "7 × 7 = ?",
-      "image": null,
-      "options": {
-        "A": "42",
-        "B": "47",
-        "C": "49",
-        "D": "56"
-      },
-      "answer": "C",
-      "difficulty": "easy"
-    },
-    {
       "id": 57,
-      "domain": "mult7",
-      "text": "7 × 9 = ?",
+      "domain": "Asmaulhusna",
+      "text": "Asmaulhusna artinya ...",
       "image": null,
       "options": {
-        "A": "56",
-        "B": "60",
-        "C": "63",
-        "D": "66"
+        "B": "nama-nama Allah Swt. yang baik",
+        "C": "sifat-sifat makhluk",
+        "D": "nama-nama malaikat",
+        "A": "bacaan salat"
       },
-      "answer": "C",
+      "answer": "B",
       "difficulty": "easy"
     },
     {
       "id": 58,
-      "domain": "mult7",
-      "text": "6 × 7 is 7 more than 5 × 7. If 5 × 7 = 35, what is 6 × 7?",
+      "domain": "Asmaulhusna",
+      "text": "Jumlah asmaulhusna adalah ...",
       "image": null,
       "options": {
-        "A": "40",
-        "B": "41",
-        "C": "42",
-        "D": "43"
+        "C": "99",
+        "D": "20",
+        "B": "5",
+        "A": "1000"
       },
       "answer": "C",
-      "difficulty": "medium"
+      "difficulty": "easy"
     },
     {
       "id": 59,
-      "domain": "mult7",
-      "text": "8 × 7 is 14 less than 10 × 7. If 10 × 7 = 70, what is 8 × 7?",
+      "domain": "Asmaulhusna",
+      "text": "Al-Wahhab artinya ...",
       "image": null,
       "options": {
-        "A": "54",
-        "B": "56",
-        "C": "58",
-        "D": "60"
+        "A": "Maha Pemberi",
+        "C": "Maha Besar",
+        "B": "Maha Mengetahui",
+        "D": "Maha Melihat"
       },
-      "answer": "B",
+      "answer": "A",
       "difficulty": "medium"
     },
     {
       "id": 60,
-      "domain": "mult7",
-      "text": "There are 5 boxes of cookies, 7 cookies in each box. How many cookies in all?",
+      "domain": "Asmaulhusna",
+      "text": "Al-Kabir artinya ...",
       "image": null,
       "options": {
-        "A": "30",
-        "B": "32",
-        "C": "35",
-        "D": "40"
+        "B": "Maha Besar",
+        "A": "Maha Pemberi",
+        "D": "Maha Pengampun",
+        "C": "Maha Kuasa"
       },
-      "answer": "C",
-      "difficulty": "easy"
+      "answer": "B",
+      "difficulty": "medium"
     },
     {
       "id": 61,
-      "domain": "mult7",
-      "text": "35 cookies are packed equally into boxes of 7. How many boxes?",
-      "image": "q_5x7_cookies.svg",
+      "domain": "Asmaulhusna",
+      "text": "Allah Swt. memberi karunia kepada semua makhluk yang dikehendaki-Nya tanpa mengharapkan imbalan. Asmaulhusna yang sesuai adalah ...",
+      "image": null,
       "options": {
-        "A": "4",
-        "B": "5",
-        "C": "6",
-        "D": "7"
+        "D": "Al-Wahhab",
+        "B": "Al-Kabir",
+        "C": "Al-Malik",
+        "A": "Al-'Alim"
       },
-      "answer": "B",
-      "difficulty": "easy"
+      "answer": "D",
+      "difficulty": "medium"
     },
     {
       "id": 62,
-      "domain": "mult7",
-      "text": "Zara makes 60 brownies and gives each friend 6. How many friends get brownies?",
+      "domain": "Asmaulhusna",
+      "text": "Kebesaran dan kekuasaan Allah Swt. tidak dapat ditandingi oleh siapa pun. Asmaulhusna yang sesuai adalah ...",
       "image": null,
       "options": {
-        "A": "8",
-        "B": "9",
-        "C": "10",
-        "D": "12"
+        "C": "Al-Kabir",
+        "A": "Al-Wahhab",
+        "B": "Al-Fattah",
+        "D": "Ar-Rahman"
       },
       "answer": "C",
       "difficulty": "medium"
     },
     {
       "id": 63,
-      "domain": "mult7",
-      "text": "Raj pours 42 L of milk equally into 6 bottles. How much milk in each bottle?",
+      "domain": "Asmaulhusna",
+      "text": "Memberi bantuan kepada orang yang membutuhkan, baik berupa harta, ilmu, maupun nasihat, merupakan cara mengamalkan asmaulhusna ...",
       "image": null,
       "options": {
-        "A": "6 L",
-        "B": "7 L",
-        "C": "8 L",
-        "D": "36 L"
+        "C": "Al-Wahhab",
+        "A": "Al-Kabir",
+        "D": "Al-Hadi",
+        "B": "As-Salam"
       },
-      "answer": "B",
+      "answer": "C",
       "difficulty": "medium"
     },
     {
       "id": 64,
-      "domain": "mult7",
-      "text": "Mr Karim paints 7 artworks using 42 tubes of paint, the same amount for each. How many tubes per artwork?",
+      "domain": "Asmaulhusna",
+      "text": "Menjaga amanat dengan sebaik-baiknya, bertanggung jawab atas tugas, dan menjauhkan diri dari sikap sombong adalah cara meneladani asmaulhusna ...",
       "image": null,
       "options": {
-        "A": "5",
-        "B": "6",
-        "C": "7",
-        "D": "8"
+        "A": "Al-Kabir",
+        "B": "Al-Wahhab",
+        "D": "Al-Khaliq",
+        "C": "Ar-Razzaq"
       },
-      "answer": "B",
-      "difficulty": "medium"
-    },
-    {
-      "id": 65,
-      "domain": "mult7",
-      "text": "Min jogged 56 days in a row. How many weeks is that? (1 week = 7 days)",
-      "image": null,
-      "options": {
-        "A": "7",
-        "B": "8",
-        "C": "9",
-        "D": "14"
-      },
-      "answer": "B",
+      "answer": "A",
       "difficulty": "hard"
     },
     {
-      "id": 66,
-      "domain": "review",
-      "text": "Ivy had $35.50 and bought a photo frame for $13.75. How much had she left?",
+      "id": 65,
+      "domain": "Teladan Perilaku",
+      "text": "Ahmad belajar dengan tekun setiap malam. Sikap Ahmad sesuai dengan pesan pokok surah ...",
       "image": null,
       "options": {
-        "A": "$21.75",
-        "B": "$22.75",
-        "C": "$20.75",
-        "D": "$21.85"
+        "A": "Al-'Alaq",
+        "C": "An-Nas",
+        "D": "Al-Falaq",
+        "B": "Al-Fatihah"
       },
       "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": 66,
+      "domain": "Teladan Perilaku",
+      "text": "Hasan tidak menyontek saat ulangan karena ia yakin Allah Swt. Maha Melihat. Sifat wajib Allah Swt. yang sesuai adalah ...",
+      "image": null,
+      "options": {
+        "B": "basar",
+        "C": "sama'",
+        "D": "kalam",
+        "A": "iradat"
+      },
+      "answer": "B",
       "difficulty": "medium"
     },
     {
       "id": 67,
-      "domain": "review",
-      "text": "Adil has $74.10 in his coin bank and puts in another $9.95. How much now?",
+      "domain": "Teladan Perilaku",
+      "text": "Bu Aminah membagikan nasi kotak kepada orang yang membutuhkan setiap hari Jumat. Bu Aminah telah meneladani asmaulhusna ...",
       "image": null,
       "options": {
-        "A": "$83.05",
-        "B": "$84.05",
-        "C": "$83.15",
-        "D": "$84.15"
+        "B": "Al-Wahhab",
+        "D": "Al-Kabir",
+        "A": "Al-'Alim",
+        "C": "Al-Waliy"
       },
-      "answer": "A",
+      "answer": "B",
       "difficulty": "medium"
     },
     {
       "id": 68,
-      "domain": "review",
-      "text": "$58.75 + $7.95 = ?",
+      "domain": "Teladan Perilaku",
+      "text": "Fajar menyiapkan perlengkapan sekolah sendiri tanpa disuruh orang tua. Sikap Fajar meneladani sifat wajib ...",
       "image": null,
       "options": {
-        "A": "$66.70",
-        "B": "$65.70",
-        "C": "$66.80",
-        "D": "$67.70"
+        "B": "qiyamuhu binafsihi",
+        "C": "wujud",
+        "A": "qudrat",
+        "D": "iradat"
+      },
+      "answer": "B",
+      "difficulty": "medium"
+    },
+    {
+      "id": 69,
+      "domain": "Teladan Perilaku",
+      "text": "Rina mendapat nilai bagus tetapi tidak sombong dan tetap rendah hati. Sikap Rina meneladani asmaulhusna ...",
+      "image": null,
+      "options": {
+        "A": "Al-Kabir",
+        "C": "Al-Wahhab",
+        "B": "Ar-Rahman",
+        "D": "Al-Malik"
       },
       "answer": "A",
       "difficulty": "hard"
     },
     {
-      "id": 69,
-      "domain": "review",
-      "text": "$47.85 - $5.40 = ?",
-      "image": null,
-      "options": {
-        "A": "$42.45",
-        "B": "$42.35",
-        "C": "$43.45",
-        "D": "$41.45"
-      },
-      "answer": "A",
-      "difficulty": "medium"
-    },
-    {
       "id": 70,
-      "domain": "review",
-      "text": "$6.40 + $3.15 = ?",
+      "domain": "Teladan Perilaku",
+      "text": "Setiap selesai salat Magrib, Burhan membaca Al-Qur'an dengan bimbingan ayahnya. Sikap Burhan menunjukkan kecintaan kepada ...",
       "image": null,
       "options": {
-        "A": "$9.55",
-        "B": "$9.45",
-        "C": "$10.55",
-        "D": "$9.65"
+        "A": "Al-Qur'an",
+        "C": "bermain",
+        "D": "televisi",
+        "B": "gawai"
       },
       "answer": "A",
-      "difficulty": "easy"
+      "difficulty": "hard"
     }
   ]
 }
