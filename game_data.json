@@ -1,10 +1,10 @@
 {
   "kid": "keeva",
-  "subject": "PAI (Agama Islam)",
+  "subject": "Pendidikan Pancasila",
   "grade": "Grade 3 (Kelas III)",
-  "source_pdf": "PAI & Budi Pekerti Jilid 3 SD Kelas III - Bab 1 Q.S. Al-'Alaq/96:1-5 + Bab 2 Sifat-Sifat Allah dan Asmaulhusna",
-  "generated_at": "2026-09-06T00:00:00+07:00",
-  "title": "Keeva's PAI Quest",
+  "source_pdf": "Adobe Scan Sep 07, 2026 - ESPS Pendidikan Pancasila untuk SD/MI Kelas III, Bab 1 Ayo Memahami Makna Pancasila (hal 1-36)",
+  "generated_at": "2026-09-07T00:00:00+07:00",
+  "title": "Keeva's Pancasila Quest",
   "character": "knight",
   "config": {
     "hero_hp": 5,
@@ -18,983 +18,983 @@
   "questions": [
     {
       "id": 1,
-      "domain": "Surah Al-'Alaq",
-      "text": "Q.S. Al-'Alaq/96:1-5 merupakan wahyu yang diturunkan Allah Swt. untuk yang ... kali.",
+      "domain": "Bunyi Sila",
+      "text": "Sila pertama Pancasila berbunyi ...",
       "image": null,
       "options": {
-        "A": "pertama",
-        "D": "kedua",
-        "C": "ketiga",
-        "B": "terakhir"
+        "A": "Kemanusiaan yang adil dan beradab",
+        "B": "Ketuhanan Yang Maha Esa",
+        "C": "Keadilan sosial bagi seluruh rakyat Indonesia",
+        "D": "Persatuan Indonesia"
       },
-      "answer": "A",
+      "answer": "B",
       "difficulty": "easy"
     },
     {
       "id": 2,
-      "domain": "Surah Al-'Alaq",
-      "text": "Kata 'iqra'' pada awal surah Al-'Alaq artinya ...",
+      "domain": "Bunyi Sila",
+      "text": "Sila yang berbunyi 'Persatuan Indonesia' adalah sila ke-...",
       "image": null,
       "options": {
-        "D": "Bacalah!",
-        "A": "Dengarlah!",
-        "C": "Sembahlah!",
-        "B": "Berdoalah!"
+        "A": "2",
+        "B": "5",
+        "C": "1",
+        "D": "3"
       },
       "answer": "D",
       "difficulty": "easy"
     },
     {
       "id": 3,
-      "domain": "Surah Al-'Alaq",
-      "text": "Surah Al-'Alaq terdiri atas ... ayat.",
+      "domain": "Bunyi Sila",
+      "text": "Bunyi sila kelima Pancasila adalah ...",
       "image": null,
       "options": {
-        "A": "19",
-        "B": "9",
-        "C": "5",
-        "D": "99"
+        "A": "Ketuhanan Yang Maha Esa",
+        "B": "Kemanusiaan yang adil dan beradab",
+        "C": "Kerakyatan yang dipimpin oleh hikmat kebijaksanaan dalam permusyawaratan/perwakilan",
+        "D": "Keadilan sosial bagi seluruh rakyat Indonesia"
       },
-      "answer": "A",
+      "answer": "D",
       "difficulty": "easy"
     },
     {
       "id": 4,
-      "domain": "Surah Al-'Alaq",
-      "text": "Arti kata Al-'Alaq adalah ...",
+      "domain": "Bunyi Sila",
+      "text": "Sila kedua Pancasila berbunyi ...",
       "image": null,
       "options": {
-        "C": "segumpal darah",
-        "D": "buah kurma",
-        "B": "bintang terang",
-        "A": "lembah yang dalam"
+        "A": "Keadilan sosial bagi seluruh rakyat Indonesia",
+        "B": "Ketuhanan Yang Maha Esa",
+        "C": "Kemanusiaan yang adil dan beradab",
+        "D": "Persatuan Indonesia"
       },
       "answer": "C",
       "difficulty": "easy"
     },
     {
       "id": 5,
-      "domain": "Surah Al-'Alaq",
-      "text": "Ayat kedua Q.S. Al-'Alaq artinya \"Dia menciptakan manusia dari ...\"",
+      "domain": "Bunyi Sila",
+      "text": "Sila keempat Pancasila berbunyi ...",
       "image": null,
       "options": {
-        "A": "segumpal darah",
-        "D": "tanah liat",
-        "B": "cahaya",
-        "C": "air"
+        "A": "Keadilan sosial bagi seluruh rakyat Indonesia",
+        "B": "Persatuan Indonesia",
+        "C": "Kemanusiaan yang adil dan beradab",
+        "D": "Kerakyatan yang dipimpin oleh hikmat kebijaksanaan dalam permusyawaratan/perwakilan"
       },
-      "answer": "A",
+      "answer": "D",
       "difficulty": "medium"
     },
     {
       "id": 6,
-      "domain": "Surah Al-'Alaq",
-      "text": "Ayat keempat Q.S. Al-'Alaq menyebutkan bahwa Allah Swt. mengajar manusia dengan ...",
+      "domain": "Bunyi Sila",
+      "text": "Bunyi sila yang dilambangkan pohon beringin adalah ...",
       "image": null,
       "options": {
-        "B": "pena (qalam)",
-        "A": "lisan",
-        "C": "perantara malaikat",
-        "D": "perantara guru"
+        "A": "Keadilan sosial bagi seluruh rakyat Indonesia",
+        "B": "Persatuan Indonesia",
+        "C": "Ketuhanan Yang Maha Esa",
+        "D": "Kemanusiaan yang adil dan beradab"
       },
       "answer": "B",
       "difficulty": "medium"
     },
     {
       "id": 7,
-      "domain": "Surah Al-'Alaq",
-      "text": "Q.S. Al-'Alaq termasuk golongan surah ...",
+      "domain": "Bunyi Sila",
+      "text": "Simbol bintang emas merupakan lambang sila yang berbunyi ...",
       "image": null,
       "options": {
-        "C": "makkiyah",
-        "B": "madaniyah",
-        "A": "yang diturunkan di Madinah",
-        "D": "yang diturunkan setelah hijrah"
+        "A": "Keadilan sosial bagi seluruh rakyat Indonesia",
+        "B": "Persatuan Indonesia",
+        "C": "Ketuhanan Yang Maha Esa",
+        "D": "Kemanusiaan yang adil dan beradab"
       },
       "answer": "C",
       "difficulty": "medium"
     },
     {
       "id": 8,
-      "domain": "Surah Al-'Alaq",
-      "text": "Surah Al-'Alaq ayat 1-5 diturunkan kepada Nabi Muhammad saw. di ...",
+      "domain": "Bunyi Sila",
+      "text": "Simbol kepala banteng melambangkan sila yang berbunyi ...",
       "image": null,
       "options": {
-        "B": "Gua Hira",
-        "C": "Masjid Nabawi",
-        "A": "Bukit Safa",
-        "D": "Madinah"
+        "A": "Ketuhanan Yang Maha Esa",
+        "B": "Persatuan Indonesia",
+        "C": "Kemanusiaan yang adil dan beradab",
+        "D": "Kerakyatan yang dipimpin oleh hikmat kebijaksanaan dalam permusyawaratan/perwakilan"
       },
-      "answer": "B",
+      "answer": "D",
       "difficulty": "hard"
     },
     {
       "id": 9,
-      "domain": "Surah Al-'Alaq",
-      "text": "Salah satu ketentuan menulis lafal Al-Qur'an yang benar adalah ...",
+      "domain": "Bunyi Sila",
+      "text": "Simbol padi dan kapas merupakan lambang sila ...",
       "image": null,
       "options": {
-        "A": "dimulai dari sebelah kanan",
-        "C": "dimulai dari sebelah kiri",
-        "B": "tidak perlu titik dan harakat",
-        "D": "boleh asal terbaca"
+        "A": "kelima",
+        "B": "ketiga",
+        "C": "pertama",
+        "D": "keempat"
       },
       "answer": "A",
-      "difficulty": "hard"
+      "difficulty": "medium"
     },
     {
       "id": 10,
-      "domain": "Pesan Pokok",
-      "text": "Salah satu pesan pokok Q.S. Al-'Alaq/96:1-5 adalah perintah untuk ...",
+      "domain": "Bunyi Sila",
+      "text": "Simbol tali rantai melambangkan sila ke-...",
       "image": null,
       "options": {
-        "D": "rajin membaca atau belajar",
-        "C": "berpuasa",
-        "B": "bersedekah",
-        "A": "berzikir"
-      },
-      "answer": "D",
-      "difficulty": "easy"
-    },
-    {
-      "id": 11,
-      "domain": "Pesan Pokok",
-      "text": "Allah Swt. menciptakan manusia dari ...",
-      "image": null,
-      "options": {
-        "C": "segumpal darah",
-        "A": "tanah",
-        "D": "api",
-        "B": "cahaya"
-      },
-      "answer": "C",
-      "difficulty": "easy"
-    },
-    {
-      "id": 12,
-      "domain": "Pesan Pokok",
-      "text": "Rara membaca buku cerita setiap malam sebelum tidur. Sikap Rara sesuai dengan pesan pokok surah ...",
-      "image": null,
-      "options": {
-        "C": "Al-'Alaq",
-        "B": "Al-Fatihah",
-        "A": "Al-Ikhlas",
-        "D": "Al-Falaq"
+        "A": "3",
+        "B": "1",
+        "C": "2",
+        "D": "4"
       },
       "answer": "C",
       "difficulty": "medium"
     },
     {
-      "id": 13,
-      "domain": "Pesan Pokok",
-      "text": "Dengan membaca atau belajar, manusia dapat ...",
+      "id": 11,
+      "domain": "Bunyi Sila",
+      "text": "Perhatikan urutan simbol berikut: bintang, rantai, pohon beringin, kepala banteng, padi dan kapas. Urutan tersebut adalah lambang sila ke-... sampai ke-...",
       "image": null,
       "options": {
-        "A": "mengetahui hal yang sebelumnya tidak diketahui",
-        "B": "menjadi kaya raya",
-        "C": "dipuji teman-temannya",
-        "D": "terkenal di sekolah"
+        "A": "1 sampai 5",
+        "B": "5 sampai 1",
+        "C": "2 sampai 5",
+        "D": "3 sampai 1"
       },
       "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": 12,
+      "domain": "Bunyi Sila",
+      "text": "Sila keempat berlambang ...",
+      "image": null,
+      "options": {
+        "A": "pohon beringin",
+        "B": "kepala banteng",
+        "C": "padi dan kapas",
+        "D": "tali rantai"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": 13,
+      "domain": "Makna Sila",
+      "text": "Sila pertama Pancasila mengandung nilai ...",
+      "image": null,
+      "options": {
+        "A": "keadilan",
+        "B": "kemanusiaan",
+        "C": "ketuhanan",
+        "D": "kerakyatan"
+      },
+      "answer": "C",
       "difficulty": "medium"
     },
     {
       "id": 14,
-      "domain": "Pesan Pokok",
-      "text": "Allah Swt. mengajarkan ilmu kepada manusia melalui ...",
+      "domain": "Makna Sila",
+      "text": "Sila kedua Pancasila mengandung nilai kemanusiaan. Artinya, setiap manusia memiliki ...",
       "image": null,
       "options": {
-        "B": "pena atau tulisan",
-        "C": "mimpi",
-        "D": "suara alam",
-        "A": "bintang"
+        "A": "kekayaan yang sama",
+        "B": "kepandaian yang sama",
+        "C": "pekerjaan yang sama",
+        "D": "kedudukan yang sama"
       },
-      "answer": "B",
+      "answer": "D",
       "difficulty": "medium"
     },
     {
       "id": 15,
-      "domain": "Pesan Pokok",
-      "text": "Perhatikan pernyataan berikut:\n(1) Perintah melaksanakan salat lima waktu\n(2) Perintah rajin membaca\n(3) Allah menciptakan manusia dari api\n(4) Allah mengajarkan manusia dengan pena\nYang merupakan pesan pokok Q.S. Al-'Alaq/96:1-5 ditunjukkan nomor ...",
+      "domain": "Makna Sila",
+      "text": "Kata 'adil' pada sila kedua berarti ...",
       "image": null,
       "options": {
-        "D": "(2) dan (4)",
-        "C": "(1) dan (2)",
-        "B": "(1) dan (3)",
-        "A": "(3) dan (4)"
+        "A": "sopan dan santun",
+        "B": "tidak memihak",
+        "C": "suka menolong",
+        "D": "berani membela"
       },
-      "answer": "D",
+      "answer": "B",
       "difficulty": "medium"
     },
     {
       "id": 16,
-      "domain": "Pesan Pokok",
-      "text": "Mengapa perintah membaca menjadi wahyu pertama yang diturunkan Allah Swt.?",
+      "domain": "Makna Sila",
+      "text": "Kata 'beradab' pada sila kedua berarti ...",
       "image": null,
       "options": {
-        "B": "Karena membaca merupakan salah satu cara mendapat ilmu",
-        "A": "Karena membaca membuat badan sehat",
-        "D": "Karena Nabi Muhammad saw. gemar membaca",
-        "C": "Karena buku banyak dijual di pasar"
+        "A": "berani berkelahi",
+        "B": "suka mengejek",
+        "C": "tidak memihak",
+        "D": "sopan dan santun"
       },
-      "answer": "B",
-      "difficulty": "hard"
+      "answer": "D",
+      "difficulty": "medium"
     },
     {
       "id": 17,
-      "domain": "Pesan Pokok",
-      "text": "Sikap yang TIDAK sesuai dengan pesan pokok Q.S. Al-'Alaq/96:1-5 adalah ...",
+      "domain": "Makna Sila",
+      "text": "Sila ketiga Pancasila mengandung nilai ...",
       "image": null,
       "options": {
-        "B": "malas belajar dan jarang membaca",
-        "C": "rajin membaca buku",
-        "D": "tekun belajar",
-        "A": "gemar membaca Al-Qur'an"
-      },
-      "answer": "B",
-      "difficulty": "hard"
-    },
-    {
-      "id": 18,
-      "domain": "Nuzululqur'an",
-      "text": "Wahyu pertama diturunkan Allah Swt. kepada Nabi Muhammad saw. melalui Malaikat ...",
-      "image": null,
-      "options": {
-        "B": "Jibril",
-        "A": "Mikail",
-        "C": "Israfil",
-        "D": "Izrail"
+        "A": "ketuhanan",
+        "B": "persatuan",
+        "C": "keadilan",
+        "D": "kerakyatan"
       },
       "answer": "B",
       "difficulty": "easy"
     },
     {
-      "id": 19,
-      "domain": "Nuzululqur'an",
-      "text": "Peristiwa turunnya wahyu pertama dikenal dengan nama ...",
+      "id": 18,
+      "domain": "Makna Sila",
+      "text": "Musyawarah adalah kegiatan berkumpul untuk ...",
       "image": null,
       "options": {
-        "C": "nuzululqur'an",
-        "D": "khatmilqur'an",
-        "B": "tilawatilqur'an",
-        "A": "tadarusan"
+        "A": "menyelesaikan masalah bersama",
+        "B": "membagi-bagi uang",
+        "C": "menentukan pemenang lomba",
+        "D": "membicarakan orang lain"
       },
-      "answer": "C",
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "id": 19,
+      "domain": "Makna Sila",
+      "text": "Nilai yang terkandung dalam sila keempat Pancasila adalah nilai ...",
+      "image": null,
+      "options": {
+        "A": "kemanusiaan",
+        "B": "keadilan",
+        "C": "ketuhanan",
+        "D": "kerakyatan"
+      },
+      "answer": "D",
       "difficulty": "easy"
     },
     {
       "id": 20,
-      "domain": "Nuzululqur'an",
-      "text": "Wahyu pertama diterima Nabi Muhammad saw. di ...",
+      "domain": "Makna Sila",
+      "text": "Sila kelima Pancasila mengandung nilai keadilan, artinya semua warga negara harus merasakan kemakmuran secara ...",
       "image": null,
       "options": {
-        "C": "Gua Hira",
-        "A": "Masjidil Haram",
-        "D": "rumah Abu Bakar",
-        "B": "pasar Ukaz"
+        "A": "adil dan merata",
+        "B": "bergantian",
+        "C": "cepat dan banyak",
+        "D": "sukarela"
       },
-      "answer": "C",
+      "answer": "A",
       "difficulty": "medium"
     },
     {
       "id": 21,
-      "domain": "Nuzululqur'an",
-      "text": "Nuzululqur'an diperingati umat Islam setiap tanggal ...",
+      "domain": "Makna Sila",
+      "text": "Menjaga keseimbangan antara hak dan kewajiban merupakan nilai yang terkandung dalam sila ke-...",
       "image": null,
       "options": {
-        "A": "17 Ramadan",
-        "D": "1 Syawal",
-        "C": "10 Muharam",
-        "B": "12 Rabiul Awal"
+        "A": "4",
+        "B": "3",
+        "C": "5",
+        "D": "2"
       },
-      "answer": "A",
-      "difficulty": "medium"
-    },
-    {
-      "id": 22,
-      "domain": "Nuzululqur'an",
-      "text": "Wahyu pertama diturunkan kepada Nabi Muhammad saw. pada tahun ...",
-      "image": null,
-      "options": {
-        "B": "610 M",
-        "C": "570 M",
-        "D": "622 M",
-        "A": "632 M"
-      },
-      "answer": "B",
-      "difficulty": "medium"
-    },
-    {
-      "id": 23,
-      "domain": "Nuzululqur'an",
-      "text": "Wahyu pertama Allah Swt. kepada Nabi Muhammad saw. berisi perintah untuk ...",
-      "image": null,
-      "options": {
-        "B": "membaca",
-        "A": "berperang",
-        "C": "berdagang",
-        "D": "berpindah tempat"
-      },
-      "answer": "B",
+      "answer": "C",
       "difficulty": "hard"
     },
     {
-      "id": 24,
-      "domain": "Qalqalah",
-      "text": "Secara bahasa, qalqalah artinya ...",
+      "id": 22,
+      "domain": "Makna Sila",
+      "text": "Sikap tidak suka bersikap boros dan bermewah-mewahan termasuk nilai sila ke-...",
       "image": null,
       "options": {
-        "A": "pantulan",
-        "B": "dengungan",
-        "C": "samar",
-        "D": "jelas"
+        "A": "5",
+        "B": "1",
+        "C": "4",
+        "D": "2"
       },
       "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": 23,
+      "domain": "Makna Sila",
+      "text": "Kegiatan pembangunan yang dilakukan pemerintah di seluruh wilayah Indonesia disebut ...",
+      "image": null,
+      "options": {
+        "A": "pembangunan sekolah",
+        "B": "pembangunan daerah",
+        "C": "pembangunan nasional",
+        "D": "pembangunan rumah"
+      },
+      "answer": "C",
       "difficulty": "easy"
     },
     {
-      "id": 25,
-      "domain": "Qalqalah",
-      "text": "Huruf qalqalah berjumlah ...",
+      "id": 24,
+      "domain": "Makna Sila",
+      "text": "Pernyataan yang merupakan nilai sila kedua Pancasila adalah ...",
       "image": null,
       "options": {
-        "D": "5",
-        "A": "3",
-        "B": "7",
-        "C": "10"
+        "A": "berani membela kebenaran dan keadilan",
+        "B": "cinta kepada tanah air Indonesia",
+        "C": "menjaga keseimbangan antara hak dan kewajiban",
+        "D": "saling menghormati antarumat beragama"
       },
-      "answer": "D",
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "id": 25,
+      "domain": "Sejarah & Tokoh",
+      "text": "Hari kelahiran Pancasila diperingati setiap tanggal ...",
+      "image": null,
+      "options": {
+        "A": "1 Mei",
+        "B": "1 Juni",
+        "C": "17 Agustus",
+        "D": "28 Oktober"
+      },
+      "answer": "B",
       "difficulty": "easy"
     },
     {
       "id": 26,
-      "domain": "Qalqalah",
-      "text": "Huruf-huruf qalqalah adalah ...",
+      "domain": "Sejarah & Tokoh",
+      "text": "Tokoh yang pertama kali mencetuskan nama Pancasila adalah ...",
       "image": null,
       "options": {
-        "C": "ba, jim, dal, tha, qaf",
-        "D": "ba, sin, dal, tha, qaf",
-        "A": "jim, ha, kha, shin, qaf",
-        "B": "dal, ra, za, tha, mim"
+        "A": "Mohammad Yamin",
+        "B": "Sukarno",
+        "C": "Mohammad Hatta",
+        "D": "Soepomo"
       },
-      "answer": "C",
-      "difficulty": "medium"
+      "answer": "B",
+      "difficulty": "easy"
     },
     {
       "id": 27,
-      "domain": "Qalqalah",
-      "text": "Qalqalah sugra terjadi apabila huruf qalqalah ...",
+      "domain": "Sejarah & Tokoh",
+      "text": "Gagasan Pancasila disampaikan oleh Sukarno pada tanggal ...",
       "image": null,
       "options": {
-        "D": "berharakat sukun di tengah kata",
-        "C": "berada di akhir kalimat",
-        "B": "berharakat fathah",
-        "A": "bertemu huruf alif"
+        "A": "30 Mei 1945",
+        "B": "1 Juni 1945",
+        "C": "28 Mei 1945",
+        "D": "17 Agustus 1945"
       },
-      "answer": "D",
+      "answer": "B",
       "difficulty": "medium"
     },
     {
       "id": 28,
-      "domain": "Qalqalah",
-      "text": "Qalqalah kubra terjadi apabila huruf qalqalah ...",
+      "domain": "Sejarah & Tokoh",
+      "text": "Tempat Sukarno menyampaikan gagasan tentang dasar negara adalah ...",
       "image": null,
       "options": {
-        "D": "diwaqafkan atau berhenti di akhir kalimat",
-        "B": "bersukun di tengah kata",
-        "C": "berharakat kasrah",
-        "A": "bertemu huruf nun"
+        "A": "rapat Panitia Sembilan",
+        "B": "sidang DPR",
+        "C": "sidang PPKI",
+        "D": "sidang BPUPKI"
       },
       "answer": "D",
       "difficulty": "medium"
     },
     {
       "id": 29,
-      "domain": "Qalqalah",
-      "text": "Perbedaan qalqalah kubra dengan qalqalah sugra adalah bunyi pantulannya lebih ...",
+      "domain": "Sejarah & Tokoh",
+      "text": "Setelah Indonesia merdeka, Pancasila disahkan menjadi dasar negara oleh ...",
       "image": null,
       "options": {
-        "C": "kuat",
-        "B": "lemah",
-        "D": "samar",
-        "A": "pendek"
+        "A": "DPR",
+        "B": "Panitia Sembilan",
+        "C": "PPKI",
+        "D": "BPUPKI"
       },
       "answer": "C",
       "difficulty": "medium"
     },
     {
       "id": 30,
-      "domain": "Qalqalah",
-      "text": "Agar mudah diingat, lima huruf qalqalah dapat disingkat dengan istilah ...",
+      "domain": "Sejarah & Tokoh",
+      "text": "Tokoh yang menyampaikan gagasan dasar negara pada tanggal 28 Mei 1945 adalah ...",
       "image": null,
       "options": {
-        "B": "qutub jad",
-        "C": "batu jari",
-        "A": "qaf ba dal",
-        "D": "jim ba tha"
+        "A": "Mohammad Hatta",
+        "B": "Soepomo",
+        "C": "Sukarno",
+        "D": "Mohammad Yamin"
       },
-      "answer": "B",
-      "difficulty": "medium"
+      "answer": "D",
+      "difficulty": "hard"
     },
     {
       "id": 31,
-      "domain": "Qalqalah",
-      "text": "Lafal 'khalaq' pada Q.S. Al-'Alaq/96:2 mengandung huruf qaf. Huruf qaf pada lafal tersebut harus dibaca ...",
+      "domain": "Sejarah & Tokoh",
+      "text": "Gagasan dasar negara yang berisi persatuan, kekeluargaan, dan musyawarah disampaikan oleh ...",
       "image": null,
       "options": {
-        "B": "memantul",
-        "A": "jelas",
-        "C": "samar",
-        "D": "dengung"
+        "A": "Sukarno",
+        "B": "Ahmad Soebardjo",
+        "C": "Mohammad Yamin",
+        "D": "Soepomo"
       },
-      "answer": "B",
+      "answer": "D",
       "difficulty": "hard"
     },
     {
       "id": 32,
-      "domain": "Sifat Wajib",
-      "text": "Sifat wajib bagi Allah Swt. berjumlah ...",
+      "domain": "Sejarah & Tokoh",
+      "text": "Dari semua gagasan para tokoh, gagasan yang kemudian dipilih dan dibahas lebih lanjut oleh Panitia Sembilan adalah gagasan ...",
       "image": null,
       "options": {
-        "C": "20",
-        "B": "10",
-        "A": "99",
-        "D": "5"
+        "A": "Mohammad Yamin",
+        "B": "Soepomo",
+        "C": "Sukarno",
+        "D": "Mohammad Hatta"
       },
       "answer": "C",
-      "difficulty": "easy"
+      "difficulty": "medium"
     },
     {
       "id": 33,
-      "domain": "Sifat Wajib",
-      "text": "Sifat wajib Allah Swt. adalah sifat kesempurnaan yang ...",
+      "domain": "Sejarah & Tokoh",
+      "text": "Panitia Sembilan beranggotakan ... orang.",
       "image": null,
       "options": {
-        "A": "pasti ada pada Allah Swt.",
-        "B": "mungkin ada pada Allah Swt.",
-        "D": "tidak ada pada Allah Swt.",
-        "C": "hanya dimiliki makhluk"
+        "A": "9",
+        "B": "5",
+        "C": "7",
+        "D": "11"
       },
       "answer": "A",
       "difficulty": "easy"
     },
     {
       "id": 34,
-      "domain": "Sifat Wajib",
-      "text": "Sifat wajib Allah 'wujud' artinya ...",
+      "domain": "Sejarah & Tokoh",
+      "text": "Ketua Panitia Sembilan adalah ...",
       "image": null,
       "options": {
-        "C": "ada",
-        "A": "kekal",
-        "B": "terdahulu",
-        "D": "esa"
+        "A": "Soekarno",
+        "B": "Agus Salim",
+        "C": "Mohammad Hatta",
+        "D": "Mohammad Yamin"
+      },
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "id": 35,
+      "domain": "Toleransi & Agama",
+      "text": "Agama yang diakui resmi di Indonesia berjumlah ...",
+      "image": null,
+      "options": {
+        "A": "6",
+        "B": "5",
+        "C": "4",
+        "D": "7"
+      },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": 36,
+      "domain": "Toleransi & Agama",
+      "text": "Tempat ibadah umat Islam adalah ...",
+      "image": null,
+      "options": {
+        "A": "kelenteng",
+        "B": "wihara",
+        "C": "masjid",
+        "D": "pura"
       },
       "answer": "C",
       "difficulty": "easy"
     },
     {
-      "id": 35,
-      "domain": "Sifat Wajib",
-      "text": "Sifat wajib Allah 'qidam' artinya ...",
+      "id": 37,
+      "domain": "Toleransi & Agama",
+      "text": "Tempat ibadah umat Hindu adalah ...",
       "image": null,
       "options": {
-        "B": "terdahulu",
-        "A": "berdiri sendiri",
-        "C": "berkuasa",
-        "D": "hidup"
+        "A": "kelenteng",
+        "B": "gereja",
+        "C": "masjid",
+        "D": "pura"
+      },
+      "answer": "D",
+      "difficulty": "medium"
+    },
+    {
+      "id": 38,
+      "domain": "Toleransi & Agama",
+      "text": "Kelenteng merupakan tempat ibadah umat ...",
+      "image": null,
+      "options": {
+        "A": "Hindu",
+        "B": "Konghucu",
+        "C": "Buddha",
+        "D": "Kristen"
       },
       "answer": "B",
       "difficulty": "medium"
     },
     {
-      "id": 36,
-      "domain": "Sifat Wajib",
-      "text": "Allah Swt. abadi selama-lamanya. Sifat wajib yang sesuai adalah ...",
-      "image": null,
-      "options": {
-        "D": "baqa'",
-        "B": "fana'",
-        "A": "wujud",
-        "C": "qidam"
-      },
-      "answer": "D",
-      "difficulty": "medium"
-    },
-    {
-      "id": 37,
-      "domain": "Sifat Wajib",
-      "text": "Allah Swt. esa atau tunggal, tidak beranak dan tidak diperanakkan. Sifat wajib yang sesuai adalah ...",
-      "image": null,
-      "options": {
-        "A": "wahdaniyat",
-        "C": "qudrat",
-        "B": "iradat",
-        "D": "ilmu"
-      },
-      "answer": "A",
-      "difficulty": "medium"
-    },
-    {
-      "id": 38,
-      "domain": "Sifat Wajib",
-      "text": "Allah Swt. tidak membutuhkan bantuan siapa pun. Sifat wajib yang sesuai adalah ...",
-      "image": null,
-      "options": {
-        "A": "qiyamuhu binafsihi",
-        "B": "mukhalafatu lil hawadisi",
-        "C": "hayat",
-        "D": "kalam"
-      },
-      "answer": "A",
-      "difficulty": "medium"
-    },
-    {
       "id": 39,
-      "domain": "Sifat Wajib",
-      "text": "Allah Swt. mengetahui segala sesuatu, baik yang tampak maupun yang tersembunyi. Sifat wajib yang sesuai adalah ...",
+      "domain": "Toleransi & Agama",
+      "text": "Sikap saling menghormati perbedaan agama disebut ...",
       "image": null,
       "options": {
-        "D": "ilmu",
-        "A": "sama'",
-        "B": "basar",
-        "C": "kalam"
+        "A": "toleran",
+        "B": "sombong",
+        "C": "cuek",
+        "D": "pemalu"
       },
-      "answer": "D",
+      "answer": "A",
       "difficulty": "medium"
     },
     {
       "id": 40,
-      "domain": "Sifat Wajib",
-      "text": "Allah Swt. berbeda dengan makhluk-Nya karena tidak ada yang serupa dengan-Nya. Sifat wajib tersebut adalah ...",
+      "domain": "Toleransi & Agama",
+      "text": "Berikut yang BUKAN sikap menghormati antarumat beragama adalah ...",
       "image": null,
       "options": {
-        "D": "mukhalafatu lil hawadisi",
-        "C": "wahdaniyat",
-        "B": "qudrat",
-        "A": "iradat"
+        "A": "memaksakan agama kita kepada orang lain",
+        "B": "menghormati teman yang berbeda agama",
+        "C": "berteman tanpa membedakan agama",
+        "D": "tidak mengganggu teman yang beribadah"
       },
-      "answer": "D",
+      "answer": "A",
       "difficulty": "medium"
     },
     {
       "id": 41,
-      "domain": "Sifat Wajib",
-      "text": "Perhatikan pasangan berikut:\n(1) Sama' - Maha Mendengar\n(2) Basar - Maha Melihat\n(3) Kalam - Maha Kuasa\n(4) Qudrat - Berkehendak\nPasangan sifat wajib dan artinya yang benar ditunjukkan nomor ...",
+      "domain": "Toleransi & Agama",
+      "text": "Temanmu yang berbeda agama sedang beribadah. Sikapmu sebaiknya ...",
       "image": null,
       "options": {
-        "D": "(1) dan (2)",
-        "C": "(1) dan (3)",
-        "A": "(2) dan (4)",
-        "B": "(3) dan (4)"
+        "A": "mengajaknya bermain saat itu juga",
+        "B": "mengejek cara ibadahnya",
+        "C": "tidak mengganggunya dan menunggu dengan tenang",
+        "D": "memaksanya ikut agamamu"
       },
-      "answer": "D",
+      "answer": "C",
       "difficulty": "hard"
     },
     {
       "id": 42,
-      "domain": "Sifat Mustahil",
-      "text": "Sifat mustahil Allah Swt. adalah kebalikan dari sifat ...",
+      "domain": "Penerapan di Rumah",
+      "text": "Rajin berdoa dan beribadah merupakan penerapan sila ke-... di lingkungan rumah.",
       "image": null,
       "options": {
-        "C": "wajib",
-        "D": "jaiz",
-        "A": "terpuji",
-        "B": "manusia"
+        "A": "2",
+        "B": "5",
+        "C": "1",
+        "D": "4"
       },
       "answer": "C",
       "difficulty": "easy"
     },
     {
       "id": 43,
-      "domain": "Sifat Mustahil",
-      "text": "Sifat mustahil Allah 'adam' artinya ...",
+      "domain": "Penerapan di Rumah",
+      "text": "Membantu anggota keluarga yang memerlukan pertolongan merupakan penerapan sila ke-... di rumah.",
       "image": null,
       "options": {
-        "B": "tidak ada",
-        "A": "baru",
-        "C": "binasa",
-        "D": "lemah"
+        "A": "3",
+        "B": "5",
+        "C": "2",
+        "D": "1"
       },
-      "answer": "B",
-      "difficulty": "easy"
+      "answer": "C",
+      "difficulty": "medium"
     },
     {
       "id": 44,
-      "domain": "Sifat Mustahil",
-      "text": "Sifat mustahil Allah 'fana'' artinya ...",
+      "domain": "Penerapan di Rumah",
+      "text": "Mengajak anggota keluarga membeli produk dalam negeri merupakan penerapan sila ke-...",
       "image": null,
       "options": {
-        "D": "binasa",
-        "B": "kekal",
-        "A": "terdahulu",
-        "C": "kuat"
-      },
-      "answer": "D",
-      "difficulty": "medium"
-    },
-    {
-      "id": 45,
-      "domain": "Sifat Mustahil",
-      "text": "Allah Swt. mustahil bersifat fana' karena Allah Swt. ...",
-      "image": null,
-      "options": {
-        "C": "kekal selama-lamanya",
-        "B": "tidak ada",
-        "A": "lemah",
-        "D": "mati"
-      },
-      "answer": "C",
-      "difficulty": "medium"
-    },
-    {
-      "id": 46,
-      "domain": "Sifat Mustahil",
-      "text": "Sifat mustahil yang artinya \"serupa dengan makhluk-Nya\" adalah ...",
-      "image": null,
-      "options": {
-        "C": "mumasalatu lil hawadisi",
-        "A": "mukhalafatu lil hawadisi",
-        "B": "ta'addud",
-        "D": "karahah"
-      },
-      "answer": "C",
-      "difficulty": "medium"
-    },
-    {
-      "id": 47,
-      "domain": "Sifat Mustahil",
-      "text": "Allah Swt. mustahil bersifat 'ajzun karena Allah Swt. ...",
-      "image": null,
-      "options": {
-        "A": "Maha Kuasa atas segala sesuatu",
-        "C": "lemah",
-        "B": "tuli",
-        "D": "bisu"
+        "A": "3",
+        "B": "2",
+        "C": "4",
+        "D": "5"
       },
       "answer": "A",
       "difficulty": "medium"
     },
     {
+      "id": 45,
+      "domain": "Penerapan di Rumah",
+      "text": "Saat keluarga ingin memutuskan sesuatu, sebaiknya dilakukan dengan ...",
+      "image": null,
+      "options": {
+        "A": "mengundi",
+        "B": "memutuskan sendiri",
+        "C": "menunggu perintah ayah",
+        "D": "bermusyawarah dengan anggota keluarga"
+      },
+      "answer": "D",
+      "difficulty": "medium"
+    },
+    {
+      "id": 46,
+      "domain": "Penerapan di Rumah",
+      "text": "Salah satu penerapan sila kelima di rumah adalah ...",
+      "image": null,
+      "options": {
+        "A": "rajin menabung",
+        "B": "membeli barang secara berlebihan",
+        "C": "boros menggunakan uang jajan",
+        "D": "tidak mau berbagi dengan adik"
+      },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": 47,
+      "domain": "Penerapan di Rumah",
+      "text": "Kakakmu sedang bersedih karena nilainya jelek. Sikap yang sesuai sila kedua adalah ...",
+      "image": null,
+      "options": {
+        "A": "mengejek nilai kakak",
+        "B": "mengadu kepada ayah",
+        "C": "menghibur dan menyemangati kakak",
+        "D": "pura-pura tidak tahu"
+      },
+      "answer": "C",
+      "difficulty": "medium"
+    },
+    {
       "id": 48,
-      "domain": "Sifat Mustahil",
-      "text": "Allah Swt. mustahil bersifat mautun karena Allah Swt. ...",
+      "domain": "Penerapan di Rumah",
+      "text": "Dalam keluarga besar ada saudara yang berbeda agama dan sedang beribadah. Kita sebaiknya ...",
       "image": null,
       "options": {
-        "D": "Maha Hidup dan kekal",
-        "C": "Maha Melihat",
-        "B": "Maha Mendengar",
-        "A": "Maha Berkuasa"
-      },
-      "answer": "D",
-      "difficulty": "medium"
-    },
-    {
-      "id": 49,
-      "domain": "Sifat Mustahil",
-      "text": "Sifat mustahil bagi Allah Swt. berjumlah ...",
-      "image": null,
-      "options": {
-        "D": "20",
-        "B": "10",
-        "C": "99",
-        "A": "5"
-      },
-      "answer": "D",
-      "difficulty": "medium"
-    },
-    {
-      "id": 50,
-      "domain": "Sifat Mustahil",
-      "text": "Lawan dari sifat wajib 'ilmu' (Maha Mengetahui) adalah sifat mustahil ...",
-      "image": null,
-      "options": {
-        "C": "jahlun (bodoh)",
-        "A": "mautun (mati)",
-        "B": "'umyun (buta)",
-        "D": "bukmun (bisu)"
+        "A": "melarangnya beribadah",
+        "B": "mengajaknya pindah agama",
+        "C": "menghargai dan tidak mengganggunya",
+        "D": "mengejek ibadahnya"
       },
       "answer": "C",
       "difficulty": "hard"
     },
     {
-      "id": 51,
-      "domain": "Sifat Mustahil",
-      "text": "Lawan dari sifat wajib 'hayat' (Maha Hidup) adalah sifat mustahil ...",
+      "id": 49,
+      "domain": "Penerapan di Sekolah",
+      "text": "Berdoa sebelum memulai pelajaran merupakan penerapan sila ke-... di sekolah.",
       "image": null,
       "options": {
-        "B": "mautun (mati)",
-        "D": "jahlun (bodoh)",
-        "A": "hudus (baru)",
-        "C": "fana' (binasa)"
+        "A": "1",
+        "B": "3",
+        "C": "2",
+        "D": "4"
+      },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": 50,
+      "domain": "Penerapan di Sekolah",
+      "text": "Membantu teman yang tidak memahami pelajaran termasuk penerapan sila ke-...",
+      "image": null,
+      "options": {
+        "A": "2",
+        "B": "5",
+        "C": "3",
+        "D": "1"
+      },
+      "answer": "A",
+      "difficulty": "medium"
+    },
+    {
+      "id": 51,
+      "domain": "Penerapan di Sekolah",
+      "text": "Memakai pakaian adat dari daerah mana pun saat pawai budaya di sekolah menunjukkan sikap ...",
+      "image": null,
+      "options": {
+        "A": "lebih bangga budaya luar",
+        "B": "menghargai teman yang berbeda budaya",
+        "C": "malu pada budaya sendiri",
+        "D": "mengejek budaya daerah lain"
       },
       "answer": "B",
       "difficulty": "hard"
     },
     {
       "id": 52,
-      "domain": "Sifat Jaiz",
-      "text": "Sifat jaiz bagi Allah Swt. berjumlah ...",
+      "domain": "Penerapan di Sekolah",
+      "text": "Saat akan mengadakan acara sekolah, sebaiknya keputusan diambil dengan cara ...",
       "image": null,
       "options": {
-        "D": "satu",
-        "C": "dua",
-        "B": "lima",
-        "A": "dua puluh"
+        "A": "ditentukan ketua kelas saja",
+        "B": "diundi secara acak",
+        "C": "bermusyawarah bersama teman-teman",
+        "D": "ditentukan guru saja"
       },
-      "answer": "D",
-      "difficulty": "easy"
+      "answer": "C",
+      "difficulty": "medium"
     },
     {
       "id": 53,
-      "domain": "Sifat Jaiz",
-      "text": "Sifat jaiz artinya Allah Swt. boleh ...",
+      "domain": "Penerapan di Sekolah",
+      "text": "Temanmu mendapat nilai bagus dan berprestasi. Sikap yang sesuai sila kelima adalah ...",
       "image": null,
       "options": {
-        "D": "berbuat sesuatu dan boleh meninggalkannya",
-        "C": "membutuhkan bantuan makhluk",
-        "A": "berubah seperti makhluk",
-        "B": "tidak berkuasa"
+        "A": "menganggapnya sombong",
+        "B": "memuji dan turut bangga",
+        "C": "tidak mau berteman lagi",
+        "D": "iri hati kepadanya"
       },
-      "answer": "D",
+      "answer": "B",
       "difficulty": "easy"
     },
     {
       "id": 54,
-      "domain": "Sifat Jaiz",
-      "text": "Sifat jaiz Allah Swt. menunjukkan ...",
+      "domain": "Penerapan di Sekolah",
+      "text": "Ada teman yang tertimpa musibah meskipun berbeda kelas. Sikap yang sesuai sila kedua adalah ...",
       "image": null,
       "options": {
-        "D": "kebebasan Allah dalam menentukan perbuatan-Nya",
-        "B": "kelemahan Allah Swt.",
-        "C": "keterbatasan Allah Swt.",
-        "A": "kebutuhan Allah pada makhluk"
+        "A": "tidak peduli karena beda kelas",
+        "B": "menjauhinya",
+        "C": "menertawakan musibahnya",
+        "D": "ikut membantu semampunya"
       },
       "answer": "D",
       "difficulty": "medium"
     },
     {
       "id": 55,
-      "domain": "Sifat Jaiz",
-      "text": "Pernyataan yang benar tentang sifat jaiz Allah Swt. adalah ...",
+      "domain": "Penerapan di Sekolah",
+      "text": "Pernyataan yang BUKAN penerapan sila keempat di sekolah adalah ...",
       "image": null,
       "options": {
-        "A": "Allah Swt. bebas berbuat atau tidak berbuat sesuai kehendak-Nya",
-        "C": "Allah Swt. wajib menciptakan semua makhluk",
-        "B": "Allah Swt. mustahil meninggalkan sesuatu",
-        "D": "Allah Swt. serupa dengan makhluk-Nya"
+        "A": "bermusyawarah saat mengerjakan tugas kelompok",
+        "B": "menyampaikan pendapat dengan santun",
+        "C": "memaksakan kehendak sendiri saat musyawarah",
+        "D": "menerima hasil musyawarah kelas dengan lapang dada"
+      },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": 56,
+      "domain": "Masyarakat & Musyawarah",
+      "text": "Ikut serta dalam kegiatan gotong royong di lingkungan sekitar merupakan penerapan sila ke-...",
+      "image": null,
+      "options": {
+        "A": "1",
+        "B": "4",
+        "C": "2",
+        "D": "5"
+      },
+      "answer": "B",
+      "difficulty": "medium"
+    },
+    {
+      "id": 57,
+      "domain": "Masyarakat & Musyawarah",
+      "text": "Menyapa dan mengucapkan permisi saat bertemu tetangga merupakan penerapan sila ke-...",
+      "image": null,
+      "options": {
+        "A": "4",
+        "B": "2",
+        "C": "3",
+        "D": "1"
+      },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": 58,
+      "domain": "Masyarakat & Musyawarah",
+      "text": "Mengumpulkan sumbangan saat ada tetangga tertimpa musibah adalah contoh penerapan sila ...",
+      "image": null,
+      "options": {
+        "A": "kedua",
+        "B": "pertama",
+        "C": "keempat",
+        "D": "ketiga"
       },
       "answer": "A",
       "difficulty": "medium"
     },
     {
-      "id": 56,
-      "domain": "Sifat Jaiz",
-      "text": "Allah Swt. boleh menciptakan alam semesta dan boleh tidak menciptakannya. Hal ini termasuk sifat ...",
-      "image": null,
-      "options": {
-        "A": "jaiz",
-        "D": "wajib",
-        "C": "mustahil",
-        "B": "terpuji"
-      },
-      "answer": "A",
-      "difficulty": "hard"
-    },
-    {
-      "id": 57,
-      "domain": "Asmaulhusna",
-      "text": "Asmaulhusna artinya ...",
-      "image": null,
-      "options": {
-        "B": "nama-nama Allah Swt. yang baik",
-        "C": "sifat-sifat makhluk",
-        "D": "nama-nama malaikat",
-        "A": "bacaan salat"
-      },
-      "answer": "B",
-      "difficulty": "easy"
-    },
-    {
-      "id": 58,
-      "domain": "Asmaulhusna",
-      "text": "Jumlah asmaulhusna adalah ...",
-      "image": null,
-      "options": {
-        "C": "99",
-        "D": "20",
-        "B": "5",
-        "A": "1000"
-      },
-      "answer": "C",
-      "difficulty": "easy"
-    },
-    {
       "id": 59,
-      "domain": "Asmaulhusna",
-      "text": "Al-Wahhab artinya ...",
+      "domain": "Masyarakat & Musyawarah",
+      "text": "Merayakan hari ulang tahun kemerdekaan Indonesia bersama tetangga menunjukkan sikap ...",
       "image": null,
       "options": {
-        "A": "Maha Pemberi",
-        "C": "Maha Besar",
-        "B": "Maha Mengetahui",
-        "D": "Maha Melihat"
+        "A": "cinta tanah air",
+        "B": "acuh tak acuh",
+        "C": "sombong",
+        "D": "mementingkan diri sendiri"
       },
       "answer": "A",
       "difficulty": "medium"
     },
     {
       "id": 60,
-      "domain": "Asmaulhusna",
-      "text": "Al-Kabir artinya ...",
+      "domain": "Masyarakat & Musyawarah",
+      "text": "Saat menentukan permainan dengan teman di sekitar rumah, sebaiknya dilakukan dengan ...",
       "image": null,
       "options": {
-        "B": "Maha Besar",
-        "A": "Maha Pemberi",
-        "D": "Maha Pengampun",
-        "C": "Maha Kuasa"
+        "A": "musyawarah",
+        "B": "berkelahi",
+        "C": "menang sendiri",
+        "D": "diam-diaman"
       },
-      "answer": "B",
-      "difficulty": "medium"
+      "answer": "A",
+      "difficulty": "easy"
     },
     {
       "id": 61,
-      "domain": "Asmaulhusna",
-      "text": "Allah Swt. memberi karunia kepada semua makhluk yang dikehendaki-Nya tanpa mengharapkan imbalan. Asmaulhusna yang sesuai adalah ...",
+      "domain": "Masyarakat & Musyawarah",
+      "text": "Tetangga yang berbeda suku dan budaya sedang merayakan hari rayanya. Sikap kita sebaiknya ...",
       "image": null,
       "options": {
-        "D": "Al-Wahhab",
-        "B": "Al-Kabir",
-        "C": "Al-Malik",
-        "A": "Al-'Alim"
+        "A": "membuat keributan",
+        "B": "memprotes perayaannya",
+        "C": "memaksanya mengikuti kebiasaan kita",
+        "D": "menghargai dan tidak mengganggu"
       },
       "answer": "D",
       "difficulty": "medium"
     },
     {
       "id": 62,
-      "domain": "Asmaulhusna",
-      "text": "Kebesaran dan kekuasaan Allah Swt. tidak dapat ditandingi oleh siapa pun. Asmaulhusna yang sesuai adalah ...",
+      "domain": "Masyarakat & Musyawarah",
+      "text": "Membeli barang buatan warga sekitar dibanding barang dari luar negeri termasuk penerapan sila ke-...",
       "image": null,
       "options": {
-        "C": "Al-Kabir",
-        "A": "Al-Wahhab",
-        "B": "Al-Fattah",
-        "D": "Ar-Rahman"
+        "A": "4",
+        "B": "2",
+        "C": "1",
+        "D": "3"
       },
-      "answer": "C",
-      "difficulty": "medium"
+      "answer": "D",
+      "difficulty": "hard"
     },
     {
       "id": 63,
-      "domain": "Asmaulhusna",
-      "text": "Memberi bantuan kepada orang yang membutuhkan, baik berupa harta, ilmu, maupun nasihat, merupakan cara mengamalkan asmaulhusna ...",
+      "domain": "Masyarakat & Musyawarah",
+      "text": "Contoh musyawarah yang bisa dilakukan warga masyarakat adalah ...",
       "image": null,
       "options": {
-        "C": "Al-Wahhab",
-        "A": "Al-Kabir",
-        "D": "Al-Hadi",
-        "B": "As-Salam"
+        "A": "menentukan sendiri jadwal ronda",
+        "B": "membeli barang dari luar negeri",
+        "C": "membersihkan rumah masing-masing",
+        "D": "membuat jadwal ronda malam bersama"
       },
-      "answer": "C",
+      "answer": "D",
       "difficulty": "medium"
     },
     {
       "id": 64,
-      "domain": "Asmaulhusna",
-      "text": "Menjaga amanat dengan sebaik-baiknya, bertanggung jawab atas tugas, dan menjauhkan diri dari sikap sombong adalah cara meneladani asmaulhusna ...",
+      "domain": "Karakter Perumus",
+      "text": "Karakter para perumus Pancasila yang dapat kita teladani adalah ...",
       "image": null,
       "options": {
-        "A": "Al-Kabir",
-        "B": "Al-Wahhab",
-        "D": "Al-Khaliq",
-        "C": "Ar-Razzaq"
+        "A": "suka menang sendiri, boros, dan pemarah",
+        "B": "cinta tanah air, gemar musyawarah, mementingkan persatuan dan rela berkorban",
+        "C": "mementingkan kepentingan pribadi",
+        "D": "tidak suka bekerja sama"
       },
-      "answer": "A",
-      "difficulty": "hard"
-    },
-    {
-      "id": 65,
-      "domain": "Teladan Perilaku",
-      "text": "Ahmad belajar dengan tekun setiap malam. Sikap Ahmad sesuai dengan pesan pokok surah ...",
-      "image": null,
-      "options": {
-        "A": "Al-'Alaq",
-        "C": "An-Nas",
-        "D": "Al-Falaq",
-        "B": "Al-Fatihah"
-      },
-      "answer": "A",
+      "answer": "B",
       "difficulty": "easy"
     },
     {
-      "id": 66,
-      "domain": "Teladan Perilaku",
-      "text": "Hasan tidak menyontek saat ulangan karena ia yakin Allah Swt. Maha Melihat. Sifat wajib Allah Swt. yang sesuai adalah ...",
+      "id": 65,
+      "domain": "Karakter Perumus",
+      "text": "Memainkan alat musik tradisional seperti angklung merupakan contoh sikap ...",
       "image": null,
       "options": {
-        "B": "basar",
-        "C": "sama'",
-        "D": "kalam",
-        "A": "iradat"
+        "A": "meniru budaya asing",
+        "B": "bermalas-malasan",
+        "C": "membuang-buang waktu",
+        "D": "melestarikan budaya daerah"
+      },
+      "answer": "D",
+      "difficulty": "medium"
+    },
+    {
+      "id": 66,
+      "domain": "Karakter Perumus",
+      "text": "Contoh sikap cinta tanah air di lingkungan masyarakat adalah ...",
+      "image": null,
+      "options": {
+        "A": "mengejek teman dari suku lain",
+        "B": "ikut menjaga kebersihan lingkungan",
+        "C": "membuang sampah di sungai",
+        "D": "bangga memakai barang luar negeri"
       },
       "answer": "B",
       "difficulty": "medium"
     },
     {
       "id": 67,
-      "domain": "Teladan Perilaku",
-      "text": "Bu Aminah membagikan nasi kotak kepada orang yang membutuhkan setiap hari Jumat. Bu Aminah telah meneladani asmaulhusna ...",
+      "domain": "Karakter Perumus",
+      "text": "Menerima hasil musyawarah walaupun tidak sesuai keinginan kita demi kepentingan bersama menunjukkan sikap ...",
       "image": null,
       "options": {
-        "B": "Al-Wahhab",
-        "D": "Al-Kabir",
-        "A": "Al-'Alim",
-        "C": "Al-Waliy"
+        "A": "pemarah",
+        "B": "rela berkorban",
+        "C": "sombong",
+        "D": "egois"
       },
       "answer": "B",
-      "difficulty": "medium"
+      "difficulty": "easy"
     },
     {
       "id": 68,
-      "domain": "Teladan Perilaku",
-      "text": "Fajar menyiapkan perlengkapan sekolah sendiri tanpa disuruh orang tua. Sikap Fajar meneladani sifat wajib ...",
+      "domain": "Karakter Perumus",
+      "text": "Saat perumusan dasar negara, para tokoh bangsa menentukan dasar negara dengan cara ...",
       "image": null,
       "options": {
-        "B": "qiyamuhu binafsihi",
-        "C": "wujud",
-        "A": "qudrat",
-        "D": "iradat"
+        "A": "perintah raja",
+        "B": "pemungutan suara rahasia",
+        "C": "musyawarah",
+        "D": "berkelahi"
       },
-      "answer": "B",
+      "answer": "C",
       "difficulty": "medium"
     },
     {
       "id": 69,
-      "domain": "Teladan Perilaku",
-      "text": "Rina mendapat nilai bagus tetapi tidak sombong dan tetap rendah hati. Sikap Rina meneladani asmaulhusna ...",
+      "domain": "Karakter Perumus",
+      "text": "Memilih ketua kelas dengan cara musyawarah merupakan penerapan nilai musyawarah dalam kehidupan ...",
       "image": null,
       "options": {
-        "A": "Al-Kabir",
-        "C": "Al-Wahhab",
-        "B": "Ar-Rahman",
-        "D": "Al-Malik"
+        "A": "hanya saat upacara",
+        "B": "sehari-hari di sekolah",
+        "C": "hanya saat ujian",
+        "D": "hanya saat liburan"
       },
-      "answer": "A",
+      "answer": "B",
       "difficulty": "hard"
     },
     {
       "id": 70,
-      "domain": "Teladan Perilaku",
-      "text": "Setiap selesai salat Magrib, Burhan membaca Al-Qur'an dengan bimbingan ayahnya. Sikap Burhan menunjukkan kecintaan kepada ...",
+      "domain": "Karakter Perumus",
+      "text": "Pernyataan yang BUKAN sikap rela berkorban adalah ...",
       "image": null,
       "options": {
-        "A": "Al-Qur'an",
-        "C": "bermain",
-        "D": "televisi",
-        "B": "gawai"
+        "A": "tidak mengganggu tetangga dengan suara keras",
+        "B": "mendengarkan musik dengan suara sangat keras",
+        "C": "bermain dengan semua teman walaupun berbeda suku",
+        "D": "menerima hasil musyawarah walau tidak sesuai keinginan"
       },
-      "answer": "A",
-      "difficulty": "hard"
+      "answer": "B",
+      "difficulty": "medium"
     }
   ]
 }
