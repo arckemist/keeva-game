@@ -4,6 +4,32 @@ let GAME = null;
 let STATE = null;
 let QUESTION_POOL = [];
 
+/* ── DISPLAY HELPERS ──
+   Question data stores the domain as a machine key (e.g. `sila_nilai_penerapan`) — handy for
+   stats bookkeeping, but it must never reach the screen with its underscores showing. Map the
+   known keys to readable labels and fall back to Title-Casing anything unrecognised, so a
+   regenerated game_data.json cannot leak raw keys into a kid's UI. */
+const DOMAIN_LABELS = {
+  bpupk_ppki: 'BPUPK & PPKI',
+  gotong_royong: 'Gotong Royong',
+  pancasila_makna: 'Makna Pancasila',
+  pancasila_terapan_situasi: 'Penerapan Pancasila',
+  sila_nilai_penerapan: 'Sila & Nilai Penerapan'
+};
+
+function domainLabel(d) {
+  if (!d) return 'Umum';
+  if (DOMAIN_LABELS[d]) return DOMAIN_LABELS[d];
+  return String(d).replace(/_/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
+}
+
+/* The subtitle template used to hard-prefix "Grade ", so a data value of "Grade 5" rendered
+   as "Grade Grade 5". Only add the prefix when the value does not already carry it. */
+function gradeLabel() {
+  const g = (GAME && GAME.grade) || '?';
+  return /grade/i.test(String(g)) ? String(g) : `Grade ${g}`;
+}
+
 /* ── AUDIO MANAGER ──
    Two channels (BGM + SFX) with separate gain nodes so the kid can hear SFX over BGM.
    Init is LAZY — must be triggered by a user gesture (click) to satisfy iOS Safari
@@ -168,7 +194,7 @@ async function loadGame() {
     // Subtitle: total fights count (using Normal preset as default for display until user picks)
     const preset = DIFFICULTY_PRESETS.normal;
     const totalFights = (preset.small_per_wave + 1) * GAME.wave_count;
-    subtitle.textContent = `${GAME.subject || 'Quest'} · Grade ${GAME.grade || '?'} · ${GAME.wave_count || 5} waves · 5 bosses`;
+    subtitle.textContent = `${GAME.subject || 'Quest'} · ${gradeLabel()} · ${GAME.wave_count || 5} waves · 5 bosses`;
 
     document.querySelector('.game-title').textContent = `⚔️ ${GAME.title}`;
 
@@ -479,7 +505,7 @@ function renderQuestion() {
     imgEl.src = '';
     imgWrap.style.display = 'none';
   }
-  document.getElementById('question-domain').textContent = q.domain || 'general';
+  document.getElementById('question-domain').textContent = domainLabel(q.domain);
   updateHUD();   // re-enable 50/50 button for the new fight
 }
 
@@ -743,8 +769,8 @@ function computeRunStats() {
     const strongest = entries[0];
     const weakest = entries[entries.length - 1];
     domainLines = `
-      <p><span>Strongest:</span><strong>${strongest[0]} (${strongest[1].correct}/${strongest[1].total})</strong></p>
-      <p><span>Weakest:</span><strong>${weakest[0]} (${weakest[1].correct}/${weakest[1].total})</strong></p>
+      <p><span>Strongest:</span><strong>${domainLabel(strongest[0])} (${strongest[1].correct}/${strongest[1].total})</strong></p>
+      <p><span>Weakest:</span><strong>${domainLabel(weakest[0])} (${weakest[1].correct}/${weakest[1].total})</strong></p>
     `;
   }
 
