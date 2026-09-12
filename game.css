@@ -326,13 +326,16 @@ body {
   100% { opacity: 0; transform: scale(1.35); }
 }
 
+/* The beam art has its emitter on the LEFT, so it must be mirrored to fire right-to-left
+   (the enemy always stands on the right). The mirror lives in the keyframes because a
+   separate `transform: scaleX(-1)` would be overwritten by the animation. */
 .fx-boss-beam { transform-origin: right center; animation: fx-boss-beam 900ms cubic-bezier(.2,.7,.3,1) both; }
 @keyframes fx-boss-beam {
-  0%   { opacity: 0; transform: scaleX(.12); }
-  16%  { opacity: 1; transform: scaleX(.42); }
-  34%  { transform: scaleX(1); }
-  78%  { opacity: 1; transform: scaleX(1); }
-  100% { opacity: 0; transform: scaleX(1); }
+  0%   { opacity: 0; transform: scaleX(-0.12); }
+  16%  { opacity: 1; transform: scaleX(-0.42); }
+  34%  { transform: scaleX(-1); }
+  78%  { opacity: 1; transform: scaleX(-1); }
+  100% { opacity: 0; transform: scaleX(-1); }
 }
 
 .fx-boss-ring { animation: fx-boss-ring 780ms ease-out both; }

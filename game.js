@@ -369,8 +369,8 @@ function spawnEnemyAttackFx(isBoss) {
     bf.classList.add('shake');
     setTimeout(() => bf.classList.remove('shake'), 460);
   }
-  add('fx-boss-flare', 'assets/effects/fx_boss_flare.png', { right: '2%', top: '23%', width: '132px' });
-  add('fx-boss-beam', 'assets/effects/fx_boss_beam.png', { right: '0', width: '84%', top: '6%' }, 170);
+  add('fx-boss-flare', 'assets/effects/fx_boss_flare.png', { right: '22%', top: '30%', width: '84px' });
+  add('fx-boss-beam', 'assets/effects/fx_boss_beam.png', { right: '15%', width: '72%', top: '31%' }, 170);
   add('fx-boss-ring', 'assets/effects/fx_boss_ring.png', { left: '2%', bottom: '2%', width: '42%' }, 330);
 }
 
