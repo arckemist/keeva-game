@@ -286,6 +286,16 @@ function startQuest() {
   nextFight();
 }
 
+/* ── enemy readout: keep the text and the segmented HP bar in sync ── */
+function renderEnemyHp() {
+  const e = STATE.currentEnemy;
+  if (!e) return;
+  const txt = document.getElementById('enemy-progress');
+  if (txt) txt.textContent = `${e.hp}/${e.maxHp} HP`;
+  const fill = document.getElementById('enemy-hp-fill');
+  if (fill) fill.style.width = `${Math.max(0, Math.min(1, e.hp / e.maxHp)) * 100}%`;
+}
+
 /* ── BIOME BACKGROUND + GROUND PAN (Journey-style advance) ──
    One biome per wave, matching the boss theme the code already indexes by wave.
    Panning is driven by --pan-far / --pan-near on .battlefield; the strips are
@@ -424,7 +434,7 @@ function nextFight() {
   document.getElementById('enemy-name').textContent = STATE.isBoss
     ? `${STATE.currentEnemy.name} (BOSS${isFinal ? ' 👑 FINAL' : ''})`
     : STATE.currentEnemy.name;
-  document.getElementById('enemy-progress').textContent = `${STATE.currentEnemy.hp}/${STATE.currentEnemy.maxHp} HP`;
+  renderEnemyHp();
   document.getElementById('enemy-sprite').src = STATE.currentEnemy.sprite;
   document.getElementById('enemy-sprite').classList.remove('defeated');
 
@@ -594,7 +604,7 @@ function handleAnswer(chosen) {
         STATE.currentQuestion = pickNextQuestion();
       }
       STATE.usedQuestionIds.add(STATE.currentQuestion.id);
-      document.getElementById('enemy-progress').textContent = `${STATE.currentEnemy.hp}/${STATE.currentEnemy.maxHp} HP`;
+      renderEnemyHp();
       updateHUD();
       renderQuestion();
     }
