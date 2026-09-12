@@ -251,8 +251,114 @@ body {
   padding: 0 1.5rem;
   margin-bottom: 1rem;
   position: relative;
-  background: linear-gradient(180deg, transparent 0%, rgba(0,0,0,0.2) 100%);
+  overflow: hidden;
+  background: #10131f;
   border-radius: 12px;
+}
+
+/* ── PARALLAX BACKGROUND ───────────────────────────────────────────────
+   Two repeating strips per biome. Panning is driven by --pan-far / --pan-near,
+   which JS advances one step each time a small enemy is defeated; because the
+   strips repeat-x, a negative background-position loops forever to the right. */
+.bg-far, .bg-near {
+  position: absolute;
+  left: 0;
+  right: 0;
+  background-repeat: repeat-x;
+  background-size: auto 100%;
+  pointer-events: none;
+  transition: background-position 900ms cubic-bezier(.4, 0, .2, 1), opacity 260ms ease;
+}
+.bg-far {
+  top: 0;
+  bottom: 0;
+  z-index: 0;
+  background-position-x: var(--pan-far, 0px);
+}
+.bg-near {
+  bottom: 0;
+  height: 44%;
+  z-index: 1;
+  background-position-x: var(--pan-near, 0px);
+}
+.bg-far.biome-fade, .bg-near.biome-fade { opacity: 0; }
+
+/* Soft contact shadow so each sprite reads as standing ON the ground plane */
+.contact-shadow {
+  position: absolute;
+  bottom: -2px;
+  width: 128px;
+  height: 18px;
+  border-radius: 50%;
+  background: radial-gradient(ellipse at center, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0) 72%);
+  pointer-events: none;
+  z-index: 2;
+}
+.hero-side .contact-shadow { left: 28px; }
+.enemy-side .contact-shadow { right: 28px; }
+
+/* Red edge vignette while the hero is taking damage */
+.damage-vignette {
+  position: absolute;
+  inset: 0;
+  z-index: 7;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 220ms ease;
+  background: radial-gradient(ellipse at center, rgba(120,0,0,0) 38%, rgba(150,0,0,0.6) 100%);
+}
+.damage-vignette.on { opacity: 1; }
+
+/* ── ENEMY ATTACK FX ── */
+.fx-enemy-orb { animation: fx-orb-travel 620ms cubic-bezier(.35,.05,.4,1) both; }
+@keyframes fx-orb-travel {
+  0%   { left: 64%; top: 44%; opacity: 0; transform: scale(.5); }
+  14%  { opacity: 1; }
+  55%  { left: 44%; top: 30%; transform: scale(1.1); }
+  100% { left: 24%; top: 42%; opacity: 0; transform: scale(.9); }
+}
+
+.fx-boss-flare { animation: fx-boss-flare 900ms ease-out both; }
+@keyframes fx-boss-flare {
+  0%   { opacity: 0; transform: scale(.3); }
+  20%  { opacity: 1; transform: scale(1.15); }
+  45%  { transform: scale(1); }
+  100% { opacity: 0; transform: scale(1.35); }
+}
+
+.fx-boss-beam { transform-origin: right center; animation: fx-boss-beam 900ms cubic-bezier(.2,.7,.3,1) both; }
+@keyframes fx-boss-beam {
+  0%   { opacity: 0; transform: scaleX(.12); }
+  16%  { opacity: 1; transform: scaleX(.42); }
+  34%  { transform: scaleX(1); }
+  78%  { opacity: 1; transform: scaleX(1); }
+  100% { opacity: 0; transform: scaleX(1); }
+}
+
+.fx-boss-ring { animation: fx-boss-ring 780ms ease-out both; }
+@keyframes fx-boss-ring {
+  0%   { opacity: 0; transform: scale(.35); }
+  25%  { opacity: 1; }
+  100% { opacity: 0; transform: scale(1.7); }
+}
+
+/* Boss attacks rattle the whole stage */
+.battlefield.shake { animation: battlefield-shake 440ms cubic-bezier(.36,.07,.19,.97) both; }
+@keyframes battlefield-shake {
+  0%, 100% { transform: translate(0, 0); }
+  15% { transform: translate(-7px, 3px); }
+  30% { transform: translate(6px, -3px); }
+  45% { transform: translate(-5px, 2px); }
+  60% { transform: translate(4px, -2px); }
+  80% { transform: translate(-2px, 1px); }
+}
+
+/* Hero recoiling from an incoming attack */
+.hero-sprite.hit { animation: hero-hit 0.45s ease-out; }
+@keyframes hero-hit {
+  0%   { transform: translateX(0) scale(1); filter: brightness(1) drop-shadow(0 4px 12px rgba(0,0,0,0.5)); }
+  30%  { transform: translateX(-14px) scale(.96); filter: brightness(2.2) saturate(.4) drop-shadow(0 0 16px rgba(255,70,70,0.95)); }
+  100% { transform: translateX(0) scale(1); filter: brightness(1) drop-shadow(0 4px 12px rgba(0,0,0,0.5)); }
 }
 
 .hero-side, .enemy-side {
@@ -373,7 +479,9 @@ body {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .fx, .fx-burst { animation-duration: 1ms !important; }
+  .fx, .fx-burst,
+  .battlefield.shake, .hero-sprite.hit { animation-duration: 1ms !important; }
+  .bg-far, .bg-near { transition-duration: 1ms !important; }
 }
 
 /* ── QUESTION AREA ── */

@@ -279,14 +279,112 @@ function startQuest() {
   };
 
   QUESTION_POOL = [...GAME.questions].sort(() => Math.random() - 0.5);
+  currentBiome = null;
+  resetGround();
 
   showScreen('screen-fight');
   nextFight();
 }
 
+/* ── BIOME BACKGROUND + GROUND PAN (Journey-style advance) ──
+   One biome per wave, matching the boss theme the code already indexes by wave.
+   Panning is driven by --pan-far / --pan-near on .battlefield; the strips are
+   background-repeat: repeat-x, so a negative position loops to the right forever. */
+const BIOMES = ['forest', 'cave', 'ice', 'castle', 'demon'];
+let groundStep = 0;
+let currentBiome = null;
+
+function applyBiome(wave, animate) {
+  const name = BIOMES[Math.min(Math.max(wave, 1) - 1, BIOMES.length - 1)];
+  const far = document.getElementById('bg-far');
+  const near = document.getElementById('bg-near');
+  if (!far || !near) return;
+  if (name === currentBiome && !animate) return;
+  currentBiome = name;
+
+  const set = () => {
+    far.style.backgroundImage = `url('assets/backgrounds/bg_${name}_far.png')`;
+    near.style.backgroundImage = `url('assets/backgrounds/bg_${name}_near.png')`;
+  };
+  if (!animate) { set(); return; }
+  far.classList.add('biome-fade');
+  near.classList.add('biome-fade');
+  setTimeout(() => {
+    set();
+    far.classList.remove('biome-fade');
+    near.classList.remove('biome-fade');
+  }, 270);
+}
+
+function resetGround() {
+  groundStep = 0;
+  const bf = document.getElementById('battlefield');
+  if (!bf) return;
+  bf.style.setProperty('--pan-far', '0px');
+  bf.style.setProperty('--pan-near', '0px');
+}
+
+/* Each defeated small enemy nudges the world along. The near strip moves ~2x the far strip,
+   which is what creates the sense of depth. */
+function advanceGround() {
+  const bf = document.getElementById('battlefield');
+  if (!bf) return;
+  groundStep++;
+  bf.style.setProperty('--pan-far', `-${groundStep * 92}px`);
+  bf.style.setProperty('--pan-near', `-${groundStep * 186}px`);
+}
+
+/* ── ENEMY ATTACK FX (one common orb; bosses get a screen-spanning beam) ── */
+function spawnEnemyAttackFx(isBoss) {
+  const layer = document.getElementById('fx-layer');
+  const bf = document.getElementById('battlefield');
+  const vig = document.getElementById('damage-vignette');
+  if (!layer) return;
+
+  const add = (cls, src, style, delay) => {
+    const img = document.createElement('img');
+    img.className = 'fx ' + cls;
+    img.src = src;
+    img.alt = '';
+    Object.entries(style || {}).forEach(([k, v]) => img.style.setProperty(k, v));
+    if (delay) img.style.animationDelay = delay + 'ms';
+    img.addEventListener('animationend', () => img.remove());
+    // Fallback: a cancelled animation (e.g. the element's animation class is replaced)
+    // never fires animationend, which would leak the node in the layer forever.
+    setTimeout(() => img.remove(), 1600);
+    layer.appendChild(img);
+  };
+
+  if (vig) {
+    vig.classList.add('on');
+    setTimeout(() => vig.classList.remove('on'), isBoss ? 1050 : 520);
+  }
+
+  if (!isBoss) {
+    add('fx-enemy-orb', 'assets/effects/fx_enemy_orb.png', { '--fx-size': '56px' });
+    return;
+  }
+
+  if (bf) {
+    bf.classList.add('shake');
+    setTimeout(() => bf.classList.remove('shake'), 460);
+  }
+  add('fx-boss-flare', 'assets/effects/fx_boss_flare.png', { right: '2%', top: '23%', width: '132px' });
+  add('fx-boss-beam', 'assets/effects/fx_boss_beam.png', { right: '0', width: '84%', top: '6%' }, 170);
+  add('fx-boss-ring', 'assets/effects/fx_boss_ring.png', { left: '2%', bottom: '2%', width: '42%' }, 330);
+}
+
+function heroHitFx() {
+  const el = document.getElementById('hero-sprite');
+  if (!el) return;
+  el.classList.add('hit');
+  setTimeout(() => el.classList.remove('hit'), 460);
+}
+
 /* ── NEXT FIGHT (small or boss within current wave) ── */
 function nextFight() {
   const cfg = STATE.runtimeConfig;
+  applyBiome(STATE.wave, false);
   const isLastSmall = STATE.smallIndex === cfg.small_per_wave - 1;
   const isBossTime = isLastSmall; // boss appears after last small in wave
   STATE.isBoss = isBossTime;
@@ -426,6 +524,9 @@ function spawnAttackFx() {
     img.style.top = (46 + Math.random() * 24).toFixed(1) + '%';
     img.style.animationDelay = (i * 55) + 'ms';
     img.addEventListener('animationend', () => img.remove());
+    // Fallback: a cancelled animation (e.g. the element's animation class is replaced)
+    // never fires animationend, which would leak the node in the layer forever.
+    setTimeout(() => img.remove(), 1600);
     layer.appendChild(img);
   }
   const burst = document.createElement('img');
@@ -434,6 +535,7 @@ function spawnAttackFx() {
   burst.alt = '';
   burst.style.animationDelay = '270ms';
   burst.addEventListener('animationend', () => burst.remove());
+  setTimeout(() => burst.remove(), 1600);
   layer.appendChild(burst);
 }
 
@@ -474,6 +576,8 @@ function handleAnswer(chosen) {
     playFloatText(`-1`, 'hero');
     showFeedback(`❌ Wrong! Correct: ${q.options[q.answer]}`, 'wrong');
     AudioManager.playSFX('wrong');
+    spawnEnemyAttackFx(STATE.isBoss);
+    heroHitFx();
   }
 
   setTimeout(() => {
@@ -538,6 +642,7 @@ function onEnemyDefeated() {
     } else {
       // Small defeated — advance to next small in same wave
       STATE.smallIndex++;
+      advanceGround();
       nextFight();
     }
   }, 700);
@@ -573,6 +678,8 @@ function proceedAfterRest() {
   STATE.isBoss = false;
   STATE.isFinalBoss = false;
   STATE.currentEnemy = null;
+  resetGround();
+  applyBiome(STATE.wave, true);
   showScreen('screen-fight');
   nextFight();
 }
