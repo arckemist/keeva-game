@@ -322,6 +322,60 @@ body {
   100% { opacity: 0; transform: translateY(-100px) scale(1); }
 }
 
+/* ── ATTACK FX LAYER (projectile effects) ── */
+.fx-layer {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 6;
+}
+
+.fx {
+  position: absolute;
+  width: var(--fx-size, 42px);
+  height: auto;
+  will-change: transform, opacity, left, top;
+  filter: drop-shadow(0 0 10px rgba(255, 200, 120, 0.35));
+}
+
+.fx-flame { animation: fx-flame-travel 620ms cubic-bezier(.35, .05, .4, 1) both; }
+.fx-note  { animation: fx-note-travel 700ms cubic-bezier(.35, .05, .4, 1) both; }
+
+.fx-burst {
+  left: 72%;
+  top: 26%;
+  width: 130px;
+  animation: fx-burst-pop 340ms ease-out both;
+  filter: none;
+}
+
+@keyframes fx-flame-travel {
+  0%   { left: 30%; top: 62%; opacity: 0; transform: scale(0.45) rotate(0deg); }
+  12%  { opacity: 1; }
+  50%  { left: 50%; top: 34%; opacity: 1; transform: scale(1.2) rotate(150deg); }
+  88%  { opacity: 1; }
+  100% { left: 72%; top: 48%; opacity: 0; transform: scale(0.7) rotate(320deg); }
+}
+
+@keyframes fx-note-travel {
+  0%   { left: 30%; top: 60%; opacity: 0; transform: scale(0.5) rotate(-24deg); }
+  15%  { opacity: 1; transform: scale(1) rotate(0deg); }
+  52%  { left: 52%; top: 30%; opacity: 1; transform: scale(1.15) rotate(10deg); }
+  85%  { opacity: 1; }
+  100% { left: 72%; top: 46%; opacity: 0; transform: scale(0.8) rotate(-16deg); }
+}
+
+@keyframes fx-burst-pop {
+  0%   { opacity: 0; transform: scale(0.2); }
+  35%  { opacity: 1; }
+  100% { opacity: 0; transform: scale(1.5); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fx, .fx-burst { animation-duration: 1ms !important; }
+}
+
 /* ── QUESTION AREA ── */
 .question-area {
   width: 100%;

@@ -115,15 +115,21 @@ let SELECTED_DIFFICULTY = null;
 
 /* 5 bosses — each has unique name + sprite + theme */
 const BOSS_THEMES = [
-  { name: 'Forest Beast',    sprite: 'assets/enemies/enemy_goblin.svg',     emoji: '🌳' },
-  { name: 'Cave Troll',      sprite: 'assets/enemies/enemy_skeleton.svg',   emoji: '🪨' },
-  { name: 'Ice Wyrm',        sprite: 'assets/enemies/enemy_dragon_boss.svg', emoji: '❄️' },
-  { name: 'Dark Knight',     sprite: 'assets/enemies/enemy_dragon_boss.svg', emoji: '⚔️' },
-  { name: 'Demon King',      sprite: 'assets/enemies/enemy_dragon_boss.svg', emoji: '👑' }
+  { name: 'Forest Beast',    sprite: 'assets/enemies/enemy_boss_forest_beast.png', emoji: '🌳' },
+  { name: 'Cave Troll',      sprite: 'assets/enemies/enemy_boss_cave_troll.png',   emoji: '🪨' },
+  { name: 'Ice Wyrm',        sprite: 'assets/enemies/enemy_boss_ice_wyrm.png',     emoji: '❄️' },
+  { name: 'Dark Knight',     sprite: 'assets/enemies/enemy_boss_dark_knight.png',  emoji: '⚔️' },
+  { name: 'Demon King',      sprite: 'assets/enemies/enemy_boss_demon_king.png',   emoji: '👑' }
 ];
 
 const SMALL_NAMES = ['Slime', 'Bat', 'Goblin', 'Skeleton', 'Wolf', 'Spider', 'Rat', 'Imp', 'Wisp', 'Mimic'];
-const SMALL_SPRITES = ['assets/enemies/enemy_goblin.svg', 'assets/enemies/enemy_skeleton.svg', 'assets/enemies/enemy_slime.svg', 'assets/enemies/enemy_bat.svg'];
+const SMALL_SPRITES = [
+  'assets/enemies/enemy_slime.png', 'assets/enemies/enemy_bat.png',
+  'assets/enemies/enemy_goblin.png', 'assets/enemies/enemy_skeleton.png',
+  'assets/enemies/enemy_wolf.png', 'assets/enemies/enemy_spider.png',
+  'assets/enemies/enemy_rat.png', 'assets/enemies/enemy_imp.png',
+  'assets/enemies/enemy_wisp.png', 'assets/enemies/enemy_mimic.png'
+];
 
 /* ── INITIALIZATION ── */
 async function loadGame() {
@@ -147,13 +153,15 @@ async function loadGame() {
 
     // Character portrait mapping
     const charFileMap = {
-      'knight': 'keeva_warrior.svg',
-      'warrior': 'keeva_warrior.svg',
-      'mage': 'keisha_ice_mage.svg',
-      'ice_mage': 'keisha_ice_mage.svg'
+      'knight': 'keeva_champion.png',
+      'warrior': 'keeva_champion.png',
+      'champion': 'keeva_champion.png',
+      'mage': 'keisha_singer.png',
+      'ice_mage': 'keisha_singer.png',
+      'singer': 'keisha_singer.png'
     };
     const charKey = GAME.character || 'knight';
-    const charFile = `assets/characters/${charFileMap[charKey] || 'keeva_warrior.svg'}`;
+    const charFile = `assets/characters/${charFileMap[charKey] || 'keeva_champion.png'}`;
     charImg.src = charFile;
     charImg.onerror = () => { charImg.style.display = 'none'; };
 
@@ -399,6 +407,36 @@ function applyFiftyFifty() {
   updateHUD();
 }
 
+/* ── ATTACK FX: Keeva's fire kick ── */
+const FX_FIRE = [
+  'assets/effects/fx_flame.png', 'assets/effects/fx_flame_hot.png',
+  'assets/effects/fx_flame.png', 'assets/effects/fx_spark.png'
+];
+
+function spawnAttackFx() {
+  const layer = document.getElementById('fx-layer');
+  if (!layer) return;
+  for (let i = 0; i < 6; i++) {
+    const img = document.createElement('img');
+    img.className = 'fx fx-flame';
+    img.src = FX_FIRE[i % FX_FIRE.length];
+    img.alt = '';
+    img.style.setProperty('--fx-size', (24 + Math.random() * 22).toFixed(0) + 'px');
+    img.style.left = (28 + Math.random() * 5).toFixed(1) + '%';
+    img.style.top = (46 + Math.random() * 24).toFixed(1) + '%';
+    img.style.animationDelay = (i * 55) + 'ms';
+    img.addEventListener('animationend', () => img.remove());
+    layer.appendChild(img);
+  }
+  const burst = document.createElement('img');
+  burst.className = 'fx fx-burst';
+  burst.src = 'assets/effects/fx_blast.png';
+  burst.alt = '';
+  burst.style.animationDelay = '270ms';
+  burst.addEventListener('animationend', () => burst.remove());
+  layer.appendChild(burst);
+}
+
 /* ── HANDLE ANSWER ── */
 function handleAnswer(chosen) {
   const q = STATE.currentQuestion;
@@ -421,6 +459,7 @@ function handleAnswer(chosen) {
     AudioManager.playSFX('correct');
     document.getElementById('hero-sprite').classList.add('attack');
     setTimeout(() => document.getElementById('hero-sprite').classList.remove('attack'), 400);
+    spawnAttackFx();
     document.getElementById('enemy-sprite').classList.add('hit');
     setTimeout(() => document.getElementById('enemy-sprite').classList.remove('hit'), 400);
   } else {
