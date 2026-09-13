@@ -19,7 +19,11 @@ const DOMAIN_LABELS = {
 function domainLabel(d) {
   if (!d) return 'Umum';
   if (DOMAIN_LABELS[d]) return DOMAIN_LABELS[d];
-  return String(d).replace(/_/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
+  const s = String(d);
+  // Only rewrite machine keys. A domain that already reads as prose must be passed through
+  // untouched — Title-Casing every word would turn "Point of View" into "Point Of View".
+  if (!s.includes('_')) return s;
+  return s.replace(/_/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
 }
 
 /* The subtitle template used to hard-prefix "Grade ", so a data value of "Grade 5" rendered
