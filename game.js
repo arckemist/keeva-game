@@ -10,11 +10,10 @@ let QUESTION_POOL = [];
    known keys to readable labels and fall back to Title-Casing anything unrecognised, so a
    regenerated game_data.json cannot leak raw keys into a kid's UI. */
 const DOMAIN_LABELS = {
-  bpupk_ppki: 'BPUPK & PPKI',
-  gotong_royong: 'Gotong Royong',
-  pancasila_makna: 'Makna Pancasila',
-  pancasila_terapan_situasi: 'Penerapan Pancasila',
-  sila_nilai_penerapan: 'Sila & Nilai Penerapan'
+  // Kept for future subjects whose question data stores domains as snake_case machine keys
+  // (the Pancasila set used e.g. `sila_nilai_penerapan`). The current English Language Arts
+  // set ships human-readable domain names, so this map is empty and the Title-Case fallback
+  // below is the only thing doing work — it stays as the guard against a raw key reaching the UI.
 };
 
 function domainLabel(d) {
