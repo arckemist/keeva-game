@@ -1,10 +1,10 @@
 {
-  "kid": "keeva",
-  "subject": "English Language Arts",
-  "grade": "Grade 3 (Kelas III)",
-  "source_pdf": "Adobe Scan Sep 13, 2026 - HMH Into Reading Grade 3: Module 1 (Weeks 1-3), Module 2 and Module 3 (Week 2) - Decoding, Critical Vocabulary, Comprehension, Text & Graphic Features, Spelling and Writing",
-  "generated_at": "2026-09-13T00:00:00+07:00",
-  "title": "Keeva's Reading Quest",
+  "kid": "Keeva",
+  "subject": "Mathematics",
+  "grade": "3",
+  "source_pdf": "Adobe Scan Sep 20, 2026.pdf (Marshall Cavendish, Singapore Math)",
+  "generated_at": "2026-09-20T17:22:44",
+  "title": "KeeVa's Math Quest",
   "character": "knight",
   "config": {
     "hero_hp": 5,
@@ -17,1670 +17,4819 @@
   },
   "questions": [
     {
-      "id": 1,
-      "domain": "Short Vowels",
-      "text": "In the short vowel word bank, which word is listed under the heading “Short u”?",
-      "image": null,
+      "text": "The paper clips in the picture are packed as 2 thousands, 3 hundreds, 5 tens and 4 ones. How many paper clips are there in all?",
       "options": {
-        "A": "supper",
-        "B": "pencil",
-        "C": "shopping",
-        "D": "apple"
+        "A": "2354",
+        "B": "2345",
+        "C": "2453",
+        "D": "2534"
       },
       "answer": "A",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "domain": "Numbers to 10 000",
+      "source_page": "PDF p5",
+      "image": null,
+      "id": 1
     },
     {
-      "id": 2,
-      "domain": "Short Vowels",
-      "text": "Which word from the short vowel word bank has the short e vowel sound?",
-      "image": null,
+      "text": "Which of these is the correct number word for 2354?",
       "options": {
-        "A": "shopping",
-        "B": "pencil",
-        "C": "otters",
-        "D": "captain"
+        "A": "two thousand, three hundred and forty-five",
+        "B": "two thousand, three hundred and fifty-four",
+        "C": "two hundred and thirty-five",
+        "D": "two thousand, five hundred and thirty-four"
       },
       "answer": "B",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "domain": "Numbers to 10 000",
+      "source_page": "PDF p5",
+      "image": null,
+      "id": 2
     },
     {
-      "id": 3,
-      "domain": "Short Vowels",
-      "text": "Which word from the word bank best completes this sentence: “The river is home to animals such as fish, ducks, and ___.”",
-      "image": null,
+      "text": "In 2354, what is the value of the digit 3?",
       "options": {
-        "A": "under",
-        "B": "captain",
-        "C": "otters",
-        "D": "instantly"
+        "A": "3",
+        "B": "3000",
+        "C": "300",
+        "D": "30"
       },
       "answer": "C",
-      "difficulty": "medium"
+      "difficulty": "easy",
+      "domain": "Numbers to 10 000",
+      "source_page": "PDF p5",
+      "image": null,
+      "id": 3
     },
     {
-      "id": 4,
-      "domain": "Long Vowels & Vowel Teams",
-      "text": "In the long vowel word bank, which word rhymes with the word “phone”?",
-      "image": null,
+      "text": "In 4627, which digit is in the hundreds place?",
       "options": {
-        "A": "lime",
-        "B": "plate",
-        "C": "cage",
-        "D": "tone"
+        "A": "7",
+        "B": "2",
+        "C": "4",
+        "D": "6"
       },
       "answer": "D",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "domain": "Numbers to 10 000",
+      "source_page": "PDF p5",
+      "image": null,
+      "id": 4
     },
     {
-      "id": 5,
-      "domain": "Long Vowels & Vowel Teams",
-      "text": "Which word from the long vowel word bank has a long i vowel sound?",
-      "image": null,
+      "text": "Which of these is the expanded form of 4627?",
       "options": {
-        "A": "slime",
-        "B": "lobe",
-        "C": "chrome",
-        "D": "trade"
+        "A": "4000 + 600 + 20 + 7",
+        "B": "400 + 60 + 20 + 7",
+        "C": "4000 + 600 + 2 + 7",
+        "D": "4000 + 600 + 200 + 7"
       },
       "answer": "A",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "domain": "Numbers to 10 000",
+      "source_page": "PDF p5",
+      "image": null,
+      "id": 5
     },
     {
-      "id": 6,
-      "domain": "Long Vowels & Vowel Teams",
-      "text": "One clue says, “If a lime rots, you will have ___.” Two rhyming words from the word bank answer the clue. Which word from the bank belongs in the blank?",
-      "image": null,
+      "text": "Complete the expanded form: 2354 = 2000 + 300 + ___ + 4. What is the missing number?",
       "options": {
-        "A": "shake",
-        "B": "slime",
-        "C": "robe",
-        "D": "chrome"
+        "A": "5000",
+        "B": "50",
+        "C": "5",
+        "D": "500"
       },
       "answer": "B",
-      "difficulty": "hard"
+      "difficulty": "medium",
+      "domain": "Numbers to 10 000",
+      "source_page": "PDF p5",
+      "image": null,
+      "id": 6
     },
     {
-      "id": 7,
-      "domain": "Word Parts (Prefixes & Suffixes)",
-      "text": "What does the page say a prefix is?",
-      "image": null,
+      "text": "Number discs are placed in a place-value chart: 3 in the thousands column, 2 in the hundreds column, 1 in the tens column and 5 in the ones column. What number is shown?",
       "options": {
-        "A": "The events that happen in a story.",
-        "B": "A word part added to the end of a base word that changes its meaning.",
-        "C": "A word part added to the beginning of a base word that changes the meaning of the word.",
-        "D": "A phrase that means something different from what its words literally mean."
+        "A": "3125",
+        "B": "2315",
+        "C": "3215",
+        "D": "3251"
       },
       "answer": "C",
-      "difficulty": "easy"
+      "difficulty": "medium",
+      "domain": "Numbers to 10 000",
+      "source_page": "PDF p6",
+      "image": null,
+      "id": 7
     },
     {
-      "id": 8,
-      "domain": "Word Parts (Prefixes & Suffixes)",
-      "text": "The page says to choose a base word from the word bank and add the prefix mis- or un-. Which new word completes this sentence: “When Nadya ___ in class, the teacher sent her to the principal’s office.”",
-      "image": null,
+      "text": "Henry writes the number 5970. Which digit is in the hundreds place?",
       "options": {
-        "A": "misspell",
-        "B": "unbroken",
-        "C": "unfunny",
-        "D": "misbehaved"
+        "A": "7",
+        "B": "5",
+        "C": "0",
+        "D": "9"
       },
       "answer": "D",
-      "difficulty": "medium"
+      "difficulty": "easy",
+      "domain": "Numbers to 10 000",
+      "source_page": "PDF p6",
+      "image": null,
+      "id": 8
     },
     {
-      "id": 9,
-      "domain": "Word Parts (Prefixes & Suffixes)",
-      "text": "The page says a prefix is a word part added to the beginning of a base word that changes the meaning of the word. Which of these words is a base word from the mis-/un- word bank, with no prefix added to it?",
-      "image": null,
+      "text": "In 5970, what is the value of the digit 5?",
       "options": {
-        "A": "funny",
-        "B": "unfunny",
-        "C": "unbroken",
-        "D": "misbehaved"
+        "A": "5000",
+        "B": "5",
+        "C": "500",
+        "D": "50"
       },
       "answer": "A",
-      "difficulty": "hard"
+      "difficulty": "easy",
+      "domain": "Numbers to 10 000",
+      "source_page": "PDF p6",
+      "image": null,
+      "id": 9
     },
     {
-      "id": 10,
-      "domain": "Critical Vocabulary",
-      "text": "In the Critical Vocabulary exercise, which word completes the sentence “Mom said that my sweater and pants ___ because ___.”",
-      "image": null,
+      "text": "In 7265, which digit has a value of 7000?",
       "options": {
-        "A": "bilingual",
-        "B": "clash",
-        "C": "usual",
-        "D": "mushy"
+        "A": "6",
+        "B": "7",
+        "C": "2",
+        "D": "5"
       },
       "answer": "B",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "domain": "Numbers to 10 000",
+      "source_page": "PDF p6",
+      "image": null,
+      "id": 10
     },
     {
-      "id": 11,
-      "domain": "Critical Vocabulary",
-      "text": "Which Critical Vocabulary word completes the sentence frame “A friend might ___ a different game when ___.”",
-      "image": null,
+      "text": "In 7265, which digit has a value that is 30 less than 90?",
       "options": {
-        "A": "scrunches",
-        "B": "clash",
-        "C": "suggest",
-        "D": "winking"
+        "A": "7",
+        "B": "2",
+        "C": "6",
+        "D": "5"
       },
       "answer": "C",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "domain": "Numbers to 10 000",
+      "source_page": "PDF p6",
+      "image": null,
+      "id": 11
     },
     {
-      "id": 12,
-      "domain": "Critical Vocabulary",
-      "text": "The Critical Vocabulary fill-in sentences are about a nose, a sweater, gloves, and a sandwich. Which Critical Vocabulary word is used in the sentence about the gloves?",
-      "image": null,
+      "text": "In the number 1352, which digit has a value of 50?",
       "options": {
-        "A": "scrunches",
-        "B": "usual",
-        "C": "mushy",
-        "D": "mismatched"
+        "A": "2",
+        "B": "3",
+        "C": "1",
+        "D": "5"
       },
       "answer": "D",
-      "difficulty": "hard"
+      "difficulty": "easy",
+      "domain": "Numbers to 10 000",
+      "source_page": "PDF p6",
+      "image": null,
+      "id": 12
     },
     {
-      "id": 13,
-      "domain": "Literary Elements & Theme",
-      "text": "According to the Literary Elements page, characters are ___",
-      "image": null,
+      "text": "Which of these statements about 4235 and 6021 is true?",
       "options": {
-        "A": "the people and animals in a story",
-        "B": "the events that happen in a story",
-        "C": "where and when the story takes place",
-        "D": "the moral or lesson in a piece of writing"
+        "A": "4235 < 6021",
+        "B": "6021 < 4235",
+        "C": "4235 > 6021",
+        "D": "4235 = 6021"
       },
       "answer": "A",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "domain": "Comparing and Ordering Numbers",
+      "source_page": "PDF p7",
+      "image": null,
+      "id": 13
     },
     {
-      "id": 14,
-      "domain": "Literary Elements & Theme",
-      "text": "According to the Theme page, what is the theme?",
-      "image": null,
+      "text": "To compare 4235 and 6021, which place do you compare first?",
       "options": {
-        "A": "the events that happen in a story",
-        "B": "the moral or lesson in a piece of writing",
-        "C": "where and when the story takes place",
-        "D": "the words the narrator uses to tell the story"
+        "A": "the tens",
+        "B": "the thousands",
+        "C": "the ones",
+        "D": "the hundreds"
       },
       "answer": "B",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "domain": "Comparing and Ordering Numbers",
+      "source_page": "PDF p7",
+      "image": null,
+      "id": 14
     },
     {
-      "id": 15,
-      "domain": "Point of View",
-      "text": "According to the Point of View page, in first-person point of view the narrator ___",
-      "image": null,
+      "text": "Which of these is the expanded form of 6021?",
       "options": {
-        "A": "is the theme, or the moral or lesson in the piece of writing",
-        "B": "is outside of the story and uses words such as he, she, and they",
-        "C": "is a part of the story and uses words such as I, me, and we",
-        "D": "is the setting, which tells where and when the story takes place"
+        "A": "6000 + 20 + 10",
+        "B": "600 + 20 + 1",
+        "C": "6000 + 20 + 1",
+        "D": "6000 + 200 + 1"
       },
       "answer": "C",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "domain": "Numbers to 10 000",
+      "source_page": "PDF p7",
+      "image": null,
+      "id": 15
     },
     {
-      "id": 16,
-      "domain": "Point of View",
-      "text": "The Point of View page says first-person narrators use words such as I, me, and we, while third-person narrators use words such as he, she, and they. Which point of view is used in this sentence from the workbook: “I got mud on my boots when I played in the rain”?",
-      "image": null,
+      "text": "In 6021, how many hundreds are there?",
       "options": {
-        "A": "neither first-person nor third-person",
-        "B": "third-person",
-        "C": "both first-person and third-person",
-        "D": "first-person"
+        "A": "1",
+        "B": "2",
+        "C": "6",
+        "D": "0"
       },
       "answer": "D",
-      "difficulty": "hard"
+      "difficulty": "medium",
+      "domain": "Numbers to 10 000",
+      "source_page": "PDF p7",
+      "image": null,
+      "id": 16
     },
     {
-      "id": 17,
-      "domain": "Figurative Language",
-      "text": "According to the Figurative Language page, a simile compares two things using ___",
-      "image": null,
+      "text": "In 6021, what is the value of the digit 2?",
       "options": {
-        "A": "the word like or as",
-        "B": "an exaggeration",
-        "C": "a word that imitates the sound it represents",
-        "D": "a phrase that means something different from what its words literally mean"
+        "A": "20",
+        "B": "2000",
+        "C": "2",
+        "D": "200"
       },
       "answer": "A",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "domain": "Numbers to 10 000",
+      "source_page": "PDF p7",
+      "image": null,
+      "id": 17
     },
     {
-      "id": 18,
-      "domain": "Figurative Language",
-      "text": "The Figurative Language page gives definitions for idioms, similes, onomatopoeia, and hyperbole. Which term is defined as a word that imitates the sound it represents?",
-      "image": null,
+      "text": "6021 is greater than 4235. Which number is the smaller number?",
       "options": {
-        "A": "idiom",
-        "B": "onomatopoeia",
-        "C": "simile",
-        "D": "hyperbole"
+        "A": "4000",
+        "B": "4235",
+        "C": "6000",
+        "D": "6021"
       },
       "answer": "B",
-      "difficulty": "medium"
+      "difficulty": "easy",
+      "domain": "Comparing and Ordering Numbers",
+      "source_page": "PDF p7",
+      "image": null,
+      "id": 18
     },
     {
-      "id": 19,
-      "domain": "Figurative Language",
-      "text": "According to the Figurative Language lesson, an idiom is ___",
-      "image": null,
+      "text": "Which is smaller, 3500 or 4100?",
       "options": {
-        "A": "a comparison of two things using the word like or as",
-        "B": "the moral or lesson of a story",
-        "C": "a phrase that means something different from what its individual words literally mean",
-        "D": "a word that imitates the sound it represents"
+        "A": "4100",
+        "B": "5480",
+        "C": "3500",
+        "D": "5420"
       },
       "answer": "C",
-      "difficulty": "medium"
+      "difficulty": "easy",
+      "domain": "Comparing and Ordering Numbers",
+      "source_page": "PDF p9",
+      "image": null,
+      "id": 19
     },
     {
-      "id": 20,
-      "domain": "Figurative Language",
-      "text": "According to the Figurative Language lesson, a simile compares two things using ___",
-      "image": null,
+      "text": "Which is greater, 5420 or 5480?",
       "options": {
-        "A": "words such as I, me, and we",
-        "B": "capital letters and bold type",
-        "C": "a word that imitates a sound",
-        "D": "the words like or as"
+        "A": "4100",
+        "B": "3500",
+        "C": "5420",
+        "D": "5480"
       },
       "answer": "D",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "domain": "Comparing and Ordering Numbers",
+      "source_page": "PDF p9",
+      "image": null,
+      "id": 20
     },
     {
-      "id": 21,
-      "domain": "Critical Vocabulary",
-      "text": "In the Critical Vocabulary activity, which sentence best fits the meaning of the word moody?",
-      "image": null,
+      "text": "Which of these is correct for 2978 and 4781?",
       "options": {
-        "A": "Ben's happiness suddenly changed to anger.",
-        "B": "The painting will hang in the museum for two weeks.",
-        "C": "Ben was happy all day long.",
-        "D": "The artist added more detail to show the story's setting."
+        "A": "2978 < 4781",
+        "B": "4781 < 2978",
+        "C": "2978 > 4781",
+        "D": "2978 = 4781"
       },
       "answer": "A",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "domain": "Comparing and Ordering Numbers",
+      "source_page": "PDF p9",
+      "image": null,
+      "id": 21
     },
     {
-      "id": 22,
-      "domain": "Critical Vocabulary",
-      "text": "In the Critical Vocabulary activity, which sentence best fits the meaning of the word snarled?",
-      "image": null,
+      "text": "Which of these is correct for 7074 and 7039?",
       "options": {
-        "A": "I told my sister over and over not to talk to me when I read.",
-        "B": "The rubber bands got twisted together in the bag.",
-        "C": "The rubber bands in the bag are all the same size.",
-        "D": "I like a quiet spot to read, but my sister can read anywhere."
+        "A": "7074 < 7039",
+        "B": "7074 > 7039",
+        "C": "7039 > 7074",
+        "D": "7074 = 7039"
       },
       "answer": "B",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "domain": "Comparing and Ordering Numbers",
+      "source_page": "PDF p9",
+      "image": null,
+      "id": 22
     },
     {
-      "id": 23,
-      "domain": "Point of View",
-      "text": "According to the Point of View lesson, in first-person point of view the narrator uses words such as ___",
-      "image": null,
+      "text": "Arrange 4539, 4302 and 5743 from the smallest to the greatest.",
       "options": {
-        "A": "color, bold, and italic",
-        "B": "he, she, and they",
-        "C": "I, me, and we",
-        "D": "like or as"
+        "A": "4539, 4302, 5743",
+        "B": "5743, 4539, 4302",
+        "C": "4302, 4539, 5743",
+        "D": "4302, 5743, 4539"
       },
       "answer": "C",
-      "difficulty": "easy"
+      "difficulty": "medium",
+      "domain": "Comparing and Ordering Numbers",
+      "source_page": "PDF p9",
+      "image": null,
+      "id": 23
     },
     {
-      "id": 24,
-      "domain": "Point of View",
-      "text": "In third-person point of view, where is the narrator?",
-      "image": null,
+      "text": "Which of 4539, 4302 and 5743 is the greatest number?",
       "options": {
-        "A": "part of the story",
-        "B": "only in the first paragraph",
-        "C": "inside the story's illustrations",
-        "D": "outside of the story"
+        "A": "4502",
+        "B": "4539",
+        "C": "4302",
+        "D": "5743"
       },
       "answer": "D",
-      "difficulty": "medium"
+      "difficulty": "easy",
+      "domain": "Comparing and Ordering Numbers",
+      "source_page": "PDF p9",
+      "image": null,
+      "id": 24
     },
     {
-      "id": 25,
-      "domain": "Point of View",
-      "text": "According to the Point of View lesson, the narrator is ___",
-      "image": null,
+      "text": "Which of these numbers is the greatest: 2978, 4781, 7074 or 7039?",
       "options": {
-        "A": "the person who is telling the story",
-        "B": "the person who reads the story aloud",
-        "C": "always a character in the story",
-        "D": "the person who illustrates the story"
+        "A": "7074",
+        "B": "4781",
+        "C": "2978",
+        "D": "7039"
       },
       "answer": "A",
-      "difficulty": "easy"
+      "difficulty": "medium",
+      "domain": "Comparing and Ordering Numbers",
+      "source_page": "PDF p9",
+      "image": null,
+      "id": 25
     },
     {
-      "id": 26,
-      "domain": "Literary Elements & Theme",
-      "text": "According to the lesson, theme is ___",
-      "image": null,
+      "text": "Arrange 3500, 4100, 5420 and 5480 from the smallest to the greatest.",
       "options": {
-        "A": "the people and animals in a story",
-        "B": "the moral or lesson in a piece of writing",
-        "C": "the narrator's point of view",
-        "D": "the place where a story happens"
+        "A": "4100, 3500, 5420, 5480",
+        "B": "3500, 4100, 5420, 5480",
+        "C": "3500, 4100, 5480, 5420",
+        "D": "5480, 5420, 4100, 3500"
       },
       "answer": "B",
-      "difficulty": "easy"
+      "difficulty": "hard",
+      "domain": "Comparing and Ordering Numbers",
+      "source_page": "PDF p9",
+      "image": null,
+      "id": 26
     },
     {
-      "id": 27,
-      "domain": "Literary Elements & Theme",
-      "text": "According to the Characters lesson, characters are ___",
-      "image": null,
+      "text": "Compare 3690, 6132 and 3258. Which number is the greatest?",
       "options": {
-        "A": "the words the narrator uses",
-        "B": "the kinds of type used for emphasis",
-        "C": "the people and animals in a story",
-        "D": "the labeled illustrations in a story"
+        "A": "6123",
+        "B": "3258",
+        "C": "6132",
+        "D": "3690"
       },
       "answer": "C",
-      "difficulty": "medium"
+      "difficulty": "easy",
+      "domain": "Comparing and Ordering Numbers",
+      "source_page": "PDF p10",
+      "image": null,
+      "id": 27
     },
     {
-      "id": 28,
-      "domain": "Literary Elements & Theme",
-      "text": "The Characters lesson says you can learn about characters from their words, actions, observations, and responses. A character's perspective is his or her ___",
-      "image": null,
+      "text": "Arrange 3690, 6132 and 3258 in increasing order.",
       "options": {
-        "A": "spelling pattern",
-        "B": "diagram in the story",
-        "C": "vowel team",
-        "D": "attitude toward something"
+        "A": "3258, 6132, 3690",
+        "B": "3690, 6132, 3258",
+        "C": "6132, 3690, 3258",
+        "D": "3258, 3690, 6132"
       },
       "answer": "D",
-      "difficulty": "hard"
+      "difficulty": "medium",
+      "domain": "Comparing and Ordering Numbers",
+      "source_page": "PDF p10",
+      "image": null,
+      "id": 28
     },
     {
-      "id": 29,
-      "domain": "Text & Graphic Features",
-      "text": "The Text and Graphic Features lesson says text features include kinds of type used for emphasis. Which of these are named in the lesson?",
-      "image": null,
+      "text": "Arrange 3900, 2700 and 3200 in decreasing order.",
       "options": {
-        "A": "color, bold or italic text, and capital letters",
-        "B": "illustrations and diagrams",
-        "C": "vowel teams and suffixes",
-        "D": "themes and settings"
+        "A": "3900, 3200, 2700",
+        "B": "3200, 3900, 2700",
+        "C": "2700, 3200, 3900",
+        "D": "3900, 2700, 3200"
       },
       "answer": "A",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "domain": "Comparing and Ordering Numbers",
+      "source_page": "PDF p10",
+      "image": null,
+      "id": 29
     },
     {
-      "id": 30,
-      "domain": "Text & Graphic Features",
-      "text": "Graphic features, such as illustrations and diagrams, help explain ideas in the text. According to the lesson, illustrations show ___",
-      "image": null,
+      "text": "Which group of numbers is arranged in increasing order?",
       "options": {
-        "A": "the meaning of a prefix",
-        "B": "a scene from a story",
-        "C": "the narrator's words",
-        "D": "the long vowel sounds"
+        "A": "6132, 3690, 3258",
+        "B": "3258, 3690, 6132",
+        "C": "3900, 3200, 2700",
+        "D": "3690, 3258, 6132"
       },
       "answer": "B",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "domain": "Comparing and Ordering Numbers",
+      "source_page": "PDF p10",
+      "image": null,
+      "id": 30
     },
     {
-      "id": 31,
-      "domain": "Text & Graphic Features",
-      "text": "The Text and Graphic Features lesson says that punctuation can be a text feature, too. Which punctuation marks are named in the lesson?",
-      "image": null,
+      "text": "In 3157, 3715 and 1753, which is the smallest number?",
       "options": {
-        "A": "question marks and exclamation points",
-        "B": "commas and periods",
-        "C": "ellipses and dashes",
-        "D": "quotation marks and colons"
+        "A": "3715",
+        "B": "3157",
+        "C": "1753",
+        "D": "2452"
       },
       "answer": "C",
-      "difficulty": "hard"
+      "difficulty": "easy",
+      "domain": "Comparing and Ordering Numbers",
+      "source_page": "PDF p10",
+      "image": null,
+      "id": 31
     },
     {
-      "id": 32,
-      "domain": "Word Parts (Prefixes & Suffixes)",
-      "text": "According to the lesson, a suffix is ___",
-      "image": null,
+      "text": "Arrange 2461, 2452 and 2467 from the greatest to the smallest.",
       "options": {
-        "A": "a word part added to the beginning of a base word",
-        "B": "a word that imitates a sound",
-        "C": "a phrase that means something different from its words",
-        "D": "a word part added to the end of a base word"
+        "A": "2452, 2461, 2467",
+        "B": "2461, 2467, 2452",
+        "C": "2467, 2452, 2461",
+        "D": "2467, 2461, 2452"
       },
       "answer": "D",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "domain": "Comparing and Ordering Numbers",
+      "source_page": "PDF p10",
+      "image": null,
+      "id": 32
     },
     {
-      "id": 33,
-      "domain": "Word Parts (Prefixes & Suffixes)",
-      "text": "In the Prefixes re- and pre- activity, which word completes the sentence 'During the ___ meeting, our coach decides who will play each position on the field.'?",
-      "image": null,
+      "text": "Write the numbers 3157, 3715 and 1753 in increasing order.",
       "options": {
-        "A": "pregame",
-        "B": "previsit",
-        "C": "preteen",
-        "D": "regame"
+        "A": "1753, 3157, 3715",
+        "B": "1753, 3715, 3157",
+        "C": "3157, 3715, 1753",
+        "D": "3715, 3157, 1753"
       },
       "answer": "A",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "domain": "Comparing and Ordering Numbers",
+      "source_page": "PDF p10",
+      "image": null,
+      "id": 33
     },
     {
-      "id": 34,
-      "domain": "Long Vowels & Vowel Teams",
-      "text": "In the sentence 'Let's sit in the shade of that big tree.', which word has the long a sound?",
-      "image": null,
+      "text": "The numbers 2915, 2920, 2925, ___, 2935, 2940 are in a pattern. What is the missing number?",
       "options": {
-        "A": "sit",
-        "B": "shade",
-        "C": "that",
-        "D": "tree"
+        "A": "2925",
+        "B": "2930",
+        "C": "2945",
+        "D": "2935"
       },
       "answer": "B",
-      "difficulty": "medium"
+      "difficulty": "easy",
+      "domain": "Number Patterns",
+      "source_page": "PDF p11",
+      "image": null,
+      "id": 34
     },
     {
-      "id": 35,
-      "domain": "Long Vowels & Vowel Teams",
-      "text": "In the More Long o Spellings activity, which word from the word bank completes the sentence 'Mike scored the winning ___ for his team.'?",
-      "image": null,
+      "text": "What is the rule for the pattern 2915, 2920, 2925, 2930, 2935?",
       "options": {
-        "A": "meadow",
-        "B": "toads",
-        "C": "goal",
-        "D": "folded"
+        "A": "add 10 each time",
+        "B": "subtract 5 each time",
+        "C": "add 5 each time",
+        "D": "add 200 each time"
       },
       "answer": "C",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "domain": "Number Patterns",
+      "source_page": "PDF p11",
+      "image": null,
+      "id": 35
     },
     {
-      "id": 36,
-      "domain": "Spelling Patterns",
-      "text": "On the More Long i Spellings page, which word in the sentence 'There were no seats left on the morning flight to Dallas.' has the long i sound?",
-      "image": null,
+      "text": "5 less than 2950 is ___.",
       "options": {
-        "A": "morning",
-        "B": "seats",
-        "C": "Dallas",
-        "D": "flight"
+        "A": "2925",
+        "B": "2935",
+        "C": "2955",
+        "D": "2945"
       },
       "answer": "D",
-      "difficulty": "hard"
+      "difficulty": "easy",
+      "domain": "Number Patterns",
+      "source_page": "PDF p11",
+      "image": null,
+      "id": 36
     },
     {
-      "id": 37,
-      "domain": "Critical Vocabulary",
-      "text": "On the Critical Vocabulary page, what does the activity tell you to include in a sentence when you use a vocabulary word?",
-      "image": null,
+      "text": "The pattern continues: 7123, 7323, 7523, ___, 7923, 8123, ___, 8523. What are the two missing numbers, in order?",
       "options": {
-        "A": "clues to each word's meaning",
-        "B": "the page number where the word is found",
-        "C": "the word's opposite",
-        "D": "a picture of the word"
+        "A": "7723 and 8323",
+        "B": "7923 and 8523",
+        "C": "7723 and 8123",
+        "D": "7523 and 8323"
       },
       "answer": "A",
-      "difficulty": "easy"
+      "difficulty": "hard",
+      "domain": "Number Patterns",
+      "source_page": "PDF p11",
+      "image": null,
+      "id": 37
     },
     {
-      "id": 38,
-      "domain": "Critical Vocabulary",
-      "text": "The Critical Vocabulary sentences on the page headed \"Characters\" are based on which selection?",
-      "image": null,
+      "text": "What is 200 less than 8523?",
       "options": {
-        "A": "The Upside Down Boy",
-        "B": "Dear Dragon",
-        "C": "Adventures with Words",
-        "D": "My Journal"
+        "A": "8723",
+        "B": "8323",
+        "C": "8123",
+        "D": "8223"
       },
       "answer": "B",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "domain": "Number Patterns",
+      "source_page": "PDF p11",
+      "image": null,
+      "id": 38
     },
     {
-      "id": 39,
-      "domain": "Critical Vocabulary",
-      "text": "In the Critical Vocabulary activity, the sentence \"Lena dreams of climbing a mountain and learning to ski\" is shown beside which bold-print word?",
-      "image": null,
+      "text": "In 3785, the digit 8 is in the ___ place.",
       "options": {
-        "A": "present",
-        "B": "entry",
-        "C": "desires",
-        "D": "journal"
+        "A": "ones",
+        "B": "thousands",
+        "C": "tens",
+        "D": "hundreds"
       },
       "answer": "C",
-      "difficulty": "medium"
+      "difficulty": "easy",
+      "domain": "Numbers to 10 000",
+      "source_page": "PDF p13",
+      "image": null,
+      "id": 39
     },
     {
-      "id": 40,
-      "domain": "Point of View",
-      "text": "According to the page on characters, a character's perspective is —",
-      "image": null,
+      "text": "In 4279, what is the value of the digit 7?",
       "options": {
-        "A": "the place where the story happens",
-        "B": "the lesson the story teaches",
-        "C": "the order in which events happen",
-        "D": "his or her attitude toward something"
+        "A": "7000",
+        "B": "7",
+        "C": "700",
+        "D": "70"
       },
       "answer": "D",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "domain": "Numbers to 10 000",
+      "source_page": "PDF p13",
+      "image": null,
+      "id": 40
     },
     {
-      "id": 41,
-      "domain": "Literary Elements & Theme",
-      "text": "On the Elements of Poetry page, what is a stanza?",
-      "image": null,
+      "text": "In 4279, which digit has a value of 200?",
       "options": {
-        "A": "a group of lines",
-        "B": "the rhyming pattern at the ends of lines",
-        "C": "a word part added to a base word",
-        "D": "a comparison using the word like or as"
+        "A": "2",
+        "B": "7",
+        "C": "9",
+        "D": "4"
       },
       "answer": "A",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "domain": "Numbers to 10 000",
+      "source_page": "PDF p13",
+      "image": null,
+      "id": 41
     },
     {
-      "id": 42,
-      "domain": "Literary Elements & Theme",
-      "text": "According to the Elements of Poetry page, the lines of a poem may —",
-      "image": null,
+      "text": "Which of these is correct for 8035 and 7729?",
       "options": {
-        "A": "always be exactly four lines long",
-        "B": "include a specific number of syllables, or they may vary in length",
-        "C": "never contain any punctuation",
-        "D": "always contain one single word"
+        "A": "7729 > 8035",
+        "B": "8035 > 7729",
+        "C": "8035 = 7729",
+        "D": "8035 < 7729"
       },
       "answer": "B",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "domain": "Comparing and Ordering Numbers",
+      "source_page": "PDF p13",
+      "image": null,
+      "id": 42
     },
     {
-      "id": 43,
-      "domain": "Literary Elements & Theme",
-      "text": "The Elements of Poetry questions ask about the poem \"There was an Old Man with a Beard\" and then ask what other element \"of a limerick\" this poem has. What kind of poem is \"There was an Old Man with a Beard\"?",
-      "image": null,
+      "text": "Arrange 3586, 7020 and 3574 in decreasing order.",
       "options": {
-        "A": "a haiku",
-        "B": "a sonnet",
-        "C": "a limerick",
-        "D": "a journal entry"
+        "A": "7020, 3574, 3586",
+        "B": "3574, 3586, 7020",
+        "C": "7020, 3586, 3574",
+        "D": "3586, 3574, 7020"
       },
       "answer": "C",
-      "difficulty": "hard"
+      "difficulty": "medium",
+      "domain": "Comparing and Ordering Numbers",
+      "source_page": "PDF p13",
+      "image": null,
+      "id": 43
     },
     {
-      "id": 44,
-      "domain": "Figurative Language",
-      "text": "According to the Figurative Language page, a metaphor —",
-      "image": null,
+      "text": "The pattern is 6025, 6425, 6825, 7225, ___, ___, 8425. What are the two missing numbers, in order?",
       "options": {
-        "A": "gives human qualities to an animal",
-        "B": "always uses the word like or as",
-        "C": "repeats the same sound at the start of words",
-        "D": "compares two things without using the word like or as"
+        "A": "7225 and 7625",
+        "B": "7625 and 8225",
+        "C": "7825 and 8225",
+        "D": "7625 and 8025"
       },
       "answer": "D",
-      "difficulty": "medium"
+      "difficulty": "hard",
+      "domain": "Number Patterns",
+      "source_page": "PDF p13",
+      "image": null,
+      "id": 44
     },
     {
-      "id": 45,
-      "domain": "Figurative Language",
-      "text": "The page asks whether Juanito's eyes really \"open as big as the ceiling.\" The expression \"as big as the ceiling\" is an example of which kind of figurative language?",
-      "image": null,
+      "text": "216, 212, 208, 204, ___  What is the next number?",
       "options": {
-        "A": "a simile",
-        "B": "an illustration",
-        "C": "a rhyme scheme",
-        "D": "a metaphor"
+        "A": "200",
+        "B": "206",
+        "C": "201",
+        "D": "199"
       },
       "answer": "A",
-      "difficulty": "hard"
+      "difficulty": "medium",
+      "domain": "Number Patterns",
+      "source_page": "PDF p13",
+      "image": null,
+      "id": 45
     },
     {
-      "id": 46,
-      "domain": "Text & Graphic Features",
-      "text": "According to the Text and Graphic Features page, which of these is an example of a graphic feature?",
-      "image": null,
+      "text": "844, 838, 832, 826, ___  What is the next number?",
       "options": {
-        "A": "bold text",
-        "B": "illustrations",
-        "C": "ellipses",
-        "D": "italic text"
+        "A": "824",
+        "B": "820",
+        "C": "830",
+        "D": "818"
       },
       "answer": "B",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "domain": "Number Patterns",
+      "source_page": "PDF p13",
+      "image": null,
+      "id": 46
     },
     {
-      "id": 47,
-      "domain": "Word Parts (Prefixes & Suffixes)",
-      "text": "According to the page on the prefix dis-, a prefix is a word part added —",
-      "image": null,
+      "text": "Aini saved $2800, Ben saved $2840 and Carl saved $2760. Who saved the most money?",
       "options": {
-        "A": "to the end of a base word",
-        "B": "to the middle of a base word",
-        "C": "to the beginning of a base word",
-        "D": "after the whole sentence"
+        "A": "Aini",
+        "B": "They all saved the same amount",
+        "C": "Ben",
+        "D": "Carl"
       },
       "answer": "C",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "domain": "Money",
+      "source_page": "PDF p13",
+      "image": null,
+      "id": 47
     },
     {
-      "id": 48,
-      "domain": "Word Parts (Prefixes & Suffixes)",
-      "text": "According to the page on suffixes, the suffix -y changes a base word into —",
-      "image": null,
+      "text": "Ben saved $2840 and Carl saved $2760. How much more did Ben save than Carl?",
       "options": {
-        "A": "an adverb that explains how or when something is done",
-        "B": "a prefix",
-        "C": "a compound word",
-        "D": "an adjective"
+        "A": "$120",
+        "B": "$60",
+        "C": "$180",
+        "D": "$80"
       },
       "answer": "D",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "domain": "Money",
+      "source_page": "PDF p13",
+      "image": null,
+      "id": 48
     },
     {
-      "id": 49,
-      "domain": "Word Parts (Prefixes & Suffixes)",
-      "text": "The suffix page says that to add the suffix -ly to a base word ending in y, you need to —",
-      "image": null,
+      "text": "Kai has 23 red apples and 45 green apples. How many apples does Kai have altogether?",
       "options": {
-        "A": "replace the final y with i before adding the suffix",
-        "B": "add another y before adding the suffix",
-        "C": "double the final consonant before adding the suffix",
-        "D": "drop the final e before adding the suffix"
+        "A": "68",
+        "B": "67",
+        "C": "58",
+        "D": "78"
       },
       "answer": "A",
-      "difficulty": "hard"
+      "difficulty": "medium",
+      "domain": "Word Problems",
+      "source_page": "PDF p14",
+      "image": null,
+      "id": 49
     },
     {
-      "id": 50,
-      "domain": "Spelling Patterns",
-      "text": "On the spelling review page, after a student writes the correct word in the blank, what are they asked to do?",
-      "image": null,
+      "text": "23 + 45 = ___",
       "options": {
-        "A": "write the word in a new sentence",
-        "B": "draw a line between the two syllables",
-        "C": "underline the vowel team",
-        "D": "circle the rhyming words"
+        "A": "78",
+        "B": "68",
+        "C": "67",
+        "D": "58"
       },
       "answer": "B",
-      "difficulty": "medium"
+      "difficulty": "easy",
+      "domain": "Addition",
+      "source_page": "PDF p14",
+      "image": null,
+      "id": 50
     },
     {
-      "id": 51,
-      "domain": "Long Vowels & Vowel Teams",
-      "text": "On the spelling page, one clue says, \"This is another word for author.\" Which word answers that clue?",
-      "image": null,
+      "text": "Kai's bar model is split into a part labelled 23 and a part labelled 45. What does the whole bar stand for?",
       "options": {
-        "A": "editor",
-        "B": "author",
-        "C": "writer",
-        "D": "painter"
+        "A": "the number of red apples",
+        "B": "the number of green apples",
+        "C": "the total number of apples Kai has",
+        "D": "the difference between the red and green apples"
       },
       "answer": "C",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "domain": "Addition",
+      "source_page": "PDF p14",
+      "image": null,
+      "id": 51
     },
     {
-      "id": 52,
-      "domain": "Point of View",
-      "text": "According to the Point of View page, point of view answers which question?",
-      "image": null,
+      "text": "Kai has 23 red apples and 45 green apples. How many more green apples than red apples does he have?",
       "options": {
-        "A": "How long is the story?",
-        "B": "What is the title of the story?",
-        "C": "Where does the story take place?",
-        "D": "Who is telling the story?"
+        "A": "32",
+        "B": "12",
+        "C": "68",
+        "D": "22"
       },
       "answer": "D",
-      "difficulty": "easy"
+      "difficulty": "hard",
+      "domain": "Word Problems",
+      "source_page": "PDF p14",
+      "image": null,
+      "id": 52
     },
     {
-      "id": 53,
-      "domain": "Point of View",
-      "text": "A first-person narrator is part of the story. Which words does that narrator use?",
-      "image": null,
+      "text": "Find the difference between 643 and 421.",
       "options": {
-        "A": "I, me, and we",
-        "B": "you, your, and yours",
-        "C": "there, their, and they're",
-        "D": "he, she, and they"
+        "A": "222",
+        "B": "232",
+        "C": "202",
+        "D": "212"
       },
       "answer": "A",
-      "difficulty": "medium"
+      "difficulty": "easy",
+      "domain": "Subtraction",
+      "source_page": "PDF p16",
+      "image": null,
+      "id": 53
     },
     {
-      "id": 54,
-      "domain": "Point of View",
-      "text": "A narrator says, \"We went to the park together.\" Based on the clues listed on the Point of View page, which point of view is this?",
-      "image": null,
+      "text": "Find the difference between 63 and 375.",
       "options": {
-        "A": "third-person point of view, because the narrator is outside of the story",
-        "B": "first-person point of view, because the narrator uses the word we",
-        "C": "first-person point of view, because the narrator uses the word she",
-        "D": "third-person point of view, because the narrator uses the word they"
+        "A": "438",
+        "B": "312",
+        "C": "322",
+        "D": "302"
       },
       "answer": "B",
-      "difficulty": "hard"
+      "difficulty": "medium",
+      "domain": "Subtraction",
+      "source_page": "PDF p16",
+      "image": null,
+      "id": 54
     },
     {
-      "id": 55,
-      "domain": "Literary Elements & Theme",
-      "text": "The central idea of a text is —",
-      "image": null,
+      "text": "The difference between two numbers is 58. The greater number is 109. What is the smaller number?",
       "options": {
-        "A": "the last sentence on the page",
-        "B": "the longest word in the text",
-        "C": "what the text is mostly about",
-        "D": "the name of the author"
+        "A": "41",
+        "B": "167",
+        "C": "51",
+        "D": "58"
       },
       "answer": "C",
-      "difficulty": "easy"
+      "difficulty": "hard",
+      "domain": "Word Problems",
+      "source_page": "PDF p16",
+      "image": null,
+      "id": 55
     },
     {
-      "id": 56,
-      "domain": "Literary Elements & Theme",
-      "text": "According to the Central Idea page, which clues help readers identify the central idea?",
-      "image": null,
+      "text": "The difference between two numbers is 76. The smaller number is 42. What is the greater number?",
       "options": {
-        "A": "the cover and the copyright date",
-        "B": "page numbers and chapter length",
-        "C": "the author's other books",
-        "D": "headings and visuals"
+        "A": "76",
+        "B": "108",
+        "C": "34",
+        "D": "118"
       },
       "answer": "D",
-      "difficulty": "medium"
+      "difficulty": "hard",
+      "domain": "Word Problems",
+      "source_page": "PDF p16",
+      "image": null,
+      "id": 56
     },
     {
-      "id": 57,
-      "domain": "Literary Elements & Theme",
-      "text": "The Central Idea page says that what provides evidence to support the central idea?",
-      "image": null,
+      "text": "The difference between two numbers is 123. The greater number is 274. What is the smaller number?",
       "options": {
-        "A": "facts and other relevant details",
-        "B": "headings and visuals",
-        "C": "the title and the author's name",
-        "D": "questions asked at the end of the text"
+        "A": "151",
+        "B": "141",
+        "C": "397",
+        "D": "123"
       },
       "answer": "A",
-      "difficulty": "hard"
+      "difficulty": "medium",
+      "domain": "Word Problems",
+      "source_page": "PDF p16",
+      "image": null,
+      "id": 57
     },
     {
-      "id": 58,
-      "domain": "Critical Vocabulary",
-      "text": "In the Critical Vocabulary section, the sentence \"Javier was given an award at the school assembly\" is the sentence that best fits the meaning of which word?",
-      "image": null,
+      "text": "There were 1354 children and 625 adults at a zoo. How many people were at the zoo altogether?",
       "options": {
-        "A": "declaring",
-        "B": "presented",
-        "C": "independence",
-        "D": "endowed"
+        "A": "729",
+        "B": "1979",
+        "C": "1879",
+        "D": "1989"
       },
       "answer": "B",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "domain": "Word Problems",
+      "source_page": "PDF p17",
+      "image": null,
+      "id": 58
     },
     {
-      "id": 59,
-      "domain": "Critical Vocabulary",
-      "text": "The sentence \"The teacher lets her students choose the library books they want to read\" best fits the meaning of which Critical Vocabulary word?",
-      "image": null,
+      "text": "1354 + 625 = ___",
       "options": {
-        "A": "endowed",
-        "B": "presented",
-        "C": "independence",
-        "D": "declaring"
+        "A": "1879",
+        "B": "1978",
+        "C": "1979",
+        "D": "1989"
       },
       "answer": "C",
-      "difficulty": "medium"
+      "difficulty": "easy",
+      "domain": "Addition",
+      "source_page": "PDF p17",
+      "image": null,
+      "id": 59
     },
     {
-      "id": 60,
-      "domain": "Critical Vocabulary",
-      "text": "The sentence \"The large company gave our school money for new computers\" best fits the meaning of which Critical Vocabulary word?",
-      "image": null,
+      "text": "In 1354 + 625, add the hundreds: 3 hundreds + 6 hundreds = ___ hundreds.",
       "options": {
-        "A": "declaring",
-        "B": "independence",
-        "C": "presented",
-        "D": "endowed"
+        "A": "7 hundreds",
+        "B": "8 hundreds",
+        "C": "10 hundreds",
+        "D": "9 hundreds"
       },
       "answer": "D",
-      "difficulty": "medium"
+      "difficulty": "easy",
+      "domain": "Addition",
+      "source_page": "PDF p17",
+      "image": null,
+      "id": 60
     },
     {
-      "id": 61,
-      "domain": "Text & Graphic Features",
-      "text": "According to the Text Structure page, authors of informational text use text features such as —",
-      "image": null,
+      "text": "What is the value of the digit 1 in 1354?",
       "options": {
-        "A": "labels and headings",
-        "B": "melodies and rhythms",
-        "C": "games and puzzles",
-        "D": "songs and dances"
+        "A": "1000",
+        "B": "10",
+        "C": "1",
+        "D": "100"
       },
       "answer": "A",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "domain": "Numbers to 10 000",
+      "source_page": "PDF p17",
+      "image": null,
+      "id": 61
     },
     {
-      "id": 62,
-      "domain": "Text & Graphic Features",
-      "text": "What do authors use graphic features, such as illustrations, for?",
-      "image": null,
+      "text": "A creature holds two number cards reading 456 and 123. What is 456 + 123?",
       "options": {
-        "A": "to replace all of the words in the text",
-        "B": "to help explain ideas in the text",
-        "C": "to make the text longer",
-        "D": "to list the author's other books"
+        "A": "569",
+        "B": "579",
+        "C": "578",
+        "D": "589"
       },
       "answer": "B",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "domain": "Addition",
+      "source_page": "PDF p17",
+      "image": null,
+      "id": 62
     },
     {
-      "id": 63,
-      "domain": "Text & Graphic Features",
-      "text": "The Text Structure questions ask how the author organized the information: by cause-effect, problem-solution, or —",
-      "image": null,
+      "text": "There were 1354 children and 625 adults at the zoo. How many more children than adults were there?",
       "options": {
-        "A": "number of illustrations",
-        "B": "page length",
-        "C": "chronology",
-        "D": "alphabetical order"
+        "A": "629",
+        "B": "1979",
+        "C": "729",
+        "D": "739"
       },
       "answer": "C",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "domain": "Word Problems",
+      "source_page": "PDF p17",
+      "image": null,
+      "id": 63
     },
     {
-      "id": 64,
-      "domain": "Word Parts (Prefixes & Suffixes)",
-      "text": "The suffix -er is used to compare —",
-      "image": null,
+      "text": "A museum had 1978 visitors on Sunday and 746 visitors on Monday. How many more visitors were there on Sunday than on Monday?",
       "options": {
-        "A": "only numbers",
-        "B": "only animals",
-        "C": "three or more things",
-        "D": "two things"
+        "A": "1132",
+        "B": "1222",
+        "C": "1332",
+        "D": "1232"
       },
       "answer": "D",
-      "difficulty": "easy"
+      "difficulty": "hard",
+      "domain": "Word Problems",
+      "source_page": "PDF p22",
+      "image": null,
+      "id": 64
     },
     {
-      "id": 65,
-      "domain": "Word Parts (Prefixes & Suffixes)",
-      "text": "According to the Suffixes -y, -less; Prefix dis- page, a prefix is —",
-      "image": null,
+      "text": "1978 - 746 = ___",
       "options": {
-        "A": "a word part added to the beginning of a base word that changes the meaning of the word",
-        "B": "a word part added to the end of a base word",
-        "C": "the last letter of a base word",
-        "D": "a word that can stand alone as a sentence"
+        "A": "1232",
+        "B": "1222",
+        "C": "1132",
+        "D": "1332"
       },
       "answer": "A",
-      "difficulty": "medium"
+      "difficulty": "easy",
+      "domain": "Subtraction",
+      "source_page": "PDF p22",
+      "image": null,
+      "id": 65
     },
     {
-      "id": 66,
-      "domain": "Blends & Special Sounds",
-      "text": "Which word in the sentence \"A squadron of aircraft flew overhead\" has a three-letter blend?",
-      "image": null,
+      "text": "In 1978 - 746, subtract the tens: 7 tens - 4 tens = ___ tens.",
       "options": {
-        "A": "aircraft",
-        "B": "squadron",
-        "C": "flew",
-        "D": "overhead"
+        "A": "11 tens",
+        "B": "3 tens",
+        "C": "2 tens",
+        "D": "4 tens"
       },
       "answer": "B",
-      "difficulty": "medium"
+      "difficulty": "easy",
+      "domain": "Subtraction",
+      "source_page": "PDF p22",
+      "image": null,
+      "id": 66
     },
     {
-      "id": 67,
-      "domain": "Blends & Special Sounds",
-      "text": "On the Words with /j/, /k/, and /kw/ page, which word from the word bank is a /kw/ word?",
-      "image": null,
+      "text": "To check that 1978 - 746 = 1232, which addition should you do?",
       "options": {
-        "A": "camera",
-        "B": "engine",
-        "C": "quarters",
-        "D": "gerbil"
+        "A": "1978 + 746",
+        "B": "1232 + 1978",
+        "C": "1232 + 746",
+        "D": "746 - 1232"
       },
       "answer": "C",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "domain": "Subtraction",
+      "source_page": "PDF p22",
+      "image": null,
+      "id": 67
     },
     {
-      "id": 68,
-      "domain": "Spelling Patterns",
-      "text": "On the -er and -est page, complete this sentence: \"There are many tall buildings in the city, but that one is the ____.\"",
-      "image": null,
+      "text": "A shop sold 2867 caps and 453 belts. How many more caps than belts did the shop sell?",
       "options": {
-        "A": "taller",
-        "B": "tallness",
-        "C": "tall",
-        "D": "tallest"
+        "A": "2514",
+        "B": "3320",
+        "C": "2314",
+        "D": "2414"
       },
       "answer": "D",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "domain": "Word Problems",
+      "source_page": "PDF p22",
+      "image": null,
+      "id": 68
     },
     {
-      "id": 69,
-      "domain": "Short Vowels",
-      "text": "In the sentence \"Ouch, that pin is sharp!\" the word pin is underlined. Which vowel sound does pin have?",
-      "image": null,
+      "text": "Paul had 1410 pens in his shop. He sold 399 pens. How many pens did he have left?",
       "options": {
-        "A": "short i",
-        "B": "short a",
-        "C": "short e",
-        "D": "short o"
+        "A": "1011",
+        "B": "1021",
+        "C": "1111",
+        "D": "1809"
       },
       "answer": "A",
-      "difficulty": "easy"
+      "difficulty": "hard",
+      "domain": "Word Problems",
+      "source_page": "PDF p26",
+      "image": null,
+      "id": 69
     },
     {
-      "id": 70,
-      "domain": "Short Vowels",
-      "text": "In the sentence \"We like to play in the sand at the beach.\" the word sand is underlined. Which vowel sound does sand have?",
-      "image": null,
+      "text": "1410 - 399 = ___",
       "options": {
-        "A": "short i",
-        "B": "short a",
-        "C": "short e",
-        "D": "short u"
+        "A": "1021",
+        "B": "1011",
+        "C": "1111",
+        "D": "1099"
       },
       "answer": "B",
-      "difficulty": "easy"
+      "difficulty": "medium",
+      "domain": "Subtraction",
+      "source_page": "PDF p26",
+      "image": null,
+      "id": 70
     },
     {
-      "id": 71,
-      "domain": "Short Vowels",
-      "text": "In the sentence \"Mom went for a walk.\" the word Mom is underlined. Which vowel sound does Mom have?",
-      "image": null,
+      "text": "Find the difference between 5447 and 3279.",
       "options": {
-        "A": "short e",
-        "B": "short a",
-        "C": "short o",
-        "D": "short i"
+        "A": "2158",
+        "B": "2268",
+        "C": "2168",
+        "D": "2178"
       },
       "answer": "C",
-      "difficulty": "easy"
+      "difficulty": "medium",
+      "domain": "Subtraction",
+      "source_page": "PDF p26",
+      "image": null,
+      "id": 71
     },
     {
-      "id": 72,
-      "domain": "Long Vowels & Vowel Teams",
-      "text": "In the sentence \"Carter likes to read alone.\" you underline the two-syllable word with a long vowel sound. Which word, and which long vowel sound?",
-      "image": null,
+      "text": "Find the difference between 9823 and 7468.",
       "options": {
-        "A": "likes - long i",
-        "B": "Carter - long a",
-        "C": "read - long e",
-        "D": "alone - long o"
+        "A": "2345",
+        "B": "2455",
+        "C": "2365",
+        "D": "2355"
       },
       "answer": "D",
-      "difficulty": "medium"
+      "difficulty": "hard",
+      "domain": "Subtraction",
+      "source_page": "PDF p26",
+      "image": null,
+      "id": 72
     },
     {
-      "id": 73,
-      "domain": "Long Vowels & Vowel Teams",
-      "text": "Using the word bank (base, rage, globe, joke, home, shade, skate, lime, broke, chase, plate, tone, robe, chrome, slime, phone, cage, shake, snake, trade): \"If you chase your friend around the bases on a field, you play a game of _____ _____ .\" Which two rhyming words complete the clue?",
-      "image": null,
+      "text": "Class A folded 5422 paper stars. Class B folded 2687 paper stars. How many fewer paper stars did Class B fold than Class A?",
       "options": {
-        "A": "chase, base",
-        "B": "chase, plate",
-        "C": "plate, cage",
-        "D": "shake, base"
+        "A": "2735",
+        "B": "2745",
+        "C": "2835",
+        "D": "8109"
       },
       "answer": "A",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "domain": "Word Problems",
+      "source_page": "PDF p26",
+      "image": null,
+      "id": 73
     },
     {
-      "id": 74,
-      "domain": "Critical Vocabulary",
-      "text": "In the sentence \"Mom said that my sweater and pants clash because they do not go well together,\" what does clash mean?",
-      "image": null,
+      "text": "In 5422 - 2687, 22 is renamed as 1 ten and 12 ones. What is 12 ones - 7 ones?",
       "options": {
-        "A": "are brand new",
-        "B": "go badly together or look wrong together",
-        "C": "are very clean",
-        "D": "match perfectly"
+        "A": "5 tens",
+        "B": "5 ones",
+        "C": "4 ones",
+        "D": "6 ones"
       },
       "answer": "B",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "domain": "Subtraction",
+      "source_page": "PDF p26",
+      "image": null,
+      "id": 74
     },
     {
-      "id": 75,
-      "domain": "Critical Vocabulary",
-      "text": "\"The artist added more detail to show the story's setting.\" Which Critical Vocabulary word does this sentence best fit the meaning of?",
-      "image": null,
+      "text": "One way to add 32 and 54 mentally is to add the tens and then the ones: 30 + 50 = 80 and 2 + 4 = 6. What is 32 + 54?",
       "options": {
-        "A": "snarled",
-        "B": "moody",
-        "C": "illustrate",
-        "D": "pesky"
+        "A": "82",
+        "B": "6",
+        "C": "86",
+        "D": "80"
       },
       "answer": "C",
-      "difficulty": "medium"
+      "difficulty": "easy",
+      "domain": "Mental Calculation",
+      "source_page": "PDF p29",
+      "image": null,
+      "id": 75
     },
     {
-      "id": 76,
-      "domain": "Critical Vocabulary",
-      "text": "In the sentence \"My nose scrunches up when I smell something sour,\" what does scrunches mean?",
-      "image": null,
+      "text": "Another way to add 32 and 54 is to add 50 first: 32 + 50 = 82. What must you add next to reach the answer?",
       "options": {
-        "A": "relaxes",
-        "B": "opens wide",
-        "C": "disappears",
-        "D": "wrinkles or crinkles up"
+        "A": "2",
+        "B": "54",
+        "C": "50",
+        "D": "4"
       },
       "answer": "D",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "domain": "Mental Calculation",
+      "source_page": "PDF p29",
+      "image": null,
+      "id": 76
     },
     {
-      "id": 77,
-      "domain": "Figurative Language",
-      "text": "In the story, the author says a house is \"like a toothpick.\" Which type of figurative language is this?",
-      "image": null,
+      "text": "To add 97 and 76, the first step makes 100: 97 + 3 = 100. Which number must 100 be added to?",
       "options": {
-        "A": "simile",
-        "B": "metaphor",
-        "C": "onomatopoeia",
-        "D": "idiom"
+        "A": "73",
+        "B": "173",
+        "C": "76",
+        "D": "3"
       },
       "answer": "A",
-      "difficulty": "hard"
+      "difficulty": "medium",
+      "domain": "Mental Calculation",
+      "source_page": "PDF p29",
+      "image": null,
+      "id": 77
     },
     {
-      "id": 78,
-      "domain": "Literary Elements & Theme",
-      "text": "According to the lesson, what is the theme of a piece of writing?",
-      "image": null,
+      "text": "To add 97 and 76, Ravi works out 76 + 100 = 176. What does he do next?",
       "options": {
-        "A": "where and when the story takes place",
-        "B": "the moral or lesson in the piece of writing",
-        "C": "the person who is telling the story",
-        "D": "the events that happen in the story"
+        "A": "Subtract 100 from 176",
+        "B": "Subtract 3 from 176",
+        "C": "Add 3 to 176",
+        "D": "Add 76 to 176"
       },
       "answer": "B",
-      "difficulty": "easy"
+      "difficulty": "medium",
+      "domain": "Mental Calculation",
+      "source_page": "PDF p29",
+      "image": null,
+      "id": 78
     },
     {
-      "id": 79,
-      "domain": "Long Vowels & Vowel Teams",
-      "text": "On the Decoding page, students identify the vowel sound in the boldfaced word in this sentence: \"A thief stole the gold coins.\" Which vowel team spells the long e sound in the word \"thief\"?",
-      "image": null,
+      "text": "49 is near to 50. To add 49 and 14, the first step is 49 + 1 = 50. What is 50 + 13?",
       "options": {
-        "A": "ee",
-        "B": "ai",
-        "C": "ie",
-        "D": "ea"
+        "A": "50",
+        "B": "13",
+        "C": "63",
+        "D": "14"
       },
       "answer": "C",
-      "difficulty": "easy"
+      "difficulty": "medium",
+      "domain": "Mental Calculation",
+      "source_page": "PDF p29",
+      "image": null,
+      "id": 79
     },
     {
-      "id": 80,
-      "domain": "Long Vowels & Vowel Teams",
-      "text": "One workbook sentence reads: \"Can you tell me which way to the park?\" Students must circle the name of the vowel sound heard in the boldfaced word \"way.\" Which vowel sound does \"way\" have?",
-      "image": null,
+      "text": "Which number bond is used to add 97 and 76 by making 100 first?",
       "options": {
-        "A": "short a",
-        "B": "long e",
-        "C": "short e",
-        "D": "long a"
+        "A": "32 -> 30 and 2",
+        "B": "14 -> 1 and 13",
+        "C": "54 -> 50 and 4",
+        "D": "76 -> 3 and 73"
       },
       "answer": "D",
-      "difficulty": "medium"
+      "difficulty": "hard",
+      "domain": "Mental Calculation",
+      "source_page": "PDF p29",
+      "image": null,
+      "id": 80
     },
     {
-      "id": 81,
-      "domain": "Critical Vocabulary",
-      "text": "The Critical Vocabulary questions for Scaredy Squirrel include: \"Do you think Scaredy Squirrel will need to _________ his Exit Plan in the future? Why or why not?\" Which bolded vocabulary word belongs in the blank?",
-      "image": null,
+      "text": "Add mentally: 12 + 35",
       "options": {
-        "A": "consult",
-        "B": "distract",
-        "C": "drastic",
-        "D": "venturing"
+        "A": "47",
+        "B": "70",
+        "C": "152",
+        "D": "101"
       },
       "answer": "A",
-      "difficulty": "hard"
+      "difficulty": "easy",
+      "domain": "Mental Calculation",
+      "source_page": "PDF p30",
+      "image": null,
+      "id": 81
     },
     {
-      "id": 82,
-      "domain": "Point of View",
-      "text": "The Point of View lesson explains that a story may be told by a narrator who is part of the story. Which words does that narrator use?",
-      "image": null,
+      "text": "Which sum on this page has the answer 70?",
       "options": {
-        "A": "he, she, and they",
-        "B": "I, me, and we",
-        "C": "it, that, and there",
-        "D": "you, yours, and yourself"
+        "A": "35 + 66",
+        "B": "23 + 47",
+        "C": "54 + 98",
+        "D": "12 + 35"
       },
       "answer": "B",
-      "difficulty": "easy"
+      "difficulty": "hard",
+      "domain": "Mental Calculation",
+      "source_page": "PDF p30",
+      "image": null,
+      "id": 82
     },
     {
-      "id": 83,
-      "domain": "Word Parts (Prefixes & Suffixes)",
-      "text": "The Suffixes -ful, -less lesson says the suffix -ful usually changes a base word into which part of speech?",
-      "image": null,
+      "text": "Find the difference between 76 and 32. First subtract the tens: 70 - 30 = 40. Then subtract the ones: 6 - 2 = 4. What is 76 - 32?",
       "options": {
-        "A": "an adverb",
-        "B": "a noun",
-        "C": "an adjective",
-        "D": "a verb"
+        "A": "40",
+        "B": "4",
+        "C": "44",
+        "D": "46"
       },
       "answer": "C",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "domain": "Mental Calculation",
+      "source_page": "PDF p30",
+      "image": null,
+      "id": 83
     },
     {
-      "id": 84,
-      "domain": "Word Parts (Prefixes & Suffixes)",
-      "text": "Using the word bank window, cloud, wonder, end, hope, fear, add -ful or -less to complete this sentence: \"The movie seemed _________ because it lasted for more than two hours.\"",
-      "image": null,
+      "text": "To subtract 32 from 76, Ravi first subtracts 30 to get 46. What does he subtract next?",
       "options": {
-        "A": "hopeful",
-        "B": "wonderless",
-        "C": "endful",
-        "D": "endless"
+        "A": "32",
+        "B": "30",
+        "C": "46",
+        "D": "2"
       },
       "answer": "D",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "domain": "Mental Calculation",
+      "source_page": "PDF p30",
+      "image": null,
+      "id": 84
     },
     {
-      "id": 85,
-      "domain": "Text & Graphic Features",
-      "text": "The Text and Graphic Features lesson defines graphic features, such as illustrations and diagrams. According to the lesson, what do graphic features do?",
-      "image": null,
+      "text": "To subtract 48 from 83, Ravi takes away 50 first: 83 - 50 = 33. He then adds 2 back: 33 + 2 = 35. What is 83 - 48?",
       "options": {
-        "A": "They help explain ideas in the text.",
-        "B": "They tell the reader the page number.",
-        "C": "They replace the words on the page.",
-        "D": "They show only the author's name."
+        "A": "35",
+        "B": "50",
+        "C": "40",
+        "D": "33"
       },
       "answer": "A",
-      "difficulty": "medium"
+      "difficulty": "hard",
+      "domain": "Mental Calculation",
+      "source_page": "PDF p30",
+      "image": null,
+      "id": 85
     },
     {
-      "id": 86,
-      "domain": "Long Vowels & Vowel Teams",
-      "text": "In \"More Long o Spellings,\" students complete sentences with a long o word from the word bank snowy, show, joke, grows. Which word completes this sentence: \"The grass _________ quickly in the summer.\"",
-      "image": null,
+      "text": "To subtract 48 from 83 in stages, Ravi works out 83 - 43 = 40 and then 40 - 5 = 35. What does he subtract in the second step?",
       "options": {
-        "A": "snowy",
-        "B": "grows",
-        "C": "show",
-        "D": "joke"
+        "A": "40",
+        "B": "5",
+        "C": "43",
+        "D": "48"
       },
       "answer": "B",
-      "difficulty": "medium"
+      "difficulty": "hard",
+      "domain": "Mental Calculation",
+      "source_page": "PDF p30",
+      "image": null,
+      "id": 86
     },
     {
-      "id": 87,
-      "domain": "Critical Vocabulary",
-      "text": "The Critical Vocabulary page for Dear Primo asks: \"Why do the firefighters close off the _________ when they open a hydrant?\" Which bolded vocabulary word belongs in the blank?",
-      "image": null,
+      "text": "In the method used on this page, 48 is near to which number?",
       "options": {
-        "A": "parade",
-        "B": "costumes",
-        "C": "block",
-        "D": "march"
+        "A": "30",
+        "B": "100",
+        "C": "50",
+        "D": "40"
       },
       "answer": "C",
-      "difficulty": "hard"
+      "difficulty": "medium",
+      "domain": "Mental Calculation",
+      "source_page": "PDF p30",
+      "image": null,
+      "id": 87
     },
     {
-      "id": 88,
-      "domain": "Word Parts (Prefixes & Suffixes)",
-      "text": "On page 32 students add either the prefix re- or pre- to a base word from the word bank (study, draw, visit, purchase, game, -teen). Which word correctly completes this sentence: \"I'm going to ______ this part of the lesson because I didn't understand it the first time.\"?",
-      "image": null,
+      "text": "Add 54 and 98 mentally by making 100: 54 + 100 = 154, then take away 2. What is 54 + 98?",
       "options": {
-        "A": "prestudy",
-        "B": "unstudy",
-        "C": "studyly",
-        "D": "restudy"
+        "A": "154",
+        "B": "101",
+        "C": "196",
+        "D": "152"
       },
       "answer": "D",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "domain": "Mental Calculation",
+      "source_page": "PDF p30",
+      "image": null,
+      "id": 88
     },
     {
-      "id": 89,
-      "domain": "Text & Graphic Features",
-      "text": "The \"Text and Graphic Features\" lesson explains that some stories use text features such as bold text and italic text (and punctuation such as ellipses and dashes), and graphic features such as illustrations and labels. In the Dear Primo questions, how does the author make the Spanish words stand out?",
-      "image": null,
+      "text": "Which coins on this page make 45 cents?",
       "options": {
-        "A": "The Spanish words are printed in italic text.",
-        "B": "The Spanish words are underlined with a dashed line.",
-        "C": "The Spanish words are printed inside circles.",
-        "D": "The Spanish words appear only in the illustration labels."
+        "A": "20 cents, 10 cents, 10 cents and 5 cents",
+        "B": "20 cents and 10 cents",
+        "C": "10 cents, 10 cents and 5 cents",
+        "D": "20 cents and 5 cents"
       },
       "answer": "A",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "domain": "Money",
+      "source_page": "PDF p33",
+      "image": null,
+      "id": 89
     },
     {
-      "id": 90,
-      "domain": "Critical Vocabulary",
-      "text": "In the \"Critical Vocabulary\" exercise students circle the letter beside the sentence that best fits the meaning of a word in bold print. Which sentence best fits the meaning of the word \"entry\" as it is used on page 36?",
-      "image": null,
+      "text": "45 cents and how much more money make $1?",
       "options": {
-        "A": "Roland wrote a note to thank his grandmother for his present.",
-        "B": "Roland wrote in his journal about the fun he had at his party.",
-        "C": "Roland mailed a package of birthday gifts to his grandmother.",
-        "D": "Roland drew a picture showing the cake he ate at his party."
+        "A": "45 cents",
+        "B": "55 cents",
+        "C": "30 cents",
+        "D": "5 cents"
       },
       "answer": "B",
-      "difficulty": "medium"
+      "difficulty": "easy",
+      "domain": "Money",
+      "source_page": "PDF p33",
+      "image": null,
+      "id": 90
     },
     {
-      "id": 91,
-      "domain": "Long Vowels & Vowel Teams",
-      "text": "\"Ben sighed when he discovered he had forgotten his homework.\" The long i word in this sentence is \"sighed.\" Which letters in \"sighed\" stand for the long i sound?",
-      "image": null,
+      "text": "Which two amounts on this page make $10 exactly?",
       "options": {
-        "A": "ie",
-        "B": "i",
-        "C": "igh",
-        "D": "y"
+        "A": "$71.20 and $28.80",
+        "B": "$6.75 and $28.80",
+        "C": "$6.75 and $3.25",
+        "D": "$55.70 and $44.30"
       },
       "answer": "C",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "domain": "Money",
+      "source_page": "PDF p33",
+      "image": null,
+      "id": 91
     },
     {
-      "id": 92,
-      "domain": "Long Vowels & Vowel Teams",
-      "text": "In this sentence from page 35, which word has a long i sound: \"The class read a fable about a sly fox who wanted some cheese\"?",
-      "image": null,
+      "text": "How much more money is needed to make $100 with $71.20?",
       "options": {
-        "A": "cheese",
-        "B": "fable",
-        "C": "class",
-        "D": "sly"
+        "A": "$71.20",
+        "B": "$44.30",
+        "C": "$3.25",
+        "D": "$28.80"
       },
       "answer": "D",
-      "difficulty": "easy"
+      "difficulty": "medium",
+      "domain": "Money",
+      "source_page": "PDF p33",
+      "image": null,
+      "id": 92
     },
     {
-      "id": 93,
-      "domain": "Literary Elements & Theme",
-      "text": "According to the definition given in the \"Elements of Poetry\" lesson, what is a rhyme scheme?",
-      "image": null,
+      "text": "How much more money is needed to make $100 with $55.70?",
       "options": {
-        "A": "the rhyming pattern at the ends of the lines",
-        "B": "the number of syllables in each line",
-        "C": "the title printed above the first stanza of a poem",
-        "D": "a group of lines that are set up in a special way"
+        "A": "$44.30",
+        "B": "$55.70",
+        "C": "$3.25",
+        "D": "$28.80"
       },
       "answer": "A",
-      "difficulty": "easy"
+      "difficulty": "medium",
+      "domain": "Money",
+      "source_page": "PDF p33",
+      "image": null,
+      "id": 93
     },
     {
-      "id": 94,
-      "domain": "Point of View",
-      "text": "The \"Characters\" lesson says you can learn about characters through their traits, feelings, motivations, and responses, and it defines a character's perspective. According to the lesson, a character's perspective is:",
-      "image": null,
+      "text": "Starting from $55.70, the count-on chain adds 30 cents to make $56.00, then $4 to make $60.00, then $40 to make $100. What is 30 cents + $4 + $40?",
       "options": {
-        "A": "the place where the character lives",
-        "B": "his or her attitude toward something",
-        "C": "the way a character's feelings change during a story",
-        "D": "a character's traits, such as bravery or shyness"
+        "A": "$60.00",
+        "B": "$44.30",
+        "C": "$56.00",
+        "D": "$100"
       },
       "answer": "B",
-      "difficulty": "medium"
+      "difficulty": "hard",
+      "domain": "Money",
+      "source_page": "PDF p33",
+      "image": null,
+      "id": 94
     },
     {
-      "id": 95,
-      "domain": "Short Vowels",
-      "text": "In the sentence \"Kim and I are best friends,\" what vowel sound does the boldfaced word \"best\" have?",
-      "image": null,
+      "text": "In the teaching example, $55.70 + 30 cents makes which amount?",
       "options": {
-        "A": "long e",
-        "B": "short a",
-        "C": "short e",
-        "D": "long a"
+        "A": "$100",
+        "B": "$55.70",
+        "C": "$56.00",
+        "D": "$60.00"
       },
       "answer": "C",
-      "difficulty": "easy"
+      "difficulty": "medium",
+      "domain": "Money",
+      "source_page": "PDF p33",
+      "image": null,
+      "id": 95
     },
     {
-      "id": 96,
-      "domain": "Long Vowels & Vowel Teams",
-      "text": "In the sentence \"It's a good day to fly a kite,\" what vowel sound does the boldfaced word \"kite\" have? The answer choices under the sentence are short i, long i, short e, and long e.",
-      "image": null,
+      "text": "Which of these additions has the answer $7.00?",
       "options": {
-        "A": "long e",
-        "B": "short e",
-        "C": "short i",
-        "D": "long i"
+        "A": "$3.20 + $1.40",
+        "B": "$10.50 + $4.05",
+        "C": "$6.70 + $0.80",
+        "D": "$1.65 + $5.35"
       },
       "answer": "D",
-      "difficulty": "medium"
+      "difficulty": "hard",
+      "domain": "Money",
+      "source_page": "PDF p34",
+      "image": null,
+      "id": 96
     },
     {
-      "id": 97,
-      "domain": "Long Vowels & Vowel Teams",
-      "text": "In the sentence \"Lia reached out to catch the ball,\" what vowel sound does the boldfaced word \"reached\" have?",
-      "image": null,
+      "text": "Which of these additions has the answer $7.50?",
       "options": {
-        "A": "long e",
-        "B": "short a",
-        "C": "short e",
-        "D": "long a"
+        "A": "$6.70 + $0.80",
+        "B": "$10.50 + $4.05",
+        "C": "$3.20 + $1.40",
+        "D": "$1.65 + $5.35"
       },
       "answer": "A",
-      "difficulty": "hard"
+      "difficulty": "medium",
+      "domain": "Money",
+      "source_page": "PDF p34",
+      "image": null,
+      "id": 97
     },
     {
-      "id": 98,
-      "domain": "Short Vowels",
-      "text": "In the sentence \"I must get home before three o'clock,\" what vowel sound does the boldfaced word \"must\" have?",
-      "image": null,
+      "text": "Add $22.10 and $16.80.",
       "options": {
-        "A": "long a",
-        "B": "short u",
-        "C": "long u",
-        "D": "short a"
+        "A": "$14.55",
+        "B": "$38.90",
+        "C": "$59.15",
+        "D": "$48.45"
       },
       "answer": "B",
-      "difficulty": "medium"
+      "difficulty": "easy",
+      "domain": "Money",
+      "source_page": "PDF p34",
+      "image": null,
+      "id": 98
     },
     {
-      "id": 99,
-      "domain": "Blends & Special Sounds",
-      "text": "On the Three-Letter Blends page, the word bank contains scream, squid, street, strum, square, sprain, scrub, split, and sprout. Which word bank word answers the riddle \"What is another word for road?\"",
-      "image": null,
+      "text": "Add $57.55 and $29.75.",
       "options": {
-        "A": "square",
-        "B": "scream",
-        "C": "street",
-        "D": "squid"
+        "A": "$76.50",
+        "B": "$48.45",
+        "C": "$87.30",
+        "D": "$59.15"
       },
       "answer": "C",
-      "difficulty": "easy"
+      "difficulty": "medium",
+      "domain": "Money",
+      "source_page": "PDF p34",
+      "image": null,
+      "id": 99
     },
     {
-      "id": 100,
-      "domain": "Blends & Special Sounds",
-      "text": "Which of these three-letter-blend words means \"to divide something into parts\"?",
-      "image": null,
+      "text": "Add $36.95 and $11.50.",
       "options": {
-        "A": "strum",
-        "B": "scrub",
-        "C": "sprout",
-        "D": "split"
+        "A": "$59.15",
+        "B": "$47.45",
+        "C": "$25.45",
+        "D": "$48.45"
       },
       "answer": "D",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "domain": "Money",
+      "source_page": "PDF p34",
+      "image": null,
+      "id": 100
     },
     {
-      "id": 101,
-      "domain": "Point of View",
-      "text": "According to the Point of View page, a narrator who is part of the story uses words such as —",
-      "image": null,
+      "text": "Add $40.80 and $35.70.",
       "options": {
-        "A": "I, me, and we",
-        "B": "he, she, and they",
-        "C": "him, her, and them",
-        "D": "it and that"
+        "A": "$76.50",
+        "B": "$87.30",
+        "C": "$48.45",
+        "D": "$75.50"
       },
       "answer": "A",
-      "difficulty": "medium"
+      "difficulty": "easy",
+      "domain": "Money",
+      "source_page": "PDF p34",
+      "image": null,
+      "id": 101
     },
     {
-      "id": 102,
-      "domain": "Spelling Patterns",
-      "text": "Use the two-syllable word bank from the Review Short and Long Vowels page (respect, students, moment, clever, raisins, silent, limit, polished). Which word best completes this sentence: \"No one was talking in the ____ library.\"",
-      "image": null,
+      "text": "Which subtraction on this page has the answer $44.55?",
       "options": {
-        "A": "polished",
-        "B": "silent",
-        "C": "raisins",
-        "D": "clever"
+        "A": "$32.55 - $20.15",
+        "B": "$70.00 - $25.45",
+        "C": "$60.30 - $5.85",
+        "D": "$45.35 - $21.05"
       },
       "answer": "B",
-      "difficulty": "medium"
+      "difficulty": "hard",
+      "domain": "Money",
+      "source_page": "PDF p36",
+      "image": null,
+      "id": 102
     },
     {
-      "id": 103,
-      "domain": "Word Parts (Prefixes & Suffixes)",
-      "text": "The sentence \"Don't give Nick and Trey any pickles because they both ___ sour foods\" is completed with the word \"dislike.\" Which word part was added to the base word \"like\" to form \"dislike\"?",
-      "image": null,
+      "text": "Which subtraction on this page has the answer $20.35?",
       "options": {
-        "A": "the suffix -less",
-        "B": "the prefix un-",
-        "C": "the prefix dis-",
-        "D": "the suffix -y"
+        "A": "$60.30 - $5.85",
+        "B": "$70.00 - $25.45",
+        "C": "$28.75 - $8.40",
+        "D": "$45.35 - $21.05"
       },
       "answer": "C",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "domain": "Money",
+      "source_page": "PDF p36",
+      "image": null,
+      "id": 103
     },
     {
-      "id": 104,
-      "domain": "Blends & Special Sounds",
-      "text": "The word bank lists trudge, calf, gems, quit, pages, queen, core, strange, and hedge. Which word begins with the /kw/ sound?",
-      "image": null,
+      "text": "Subtract: $6.90 - $0.80",
       "options": {
-        "A": "calf",
-        "B": "core",
-        "C": "gems",
-        "D": "queen"
+        "A": "$8.80",
+        "B": "$12.40",
+        "C": "$4.70",
+        "D": "$6.10"
       },
       "answer": "D",
-      "difficulty": "medium"
+      "difficulty": "easy",
+      "domain": "Money",
+      "source_page": "PDF p36",
+      "image": null,
+      "id": 104
     },
     {
-      "id": 105,
-      "domain": "Critical Vocabulary",
-      "text": "Which sentence best fits the meaning of the word \"independence\"?",
-      "image": null,
+      "text": "Subtract: $100 - $23.50",
       "options": {
-        "A": "The teacher lets her students choose the library books they want to read.",
-        "B": "The teacher asks every student to return a library book.",
-        "C": "The teacher assigns each student a library book to read in class.",
-        "D": "The teacher reads a library book aloud to the whole class."
+        "A": "$76.50",
+        "B": "$44.55",
+        "C": "$33.75",
+        "D": "$8.80"
       },
       "answer": "A",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "domain": "Money",
+      "source_page": "PDF p36",
+      "image": null,
+      "id": 105
     },
     {
-      "id": 106,
-      "domain": "Critical Vocabulary",
-      "text": "Which sentence best fits the meaning of the word \"endowed\"?",
-      "image": null,
+      "text": "Subtract: $18.55 - $9.75",
       "options": {
-        "A": "The city put in new sidewalks all around our school.",
-        "B": "The large company gave our school money for new computers.",
-        "C": "The city repaired the old sidewalks near our school.",
-        "D": "The large company hired new teachers for our school."
+        "A": "$12.40",
+        "B": "$8.80",
+        "C": "$6.10",
+        "D": "$4.70"
       },
       "answer": "B",
-      "difficulty": "hard"
+      "difficulty": "easy",
+      "domain": "Money",
+      "source_page": "PDF p36",
+      "image": null,
+      "id": 106
     },
     {
-      "id": 107,
-      "domain": "Text & Graphic Features",
-      "text": "According to the Media Techniques page, media techniques such as sound elements, animation, and live action are best described as:",
-      "image": null,
+      "text": "Subtract: $45.40 - $11.65",
       "options": {
-        "A": "the rules authors follow when writing an informational report",
-        "B": "the pictures that are drawn by hand for a book",
-        "C": "the ways a topic, an idea, or other information is presented",
-        "D": "the length of time a video lasts from start to finish"
+        "A": "$8.80",
+        "B": "$54.45",
+        "C": "$33.75",
+        "D": "$76.50"
       },
       "answer": "C",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "domain": "Money",
+      "source_page": "PDF p36",
+      "image": null,
+      "id": 107
     },
     {
-      "id": 108,
-      "domain": "Blends & Special Sounds",
-      "text": "A pet ___ likes to eat seeds. Which word from the word bank completes the sentence?",
-      "image": null,
+      "text": "At the bakery, how much does one mini pizza cost?",
       "options": {
-        "A": "engine",
-        "B": "fidget",
-        "C": "quarters",
-        "D": "gerbil"
+        "A": "$10",
+        "B": "$3.20",
+        "C": "$2.80",
+        "D": "$4.90"
       },
       "answer": "D",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "domain": "Money",
+      "source_page": "PDF p37",
+      "image": null,
+      "id": 108
     },
     {
-      "id": 109,
-      "domain": "Critical Vocabulary",
-      "text": "Which sentence best fits the meaning of the word \"gritty\"?",
-      "image": null,
+      "text": "Which two bakery items cost exactly $6.00?",
       "options": {
-        "A": "Strong winds blew dust and dirt into the soldiers' faces.",
-        "B": "Strong winds blew garbage and dirt down the street.",
-        "C": "Strong winds blew the tents away from the camp.",
-        "D": "Strong winds blew soft, cool air across the field."
+        "A": "A curry puff and a tuna puff",
+        "B": "Two tuna puffs",
+        "C": "A tuna puff and a mini pizza",
+        "D": "A curry puff and a mini pizza"
       },
       "answer": "A",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "domain": "Money",
+      "source_page": "PDF p37",
+      "image": null,
+      "id": 109
     },
     {
-      "id": 110,
-      "domain": "Text & Graphic Features",
-      "text": "According to the Text Structure page, authors use ___ to provide clues to the structure of a text.",
-      "image": null,
+      "text": "How much does a tuna puff and a mini pizza cost altogether?",
       "options": {
-        "A": "illustrations",
-        "B": "transition words",
-        "C": "chapter numbers",
-        "D": "sound elements"
+        "A": "$6.00",
+        "B": "$7.70",
+        "C": "$8.10",
+        "D": "$4.90"
       },
       "answer": "B",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "domain": "Money",
+      "source_page": "PDF p37",
+      "image": null,
+      "id": 110
     },
     {
-      "id": 111,
-      "domain": "Spelling Patterns",
-      "text": "To make a wet sponge dry, you need to \"wring\" it out. In the word \"wring,\" which letter is silent?",
-      "image": null,
+      "text": "Farah bought a sandwich for $8.90 and a drink for $2.30. How much did she pay for both items?",
       "options": {
-        "A": "n",
-        "B": "r",
-        "C": "w",
-        "D": "i"
+        "A": "$6.60",
+        "B": "$2.30",
+        "C": "$11.20",
+        "D": "$8.90"
       },
       "answer": "C",
-      "difficulty": "easy"
+      "difficulty": "medium",
+      "domain": "Word Problems",
+      "source_page": "PDF p37",
+      "image": null,
+      "id": 111
     },
     {
-      "id": 112,
-      "domain": "Spelling Patterns",
-      "text": "Page 38 is called \"More Long i Spellings.\" One clue reads: \"This tower can warn ships at sea,\" with the scrambled letters HOEISLGUTH. Which word answers the clue?",
-      "image": null,
+      "text": "Ravi and Aisha have $10 each. Ravi buys one curry puff at $3.20 and one mini pizza at $4.90. How much of his $10 is left?",
       "options": {
-        "A": "nearby",
-        "B": "refried",
-        "C": "tightrope",
-        "D": "lighthouse"
+        "A": "$5.10",
+        "B": "$8.10",
+        "C": "$6.80",
+        "D": "$1.90"
       },
       "answer": "D",
-      "difficulty": "easy"
+      "difficulty": "hard",
+      "domain": "Word Problems",
+      "source_page": "PDF p37",
+      "image": null,
+      "id": 112
     },
     {
-      "id": 113,
-      "domain": "Spelling Patterns",
-      "text": "On the \"More Long i Spellings\" page, the clue \"This is another word for author\" uses the scrambled letters ITRENW. Which word answers the clue?",
-      "image": null,
+      "text": "A bar model has a whole of $20 and one part of $12. What is the missing part?",
       "options": {
-        "A": "writer",
-        "B": "winter",
-        "C": "wiser",
-        "D": "rider"
+        "A": "$8",
+        "B": "$32",
+        "C": "$20",
+        "D": "$12"
       },
       "answer": "A",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "domain": "Money",
+      "source_page": "PDF p37",
+      "image": null,
+      "id": 113
     },
     {
-      "id": 114,
-      "domain": "Critical Vocabulary",
-      "text": "On the Critical Vocabulary page for The Upside Down Boy, students complete the sentence \"If drivers speed, they might ____.\" Which ending best completes the sentence?",
-      "image": null,
+      "text": "A bar model has two parts, $4 and $7. What is the whole amount?",
       "options": {
-        "A": "take a nap all afternoon",
-        "B": "get a ticket for going too fast",
-        "C": "walk slowly to school",
-        "D": "plant a garden"
+        "A": "$3",
+        "B": "$11",
+        "C": "$4",
+        "D": "$7"
       },
       "answer": "B",
-      "difficulty": "medium"
+      "difficulty": "easy",
+      "domain": "Money",
+      "source_page": "PDF p37",
+      "image": null,
+      "id": 114
     },
     {
-      "id": 115,
-      "domain": "Figurative Language",
-      "text": "The page 40 lesson defines a simile as comparing two things using the word like or as, and a metaphor as comparing two things without those words. Which sentence from The Upside Down Boy is a simile?",
-      "image": null,
+      "text": "One bar model shows two parts of $3 and $3. Which addition story does it show?",
       "options": {
-        "A": "\"My tongue is a rock.\"",
-        "B": "\"I am frozen.\"",
-        "C": "\"My hands spread out as if catching rain drops from the sky.\"",
-        "D": "\"The stage is a bright star.\""
+        "A": "$20 - $12 = $8",
+        "B": "$12 - $5 = $7",
+        "C": "$3 + $3 = $6",
+        "D": "$4 + $7 = $11"
       },
       "answer": "C",
-      "difficulty": "medium"
+      "difficulty": "easy",
+      "domain": "Money",
+      "source_page": "PDF p37",
+      "image": null,
+      "id": 115
     },
     {
-      "id": 116,
-      "domain": "Figurative Language",
-      "text": "One question about page 161 of The Upside Down Boy asks what Juanito calls his tongue in paragraph 17. What does he call it?",
-      "image": null,
+      "text": "A toy robot costs $56.25. A toy car costs $11.80 less than the toy robot. How much does the toy car cost?",
       "options": {
-        "A": "a bell",
-        "B": "a feather",
-        "C": "a river",
-        "D": "a rock"
+        "A": "$68.05",
+        "B": "$11.80",
+        "C": "$56.25",
+        "D": "$44.45"
       },
       "answer": "D",
-      "difficulty": "hard"
+      "difficulty": "medium",
+      "domain": "Word Problems",
+      "source_page": "PDF p38",
+      "image": null,
+      "id": 116
     },
     {
-      "id": 117,
-      "domain": "Figurative Language",
-      "text": "On pages 164-165, Juanito says, \"I am frozen\" when he gets ready to sing. What does he mean?",
-      "image": null,
+      "text": "Kai bought groceries for $79.70. He paid with a $100 note. How much change did he receive?",
       "options": {
-        "A": "He cannot move because he is nervous and afraid.",
-        "B": "He is cold because the room is chilly.",
-        "C": "He is waiting for snow to fall.",
-        "D": "He is covered in ice."
+        "A": "$20.30",
+        "B": "$100.00",
+        "C": "$79.70",
+        "D": "$20.00"
       },
       "answer": "A",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "domain": "Money",
+      "source_page": "PDF p38",
+      "image": null,
+      "id": 117
     },
     {
-      "id": 118,
-      "domain": "Blends & Special Sounds",
-      "text": "On the Three-Letter Blends page, which word contains a three-letter blend?",
-      "image": null,
+      "text": "Max bought a cake for $15.80 and some biscuits for $6.10. How much did he spend altogether?",
       "options": {
-        "A": "garden",
-        "B": "squadron",
-        "C": "tallest",
-        "D": "quarters"
+        "A": "$15.80",
+        "B": "$21.90",
+        "C": "$9.70",
+        "D": "$6.10"
       },
       "answer": "B",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "domain": "Word Problems",
+      "source_page": "PDF p38",
+      "image": null,
+      "id": 118
     },
     {
-      "id": 119,
-      "domain": "Short Vowels",
-      "text": "In the Short Vowels word bank, which word has the short u sound?",
-      "image": null,
+      "text": "Kai's Check step shows $79.70 -> $80 -> $100. How much is added to $80 to reach $100?",
       "options": {
-        "A": "captain",
-        "B": "otters",
-        "C": "supper",
-        "D": "pencil"
+        "A": "$100",
+        "B": "$20.30",
+        "C": "$20",
+        "D": "30 cents"
       },
       "answer": "C",
-      "difficulty": "easy"
+      "difficulty": "medium",
+      "domain": "Money",
+      "source_page": "PDF p38",
+      "image": null,
+      "id": 119
+    },
+    {
+      "text": "In the Check step for Farah's shopping, how much is a sandwich costing $8.90 said to cost about?",
+      "options": {
+        "A": "About $2",
+        "B": "About $8",
+        "C": "About $11",
+        "D": "About $9"
+      },
+      "answer": "D",
+      "difficulty": "medium",
+      "domain": "Money",
+      "source_page": "PDF p38",
+      "image": null,
+      "id": 120
+    },
+    {
+      "text": "Farah's shopping is checked like this: $9 + $2 = $11. Which two amounts are being added in the check?",
+      "options": {
+        "A": "The about-amounts for the sandwich and the drink",
+        "B": "The exact prices $8.90 and $2.30",
+        "C": "The $100 note and the answer $11.20",
+        "D": "The answer $11.20 and the drink price $2.30"
+      },
+      "answer": "A",
+      "difficulty": "medium",
+      "domain": "Money",
+      "source_page": "PDF p38",
+      "image": null,
+      "id": 121
+    },
+    {
+      "text": "The Check step in Max's problem says the cake cost about ____ and the biscuits cost about ____. About how much did the items cost in all?",
+      "options": {
+        "A": "About $10",
+        "B": "About $22",
+        "C": "About $21",
+        "D": "About $20"
+      },
+      "answer": "B",
+      "difficulty": "hard",
+      "domain": "Word Problems",
+      "source_page": "PDF p38",
+      "image": null,
+      "id": 122
+    },
+    {
+      "text": "Look at the multiplication table of 6. What is 6 x 2?",
+      "options": {
+        "A": "18",
+        "B": "6",
+        "C": "12",
+        "D": "24"
+      },
+      "answer": "C",
+      "difficulty": "easy",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF p39",
+      "image": null,
+      "id": 123
+    },
+    {
+      "text": "Which equation shows 6 groups of 6?",
+      "options": {
+        "A": "6 x 5 = 30",
+        "B": "6 x 3 = 18",
+        "C": "6 x 1 = 6",
+        "D": "6 x 6 = 36"
+      },
+      "answer": "D",
+      "difficulty": "medium",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF p39",
+      "image": null,
+      "id": 124
+    },
+    {
+      "text": "The page shows 6 x 3 = 18. What is 6 x 4?",
+      "options": {
+        "A": "24",
+        "B": "12",
+        "C": "30",
+        "D": "18"
+      },
+      "answer": "A",
+      "difficulty": "medium",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF p39",
+      "image": null,
+      "id": 125
+    },
+    {
+      "text": "The skip-counting sequence on this page is 6, 12, 18, 24, 30, 36. Which number comes right after 24?",
+      "options": {
+        "A": "6",
+        "B": "30",
+        "C": "18",
+        "D": "36"
+      },
+      "answer": "B",
+      "difficulty": "easy",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF p39",
+      "image": null,
+      "id": 126
+    },
+    {
+      "text": "How many are there in 3 groups of 6?",
+      "options": {
+        "A": "12",
+        "B": "6",
+        "C": "18",
+        "D": "24"
+      },
+      "answer": "C",
+      "difficulty": "easy",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF p39",
+      "image": null,
+      "id": 127
+    },
+    {
+      "text": "What is 6 x 5?",
+      "options": {
+        "A": "24",
+        "B": "36",
+        "C": "18",
+        "D": "30"
+      },
+      "answer": "D",
+      "difficulty": "easy",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF p39",
+      "image": null,
+      "id": 128
+    },
+    {
+      "text": "Zara makes 60 brownies. She gives each friend 6 brownies. How many friends does she give brownies to?",
+      "options": {
+        "A": "10",
+        "B": "54",
+        "C": "60",
+        "D": "6"
+      },
+      "answer": "A",
+      "difficulty": "medium",
+      "domain": "Division",
+      "source_page": "PDF p41",
+      "image": null,
+      "id": 129
+    },
+    {
+      "text": "Which equation can you use to check 60 / 6 = 10?",
+      "options": {
+        "A": "10 / 6 = 60",
+        "B": "6 x 10 = 60",
+        "C": "6 x 7 = 42",
+        "D": "60 x 6 = 10"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "domain": "Division",
+      "source_page": "PDF p41",
+      "image": null,
+      "id": 130
+    },
+    {
+      "text": "Raj has 42 l of milk. He pours the milk equally into 6 bottles. How much milk is there in each bottle?",
+      "options": {
+        "A": "42 l",
+        "B": "6 l",
+        "C": "7 l",
+        "D": "36 l"
+      },
+      "answer": "C",
+      "difficulty": "medium",
+      "domain": "Word Problems",
+      "source_page": "PDF p41",
+      "image": null,
+      "id": 131
+    },
+    {
+      "text": "Raj's answer is checked with 6 x 7 = 42. What is 42 / 6?",
+      "options": {
+        "A": "6",
+        "B": "42",
+        "C": "36",
+        "D": "7"
+      },
+      "answer": "D",
+      "difficulty": "medium",
+      "domain": "Division",
+      "source_page": "PDF p41",
+      "image": null,
+      "id": 132
+    },
+    {
+      "text": "Which division tells you how much milk is in each bottle when Raj shares 42 l equally among 6 bottles?",
+      "options": {
+        "A": "42 / 6 = 7",
+        "B": "6 / 42 = 7",
+        "C": "42 - 6 = 36",
+        "D": "42 / 7 = 6"
+      },
+      "answer": "A",
+      "difficulty": "medium",
+      "domain": "Division",
+      "source_page": "PDF p41",
+      "image": null,
+      "id": 133
+    },
+    {
+      "text": "Zara gives 6 brownies to each of 10 friends. How many brownies does she give out in all?",
+      "options": {
+        "A": "6",
+        "B": "60",
+        "C": "16",
+        "D": "10"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "domain": "Word Problems",
+      "source_page": "PDF p41",
+      "image": null,
+      "id": 134
+    },
+    {
+      "text": "Multiply 7 by 2.",
+      "options": {
+        "A": "21",
+        "B": "28",
+        "C": "14",
+        "D": "7"
+      },
+      "answer": "C",
+      "difficulty": "easy",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF p42",
+      "image": null,
+      "id": 135
+    },
+    {
+      "text": "Which equation shows 5 groups of 7?",
+      "options": {
+        "A": "7 x 2 = 14",
+        "B": "7 x 6 = 42",
+        "C": "7 x 4 = 28",
+        "D": "7 x 5 = 35"
+      },
+      "answer": "D",
+      "difficulty": "medium",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF p42",
+      "image": null,
+      "id": 136
+    },
+    {
+      "text": "The page shows 7 x 3 = 21 and 7 x 4 = 28. How many more is 7 x 4 than 7 x 3?",
+      "options": {
+        "A": "7",
+        "B": "4",
+        "C": "21",
+        "D": "3"
+      },
+      "answer": "A",
+      "difficulty": "hard",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF p42",
+      "image": null,
+      "id": 137
+    },
+    {
+      "text": "A bundle holds 7 pencils. How many pencils are there in 5 bundles?",
+      "options": {
+        "A": "21",
+        "B": "35",
+        "C": "28",
+        "D": "42"
+      },
+      "answer": "B",
+      "difficulty": "easy",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF p42",
+      "image": null,
+      "id": 138
+    },
+    {
+      "text": "What is 7 x 6?",
+      "options": {
+        "A": "14",
+        "B": "35",
+        "C": "42",
+        "D": "28"
+      },
+      "answer": "C",
+      "difficulty": "easy",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF p42",
+      "image": null,
+      "id": 139
+    },
+    {
+      "text": "The table goes 7 x 1 = 7 up to 7 x 6 = 42. Which product comes just before 42?",
+      "options": {
+        "A": "28",
+        "B": "14",
+        "C": "21",
+        "D": "35"
+      },
+      "answer": "D",
+      "difficulty": "medium",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF p42",
+      "image": null,
+      "id": 140
+    },
+    {
+      "text": "To find 6 x 8, work out 5 x 8 = 40 and add one more group of 8. What is 6 x 8?",
+      "options": {
+        "A": "48",
+        "B": "56",
+        "C": "40",
+        "D": "32"
+      },
+      "answer": "A",
+      "difficulty": "medium",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF p47",
+      "image": null,
+      "id": 141
+    },
+    {
+      "text": "To find 8 x 8, work out 10 x 8 = 80 and take away 2 x 8 = 16. What is 80 - 16?",
+      "options": {
+        "A": "16",
+        "B": "64",
+        "C": "48",
+        "D": "80"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF p47",
+      "image": null,
+      "id": 142
+    },
+    {
+      "text": "To find 7 x 8, work out 5 x 8 = 40 and 2 x 8 = 16. What is 7 x 8?",
+      "options": {
+        "A": "64",
+        "B": "40",
+        "C": "56",
+        "D": "16"
+      },
+      "answer": "C",
+      "difficulty": "hard",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF p47",
+      "image": null,
+      "id": 143
+    },
+    {
+      "text": "To find 9 x 8, work out 10 x 8 = 80 and take away 1 x 8. What is 9 x 8?",
+      "options": {
+        "A": "80",
+        "B": "8",
+        "C": "64",
+        "D": "72"
+      },
+      "answer": "D",
+      "difficulty": "hard",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF p47",
+      "image": null,
+      "id": 144
+    },
+    {
+      "text": "Which known fact would you use to find 9 x 8 by subtracting?",
+      "options": {
+        "A": "10 x 8 = 80",
+        "B": "2 x 8 = 16",
+        "C": "5 x 8 = 40",
+        "D": "8 x 1 = 8"
+      },
+      "answer": "A",
+      "difficulty": "hard",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF p47",
+      "image": null,
+      "id": 145
+    },
+    {
+      "text": "From the table of 8 on this page, what is 8 x 3?",
+      "options": {
+        "A": "40",
+        "B": "24",
+        "C": "16",
+        "D": "32"
+      },
+      "answer": "B",
+      "difficulty": "easy",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF p47",
+      "image": null,
+      "id": 146
+    },
+    {
+      "text": "What is 8 x 5?",
+      "options": {
+        "A": "56",
+        "B": "48",
+        "C": "40",
+        "D": "32"
+      },
+      "answer": "C",
+      "difficulty": "easy",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF p47",
+      "image": null,
+      "id": 147
+    },
+    {
+      "text": "Multiply 9 by 2.",
+      "options": {
+        "A": "27",
+        "B": "9",
+        "C": "36",
+        "D": "18"
+      },
+      "answer": "D",
+      "difficulty": "easy",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF p49",
+      "image": null,
+      "id": 148
+    },
+    {
+      "text": "The page shows 9 x 3 = 27. What is 9 x 4?",
+      "options": {
+        "A": "36",
+        "B": "45",
+        "C": "27",
+        "D": "18"
+      },
+      "answer": "A",
+      "difficulty": "medium",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF p49",
+      "image": null,
+      "id": 149
+    },
+    {
+      "text": "What is 9 x 6?",
+      "options": {
+        "A": "45",
+        "B": "54",
+        "C": "36",
+        "D": "27"
+      },
+      "answer": "B",
+      "difficulty": "easy",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF p49",
+      "image": null,
+      "id": 150
+    },
+    {
+      "text": "Each group of 9 is shown as a 3 x 3 grid. How many cells are there in one grid?",
+      "options": {
+        "A": "12",
+        "B": "6",
+        "C": "9",
+        "D": "3"
+      },
+      "answer": "C",
+      "difficulty": "easy",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF p49",
+      "image": null,
+      "id": 151
+    },
+    {
+      "text": "How many are there in 5 groups of 9?",
+      "options": {
+        "A": "9",
+        "B": "36",
+        "C": "54",
+        "D": "45"
+      },
+      "answer": "D",
+      "difficulty": "easy",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF p49",
+      "image": null,
+      "id": 152
+    },
+    {
+      "text": "9 x 5 = 45 and 9 x 6 = 54. How many more is 9 x 6 than 9 x 5?",
+      "options": {
+        "A": "9",
+        "B": "5",
+        "C": "6",
+        "D": "45"
+      },
+      "answer": "A",
+      "difficulty": "hard",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF p49",
+      "image": null,
+      "id": 153
+    },
+    {
+      "text": "Which number is greater, 5328 or 5614?",
+      "options": {
+        "A": "5328",
+        "B": "5614",
+        "C": "6963",
+        "D": "6517"
+      },
+      "answer": "B",
+      "difficulty": "easy",
+      "domain": "Comparing and Ordering Numbers",
+      "source_page": "PDF p8",
+      "image": null,
+      "id": 154
+    },
+    {
+      "text": "Which of these is a correct comparison?",
+      "options": {
+        "A": "5328 > 5614",
+        "B": "6517 > 6963",
+        "C": "5328 < 5614",
+        "D": "5614 < 5328"
+      },
+      "answer": "C",
+      "difficulty": "medium",
+      "domain": "Comparing and Ordering Numbers",
+      "source_page": "PDF p8",
+      "image": null,
+      "id": 155
+    },
+    {
+      "text": "Which is smaller, 2638 or 2635?",
+      "options": {
+        "A": "2638",
+        "B": "2630",
+        "C": "2640",
+        "D": "2635"
+      },
+      "answer": "D",
+      "difficulty": "easy",
+      "domain": "Comparing and Ordering Numbers",
+      "source_page": "PDF p8",
+      "image": null,
+      "id": 156
+    },
+    {
+      "text": "Which number is greater, 4830 or 4860?",
+      "options": {
+        "A": "4860",
+        "B": "4830",
+        "C": "4900",
+        "D": "4800"
+      },
+      "answer": "A",
+      "difficulty": "easy",
+      "domain": "Comparing and Ordering Numbers",
+      "source_page": "PDF p8",
+      "image": null,
+      "id": 157
+    },
+    {
+      "text": "To compare 5328 and 5614, you look at the thousands first. The two thousands digits are equal. What do you compare next?",
+      "options": {
+        "A": "the ones digits",
+        "B": "the hundreds digits",
+        "C": "the tens digits",
+        "D": "the total number of digits"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "domain": "Comparing and Ordering Numbers",
+      "source_page": "PDF p8",
+      "image": null,
+      "id": 158
+    },
+    {
+      "text": "Arrange 5328, 5614, 6517 and 6963 in order, starting with the smallest.",
+      "options": {
+        "A": "5614, 5328, 6963, 6517",
+        "B": "6517, 5328, 5614, 6963",
+        "C": "5328, 5614, 6517, 6963",
+        "D": "6963, 6517, 5614, 5328"
+      },
+      "answer": "C",
+      "difficulty": "hard",
+      "domain": "Comparing and Ordering Numbers",
+      "source_page": "PDF p8",
+      "image": null,
+      "id": 159
+    },
+    {
+      "text": "In the number 6517, what does the digit 5 stand for?",
+      "options": {
+        "A": "5",
+        "B": "50",
+        "C": "5000",
+        "D": "500"
+      },
+      "answer": "D",
+      "difficulty": "medium",
+      "domain": "Numbers to 10 000",
+      "source_page": "PDF p8",
+      "image": null,
+      "id": 160
+    },
+    {
+      "text": "1100, 1120, 1140, ______, 1180, 1200. What is the missing number?",
+      "options": {
+        "A": "1160",
+        "B": "1220",
+        "C": "1150",
+        "D": "1170"
+      },
+      "answer": "A",
+      "difficulty": "easy",
+      "domain": "Number Patterns",
+      "source_page": "PDF p12",
+      "image": null,
+      "id": 161
+    },
+    {
+      "text": "What is the rule in the pattern 1100, 1120, 1140, 1160, 1180, 1200?",
+      "options": {
+        "A": "subtract 20",
+        "B": "add 20",
+        "C": "add 200",
+        "D": "add 40"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "domain": "Number Patterns",
+      "source_page": "PDF p12",
+      "image": null,
+      "id": 162
+    },
+    {
+      "text": "4680, 4640, 4600, 4560, ______, 4480. What number goes in the blank?",
+      "options": {
+        "A": "4540",
+        "B": "4500",
+        "C": "4520",
+        "D": "4440"
+      },
+      "answer": "C",
+      "difficulty": "medium",
+      "domain": "Number Patterns",
+      "source_page": "PDF p12",
+      "image": null,
+      "id": 163
+    },
+    {
+      "text": "1032, 1532, ______, 2532, 3032. What is the missing number?",
+      "options": {
+        "A": "1632",
+        "B": "1932",
+        "C": "2132",
+        "D": "2032"
+      },
+      "answer": "D",
+      "difficulty": "medium",
+      "domain": "Number Patterns",
+      "source_page": "PDF p12",
+      "image": null,
+      "id": 164
+    },
+    {
+      "text": "7850, 7750, 7700, 7600, 7550, ______, ______, 7300 ... Which two numbers fill the blanks in order?",
+      "options": {
+        "A": "7450 and 7400",
+        "B": "7400 and 7450",
+        "C": "7450 and 7350",
+        "D": "7500 and 7450"
+      },
+      "answer": "A",
+      "difficulty": "hard",
+      "domain": "Number Patterns",
+      "source_page": "PDF p12",
+      "image": null,
+      "id": 165
+    },
+    {
+      "text": "In the pattern 7850, 7750, 7700, 7600, 7550, 7450, 7400, 7300, 7250, ______, 7100, 7000, what number is missing?",
+      "options": {
+        "A": "7050",
+        "B": "7150",
+        "C": "7200",
+        "D": "7175"
+      },
+      "answer": "B",
+      "difficulty": "hard",
+      "domain": "Number Patterns",
+      "source_page": "PDF p12",
+      "image": null,
+      "id": 166
+    },
+    {
+      "text": "The sum of 432 and 536 is ______.",
+      "options": {
+        "A": "868",
+        "B": "978",
+        "C": "968",
+        "D": "958"
+      },
+      "answer": "C",
+      "difficulty": "easy",
+      "domain": "Addition",
+      "source_page": "PDF p15",
+      "image": null,
+      "id": 167
+    },
+    {
+      "text": "The sum of two numbers is 146. One of the numbers is 32. What is the other number?",
+      "options": {
+        "A": "104",
+        "B": "118",
+        "C": "178",
+        "D": "114"
+      },
+      "answer": "D",
+      "difficulty": "medium",
+      "domain": "Subtraction",
+      "source_page": "PDF p15",
+      "image": null,
+      "id": 168
+    },
+    {
+      "text": "The sum of two numbers is 127. One of the numbers is 86. What is the other number?",
+      "options": {
+        "A": "41",
+        "B": "213",
+        "C": "51",
+        "D": "31"
+      },
+      "answer": "A",
+      "difficulty": "medium",
+      "domain": "Subtraction",
+      "source_page": "PDF p15",
+      "image": null,
+      "id": 169
+    },
+    {
+      "text": "There are 86 boys and 54 girls in a school hall. How many more boys than girls are there?",
+      "options": {
+        "A": "42",
+        "B": "32",
+        "C": "140",
+        "D": "22"
+      },
+      "answer": "B",
+      "difficulty": "easy",
+      "domain": "Word Problems",
+      "source_page": "PDF p15",
+      "image": null,
+      "id": 170
+    },
+    {
+      "text": "Using the numbers 78, 36 and 23, what is the difference between 78 and 36?",
+      "options": {
+        "A": "114",
+        "B": "32",
+        "C": "42",
+        "D": "52"
+      },
+      "answer": "C",
+      "difficulty": "medium",
+      "domain": "Subtraction",
+      "source_page": "PDF p15",
+      "image": null,
+      "id": 171
+    },
+    {
+      "text": "In the worked example, 5300 is renamed. 5300 = 4 thousands and how many hundreds?",
+      "options": {
+        "A": "10",
+        "B": "3",
+        "C": "9",
+        "D": "13"
+      },
+      "answer": "D",
+      "difficulty": "easy",
+      "domain": "Numbers to 10 000",
+      "source_page": "PDF p27",
+      "image": null,
+      "id": 172
+    },
+    {
+      "text": "The worked example says: 13 hundreds - 6 hundreds = ?",
+      "options": {
+        "A": "7 hundreds",
+        "B": "5 hundreds",
+        "C": "6 hundreds",
+        "D": "19 hundreds"
+      },
+      "answer": "A",
+      "difficulty": "easy",
+      "domain": "Subtraction",
+      "source_page": "PDF p27",
+      "image": null,
+      "id": 173
+    },
+    {
+      "text": "Class A folded 5422 paper stars. Class B folded 2735 fewer paper stars than Class A. How many paper stars did Class B fold?",
+      "options": {
+        "A": "2735",
+        "B": "2687",
+        "C": "2787",
+        "D": "8157"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "domain": "Word Problems",
+      "source_page": "PDF p27",
+      "image": null,
+      "id": 174
+    },
+    {
+      "text": "The subtraction 5422 - 2687 = 2735 is checked by adding. What is 2735 + 2687?",
+      "options": {
+        "A": "5423",
+        "B": "5412",
+        "C": "5422",
+        "D": "5322"
+      },
+      "answer": "C",
+      "difficulty": "medium",
+      "domain": "Addition",
+      "source_page": "PDF p27",
+      "image": null,
+      "id": 175
+    },
+    {
+      "text": "To subtract 1284 from 4000, the thousands are renamed. 4000 = 3 thousands and how many hundreds?",
+      "options": {
+        "A": "1",
+        "B": "4",
+        "C": "9",
+        "D": "10"
+      },
+      "answer": "D",
+      "difficulty": "medium",
+      "domain": "Numbers to 10 000",
+      "source_page": "PDF p27",
+      "image": null,
+      "id": 176
+    },
+    {
+      "text": "In the same problem, 1000 is renamed as 9 hundreds and how many tens?",
+      "options": {
+        "A": "10",
+        "B": "1",
+        "C": "9",
+        "D": "100"
+      },
+      "answer": "A",
+      "difficulty": "hard",
+      "domain": "Numbers to 10 000",
+      "source_page": "PDF p27",
+      "image": null,
+      "id": 177
+    },
+    {
+      "text": "Hundreds are renamed next: 100 = 9 tens and how many ones?",
+      "options": {
+        "A": "1",
+        "B": "10",
+        "C": "100",
+        "D": "9"
+      },
+      "answer": "B",
+      "difficulty": "hard",
+      "domain": "Subtraction",
+      "source_page": "PDF p27",
+      "image": null,
+      "id": 178
+    },
+    {
+      "text": "The ones are then subtracted: 10 ones - 4 ones = ?",
+      "options": {
+        "A": "5 ones",
+        "B": "14 ones",
+        "C": "6 ones",
+        "D": "4 ones"
+      },
+      "answer": "C",
+      "difficulty": "medium",
+      "domain": "Subtraction",
+      "source_page": "PDF p27",
+      "image": null,
+      "id": 179
+    },
+    {
+      "text": "Max has 64 biscuits at first. He sells 8 biscuits. 64 - 8 = ?",
+      "options": {
+        "A": "58",
+        "B": "46",
+        "C": "54",
+        "D": "56"
+      },
+      "answer": "D",
+      "difficulty": "easy",
+      "domain": "Mental Calculation",
+      "source_page": "PDF p31",
+      "image": null,
+      "id": 180
+    },
+    {
+      "text": "Max subtracts 8 from 64 mentally. He notices that 8 is near to 10 and works out 64 - 10 = 54. What should he do next?",
+      "options": {
+        "A": "Add 2 back",
+        "B": "Subtract 2 more",
+        "C": "Add 10 back",
+        "D": "Subtract 8 more"
+      },
+      "answer": "A",
+      "difficulty": "medium",
+      "domain": "Mental Calculation",
+      "source_page": "PDF p31",
+      "image": null,
+      "id": 181
+    },
+    {
+      "text": "Max has 46 brownies at first. He sells 12 brownies. He works out 46 - 10 = 36 first. How many brownies are left?",
+      "options": {
+        "A": "38",
+        "B": "34",
+        "C": "36",
+        "D": "32"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "domain": "Word Problems",
+      "source_page": "PDF p31",
+      "image": null,
+      "id": 182
+    },
+    {
+      "text": "Subtract mentally: 57 - 32 = ?",
+      "options": {
+        "A": "15",
+        "B": "35",
+        "C": "25",
+        "D": "29"
+      },
+      "answer": "C",
+      "difficulty": "easy",
+      "domain": "Mental Calculation",
+      "source_page": "PDF p31",
+      "image": null,
+      "id": 183
+    },
+    {
+      "text": "Subtract mentally: 78 - 45 = ?",
+      "options": {
+        "A": "32",
+        "B": "43",
+        "C": "23",
+        "D": "33"
+      },
+      "answer": "D",
+      "difficulty": "easy",
+      "domain": "Mental Calculation",
+      "source_page": "PDF p31",
+      "image": null,
+      "id": 184
+    },
+    {
+      "text": "Subtract mentally: 53 - 46 = ?",
+      "options": {
+        "A": "7",
+        "B": "13",
+        "C": "9",
+        "D": "17"
+      },
+      "answer": "A",
+      "difficulty": "hard",
+      "domain": "Mental Calculation",
+      "source_page": "PDF p31",
+      "image": null,
+      "id": 185
+    },
+    {
+      "text": "Subtract mentally: 67 - 38 = ?",
+      "options": {
+        "A": "21",
+        "B": "29",
+        "C": "31",
+        "D": "39"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "domain": "Mental Calculation",
+      "source_page": "PDF p31",
+      "image": null,
+      "id": 186
+    },
+    {
+      "text": "Which working correctly works out 70 - 35 mentally?",
+      "options": {
+        "A": "70 - 40 = 30, then 30 + 5 = 35",
+        "B": "70 - 30 = 40, then 40 - 5 = 45",
+        "C": "70 - 30 = 40, then 40 - 5 = 35",
+        "D": "70 - 30 = 40, then 40 + 5 = 45"
+      },
+      "answer": "C",
+      "difficulty": "hard",
+      "domain": "Mental Calculation",
+      "source_page": "PDF p31",
+      "image": null,
+      "id": 187
+    },
+    {
+      "text": "In the Chapter 2 Review, Wei Ming works out 6432 - 257. What is the answer?",
+      "options": {
+        "A": "6275",
+        "B": "6075",
+        "C": "6185",
+        "D": "6175"
+      },
+      "answer": "D",
+      "difficulty": "medium",
+      "domain": "Subtraction",
+      "source_page": "PDF p31",
+      "image": null,
+      "id": 188
+    },
+    {
+      "text": "Add: 2605 + 874 = ?",
+      "options": {
+        "A": "3479",
+        "B": "3379",
+        "C": "3459",
+        "D": "3489"
+      },
+      "answer": "A",
+      "difficulty": "easy",
+      "domain": "Addition",
+      "source_page": "PDF p31",
+      "image": null,
+      "id": 189
+    },
+    {
+      "text": "Add: 4739 + 250 = ?",
+      "options": {
+        "A": "4889",
+        "B": "4989",
+        "C": "4999",
+        "D": "4980"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "domain": "Addition",
+      "source_page": "PDF p31",
+      "image": null,
+      "id": 190
+    },
+    {
+      "text": "7456 - 243 = ?",
+      "options": {
+        "A": "7203",
+        "B": "7313",
+        "C": "7213",
+        "D": "7233"
+      },
+      "answer": "C",
+      "difficulty": "medium",
+      "domain": "Subtraction",
+      "source_page": "PDF p31",
+      "image": null,
+      "id": 191
+    },
+    {
+      "text": "9687 - 3456 = ?",
+      "options": {
+        "A": "6331",
+        "B": "6221",
+        "C": "6311",
+        "D": "6231"
+      },
+      "answer": "D",
+      "difficulty": "medium",
+      "domain": "Subtraction",
+      "source_page": "PDF p31",
+      "image": null,
+      "id": 192
+    },
+    {
+      "text": "Find the sum of 4656 and 175.",
+      "options": {
+        "A": "4831",
+        "B": "4931",
+        "C": "4731",
+        "D": "4821"
+      },
+      "answer": "A",
+      "difficulty": "medium",
+      "domain": "Addition",
+      "source_page": "PDF p31",
+      "image": null,
+      "id": 193
+    },
+    {
+      "text": "Find the sum of 2458 and 6547.",
+      "options": {
+        "A": "8905",
+        "B": "9005",
+        "C": "9003",
+        "D": "9095"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "domain": "Addition",
+      "source_page": "PDF p31",
+      "image": null,
+      "id": 194
+    },
+    {
+      "text": "Find the sum of 6336 and 2699.",
+      "options": {
+        "A": "9025",
+        "B": "8035",
+        "C": "9035",
+        "D": "9045"
+      },
+      "answer": "C",
+      "difficulty": "medium",
+      "domain": "Addition",
+      "source_page": "PDF p31",
+      "image": null,
+      "id": 195
+    },
+    {
+      "text": "Find the difference between 6424 and 186.",
+      "options": {
+        "A": "6338",
+        "B": "6248",
+        "C": "6138",
+        "D": "6238"
+      },
+      "answer": "D",
+      "difficulty": "medium",
+      "domain": "Subtraction",
+      "source_page": "PDF p31",
+      "image": null,
+      "id": 196
+    },
+    {
+      "text": "Find the difference between 4526 and 2798.",
+      "options": {
+        "A": "1728",
+        "B": "1828",
+        "C": "1928",
+        "D": "1738"
+      },
+      "answer": "A",
+      "difficulty": "hard",
+      "domain": "Subtraction",
+      "source_page": "PDF p31",
+      "image": null,
+      "id": 197
+    },
+    {
+      "text": "Find the difference between 5526 and 2679.",
+      "options": {
+        "A": "2947",
+        "B": "2847",
+        "C": "2747",
+        "D": "2837"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "domain": "Subtraction",
+      "source_page": "PDF p31",
+      "image": null,
+      "id": 198
+    },
+    {
+      "text": "Find the difference between 8040 and 2781.",
+      "options": {
+        "A": "5249",
+        "B": "5159",
+        "C": "5259",
+        "D": "5359"
+      },
+      "answer": "C",
+      "difficulty": "hard",
+      "domain": "Subtraction",
+      "source_page": "PDF p31",
+      "image": null,
+      "id": 199
+    },
+    {
+      "text": "Find the difference between 5000 and 3647.",
+      "options": {
+        "A": "1253",
+        "B": "1453",
+        "C": "1363",
+        "D": "1353"
+      },
+      "answer": "D",
+      "difficulty": "hard",
+      "domain": "Subtraction",
+      "source_page": "PDF p31",
+      "image": null,
+      "id": 200
+    },
+    {
+      "text": "Add mentally: 34 + 73 = ?",
+      "options": {
+        "A": "107",
+        "B": "106",
+        "C": "117",
+        "D": "97"
+      },
+      "answer": "A",
+      "difficulty": "easy",
+      "domain": "Mental Calculation",
+      "source_page": "PDF p31",
+      "image": null,
+      "id": 201
+    },
+    {
+      "text": "Add mentally: 28 + 35 = ?",
+      "options": {
+        "A": "73",
+        "B": "63",
+        "C": "62",
+        "D": "53"
+      },
+      "answer": "B",
+      "difficulty": "easy",
+      "domain": "Mental Calculation",
+      "source_page": "PDF p31",
+      "image": null,
+      "id": 202
+    },
+    {
+      "text": "Subtract mentally: 76 - 36 = ?",
+      "options": {
+        "A": "30",
+        "B": "46",
+        "C": "40",
+        "D": "50"
+      },
+      "answer": "C",
+      "difficulty": "easy",
+      "domain": "Mental Calculation",
+      "source_page": "PDF p31",
+      "image": null,
+      "id": 203
+    },
+    {
+      "text": "Subtract mentally: 64 - 17 = ?",
+      "options": {
+        "A": "53",
+        "B": "43",
+        "C": "57",
+        "D": "47"
+      },
+      "answer": "D",
+      "difficulty": "medium",
+      "domain": "Mental Calculation",
+      "source_page": "PDF p31",
+      "image": null,
+      "id": 204
+    },
+    {
+      "text": "Subtract mentally: 83 - 57 = ?",
+      "options": {
+        "A": "26",
+        "B": "24",
+        "C": "34",
+        "D": "36"
+      },
+      "answer": "A",
+      "difficulty": "medium",
+      "domain": "Mental Calculation",
+      "source_page": "PDF p31",
+      "image": null,
+      "id": 205
+    },
+    {
+      "text": "Belle has 20 cents, 10 cents and 10 cents. How much more money does she need to make $1?",
+      "options": {
+        "A": "50 cents",
+        "B": "60 cents",
+        "C": "30 cents",
+        "D": "35 cents"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "domain": "Money",
+      "source_page": "PDF p32",
+      "image": null,
+      "id": 206
+    },
+    {
+      "text": "Belle has 40 cents. She is adding coins to make $1. She adds a 20-cent coin. How much more money does she need?",
+      "options": {
+        "A": "10 cents",
+        "B": "60 cents",
+        "C": "40 cents",
+        "D": "20 cents"
+      },
+      "answer": "C",
+      "difficulty": "medium",
+      "domain": "Money",
+      "source_page": "PDF p32",
+      "image": null,
+      "id": 207
+    },
+    {
+      "text": "Which two amounts of money make exactly $1?",
+      "options": {
+        "A": "20 cents and 10 cents",
+        "B": "50 cents and 40 cents",
+        "C": "65 cents and 30 cents",
+        "D": "40 cents and 60 cents"
+      },
+      "answer": "D",
+      "difficulty": "easy",
+      "domain": "Money",
+      "source_page": "PDF p32",
+      "image": null,
+      "id": 208
+    },
+    {
+      "text": "Ali has 65 cents. How much more money does he need to make $1?",
+      "options": {
+        "A": "35 cents",
+        "B": "5 cents",
+        "C": "30 cents",
+        "D": "50 cents"
+      },
+      "answer": "A",
+      "difficulty": "easy",
+      "domain": "Money",
+      "source_page": "PDF p32",
+      "image": null,
+      "id": 209
+    },
+    {
+      "text": "Ali has 65 cents. He is given another 5 cents. How much money does he have now?",
+      "options": {
+        "A": "65 cents",
+        "B": "70 cents",
+        "C": "60 cents",
+        "D": "30 cents"
+      },
+      "answer": "B",
+      "difficulty": "easy",
+      "domain": "Money",
+      "source_page": "PDF p32",
+      "image": null,
+      "id": 210
+    },
+    {
+      "text": "Ali has 65 cents and wants to make $1. He adds 5 cents first. How much more money does he need after that?",
+      "options": {
+        "A": "60 cents",
+        "B": "35 cents",
+        "C": "30 cents",
+        "D": "5 cents"
+      },
+      "answer": "C",
+      "difficulty": "medium",
+      "domain": "Money",
+      "source_page": "PDF p32",
+      "image": null,
+      "id": 211
+    },
+    {
+      "text": "Ali has 65 cents and adds 5 cents. How many 10-cent coins must he add next to make $1?",
+      "options": {
+        "A": "6",
+        "B": "2",
+        "C": "4",
+        "D": "3"
+      },
+      "answer": "D",
+      "difficulty": "hard",
+      "domain": "Money",
+      "source_page": "PDF p32",
+      "image": null,
+      "id": 212
+    },
+    {
+      "text": "Meiling has $7.50. How much more money does she need to make $10?",
+      "options": {
+        "A": "$2.50",
+        "B": "$7.50",
+        "C": "50 cents",
+        "D": "$2.00"
+      },
+      "answer": "A",
+      "difficulty": "medium",
+      "domain": "Money",
+      "source_page": "PDF p32",
+      "image": null,
+      "id": 213
+    },
+    {
+      "text": "Meiling says $7.50 and another amount make $10. What is the other amount?",
+      "options": {
+        "A": "$1.00",
+        "B": "$2.50",
+        "C": "$8.00",
+        "D": "50 cents"
+      },
+      "answer": "B",
+      "difficulty": "easy",
+      "domain": "Money",
+      "source_page": "PDF p32",
+      "image": null,
+      "id": 214
+    },
+    {
+      "text": "Meiling has $7.50. She is given a 50-cent coin. How much more money does she need to make $10?",
+      "options": {
+        "A": "50 cents",
+        "B": "$2.50",
+        "C": "$2.00",
+        "D": "$7.50"
+      },
+      "answer": "C",
+      "difficulty": "medium",
+      "domain": "Money",
+      "source_page": "PDF p32",
+      "image": null,
+      "id": 215
+    },
+    {
+      "text": "Which two amounts of money make exactly $10?",
+      "options": {
+        "A": "$1.00 and 35 cents",
+        "B": "$7.50 and $2.00",
+        "C": "$2.00 and 50 cents",
+        "D": "$7.50 and $2.50"
+      },
+      "answer": "D",
+      "difficulty": "medium",
+      "domain": "Money",
+      "source_page": "PDF p32",
+      "image": null,
+      "id": 216
+    },
+    {
+      "text": "Complete the number bond and find the answer: 24 - 6 = ___",
+      "options": {
+        "A": "18",
+        "B": "26",
+        "C": "14",
+        "D": "10"
+      },
+      "answer": "A",
+      "difficulty": "easy",
+      "domain": "Subtraction",
+      "source_page": "PDF p35",
+      "image": null,
+      "id": 217
+    },
+    {
+      "text": "Complete the number bond and find the answer: 35 - 9 = ___",
+      "options": {
+        "A": "10",
+        "B": "26",
+        "C": "25",
+        "D": "24"
+      },
+      "answer": "B",
+      "difficulty": "easy",
+      "domain": "Subtraction",
+      "source_page": "PDF p35",
+      "image": null,
+      "id": 218
+    },
+    {
+      "text": "Max has $9.85. He buys a baseball that costs $4.70. How much money does he have left?",
+      "options": {
+        "A": "$4.70",
+        "B": "15 cents",
+        "C": "$5.15",
+        "D": "$9.85"
+      },
+      "answer": "C",
+      "difficulty": "medium",
+      "domain": "Money",
+      "source_page": "PDF p35",
+      "image": null,
+      "id": 219
+    },
+    {
+      "text": "To work out $9.85 - $4.70, Mei subtracts the cents first: 85 cents - 70 cents = 15 cents. Then $9 - $4 = $5. What is $5 + 15 cents?",
+      "options": {
+        "A": "85 cents",
+        "B": "15 cents",
+        "C": "$9.00",
+        "D": "$5.15"
+      },
+      "answer": "D",
+      "difficulty": "medium",
+      "domain": "Money",
+      "source_page": "PDF p35",
+      "image": null,
+      "id": 220
+    },
+    {
+      "text": "The T-shirt costs $15.45 and the dress costs $28.95. How much cheaper is the T-shirt than the dress?",
+      "options": {
+        "A": "$13.50",
+        "B": "$15.45",
+        "C": "$21.30",
+        "D": "$28.95"
+      },
+      "answer": "A",
+      "difficulty": "medium",
+      "domain": "Money",
+      "source_page": "PDF p35",
+      "image": null,
+      "id": 221
+    },
+    {
+      "text": "Subtract $30.80 from $52.10.",
+      "options": {
+        "A": "30 cents",
+        "B": "$21.30",
+        "C": "$52.10",
+        "D": "$30.80"
+      },
+      "answer": "B",
+      "difficulty": "hard",
+      "domain": "Money",
+      "source_page": "PDF p35",
+      "image": null,
+      "id": 222
+    },
+    {
+      "text": "To subtract $30.80 from $52.10, first rename $52.10. $52.10 = $51 + ___",
+      "options": {
+        "A": "80 cents",
+        "B": "10 cents",
+        "C": "110 cents",
+        "D": "30 cents"
+      },
+      "answer": "C",
+      "difficulty": "hard",
+      "domain": "Money",
+      "source_page": "PDF p35",
+      "image": null,
+      "id": 223
+    },
+    {
+      "text": "What is 6 x 4?",
+      "options": {
+        "A": "30",
+        "B": "18",
+        "C": "42",
+        "D": "24"
+      },
+      "answer": "D",
+      "difficulty": "easy",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF p40",
+      "image": null,
+      "id": 224
+    },
+    {
+      "text": "Count by eights: 8, 16, 24, __ What is the missing number?",
+      "options": {
+        "A": "32",
+        "B": "48",
+        "C": "24",
+        "D": "40"
+      },
+      "answer": "A",
+      "difficulty": "easy",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF p46",
+      "image": null,
+      "id": 225
+    },
+    {
+      "text": "What is 8 x 9?",
+      "options": {
+        "A": "80",
+        "B": "72",
+        "C": "56",
+        "D": "64"
+      },
+      "answer": "B",
+      "difficulty": "easy",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF p46",
+      "image": null,
+      "id": 226
+    },
+    {
+      "text": "Each spider has 8 legs. How many legs do 3 spiders have?",
+      "options": {
+        "A": "32",
+        "B": "16",
+        "C": "24",
+        "D": "40"
+      },
+      "answer": "C",
+      "difficulty": "easy",
+      "domain": "Word Problems",
+      "source_page": "PDF p46",
+      "image": null,
+      "id": 227
+    },
+    {
+      "text": "We can use 5 x 6 = 30 to find 6 x 6. What number do you add to 30?",
+      "options": {
+        "A": "30",
+        "B": "5",
+        "C": "12",
+        "D": "6"
+      },
+      "answer": "D",
+      "difficulty": "medium",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF p40",
+      "image": null,
+      "id": 228
+    },
+    {
+      "text": "Using 5 x 6 = 30, what is 6 x 6?",
+      "options": {
+        "A": "36",
+        "B": "30",
+        "C": "42",
+        "D": "48"
+      },
+      "answer": "A",
+      "difficulty": "medium",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF p40",
+      "image": null,
+      "id": 229
+    },
+    {
+      "text": "10 x 6 = 60 and 2 x 6 = 12. What is 8 x 6?",
+      "options": {
+        "A": "60",
+        "B": "48",
+        "C": "54",
+        "D": "42"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF p40",
+      "image": null,
+      "id": 230
+    },
+    {
+      "text": "To find 8 x 6 from 10 x 6 = 60, what number is subtracted?",
+      "options": {
+        "A": "2",
+        "B": "60",
+        "C": "12",
+        "D": "6"
+      },
+      "answer": "C",
+      "difficulty": "medium",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF p40",
+      "image": null,
+      "id": 231
+    },
+    {
+      "text": "6 x 7 = 42. What is 7 x 6?",
+      "options": {
+        "A": "54",
+        "B": "36",
+        "C": "48",
+        "D": "42"
+      },
+      "answer": "D",
+      "difficulty": "medium",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF p40",
+      "image": null,
+      "id": 232
+    },
+    {
+      "text": "Count by sixes: 6, 12, 18, 24, __, 36 What is the missing number?",
+      "options": {
+        "A": "30",
+        "B": "42",
+        "C": "26",
+        "D": "32"
+      },
+      "answer": "A",
+      "difficulty": "medium",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF p40",
+      "image": null,
+      "id": 233
+    },
+    {
+      "text": "8 x 7 = 56. What is 7 x 8?",
+      "options": {
+        "A": "64",
+        "B": "56",
+        "C": "48",
+        "D": "72"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF p46",
+      "image": null,
+      "id": 234
+    },
+    {
+      "text": "Each answer in the multiplication table of 8 is how many times the matching answer in the multiplication table of 4?",
+      "options": {
+        "A": "3 times it",
+        "B": "Half of it",
+        "C": "Twice it",
+        "D": "4 times it"
+      },
+      "answer": "C",
+      "difficulty": "medium",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF p46",
+      "image": null,
+      "id": 235
+    },
+    {
+      "text": "8 x __ = 72 What is the missing number?",
+      "options": {
+        "A": "7",
+        "B": "10",
+        "C": "8",
+        "D": "9"
+      },
+      "answer": "D",
+      "difficulty": "medium",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF p46",
+      "image": null,
+      "id": 236
+    },
+    {
+      "text": "A spider has 8 legs. How many legs do 7 spiders have?",
+      "options": {
+        "A": "56",
+        "B": "64",
+        "C": "48",
+        "D": "72"
+      },
+      "answer": "A",
+      "difficulty": "medium",
+      "domain": "Word Problems",
+      "source_page": "PDF p46",
+      "image": null,
+      "id": 237
+    },
+    {
+      "text": "6 x 6 is 6 more than 5 x 6. 7 x 6 is 6 more than 6 x 6. What is 7 x 6?",
+      "options": {
+        "A": "54",
+        "B": "42",
+        "C": "36",
+        "D": "48"
+      },
+      "answer": "B",
+      "difficulty": "hard",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF p40",
+      "image": null,
+      "id": 238
+    },
+    {
+      "text": "10 x 6 = 60. Using this, what is 9 x 6?",
+      "options": {
+        "A": "60",
+        "B": "48",
+        "C": "54",
+        "D": "42"
+      },
+      "answer": "C",
+      "difficulty": "hard",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF p40",
+      "image": null,
+      "id": 239
+    },
+    {
+      "text": "Using 8 x 10 = 80, which calculation gives 8 x 9?",
+      "options": {
+        "A": "80 + 10",
+        "B": "80 - 10",
+        "C": "80 + 8",
+        "D": "80 - 8"
+      },
+      "answer": "D",
+      "difficulty": "hard",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF p46",
+      "image": null,
+      "id": 240
+    },
+    {
+      "text": "Which number is NOT an answer in the multiplication table of 8?",
+      "options": {
+        "A": "60",
+        "B": "64",
+        "C": "56",
+        "D": "48"
+      },
+      "answer": "A",
+      "difficulty": "hard",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF p46",
+      "image": null,
+      "id": 241
+    },
+    {
+      "text": "Use the multiplication table of 9. What is 9 x 3?",
+      "options": {
+        "A": "36",
+        "B": "27",
+        "C": "24",
+        "D": "18"
+      },
+      "answer": "B",
+      "difficulty": "easy",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF p50",
+      "image": null,
+      "id": 242
+    },
+    {
+      "text": "What is 9 x 10?",
+      "options": {
+        "A": "19",
+        "B": "81",
+        "C": "90",
+        "D": "99"
+      },
+      "answer": "C",
+      "difficulty": "easy",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF p50",
+      "image": null,
+      "id": 243
+    },
+    {
+      "text": "If 9 x 4 = 36, what is 4 x 9?",
+      "options": {
+        "A": "40",
+        "B": "32",
+        "C": "13",
+        "D": "36"
+      },
+      "answer": "D",
+      "difficulty": "easy",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF p50",
+      "image": null,
+      "id": 244
+    },
+    {
+      "text": "What is 36 / 9?",
+      "options": {
+        "A": "4",
+        "B": "6",
+        "C": "9",
+        "D": "3"
+      },
+      "answer": "A",
+      "difficulty": "easy",
+      "domain": "Division",
+      "source_page": "PDF p51",
+      "image": null,
+      "id": 245
+    },
+    {
+      "text": "What is 72 / 9?",
+      "options": {
+        "A": "6",
+        "B": "8",
+        "C": "7",
+        "D": "9"
+      },
+      "answer": "B",
+      "difficulty": "easy",
+      "domain": "Division",
+      "source_page": "PDF p50",
+      "image": null,
+      "id": 246
+    },
+    {
+      "text": "What is 18 / 9?",
+      "options": {
+        "A": "9",
+        "B": "3",
+        "C": "2",
+        "D": "6"
+      },
+      "answer": "C",
+      "difficulty": "easy",
+      "domain": "Division",
+      "source_page": "PDF p50",
+      "image": null,
+      "id": 247
+    },
+    {
+      "text": "Count by nines: 9, 18, 27, 36, 45. What is the next number?",
+      "options": {
+        "A": "46",
+        "B": "50",
+        "C": "51",
+        "D": "54"
+      },
+      "answer": "D",
+      "difficulty": "easy",
+      "domain": "Mental Calculation",
+      "source_page": "PDF p50",
+      "image": null,
+      "id": 248
+    },
+    {
+      "text": "6 x 9 is 9 more than 5 x 9. If 5 x 9 = 45, what is 6 x 9?",
+      "options": {
+        "A": "54",
+        "B": "36",
+        "C": "63",
+        "D": "53"
+      },
+      "answer": "A",
+      "difficulty": "medium",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF p50",
+      "image": null,
+      "id": 249
+    },
+    {
+      "text": "8 x 9 is 18 less than 10 x 9. If 10 x 9 = 90, what is 8 x 9?",
+      "options": {
+        "A": "68",
+        "B": "72",
+        "C": "70",
+        "D": "81"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF p50",
+      "image": null,
+      "id": 250
+    },
+    {
+      "text": "To find 7 x 9, work out 5 x 9 + 2 x 9. 5 x 9 = 45 and 2 x 9 = 18. What is 45 + 18?",
+      "options": {
+        "A": "62",
+        "B": "72",
+        "C": "63",
+        "D": "53"
+      },
+      "answer": "C",
+      "difficulty": "medium",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF p51",
+      "image": null,
+      "id": 251
+    },
+    {
+      "text": "9 x 9 = 10 x 9 - 1 x 9. What is 90 - 9?",
+      "options": {
+        "A": "71",
+        "B": "89",
+        "C": "82",
+        "D": "81"
+      },
+      "answer": "D",
+      "difficulty": "medium",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF p51",
+      "image": null,
+      "id": 252
+    },
+    {
+      "text": "____ x 9 = 54. What is the missing number?",
+      "options": {
+        "A": "6",
+        "B": "9",
+        "C": "5",
+        "D": "7"
+      },
+      "answer": "A",
+      "difficulty": "medium",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF p52",
+      "image": null,
+      "id": 253
+    },
+    {
+      "text": "Look at 9, 18, 27, 36, 45. What is the rule for this pattern?",
+      "options": {
+        "A": "subtract 9 each time",
+        "B": "add 9 each time",
+        "C": "add 8 each time",
+        "D": "add 11 each time"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "domain": "Number Patterns",
+      "source_page": "PDF p50",
+      "image": null,
+      "id": 254
+    },
+    {
+      "text": "What is 54 / 9?",
+      "options": {
+        "A": "7",
+        "B": "9",
+        "C": "6",
+        "D": "5"
+      },
+      "answer": "C",
+      "difficulty": "medium",
+      "domain": "Division",
+      "source_page": "PDF p52",
+      "image": null,
+      "id": 255
+    },
+    {
+      "text": "What is 54 / 6?",
+      "options": {
+        "A": "8",
+        "B": "7",
+        "C": "6",
+        "D": "9"
+      },
+      "answer": "D",
+      "difficulty": "medium",
+      "domain": "Division",
+      "source_page": "PDF p52",
+      "image": null,
+      "id": 256
+    },
+    {
+      "text": "If 9 x 7 = 63, then 63 / 7 = ?",
+      "options": {
+        "A": "9",
+        "B": "7",
+        "C": "6",
+        "D": "8"
+      },
+      "answer": "A",
+      "difficulty": "medium",
+      "domain": "Division",
+      "source_page": "PDF p52",
+      "image": null,
+      "id": 257
+    },
+    {
+      "text": "36 buttons are packed equally into 4 packs. How many buttons are in each pack?",
+      "options": {
+        "A": "6",
+        "B": "9",
+        "C": "8",
+        "D": "4"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "domain": "Division",
+      "source_page": "PDF p51",
+      "image": null,
+      "id": 258
+    },
+    {
+      "text": "There are 36 buttons. Each pack holds 9 buttons. How many packs of buttons are there?",
+      "options": {
+        "A": "3",
+        "B": "6",
+        "C": "4",
+        "D": "9"
+      },
+      "answer": "C",
+      "difficulty": "medium",
+      "domain": "Division",
+      "source_page": "PDF p51",
+      "image": null,
+      "id": 259
+    },
+    {
+      "text": "54 buttons are shared equally onto 9 paper strips. How many buttons are on each paper strip?",
+      "options": {
+        "A": "9",
+        "B": "7",
+        "C": "5",
+        "D": "6"
+      },
+      "answer": "D",
+      "difficulty": "medium",
+      "domain": "Division",
+      "source_page": "PDF p51",
+      "image": null,
+      "id": 260
+    },
+    {
+      "text": "Which equation belongs to the same fact family as 4 x 9 = 36?",
+      "options": {
+        "A": "36 / 4 = 9",
+        "B": "36 - 9 = 27",
+        "C": "36 + 4 = 40",
+        "D": "9 + 4 = 13"
+      },
+      "answer": "A",
+      "difficulty": "medium",
+      "domain": "Division",
+      "source_page": "PDF p51",
+      "image": null,
+      "id": 261
+    },
+    {
+      "text": "Each pack has 9 buttons. How many buttons are there in 4 packs?",
+      "options": {
+        "A": "45",
+        "B": "36",
+        "C": "32",
+        "D": "13"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "domain": "Word Problems",
+      "source_page": "PDF p51",
+      "image": null,
+      "id": 262
+    },
+    {
+      "text": "Sri reads 5 pages each day for 9 days. How many pages does she read altogether?",
+      "options": {
+        "A": "14",
+        "B": "54",
+        "C": "45",
+        "D": "40"
+      },
+      "answer": "C",
+      "difficulty": "medium",
+      "domain": "Word Problems",
+      "source_page": "PDF p52",
+      "image": null,
+      "id": 263
+    },
+    {
+      "text": "Hamza has 63 toy cars. He packs the toy cars equally into boxes of 9. How many boxes of toy cars are there?",
+      "options": {
+        "A": "8",
+        "B": "9",
+        "C": "6",
+        "D": "7"
+      },
+      "answer": "D",
+      "difficulty": "hard",
+      "domain": "Division",
+      "source_page": "PDF p52",
+      "image": null,
+      "id": 264
+    },
+    {
+      "text": "A book has 45 pages. Sri takes 9 days to finish the book, reading the same number of pages each day. How many pages does Sri read each day?",
+      "options": {
+        "A": "5",
+        "B": "9",
+        "C": "4",
+        "D": "6"
+      },
+      "answer": "A",
+      "difficulty": "hard",
+      "domain": "Division",
+      "source_page": "PDF p52",
+      "image": null,
+      "id": 265
+    },
+    {
+      "text": "7 x 9 is 27 less than 10 x 9. If 10 x 9 = 90, what is 7 x 9?",
+      "options": {
+        "A": "67",
+        "B": "63",
+        "C": "72",
+        "D": "54"
+      },
+      "answer": "B",
+      "difficulty": "hard",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF p50",
+      "image": null,
+      "id": 266
+    },
+    {
+      "text": "A number divided by 9 gives 7. What is the number?",
+      "options": {
+        "A": "9",
+        "B": "56",
+        "C": "63",
+        "D": "16"
+      },
+      "answer": "C",
+      "difficulty": "hard",
+      "domain": "Division",
+      "source_page": "PDF p52",
+      "image": null,
+      "id": 267
+    },
+    {
+      "text": "6 x 9 = 54. Which division equation can you use to check the answer?",
+      "options": {
+        "A": "54 + 6 = 60",
+        "B": "6 + 9 = 15",
+        "C": "54 - 9 = 45",
+        "D": "54 / 9 = 6"
+      },
+      "answer": "D",
+      "difficulty": "hard",
+      "domain": "Division",
+      "source_page": "PDF p52",
+      "image": null,
+      "id": 268
+    },
+    {
+      "text": "2543 + 1769 = ?",
+      "options": {
+        "A": "4312",
+        "B": "5312",
+        "C": "4112",
+        "D": "4212"
+      },
+      "answer": "A",
+      "difficulty": "easy",
+      "domain": "Addition",
+      "source_page": "PDF p21",
+      "image": null,
+      "id": 269
+    },
+    {
+      "text": "When adding the ones in 2543 + 1769, you get 3 ones + 9 ones = 12 ones. How is 12 ones renamed?",
+      "options": {
+        "A": "12 tens",
+        "B": "1 ten 2 ones",
+        "C": "2 tens 1 one",
+        "D": "1 hundred 2 tens"
+      },
+      "answer": "B",
+      "difficulty": "easy",
+      "domain": "Addition",
+      "source_page": "PDF p21",
+      "image": null,
+      "id": 270
+    },
+    {
+      "text": "In Step 3 of 2543 + 1769, 5 hundreds + 7 hundreds + 1 hundred = 13 hundreds. How is 13 hundreds renamed?",
+      "options": {
+        "A": "13 thousands",
+        "B": "1 hundred 3 thousands",
+        "C": "1 thousand 3 hundreds",
+        "D": "3 thousands 1 hundred"
+      },
+      "answer": "C",
+      "difficulty": "medium",
+      "domain": "Addition",
+      "source_page": "PDF p21",
+      "image": null,
+      "id": 271
+    },
+    {
+      "text": "2 thousands + 1 thousand + 1 thousand in Step 4 of 2543 + 1769 is equal to how many thousands?",
+      "options": {
+        "A": "5 thousands",
+        "B": "3 thousands",
+        "C": "2 thousands",
+        "D": "4 thousands"
+      },
+      "answer": "D",
+      "difficulty": "easy",
+      "domain": "Addition",
+      "source_page": "PDF p21",
+      "image": null,
+      "id": 272
+    },
+    {
+      "text": "What must be added to 2543 to get 4312?",
+      "options": {
+        "A": "1769",
+        "B": "2769",
+        "C": "1869",
+        "D": "1669"
+      },
+      "answer": "A",
+      "difficulty": "medium",
+      "domain": "Addition",
+      "source_page": "PDF p21",
+      "image": null,
+      "id": 273
+    },
+    {
+      "text": "When working out 1978 - 746 by column subtraction, which step is done first?",
+      "options": {
+        "A": "Subtract the thousands",
+        "B": "Subtract the ones",
+        "C": "Subtract the hundreds",
+        "D": "Subtract the tens"
+      },
+      "answer": "B",
+      "difficulty": "easy",
+      "domain": "Subtraction",
+      "source_page": "PDF p22",
+      "image": null,
+      "id": 274
+    },
+    {
+      "text": "The workbook checks 1978 - 746 = 1232 by adding. Which addition should give 1978?",
+      "options": {
+        "A": "1232 - 746",
+        "B": "1232 + 1978",
+        "C": "1232 + 746",
+        "D": "746 + 1978"
+      },
+      "answer": "C",
+      "difficulty": "medium",
+      "domain": "Subtraction",
+      "source_page": "PDF p22",
+      "image": null,
+      "id": 275
+    },
+    {
+      "text": "What must be added to 746 to get 1978?",
+      "options": {
+        "A": "2724",
+        "B": "1222",
+        "C": "1132",
+        "D": "1232"
+      },
+      "answer": "D",
+      "difficulty": "medium",
+      "domain": "Subtraction",
+      "source_page": "PDF p22",
+      "image": null,
+      "id": 276
+    },
+    {
+      "text": "When subtracting 453 from 2867 by column subtraction, what do you get for the hundreds?",
+      "options": {
+        "A": "4 hundreds",
+        "B": "12 hundreds",
+        "C": "3 hundreds",
+        "D": "5 hundreds"
+      },
+      "answer": "A",
+      "difficulty": "medium",
+      "domain": "Subtraction",
+      "source_page": "PDF p22",
+      "image": null,
+      "id": 277
+    },
+    {
+      "text": "Using the digits 1, 2, 3, 4, 5 and 6 once each, which pair of 3-digit numbers can be subtracted WITHOUT any renaming?",
+      "options": {
+        "A": "562 and 236",
+        "B": "562 and 341",
+        "C": "652 and 356",
+        "D": "431 and 145"
+      },
+      "answer": "B",
+      "difficulty": "hard",
+      "domain": "Subtraction",
+      "source_page": "PDF p22",
+      "image": null,
+      "id": 278
+    },
+    {
+      "text": "To find how many more caps than belts a shop sold, which operation do you use?",
+      "options": {
+        "A": "Division",
+        "B": "Addition",
+        "C": "Subtraction",
+        "D": "Multiplication"
+      },
+      "answer": "C",
+      "difficulty": "easy",
+      "domain": "Word Problems",
+      "source_page": "PDF p22",
+      "image": null,
+      "id": 279
+    },
+    {
+      "text": "The page shows 10 boxes of paper clips. Each box has 100 paper clips. How many paper clips are there in all?",
+      "options": {
+        "A": "1100",
+        "B": "100",
+        "C": "10 000",
+        "D": "1000"
+      },
+      "answer": "D",
+      "difficulty": "easy",
+      "domain": "Numbers to 10 000",
+      "source_page": "PDF p1",
+      "image": null,
+      "id": 280
+    },
+    {
+      "text": "Complete: 10 hundreds make 1 ______ .",
+      "options": {
+        "A": "thousand",
+        "B": "ten",
+        "C": "hundred",
+        "D": "ten thousand"
+      },
+      "answer": "A",
+      "difficulty": "easy",
+      "domain": "Numbers to 10 000",
+      "source_page": "PDF p1",
+      "image": null,
+      "id": 281
+    },
+    {
+      "text": "Counting in hundreds: 100, 200, 300, ______ , 500. What is the missing number?",
+      "options": {
+        "A": "600",
+        "B": "400",
+        "C": "350",
+        "D": "450"
+      },
+      "answer": "B",
+      "difficulty": "easy",
+      "domain": "Numbers to 10 000",
+      "source_page": "PDF p1",
+      "image": null,
+      "id": 282
+    },
+    {
+      "text": "Counting in hundreds, what number comes after 900?",
+      "options": {
+        "A": "1900",
+        "B": "901",
+        "C": "1000",
+        "D": "910"
+      },
+      "answer": "C",
+      "difficulty": "medium",
+      "domain": "Numbers to 10 000",
+      "source_page": "PDF p1",
+      "image": null,
+      "id": 283
+    },
+    {
+      "text": "A shop packs paper clips in boxes of 100. It has 4 boxes. How many paper clips are there?",
+      "options": {
+        "A": "40",
+        "B": "4000",
+        "C": "104",
+        "D": "400"
+      },
+      "answer": "D",
+      "difficulty": "medium",
+      "domain": "Numbers to 10 000",
+      "source_page": "PDF p1",
+      "image": null,
+      "id": 284
+    },
+    {
+      "text": "How many hundreds make one thousand?",
+      "options": {
+        "A": "10",
+        "B": "1",
+        "C": "100",
+        "D": "1000"
+      },
+      "answer": "A",
+      "difficulty": "medium",
+      "domain": "Numbers to 10 000",
+      "source_page": "PDF p1",
+      "image": null,
+      "id": 285
+    },
+    {
+      "text": "The number line on the page counts in hundreds from 100 up to 1000. What is the fifth number counted?",
+      "options": {
+        "A": "400",
+        "B": "500",
+        "C": "900",
+        "D": "600"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "domain": "Numbers to 10 000",
+      "source_page": "PDF p1",
+      "image": null,
+      "id": 286
+    },
+    {
+      "text": "The page says 10 thousands make ten thousand. Which numeral shows ten thousand?",
+      "options": {
+        "A": "1000",
+        "B": "100",
+        "C": "10 000",
+        "D": "100 000"
+      },
+      "answer": "C",
+      "difficulty": "easy",
+      "domain": "Numbers to 10 000",
+      "source_page": "PDF p2",
+      "image": null,
+      "id": 287
+    },
+    {
+      "text": "Counting in ones from 1000: 1000, 1001, 1002, 1003, 1004, ______ . What is the next number?",
+      "options": {
+        "A": "2005",
+        "B": "1010",
+        "C": "1100",
+        "D": "1005"
+      },
+      "answer": "D",
+      "difficulty": "easy",
+      "domain": "Numbers to 10 000",
+      "source_page": "PDF p2",
+      "image": null,
+      "id": 288
+    },
+    {
+      "text": "Counting in thousands: 1000, 2000, 3000, 4000, ... What is the number after 9000?",
+      "options": {
+        "A": "10 000",
+        "B": "9001",
+        "C": "90 000",
+        "D": "9100"
+      },
+      "answer": "A",
+      "difficulty": "easy",
+      "domain": "Numbers to 10 000",
+      "source_page": "PDF p2",
+      "image": null,
+      "id": 289
+    },
+    {
+      "text": "Which number is 3 thousands and 2 hundreds?",
+      "options": {
+        "A": "3020",
+        "B": "3200",
+        "C": "3002",
+        "D": "320"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "domain": "Numbers to 10 000",
+      "source_page": "PDF p2",
+      "image": null,
+      "id": 290
+    },
+    {
+      "text": "Write 6000 in words.",
+      "options": {
+        "A": "sixteen thousand",
+        "B": "six hundred",
+        "C": "six thousand",
+        "D": "sixty thousand"
+      },
+      "answer": "C",
+      "difficulty": "medium",
+      "domain": "Numbers to 10 000",
+      "source_page": "PDF p2",
+      "image": null,
+      "id": 291
+    },
+    {
+      "text": "Write 5380 in words.",
+      "options": {
+        "A": "five thousand and thirty-eight",
+        "B": "fifty-three thousand and eighty",
+        "C": "five thousand, three hundred and eight",
+        "D": "five thousand, three hundred and eighty"
+      },
+      "answer": "D",
+      "difficulty": "medium",
+      "domain": "Numbers to 10 000",
+      "source_page": "PDF p2",
+      "image": null,
+      "id": 292
+    },
+    {
+      "text": "What is the number word for 1005?",
+      "options": {
+        "A": "one thousand and five",
+        "B": "one thousand and fifty",
+        "C": "ten thousand and five",
+        "D": "one thousand five hundred"
+      },
+      "answer": "A",
+      "difficulty": "medium",
+      "domain": "Numbers to 10 000",
+      "source_page": "PDF p2",
+      "image": null,
+      "id": 293
+    },
+    {
+      "text": "In the sequence 5000, 5100, 5110, 5120, 5130, 5131, 5132, 5133, 5134, what number is 10 more than 5120?",
+      "options": {
+        "A": "5131",
+        "B": "5130",
+        "C": "5220",
+        "D": "5121"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "domain": "Numbers to 10 000",
+      "source_page": "PDF p2",
+      "image": null,
+      "id": 294
+    },
+    {
+      "text": "What number is 1000 more than 9000?",
+      "options": {
+        "A": "9001",
+        "B": "19 000",
+        "C": "10 000",
+        "D": "9100"
+      },
+      "answer": "C",
+      "difficulty": "medium",
+      "domain": "Numbers to 10 000",
+      "source_page": "PDF p2",
+      "image": null,
+      "id": 295
+    },
+    {
+      "text": "Start at 6000. Add 100, then add 10 more. What number do you get?",
+      "options": {
+        "A": "6101",
+        "B": "6010",
+        "C": "6100",
+        "D": "6110"
+      },
+      "answer": "D",
+      "difficulty": "hard",
+      "domain": "Numbers to 10 000",
+      "source_page": "PDF p2",
+      "image": null,
+      "id": 296
+    },
+    {
+      "text": "1 more than 2326 is ______ .",
+      "options": {
+        "A": "2327",
+        "B": "2325",
+        "C": "2426",
+        "D": "2336"
+      },
+      "answer": "A",
+      "difficulty": "easy",
+      "domain": "Numbers to 10 000",
+      "source_page": "PDF p3",
+      "image": null,
+      "id": 297
+    },
+    {
+      "text": "Looking at the pattern 4032, 4042, 4052, 4062, 4072 - what are you counting by?",
+      "options": {
+        "A": "1000",
+        "B": "10",
+        "C": "1",
+        "D": "100"
+      },
+      "answer": "B",
+      "difficulty": "easy",
+      "domain": "Numbers to 10 000",
+      "source_page": "PDF p3",
+      "image": null,
+      "id": 298
+    },
+    {
+      "text": "10 less than 4052 is ______ .",
+      "options": {
+        "A": "4052",
+        "B": "4062",
+        "C": "4042",
+        "D": "4032"
+      },
+      "answer": "C",
+      "difficulty": "medium",
+      "domain": "Numbers to 10 000",
+      "source_page": "PDF p3",
+      "image": null,
+      "id": 299
+    },
+    {
+      "text": "100 more than 5569 is ______ .",
+      "options": {
+        "A": "5569",
+        "B": "5769",
+        "C": "5469",
+        "D": "5669"
+      },
+      "answer": "D",
+      "difficulty": "medium",
+      "domain": "Numbers to 10 000",
+      "source_page": "PDF p3",
+      "image": null,
+      "id": 300
+    },
+    {
+      "text": "1000 less than 2952 is ______ .",
+      "options": {
+        "A": "1952",
+        "B": "3952",
+        "C": "952",
+        "D": "2952"
+      },
+      "answer": "A",
+      "difficulty": "medium",
+      "domain": "Numbers to 10 000",
+      "source_page": "PDF p3",
+      "image": null,
+      "id": 301
+    },
+    {
+      "text": "The number strip is 952, 1952, 2952, 3952, 4952. What number is 1000 more than 3952?",
+      "options": {
+        "A": "3953",
+        "B": "4952",
+        "C": "5952",
+        "D": "4052"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "domain": "Numbers to 10 000",
+      "source_page": "PDF p3",
+      "image": null,
+      "id": 302
+    },
+    {
+      "text": "The place-value discs show 2 thousands, 1 hundred, 4 tens and 5 ones. What number is shown?",
+      "options": {
+        "A": "2451",
+        "B": "2045",
+        "C": "2145",
+        "D": "2415"
+      },
+      "answer": "C",
+      "difficulty": "medium",
+      "domain": "Numbers to 10 000",
+      "source_page": "PDF p3",
+      "image": null,
+      "id": 303
+    },
+    {
+      "text": "Which of these numbers is the greatest: 5469, 5569, 5669 or 5769?",
+      "options": {
+        "A": "5569",
+        "B": "5469",
+        "C": "5669",
+        "D": "5769"
+      },
+      "answer": "D",
+      "difficulty": "easy",
+      "domain": "Numbers to 10 000",
+      "source_page": "PDF p3",
+      "image": null,
+      "id": 304
+    },
+    {
+      "text": "Start at 2326. Add 1, then take away 10. What number do you get?",
+      "options": {
+        "A": "2317",
+        "B": "2327",
+        "C": "2336",
+        "D": "2316"
+      },
+      "answer": "A",
+      "difficulty": "hard",
+      "domain": "Numbers to 10 000",
+      "source_page": "PDF p3",
+      "image": null,
+      "id": 305
+    },
+    {
+      "text": "Take 100 more than 5569, then take away 10. What number do you get?",
+      "options": {
+        "A": "5679",
+        "B": "5659",
+        "C": "5669",
+        "D": "5649"
+      },
+      "answer": "B",
+      "difficulty": "hard",
+      "domain": "Numbers to 10 000",
+      "source_page": "PDF p3",
+      "image": null,
+      "id": 306
+    },
+    {
+      "text": "Write the missing number: 3810, 3811, ______ , 3813.",
+      "options": {
+        "A": "3820",
+        "B": "3811",
+        "C": "3812",
+        "D": "3814"
+      },
+      "answer": "C",
+      "difficulty": "easy",
+      "domain": "Numbers to 10 000",
+      "source_page": "PDF p4",
+      "image": null,
+      "id": 307
+    },
+    {
+      "text": "1 more than 3813 is ______ .",
+      "options": {
+        "A": "3812",
+        "B": "3813",
+        "C": "3823",
+        "D": "3814"
+      },
+      "answer": "D",
+      "difficulty": "easy",
+      "domain": "Numbers to 10 000",
+      "source_page": "PDF p4",
+      "image": null,
+      "id": 308
+    },
+    {
+      "text": "Write the missing number: 6209, 6219, 6229, ______ , 6249.",
+      "options": {
+        "A": "6239",
+        "B": "6230",
+        "C": "6259",
+        "D": "6329"
+      },
+      "answer": "A",
+      "difficulty": "medium",
+      "domain": "Numbers to 10 000",
+      "source_page": "PDF p4",
+      "image": null,
+      "id": 309
+    },
+    {
+      "text": "10 more than 6249 is ______ .",
+      "options": {
+        "A": "6269",
+        "B": "6259",
+        "C": "6239",
+        "D": "6250"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "domain": "Numbers to 10 000",
+      "source_page": "PDF p4",
+      "image": null,
+      "id": 310
+    },
+    {
+      "text": "Write the missing number: 8634, 8734, 8834, ______ , 9034.",
+      "options": {
+        "A": "9834",
+        "B": "9034",
+        "C": "8934",
+        "D": "8844"
+      },
+      "answer": "C",
+      "difficulty": "medium",
+      "domain": "Numbers to 10 000",
+      "source_page": "PDF p4",
+      "image": null,
+      "id": 311
+    },
+    {
+      "text": "100 less than 9334 is ______ .",
+      "options": {
+        "A": "9324",
+        "B": "9333",
+        "C": "8334",
+        "D": "9234"
+      },
+      "answer": "D",
+      "difficulty": "medium",
+      "domain": "Numbers to 10 000",
+      "source_page": "PDF p4",
+      "image": null,
+      "id": 312
+    },
+    {
+      "text": "Write the missing number: 537, 1537, 2537, ______ , 4537.",
+      "options": {
+        "A": "3537",
+        "B": "3437",
+        "C": "3547",
+        "D": "2937"
+      },
+      "answer": "A",
+      "difficulty": "medium",
+      "domain": "Numbers to 10 000",
+      "source_page": "PDF p4",
+      "image": null,
+      "id": 313
+    },
+    {
+      "text": "1000 more than 4537 is ______ .",
+      "options": {
+        "A": "14 537",
+        "B": "5537",
+        "C": "4567",
+        "D": "4547"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "domain": "Numbers to 10 000",
+      "source_page": "PDF p4",
+      "image": null,
+      "id": 314
+    },
+    {
+      "text": "In the pattern 537, 1537, 2537, ... which number is the 6th number in the pattern?",
+      "options": {
+        "A": "4537",
+        "B": "6537",
+        "C": "5537",
+        "D": "7537"
+      },
+      "answer": "C",
+      "difficulty": "hard",
+      "domain": "Numbers to 10 000",
+      "source_page": "PDF p4",
+      "image": null,
+      "id": 315
+    },
+    {
+      "text": "Rani used 290 sticks so far. Sally used 478 sticks. Who used fewer sticks?",
+      "options": {
+        "A": "They used the same number of sticks",
+        "B": "Sally",
+        "C": "There is not enough information",
+        "D": "Rani"
+      },
+      "answer": "D",
+      "difficulty": "easy",
+      "domain": "Numbers to 10 000",
+      "source_page": "PDF p4",
+      "image": null,
+      "id": 316
+    },
+    {
+      "text": "Rani opened fewer than 5 packs of sticks in all to complete her model. What is the greatest number of packs she could have opened?",
+      "options": {
+        "A": "4",
+        "B": "3",
+        "C": "6",
+        "D": "5"
+      },
+      "answer": "A",
+      "difficulty": "medium",
+      "domain": "Numbers to 10 000",
+      "source_page": "PDF p4",
+      "image": null,
+      "id": 317
+    },
+    {
+      "text": "There are 10 boxes of 100 paper clips, so there are 1000 paper clips in all. If 2 boxes are used, how many paper clips are left?",
+      "options": {
+        "A": "200",
+        "B": "800",
+        "C": "900",
+        "D": "980"
+      },
+      "answer": "B",
+      "difficulty": "hard",
+      "domain": "Numbers to 10 000",
+      "source_page": "PDF p1",
+      "image": null,
+      "id": 318
+    },
+    {
+      "text": "A number is made of 3 thousands and 2 hundreds. What is 100 more than that number?",
+      "options": {
+        "A": "4200",
+        "B": "3210",
+        "C": "3300",
+        "D": "3201"
+      },
+      "answer": "C",
+      "difficulty": "hard",
+      "domain": "Numbers to 10 000",
+      "source_page": "PDF p2",
+      "image": null,
+      "id": 319
+    },
+    {
+      "text": "Take 10 less than 4052, then count 100 more. What number do you get?",
+      "options": {
+        "A": "4152",
+        "B": "4132",
+        "C": "4242",
+        "D": "4142"
+      },
+      "answer": "D",
+      "difficulty": "hard",
+      "domain": "Numbers to 10 000",
+      "source_page": "PDF p3",
+      "image": null,
+      "id": 320
+    },
+    {
+      "text": "What is 100 less than 9334? Now take 10 less than that answer. What number do you get?",
+      "options": {
+        "A": "9224",
+        "B": "9234",
+        "C": "9244",
+        "D": "9324"
+      },
+      "answer": "A",
+      "difficulty": "hard",
+      "domain": "Numbers to 10 000",
+      "source_page": "PDF p4",
+      "image": null,
+      "id": 321
     }
   ]
 }
