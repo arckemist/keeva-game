@@ -2,8 +2,8 @@
   "kid": "Keeva",
   "subject": "Mathematics",
   "grade": "3",
-  "source_pdf": "Adobe Scan Sep 20, 2026.pdf (Marshall Cavendish, Singapore Math)",
-  "generated_at": "2026-09-20T17:22:44",
+  "source_pdf": "Adobe Scan Sep 20 2026 (Workbook 3A ch1-4, 52pp) + Adobe Scan Oct 14 2026 (ch4-5 Multiplication & Division, 23pp) — Marshall Cavendish Singapore Math",
+  "generated_at": "2026-10-18T11:11:41",
   "title": "KeeVa's Math Quest",
   "character": "knight",
   "config": {
@@ -4830,6 +4830,2601 @@
       "source_page": "PDF p4",
       "image": null,
       "id": 321
+    },
+    {
+      "text": "Multiply 8 by 2. What is 8 × 2?",
+      "options": {
+        "A": "12",
+        "B": "16",
+        "C": "18",
+        "D": "10"
+      },
+      "answer": "B",
+      "difficulty": "easy",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF2 p1",
+      "image": null,
+      "id": 322
+    },
+    {
+      "text": "Multiply 8 by 4. What is 8 × 4?",
+      "options": {
+        "A": "24",
+        "B": "36",
+        "C": "32",
+        "D": "28"
+      },
+      "answer": "C",
+      "difficulty": "easy",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF2 p1",
+      "image": null,
+      "id": 323
+    },
+    {
+      "text": "Multiply 8 by 5. What is 8 × 5?",
+      "options": {
+        "A": "45",
+        "B": "46",
+        "C": "35",
+        "D": "40"
+      },
+      "answer": "D",
+      "difficulty": "easy",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF2 p1",
+      "image": null,
+      "id": 324
+    },
+    {
+      "text": "Part (a) shows 4 trays. Each tray holds 8 cookies. How many cookies are there in all?",
+      "options": {
+        "A": "32",
+        "B": "24",
+        "C": "12",
+        "D": "36"
+      },
+      "answer": "A",
+      "difficulty": "easy",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF2 p1",
+      "image": null,
+      "id": 325
+    },
+    {
+      "text": "Part (b) shows 5 rows with 8 lollipops in each row. Which multiplication sentence finds the total number of lollipops?",
+      "options": {
+        "A": "8 × 4 = 32",
+        "B": "8 × 5 = 40",
+        "C": "5 × 5 = 25",
+        "D": "8 + 5 = 13"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF2 p1",
+      "image": null,
+      "id": 326
+    },
+    {
+      "text": "The buttons in part (a) are in 3 rings with 8 buttons in each ring. How many buttons are there in all?",
+      "options": {
+        "A": "18",
+        "B": "32",
+        "C": "24",
+        "D": "11"
+      },
+      "answer": "C",
+      "difficulty": "easy",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF2 p2",
+      "image": null,
+      "id": 327
+    },
+    {
+      "text": "Part (a) asks for two multiplication equations for the same picture. One is 8 × 3 = 24. What is the other one?",
+      "options": {
+        "A": "8 + 3 = 11",
+        "B": "8 × 8 = 64",
+        "C": "3 × 3 = 9",
+        "D": "3 × 8 = 24"
+      },
+      "answer": "D",
+      "difficulty": "medium",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF2 p2",
+      "image": null,
+      "id": 328
+    },
+    {
+      "text": "In the riddle table, what is 8 × 7?",
+      "options": {
+        "A": "56",
+        "B": "48",
+        "C": "63",
+        "D": "54"
+      },
+      "answer": "A",
+      "difficulty": "easy",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF2 p2",
+      "image": null,
+      "id": 329
+    },
+    {
+      "text": "In the riddle table, what is 8 × 6?",
+      "options": {
+        "A": "54",
+        "B": "48",
+        "C": "42",
+        "D": "46"
+      },
+      "answer": "B",
+      "difficulty": "easy",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF2 p2",
+      "image": null,
+      "id": 330
+    },
+    {
+      "text": "In the riddle table, what is 8 × 8?",
+      "options": {
+        "A": "56",
+        "B": "72",
+        "C": "64",
+        "D": "68"
+      },
+      "answer": "C",
+      "difficulty": "easy",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF2 p2",
+      "image": null,
+      "id": 331
+    },
+    {
+      "text": "In the riddle table, what is 8 × 9?",
+      "options": {
+        "A": "63",
+        "B": "76",
+        "C": "81",
+        "D": "72"
+      },
+      "answer": "D",
+      "difficulty": "easy",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF2 p2",
+      "image": null,
+      "id": 332
+    },
+    {
+      "text": "In the riddle table, what is 8 × 10?",
+      "options": {
+        "A": "80",
+        "B": "72",
+        "C": "90",
+        "D": "88"
+      },
+      "answer": "A",
+      "difficulty": "easy",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF2 p2",
+      "image": null,
+      "id": 333
+    },
+    {
+      "text": "In the riddle table, the letter R is written beside one multiplication fact. Which fact is beside R?",
+      "options": {
+        "A": "8 × 2 = 16",
+        "B": "8 × 1 = 8",
+        "C": "8 × 5 = 40",
+        "D": "8 × 4 = 32"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF2 p2",
+      "image": null,
+      "id": 334
+    },
+    {
+      "text": "The example says that 6 × 8 is 8 more than 5 × 8. What is 6 × 8?",
+      "options": {
+        "A": "46",
+        "B": "56",
+        "C": "48",
+        "D": "40"
+      },
+      "answer": "C",
+      "difficulty": "easy",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF2 p3",
+      "image": null,
+      "id": 335
+    },
+    {
+      "text": "How much more is 6 × 8 than 5 × 8?",
+      "options": {
+        "A": "6",
+        "B": "1",
+        "C": "16",
+        "D": "8"
+      },
+      "answer": "D",
+      "difficulty": "medium",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF2 p3",
+      "image": null,
+      "id": 336
+    },
+    {
+      "text": "Part (a) works out 7 × 8 as 40 + 16. What is 7 × 8?",
+      "options": {
+        "A": "56",
+        "B": "66",
+        "C": "46",
+        "D": "48"
+      },
+      "answer": "A",
+      "difficulty": "medium",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF2 p3",
+      "image": null,
+      "id": 337
+    },
+    {
+      "text": "Part (b) works out 9 × 8 as 80 - 8. What is 9 × 8?",
+      "options": {
+        "A": "64",
+        "B": "72",
+        "C": "88",
+        "D": "70"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF2 p3",
+      "image": null,
+      "id": 338
+    },
+    {
+      "text": "Part (c) works out 8 × 8 as 80 - 16. What is 8 × 8?",
+      "options": {
+        "A": "62",
+        "B": "96",
+        "C": "64",
+        "D": "72"
+      },
+      "answer": "C",
+      "difficulty": "hard",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF2 p3",
+      "image": null,
+      "id": 339
+    },
+    {
+      "text": "Parts (b) and (c) both start from 10 × 8. What is 10 × 8?",
+      "options": {
+        "A": "88",
+        "B": "90",
+        "C": "72",
+        "D": "80"
+      },
+      "answer": "D",
+      "difficulty": "easy",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF2 p3",
+      "image": null,
+      "id": 340
+    },
+    {
+      "text": "Question 5(a) asks 48 ÷ 8 = ___. What is 48 ÷ 8?",
+      "options": {
+        "A": "6",
+        "B": "40",
+        "C": "7",
+        "D": "8"
+      },
+      "answer": "A",
+      "difficulty": "easy",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF2 p4",
+      "image": null,
+      "id": 341
+    },
+    {
+      "text": "Question 5(b) asks 64 ÷ 8 = ___. What is 64 ÷ 8?",
+      "options": {
+        "A": "56",
+        "B": "8",
+        "C": "7",
+        "D": "6"
+      },
+      "answer": "B",
+      "difficulty": "easy",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF2 p4",
+      "image": null,
+      "id": 342
+    },
+    {
+      "text": "Question 6: Budi bakes 10 cakes. He uses 8 cherries to decorate each cake. How many cherries does he use in all?",
+      "options": {
+        "A": "64",
+        "B": "18",
+        "C": "80",
+        "D": "88"
+      },
+      "answer": "C",
+      "difficulty": "medium",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF2 p4",
+      "image": null,
+      "id": 343
+    },
+    {
+      "text": "Question 7: Lin arranges 72 boxes of fruit into 8 equal stacks. How many boxes are there in each stack?",
+      "options": {
+        "A": "64",
+        "B": "12",
+        "C": "8",
+        "D": "9"
+      },
+      "answer": "D",
+      "difficulty": "medium",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF2 p4",
+      "image": null,
+      "id": 344
+    },
+    {
+      "text": "Question 8: Aida has 56 pieces of clothing to donate. She puts them equally into bags of 8. How many bags of clothing does she have?",
+      "options": {
+        "A": "7",
+        "B": "48",
+        "C": "8",
+        "D": "6"
+      },
+      "answer": "A",
+      "difficulty": "medium",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF2 p4",
+      "image": null,
+      "id": 345
+    },
+    {
+      "text": "Question 5(a) prints 6 × 8 = 48 and 8 × 6 = 48. What do these two equations show?",
+      "options": {
+        "A": "48 ÷ 6 is not equal to 8.",
+        "B": "Multiplying 6 and 8 in either order gives the same product.",
+        "C": "8 × 6 is greater than 6 × 8.",
+        "D": "6 + 8 also equals 48."
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF2 p4",
+      "image": null,
+      "id": 346
+    },
+    {
+      "text": "Question 1 says to fill in each box with a digit from 1 to 9. It shows 8 × ___ = 16. Which digit belongs in the box?",
+      "options": {
+        "A": "8",
+        "B": "4",
+        "C": "2",
+        "D": "3"
+      },
+      "answer": "C",
+      "difficulty": "medium",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF2 p4",
+      "image": null,
+      "id": 347
+    },
+    {
+      "text": "Question 1 also shows ___2 ÷ 8 = 9. Which digit belongs in the box?",
+      "options": {
+        "A": "6",
+        "B": "8",
+        "C": "9",
+        "D": "7"
+      },
+      "answer": "D",
+      "difficulty": "medium",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF2 p4",
+      "image": null,
+      "id": 348
+    },
+    {
+      "text": "Question 2(a): 7 × 8 = 10 × 8 - ___ × 8. What number goes in the blank?",
+      "options": {
+        "A": "3",
+        "B": "17",
+        "C": "2",
+        "D": "7"
+      },
+      "answer": "A",
+      "difficulty": "hard",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF2 p4",
+      "image": null,
+      "id": 349
+    },
+    {
+      "text": "Question 2(b): 48 = ___ × 8 + 1 × 8. What number goes in the blank?",
+      "options": {
+        "A": "7",
+        "B": "5",
+        "C": "6",
+        "D": "4"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF2 p4",
+      "image": null,
+      "id": 350
+    },
+    {
+      "text": "Question 3(a): A group of children bought a present for a classmate. The present cost $48. Each child paid $6. How many children were there in the group?",
+      "options": {
+        "A": "7",
+        "B": "42",
+        "C": "8",
+        "D": "6"
+      },
+      "answer": "C",
+      "difficulty": "medium",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF2 p4",
+      "image": null,
+      "id": 351
+    },
+    {
+      "text": "Question 3(b): There were 8 children in the group. Each child blew up 7 balloons for a party. How many balloons did they blow up in all?",
+      "options": {
+        "A": "48",
+        "B": "64",
+        "C": "15",
+        "D": "56"
+      },
+      "answer": "D",
+      "difficulty": "medium",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF2 p4",
+      "image": null,
+      "id": 352
+    },
+    {
+      "text": "A group of children shared the cost of a $48 present equally. Each child paid $6. Then each child blew up 7 balloons for a party. How many balloons did they blow up in all?",
+      "options": {
+        "A": "56",
+        "B": "64",
+        "C": "48",
+        "D": "42"
+      },
+      "answer": "A",
+      "difficulty": "hard",
+      "domain": "Word Problems",
+      "source_page": "PDF2 p4",
+      "image": null,
+      "id": 353
+    },
+    {
+      "text": "The example asks you to multiply 9 by 4. What is 9 × 4?",
+      "options": {
+        "A": "40",
+        "B": "36",
+        "C": "32",
+        "D": "45"
+      },
+      "answer": "B",
+      "difficulty": "easy",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF2 p5",
+      "image": null,
+      "id": 354
+    },
+    {
+      "text": "In part (a) you multiply 9 by 6. What is 9 × 6?",
+      "options": {
+        "A": "63",
+        "B": "45",
+        "C": "54",
+        "D": "56"
+      },
+      "answer": "C",
+      "difficulty": "easy",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF2 p5",
+      "image": null,
+      "id": 355
+    },
+    {
+      "text": "In part (b) you multiply 9 by 10. What is 9 × 10?",
+      "options": {
+        "A": "19",
+        "B": "100",
+        "C": "81",
+        "D": "90"
+      },
+      "answer": "D",
+      "difficulty": "easy",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF2 p5",
+      "image": null,
+      "id": 356
+    },
+    {
+      "text": "Part (a) shows 6 rows with 9 cars in each row. How many cars are there in all?",
+      "options": {
+        "A": "54",
+        "B": "15",
+        "C": "63",
+        "D": "45"
+      },
+      "answer": "A",
+      "difficulty": "medium",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF2 p5",
+      "image": null,
+      "id": 357
+    },
+    {
+      "text": "Part (b) shows 10 rings with 9 beads in each ring. How many beads are there in all?",
+      "options": {
+        "A": "81",
+        "B": "90",
+        "C": "99",
+        "D": "19"
+      },
+      "answer": "B",
+      "difficulty": "easy",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF2 p5",
+      "image": null,
+      "id": 358
+    },
+    {
+      "text": "A rope is 54 m long. It is cut into 9 equal pieces. What is the length of each piece?",
+      "options": {
+        "A": "7 m",
+        "B": "9 m",
+        "C": "6 m",
+        "D": "45 m"
+      },
+      "answer": "C",
+      "difficulty": "medium",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF2 p6",
+      "image": null,
+      "id": 359
+    },
+    {
+      "text": "Alan receives $7 as pocket money each week. How much does he receive over 8 weeks?",
+      "options": {
+        "A": "$48",
+        "B": "$64",
+        "C": "$15",
+        "D": "$56"
+      },
+      "answer": "D",
+      "difficulty": "medium",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF2 p6",
+      "image": null,
+      "id": 360
+    },
+    {
+      "text": "Min buys 9 candles. Kumar buys twice as many candles as Min. How many candles does Kumar buy?",
+      "options": {
+        "A": "18",
+        "B": "27",
+        "C": "11",
+        "D": "9"
+      },
+      "answer": "A",
+      "difficulty": "medium",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF2 p6",
+      "image": null,
+      "id": 361
+    },
+    {
+      "text": "Parcel A weighs 21 kg. Parcel A weighs 3 times as much as Parcel B. What is the mass of Parcel B?",
+      "options": {
+        "A": "18 kg",
+        "B": "7 kg",
+        "C": "24 kg",
+        "D": "63 kg"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF2 p6",
+      "image": null,
+      "id": 362
+    },
+    {
+      "text": "The bar model for the rope is split into 9 equal parts and the whole bar is 54 m. Which number sentence finds the length of one piece?",
+      "options": {
+        "A": "54 × 9 = 486",
+        "B": "54 - 9 = 45",
+        "C": "54 ÷ 9 = 6",
+        "D": "54 + 9 = 63"
+      },
+      "answer": "C",
+      "difficulty": "medium",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF2 p6",
+      "image": null,
+      "id": 363
+    },
+    {
+      "text": "Alan's bar model shows 8 equal parts with 7 written in each part. What does each part stand for?",
+      "options": {
+        "A": "The 8 weeks Alan saves",
+        "B": "The $1 Alan spends each week",
+        "C": "The $56 Alan receives altogether",
+        "D": "The $7 Alan receives in one week"
+      },
+      "answer": "D",
+      "difficulty": "easy",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF2 p6",
+      "image": null,
+      "id": 364
+    },
+    {
+      "text": "Adil has 7 badges. Ben has 5 times as many badges as Adil. How many badges does Ben have?",
+      "options": {
+        "A": "35",
+        "B": "40",
+        "C": "30",
+        "D": "12"
+      },
+      "answer": "A",
+      "difficulty": "medium",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF2 p7",
+      "image": null,
+      "id": 365
+    },
+    {
+      "text": "Tank A contains 54 litres of water. Tank A contains 6 times as much water as Tank B. How much water does Tank B contain?",
+      "options": {
+        "A": "6 litres",
+        "B": "9 litres",
+        "C": "48 litres",
+        "D": "60 litres"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF2 p7",
+      "image": null,
+      "id": 366
+    },
+    {
+      "text": "Adil has 7 badges and Ben has 5 times as many. Which number sentence finds the number of badges Ben has?",
+      "options": {
+        "A": "7 + 5 = 12",
+        "B": "7 × 7 = 49",
+        "C": "7 × 5 = 35",
+        "D": "5 × 5 = 25"
+      },
+      "answer": "C",
+      "difficulty": "easy",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF2 p7",
+      "image": null,
+      "id": 367
+    },
+    {
+      "text": "In Tank A's bar model the whole bar is 54 litres and it is cut into 6 equal units. What is the value of 3 units?",
+      "options": {
+        "A": "9 litres",
+        "B": "18 litres",
+        "C": "36 litres",
+        "D": "27 litres"
+      },
+      "answer": "D",
+      "difficulty": "hard",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF2 p7",
+      "image": null,
+      "id": 368
+    },
+    {
+      "text": "A pupil must write a word problem using the words 'baskets' and 'guavas', the numbers 24 and 6, and the words 'each' and 'equally'. If 24 guavas are packed 6 in each basket, how many baskets are needed?",
+      "options": {
+        "A": "4",
+        "B": "3",
+        "C": "18",
+        "D": "6"
+      },
+      "answer": "A",
+      "difficulty": "medium",
+      "domain": "Word Problems",
+      "source_page": "PDF2 p7",
+      "image": null,
+      "id": 369
+    },
+    {
+      "text": "What is 7 × 8?",
+      "options": {
+        "A": "54",
+        "B": "56",
+        "C": "63",
+        "D": "48"
+      },
+      "answer": "B",
+      "difficulty": "easy",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF2 p8",
+      "image": null,
+      "id": 370
+    },
+    {
+      "text": "What is 8 × 8?",
+      "options": {
+        "A": "72",
+        "B": "63",
+        "C": "64",
+        "D": "56"
+      },
+      "answer": "C",
+      "difficulty": "easy",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF2 p8",
+      "image": null,
+      "id": 371
+    },
+    {
+      "text": "What is 6 × 7?",
+      "options": {
+        "A": "49",
+        "B": "48",
+        "C": "35",
+        "D": "42"
+      },
+      "answer": "D",
+      "difficulty": "easy",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF2 p8",
+      "image": null,
+      "id": 372
+    },
+    {
+      "text": "What is 10 × 9?",
+      "options": {
+        "A": "90",
+        "B": "89",
+        "C": "81",
+        "D": "99"
+      },
+      "answer": "A",
+      "difficulty": "easy",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF2 p8",
+      "image": null,
+      "id": 373
+    },
+    {
+      "text": "What is 4 × 7?",
+      "options": {
+        "A": "21",
+        "B": "28",
+        "C": "32",
+        "D": "24"
+      },
+      "answer": "B",
+      "difficulty": "easy",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF2 p8",
+      "image": null,
+      "id": 374
+    },
+    {
+      "text": "Complete the number sentence: ___ × 6 = 48",
+      "options": {
+        "A": "9",
+        "B": "7",
+        "C": "8",
+        "D": "6"
+      },
+      "answer": "C",
+      "difficulty": "medium",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF2 p8",
+      "image": null,
+      "id": 375
+    },
+    {
+      "text": "Which of these numbers appears in the Multiplication Table of 9?",
+      "options": {
+        "A": "48",
+        "B": "56",
+        "C": "64",
+        "D": "63"
+      },
+      "answer": "D",
+      "difficulty": "medium",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF2 p8",
+      "image": null,
+      "id": 376
+    },
+    {
+      "text": "In the Multiplication Table of 8, which number comes right after 56?",
+      "options": {
+        "A": "64",
+        "B": "57",
+        "C": "60",
+        "D": "72"
+      },
+      "answer": "A",
+      "difficulty": "medium",
+      "domain": "Multiplication Tables of 6, 7, 8 and 9",
+      "source_page": "PDF2 p8",
+      "image": null,
+      "id": 377
+    },
+    {
+      "text": "The Example says 3 tens × 2 = 6 tens. What is 6 tens?",
+      "options": {
+        "A": "66",
+        "B": "60",
+        "C": "6",
+        "D": "600"
+      },
+      "answer": "B",
+      "difficulty": "easy",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p9",
+      "image": null,
+      "id": 378
+    },
+    {
+      "text": "What is 3 hundreds × 2?",
+      "options": {
+        "A": "6000",
+        "B": "60",
+        "C": "600",
+        "D": "300"
+      },
+      "answer": "C",
+      "difficulty": "easy",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p9",
+      "image": null,
+      "id": 379
+    },
+    {
+      "text": "What is 2 tens × 4?",
+      "options": {
+        "A": "8",
+        "B": "44",
+        "C": "800",
+        "D": "80"
+      },
+      "answer": "D",
+      "difficulty": "easy",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p9",
+      "image": null,
+      "id": 380
+    },
+    {
+      "text": "What is 2 hundreds × 4?",
+      "options": {
+        "A": "800",
+        "B": "240",
+        "C": "8000",
+        "D": "80"
+      },
+      "answer": "A",
+      "difficulty": "medium",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p9",
+      "image": null,
+      "id": 381
+    },
+    {
+      "text": "What is 4 tens × 3?",
+      "options": {
+        "A": "70",
+        "B": "120",
+        "C": "1200",
+        "D": "12"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p9",
+      "image": null,
+      "id": 382
+    },
+    {
+      "text": "What is 4 hundreds × 3?",
+      "options": {
+        "A": "12000",
+        "B": "120",
+        "C": "1200",
+        "D": "430"
+      },
+      "answer": "C",
+      "difficulty": "medium",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p9",
+      "image": null,
+      "id": 383
+    },
+    {
+      "text": "What is 2 ones × 4?",
+      "options": {
+        "A": "24",
+        "B": "42",
+        "C": "6",
+        "D": "8"
+      },
+      "answer": "D",
+      "difficulty": "easy",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p9",
+      "image": null,
+      "id": 384
+    },
+    {
+      "text": "What is 4 ones × 3?",
+      "options": {
+        "A": "12",
+        "B": "43",
+        "C": "7",
+        "D": "34"
+      },
+      "answer": "A",
+      "difficulty": "easy",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p9",
+      "image": null,
+      "id": 385
+    },
+    {
+      "text": "Multiply 3 tens by 3.",
+      "options": {
+        "A": "60",
+        "B": "90",
+        "C": "33",
+        "D": "900"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p10",
+      "image": null,
+      "id": 386
+    },
+    {
+      "text": "Find the product of 1 hundred and 5.",
+      "options": {
+        "A": "105",
+        "B": "150",
+        "C": "500",
+        "D": "5000"
+      },
+      "answer": "C",
+      "difficulty": "medium",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p10",
+      "image": null,
+      "id": 387
+    },
+    {
+      "text": "Which number matches 7 tens × 3?",
+      "options": {
+        "A": "200",
+        "B": "2000",
+        "C": "21",
+        "D": "210"
+      },
+      "answer": "D",
+      "difficulty": "easy",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p10",
+      "image": null,
+      "id": 388
+    },
+    {
+      "text": "Which number matches 500 × 4?",
+      "options": {
+        "A": "2000",
+        "B": "200",
+        "C": "540",
+        "D": "20000"
+      },
+      "answer": "A",
+      "difficulty": "medium",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p10",
+      "image": null,
+      "id": 389
+    },
+    {
+      "text": "Which number matches 40 × 5?",
+      "options": {
+        "A": "20",
+        "B": "200",
+        "C": "45",
+        "D": "2000"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p10",
+      "image": null,
+      "id": 390
+    },
+    {
+      "text": "Which number matches 3 ones × 7?",
+      "options": {
+        "A": "10",
+        "B": "210",
+        "C": "21",
+        "D": "37"
+      },
+      "answer": "C",
+      "difficulty": "easy",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p10",
+      "image": null,
+      "id": 391
+    },
+    {
+      "text": "In the Example, 12 × 3 = 36. The Check! box says 12 × 3 is about 10 × 3. What is 10 × 3?",
+      "options": {
+        "A": "13",
+        "B": "36",
+        "C": "32",
+        "D": "30"
+      },
+      "answer": "D",
+      "difficulty": "easy",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p10",
+      "image": null,
+      "id": 392
+    },
+    {
+      "text": "What is 230 × 2?",
+      "options": {
+        "A": "460",
+        "B": "440",
+        "C": "260",
+        "D": "640"
+      },
+      "answer": "A",
+      "difficulty": "medium",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p10",
+      "image": null,
+      "id": 393
+    },
+    {
+      "text": "What is 44 × 2?",
+      "options": {
+        "A": "84",
+        "B": "88",
+        "C": "66",
+        "D": "46"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p10",
+      "image": null,
+      "id": 394
+    },
+    {
+      "text": "What is 123 × 3?",
+      "options": {
+        "A": "126",
+        "B": "339",
+        "C": "369",
+        "D": "396"
+      },
+      "answer": "C",
+      "difficulty": "medium",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p10",
+      "image": null,
+      "id": 395
+    },
+    {
+      "text": "The Check! box checks 12 × 3 = 36 by estimating with 10 × 3 = 30. Using the same method, which estimate shows that 230 × 2 = 460 is reasonable?",
+      "options": {
+        "A": "300 × 2 = 600",
+        "B": "20 × 2 = 40",
+        "C": "230 + 2 = 232",
+        "D": "200 × 2 = 400"
+      },
+      "answer": "D",
+      "difficulty": "hard",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p10",
+      "image": null,
+      "id": 396
+    },
+    {
+      "text": "Multiply: 11 x 5 = ?",
+      "options": {
+        "A": "55",
+        "B": "65",
+        "C": "50",
+        "D": "44"
+      },
+      "answer": "A",
+      "difficulty": "easy",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p11",
+      "image": null,
+      "id": 397
+    },
+    {
+      "text": "Multiply: 211 x 4 = ?",
+      "options": {
+        "A": "824",
+        "B": "844",
+        "C": "644",
+        "D": "855"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p11",
+      "image": null,
+      "id": 398
+    },
+    {
+      "text": "In the Match exercise, which answer belongs with 111 x 9?",
+      "options": {
+        "A": "899",
+        "B": "909",
+        "C": "999",
+        "D": "989"
+      },
+      "answer": "C",
+      "difficulty": "medium",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p11",
+      "image": null,
+      "id": 399
+    },
+    {
+      "text": "Multiply: 312 x 3 = ?",
+      "options": {
+        "A": "916",
+        "B": "1036",
+        "C": "906",
+        "D": "936"
+      },
+      "answer": "D",
+      "difficulty": "medium",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p11",
+      "image": null,
+      "id": 400
+    },
+    {
+      "text": "Multiply: 203 x 2 = ?",
+      "options": {
+        "A": "406",
+        "B": "506",
+        "C": "403",
+        "D": "405"
+      },
+      "answer": "A",
+      "difficulty": "medium",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p11",
+      "image": null,
+      "id": 401
+    },
+    {
+      "text": "Multiply: 101 x 6 = ?",
+      "options": {
+        "A": "600",
+        "B": "606",
+        "C": "616",
+        "D": "666"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p11",
+      "image": null,
+      "id": 402
+    },
+    {
+      "text": "Multiply: 223 x 3 = ?",
+      "options": {
+        "A": "659",
+        "B": "963",
+        "C": "669",
+        "D": "609"
+      },
+      "answer": "C",
+      "difficulty": "medium",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p11",
+      "image": null,
+      "id": 403
+    },
+    {
+      "text": "The worked example on this page multiplies 134 by 4. What is the product?",
+      "options": {
+        "A": "436",
+        "B": "526",
+        "C": "546",
+        "D": "536"
+      },
+      "answer": "D",
+      "difficulty": "easy",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p11",
+      "image": null,
+      "id": 404
+    },
+    {
+      "text": "In the worked example 134 x 4 = 536, the ones are multiplied first: 4 ones x 4 = 16 ones, renamed as 1 ten and 6 ones. Then 3 tens x 4 = 12 tens, and the 1 ten renamed makes 13 tens. How many hundreds are renamed from those 13 tens?",
+      "options": {
+        "A": "1",
+        "B": "0",
+        "C": "13",
+        "D": "3"
+      },
+      "answer": "A",
+      "difficulty": "hard",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p11",
+      "image": null,
+      "id": 405
+    },
+    {
+      "text": "The example says: Multiply 345 by 3. What is 345 x 3?",
+      "options": {
+        "A": "1034",
+        "B": "1035",
+        "C": "1015",
+        "D": "935"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p12",
+      "image": null,
+      "id": 406
+    },
+    {
+      "text": "Multiply: 63 x 6 = ?",
+      "options": {
+        "A": "318",
+        "B": "368",
+        "C": "378",
+        "D": "366"
+      },
+      "answer": "C",
+      "difficulty": "medium",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p12",
+      "image": null,
+      "id": 407
+    },
+    {
+      "text": "Multiply: 299 x 3 = ?",
+      "options": {
+        "A": "887",
+        "B": "599",
+        "C": "867",
+        "D": "897"
+      },
+      "answer": "D",
+      "difficulty": "hard",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p12",
+      "image": null,
+      "id": 408
+    },
+    {
+      "text": "Multiply: 237 x 4 = ?",
+      "options": {
+        "A": "948",
+        "B": "946",
+        "C": "928",
+        "D": "838"
+      },
+      "answer": "A",
+      "difficulty": "medium",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p12",
+      "image": null,
+      "id": 409
+    },
+    {
+      "text": "In the example 345 x 3, the base-ten blocks show 3 hundreds, 4 tens and 5 ones. After multiplying, there are 10 hundreds in all (9 hundreds from 3 hundreds x 3, plus 1 hundred renamed from 13 tens). What number is 10 hundreds?",
+      "options": {
+        "A": "1100",
+        "B": "1000",
+        "C": "10000",
+        "D": "100"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p12",
+      "image": null,
+      "id": 410
+    },
+    {
+      "text": "Item (a) says: Multiply 333 by 4. What is 333 x 4?",
+      "options": {
+        "A": "1242",
+        "B": "1336",
+        "C": "1332",
+        "D": "1232"
+      },
+      "answer": "C",
+      "difficulty": "medium",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p13",
+      "image": null,
+      "id": 411
+    },
+    {
+      "text": "Work out item (b): 989 x 2 = ?",
+      "options": {
+        "A": "1878",
+        "B": "1898",
+        "C": "1968",
+        "D": "1978"
+      },
+      "answer": "D",
+      "difficulty": "medium",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p13",
+      "image": null,
+      "id": 412
+    },
+    {
+      "text": "Work out item (c): 738 x 8 = ?",
+      "options": {
+        "A": "5904",
+        "B": "5804",
+        "C": "5944",
+        "D": "5504"
+      },
+      "answer": "A",
+      "difficulty": "hard",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p13",
+      "image": null,
+      "id": 413
+    },
+    {
+      "text": "In the Match exercise, which answer belongs with 98 x 9?",
+      "options": {
+        "A": "891",
+        "B": "882",
+        "C": "962",
+        "D": "828"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p13",
+      "image": null,
+      "id": 414
+    },
+    {
+      "text": "In the Match exercise, which answer belongs with 96 x 6?",
+      "options": {
+        "A": "636",
+        "B": "566",
+        "C": "576",
+        "D": "546"
+      },
+      "answer": "C",
+      "difficulty": "medium",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p13",
+      "image": null,
+      "id": 415
+    },
+    {
+      "text": "In the Match exercise, which answer belongs with 65 x 7?",
+      "options": {
+        "A": "445",
+        "B": "425",
+        "C": "495",
+        "D": "455"
+      },
+      "answer": "D",
+      "difficulty": "medium",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p13",
+      "image": null,
+      "id": 416
+    },
+    {
+      "text": "In the Match exercise, which answer belongs with 843 x 5?",
+      "options": {
+        "A": "4215",
+        "B": "4152",
+        "C": "4515",
+        "D": "4115"
+      },
+      "answer": "A",
+      "difficulty": "hard",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p13",
+      "image": null,
+      "id": 417
+    },
+    {
+      "text": "In the Match exercise, which answer belongs with 692 x 6?",
+      "options": {
+        "A": "4142",
+        "B": "4152",
+        "C": "4215",
+        "D": "4122"
+      },
+      "answer": "B",
+      "difficulty": "hard",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p13",
+      "image": null,
+      "id": 418
+    },
+    {
+      "text": "In the Match exercise, which answer belongs with 297 x 3?",
+      "options": {
+        "A": "881",
+        "B": "791",
+        "C": "891",
+        "D": "861"
+      },
+      "answer": "C",
+      "difficulty": "medium",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p13",
+      "image": null,
+      "id": 419
+    },
+    {
+      "text": "Item (a) shows 3 tens and a hidden ones digit multiplied by 3, giving 90. Which digit is hidden? (3? x 3 = 90)",
+      "options": {
+        "A": "3",
+        "B": "1",
+        "C": "5",
+        "D": "0"
+      },
+      "answer": "D",
+      "difficulty": "easy",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p14",
+      "image": null,
+      "id": 420
+    },
+    {
+      "text": "Item (b): 39 x ? = 78. Which number goes in the empty box?",
+      "options": {
+        "A": "2",
+        "B": "4",
+        "C": "3",
+        "D": "7"
+      },
+      "answer": "A",
+      "difficulty": "easy",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p14",
+      "image": null,
+      "id": 421
+    },
+    {
+      "text": "Item (c): 54 x ? = 432. Which number goes in the empty box?",
+      "options": {
+        "A": "9",
+        "B": "8",
+        "C": "6",
+        "D": "7"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p14",
+      "image": null,
+      "id": 422
+    },
+    {
+      "text": "Item (d): 127 x ? = 508. Which number goes in the empty box?",
+      "options": {
+        "A": "3",
+        "B": "5",
+        "C": "4",
+        "D": "6"
+      },
+      "answer": "C",
+      "difficulty": "medium",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p14",
+      "image": null,
+      "id": 423
+    },
+    {
+      "text": "Item (e): 518 x ? = 2590. Which number goes in the empty box in the multiplier row?",
+      "options": {
+        "A": "6",
+        "B": "7",
+        "C": "4",
+        "D": "5"
+      },
+      "answer": "D",
+      "difficulty": "hard",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p14",
+      "image": null,
+      "id": 424
+    },
+    {
+      "text": "A theme park charges $84 for a child ticket. How much do 4 child tickets cost?",
+      "options": {
+        "A": "$336",
+        "B": "$420",
+        "C": "$252",
+        "D": "$320"
+      },
+      "answer": "A",
+      "difficulty": "medium",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p15",
+      "image": null,
+      "id": 425
+    },
+    {
+      "text": "A theme park charges $102 for an adult ticket. How much do 3 adult tickets cost?",
+      "options": {
+        "A": "$105",
+        "B": "$306",
+        "C": "$312",
+        "D": "$300"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p15",
+      "image": null,
+      "id": 426
+    },
+    {
+      "text": "Niki's room is 300 cm high. One shelf is 56 cm high. Niki stacks the shelves on top of each other. What is the greatest number of shelves she can stack in her room?",
+      "options": {
+        "A": "4",
+        "B": "6",
+        "C": "5",
+        "D": "7"
+      },
+      "answer": "C",
+      "difficulty": "hard",
+      "domain": "Word Problems",
+      "source_page": "PDF2 p15",
+      "image": null,
+      "id": 427
+    },
+    {
+      "text": "Niki stacks 5 shelves, each 56 cm high, on top of each other. What is the total height of the stack of shelves?",
+      "options": {
+        "A": "250 cm",
+        "B": "224 cm",
+        "C": "300 cm",
+        "D": "280 cm"
+      },
+      "answer": "D",
+      "difficulty": "hard",
+      "domain": "Word Problems",
+      "source_page": "PDF2 p15",
+      "image": null,
+      "id": 428
+    },
+    {
+      "text": "Niki's room is 300 cm high and she stacks 5 shelves of 56 cm each. How much space is left above the stack?",
+      "options": {
+        "A": "20 cm",
+        "B": "44 cm",
+        "C": "24 cm",
+        "D": "16 cm"
+      },
+      "answer": "A",
+      "difficulty": "hard",
+      "domain": "Word Problems",
+      "source_page": "PDF2 p15",
+      "image": null,
+      "id": 429
+    },
+    {
+      "text": "Divide 19 erasers equally into 4 groups. What are the quotient and the remainder?",
+      "options": {
+        "A": "3 R 3",
+        "B": "4 R 3",
+        "C": "5 R 1",
+        "D": "4 R 1"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "domain": "Division",
+      "source_page": "PDF2 p15",
+      "image": null,
+      "id": 430
+    },
+    {
+      "text": "16 lollipops are divided equally among 3 friends. What are the quotient and the remainder?",
+      "options": {
+        "A": "6 R 1",
+        "B": "4 R 1",
+        "C": "5 R 1",
+        "D": "5 R 2"
+      },
+      "answer": "C",
+      "difficulty": "easy",
+      "domain": "Division",
+      "source_page": "PDF2 p15",
+      "image": null,
+      "id": 431
+    },
+    {
+      "text": "24 crayons are divided equally into groups of 6. What are the quotient and the remainder?",
+      "options": {
+        "A": "6 R 0",
+        "B": "3 R 4",
+        "C": "5 R 4",
+        "D": "4 R 0"
+      },
+      "answer": "D",
+      "difficulty": "easy",
+      "domain": "Division",
+      "source_page": "PDF2 p16",
+      "image": null,
+      "id": 432
+    },
+    {
+      "text": "Divide 37 toy cars equally into groups of 5. What are the quotient and the remainder?",
+      "options": {
+        "A": "7 R 2",
+        "B": "7 R 1",
+        "C": "6 R 7",
+        "D": "8 R 2"
+      },
+      "answer": "A",
+      "difficulty": "medium",
+      "domain": "Division",
+      "source_page": "PDF2 p16",
+      "image": null,
+      "id": 433
+    },
+    {
+      "text": "Find the quotient and remainder: 16 ÷ 7",
+      "options": {
+        "A": "7 R 2",
+        "B": "2 R 2",
+        "C": "2 R 1",
+        "D": "3 R 2"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "domain": "Division",
+      "source_page": "PDF2 p16",
+      "image": null,
+      "id": 434
+    },
+    {
+      "text": "Find the quotient and remainder: 37 ÷ 4",
+      "options": {
+        "A": "9 R 3",
+        "B": "8 R 5",
+        "C": "9 R 1",
+        "D": "10 R 1"
+      },
+      "answer": "C",
+      "difficulty": "medium",
+      "domain": "Division",
+      "source_page": "PDF2 p16",
+      "image": null,
+      "id": 435
+    },
+    {
+      "text": "Find the quotient and remainder: 51 ÷ 8",
+      "options": {
+        "A": "6 R 2",
+        "B": "8 R 3",
+        "C": "7 R 3",
+        "D": "6 R 3"
+      },
+      "answer": "D",
+      "difficulty": "medium",
+      "domain": "Division",
+      "source_page": "PDF2 p16",
+      "image": null,
+      "id": 436
+    },
+    {
+      "text": "Find the quotient and remainder: 53 ÷ 7",
+      "options": {
+        "A": "7 R 4",
+        "B": "8 R 3",
+        "C": "7 R 3",
+        "D": "6 R 4"
+      },
+      "answer": "A",
+      "difficulty": "medium",
+      "domain": "Division",
+      "source_page": "PDF2 p16",
+      "image": null,
+      "id": 437
+    },
+    {
+      "text": "21 ÷ 7 = ?",
+      "options": {
+        "A": "7",
+        "B": "3",
+        "C": "14",
+        "D": "4"
+      },
+      "answer": "B",
+      "difficulty": "easy",
+      "domain": "Division",
+      "source_page": "PDF2 p17",
+      "image": null,
+      "id": 438
+    },
+    {
+      "text": "23 ÷ 5 = ?",
+      "options": {
+        "A": "5 R 3",
+        "B": "6 R 3",
+        "C": "4 R 3",
+        "D": "4 R 2"
+      },
+      "answer": "C",
+      "difficulty": "medium",
+      "domain": "Division",
+      "source_page": "PDF2 p17",
+      "image": null,
+      "id": 439
+    },
+    {
+      "text": "56 ÷ 9 = ?",
+      "options": {
+        "A": "9 R 6",
+        "B": "6 R 1",
+        "C": "7 R 2",
+        "D": "6 R 2"
+      },
+      "answer": "D",
+      "difficulty": "medium",
+      "domain": "Division",
+      "source_page": "PDF2 p17",
+      "image": null,
+      "id": 440
+    },
+    {
+      "text": "19 ÷ 3 = ?",
+      "options": {
+        "A": "6 R 1",
+        "B": "7 R 1",
+        "C": "5 R 4",
+        "D": "6 R 2"
+      },
+      "answer": "A",
+      "difficulty": "medium",
+      "domain": "Division",
+      "source_page": "PDF2 p17",
+      "image": null,
+      "id": 441
+    },
+    {
+      "text": "32 ÷ 8 = ?",
+      "options": {
+        "A": "8",
+        "B": "4",
+        "C": "5",
+        "D": "3"
+      },
+      "answer": "B",
+      "difficulty": "easy",
+      "domain": "Division",
+      "source_page": "PDF2 p17",
+      "image": null,
+      "id": 442
+    },
+    {
+      "text": "40 ÷ 4 = ?",
+      "options": {
+        "A": "4",
+        "B": "100",
+        "C": "10",
+        "D": "1"
+      },
+      "answer": "C",
+      "difficulty": "easy",
+      "domain": "Division",
+      "source_page": "PDF2 p17",
+      "image": null,
+      "id": 443
+    },
+    {
+      "text": "Fill in the blank: ______ ÷ 5 = 3 R 3",
+      "options": {
+        "A": "20",
+        "B": "16",
+        "C": "15",
+        "D": "18"
+      },
+      "answer": "D",
+      "difficulty": "hard",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p17",
+      "image": null,
+      "id": 444
+    },
+    {
+      "text": "Fill in the blank: ______ ÷ 3 = 6 R 1",
+      "options": {
+        "A": "19",
+        "B": "20",
+        "C": "21",
+        "D": "18"
+      },
+      "answer": "A",
+      "difficulty": "hard",
+      "domain": "Division",
+      "source_page": "PDF2 p17",
+      "image": null,
+      "id": 445
+    },
+    {
+      "text": "Fill in the blank: ______ ÷ 4 = 9 R 3",
+      "options": {
+        "A": "36",
+        "B": "39",
+        "C": "37",
+        "D": "40"
+      },
+      "answer": "B",
+      "difficulty": "hard",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p17",
+      "image": null,
+      "id": 446
+    },
+    {
+      "text": "Fill in the blank: ______ ÷ 6 = 9 R 1",
+      "options": {
+        "A": "56",
+        "B": "60",
+        "C": "55",
+        "D": "54"
+      },
+      "answer": "C",
+      "difficulty": "hard",
+      "domain": "Division",
+      "source_page": "PDF2 p17",
+      "image": null,
+      "id": 447
+    },
+    {
+      "text": "Fill in the blank: ______ ÷ 7 = 7 R 1",
+      "options": {
+        "A": "51",
+        "B": "49",
+        "C": "56",
+        "D": "50"
+      },
+      "answer": "D",
+      "difficulty": "hard",
+      "domain": "Division",
+      "source_page": "PDF2 p17",
+      "image": null,
+      "id": 448
+    },
+    {
+      "text": "Fill in the blank: ______ ÷ 9 = 6 R 2",
+      "options": {
+        "A": "56",
+        "B": "54",
+        "C": "63",
+        "D": "55"
+      },
+      "answer": "A",
+      "difficulty": "hard",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p17",
+      "image": null,
+      "id": 449
+    },
+    {
+      "text": "6 tens ÷ 2 = ?",
+      "options": {
+        "A": "300",
+        "B": "30",
+        "C": "12",
+        "D": "3"
+      },
+      "answer": "B",
+      "difficulty": "easy",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p18",
+      "image": null,
+      "id": 450
+    },
+    {
+      "text": "5 tens ÷ 5 = ?",
+      "options": {
+        "A": "5",
+        "B": "1",
+        "C": "10",
+        "D": "100"
+      },
+      "answer": "C",
+      "difficulty": "easy",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p18",
+      "image": null,
+      "id": 451
+    },
+    {
+      "text": "5 hundreds ÷ 5 = ?",
+      "options": {
+        "A": "500",
+        "B": "1",
+        "C": "10",
+        "D": "100"
+      },
+      "answer": "D",
+      "difficulty": "easy",
+      "domain": "Division",
+      "source_page": "PDF2 p18",
+      "image": null,
+      "id": 452
+    },
+    {
+      "text": "8 ÷ 4 = ?",
+      "options": {
+        "A": "2",
+        "B": "32",
+        "C": "4",
+        "D": "12"
+      },
+      "answer": "A",
+      "difficulty": "easy",
+      "domain": "Division",
+      "source_page": "PDF2 p18",
+      "image": null,
+      "id": 453
+    },
+    {
+      "text": "80 ÷ 4 = ?",
+      "options": {
+        "A": "200",
+        "B": "20",
+        "C": "2",
+        "D": "40"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p18",
+      "image": null,
+      "id": 454
+    },
+    {
+      "text": "800 ÷ 4 = ?",
+      "options": {
+        "A": "400",
+        "B": "2000",
+        "C": "200",
+        "D": "20"
+      },
+      "answer": "C",
+      "difficulty": "medium",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p18",
+      "image": null,
+      "id": 455
+    },
+    {
+      "text": "The worked example on this page shows 48 divided by 2. What is 48 ÷ 2?",
+      "options": {
+        "A": "22",
+        "B": "26",
+        "C": "42",
+        "D": "24"
+      },
+      "answer": "D",
+      "difficulty": "easy",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p19",
+      "image": null,
+      "id": 456
+    },
+    {
+      "text": "The Check box on the page says 24 × 2 = ☐. What number belongs in the box?",
+      "options": {
+        "A": "48",
+        "B": "26",
+        "C": "22",
+        "D": "42"
+      },
+      "answer": "A",
+      "difficulty": "easy",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p19",
+      "image": null,
+      "id": 457
+    },
+    {
+      "text": "Step 1 of the example says: Divide the tens by 2. In 48, the tens are 40. What is 40 ÷ 2?",
+      "options": {
+        "A": "14",
+        "B": "20",
+        "C": "24",
+        "D": "2"
+      },
+      "answer": "B",
+      "difficulty": "easy",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p19",
+      "image": null,
+      "id": 458
+    },
+    {
+      "text": "The example checks 48 ÷ 2 = 24 by multiplying: 24 × 2 = 48. Which multiplication would check 36 ÷ 3 = 12?",
+      "options": {
+        "A": "12 × 12 = 36",
+        "B": "12 × 36 = 3",
+        "C": "12 × 3 = 36",
+        "D": "36 × 3 = 12"
+      },
+      "answer": "C",
+      "difficulty": "medium",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p19",
+      "image": null,
+      "id": 459
+    },
+    {
+      "text": "Question (a) on the page says: Divide 36 by 3. What is 36 ÷ 3?",
+      "options": {
+        "A": "11",
+        "B": "18",
+        "C": "13",
+        "D": "12"
+      },
+      "answer": "D",
+      "difficulty": "easy",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p19",
+      "image": null,
+      "id": 460
+    },
+    {
+      "text": "Question (b) on the page says: Divide 462 by 2. What is 462 ÷ 2?",
+      "options": {
+        "A": "231",
+        "B": "213",
+        "C": "241",
+        "D": "230"
+      },
+      "answer": "A",
+      "difficulty": "hard",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p19",
+      "image": null,
+      "id": 461
+    },
+    {
+      "text": "On page 145, question (a) is 60 ÷ 4. What is the answer?",
+      "options": {
+        "A": "14",
+        "B": "15",
+        "C": "24",
+        "D": "16"
+      },
+      "answer": "B",
+      "difficulty": "easy",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p20",
+      "image": null,
+      "id": 462
+    },
+    {
+      "text": "Question (b) on page 145 asks you to divide 165 by 3. What is 165 ÷ 3?",
+      "options": {
+        "A": "45",
+        "B": "53",
+        "C": "55",
+        "D": "65"
+      },
+      "answer": "C",
+      "difficulty": "medium",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p20",
+      "image": null,
+      "id": 463
+    },
+    {
+      "text": "Question (c) on page 145 is 315 ÷ 5. What is the quotient?",
+      "options": {
+        "A": "630",
+        "B": "65",
+        "C": "53",
+        "D": "63"
+      },
+      "answer": "D",
+      "difficulty": "medium",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p20",
+      "image": null,
+      "id": 464
+    },
+    {
+      "text": "Question (d) on page 145 is 476 ÷ 7. What is the answer?",
+      "options": {
+        "A": "68",
+        "B": "67",
+        "C": "66",
+        "D": "78"
+      },
+      "answer": "A",
+      "difficulty": "hard",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p20",
+      "image": null,
+      "id": 465
+    },
+    {
+      "text": "In section 4 'Divide.' on page 146, item (a) is 93 ÷ 3. What is the quotient?",
+      "options": {
+        "A": "30",
+        "B": "31",
+        "C": "33",
+        "D": "21"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p20",
+      "image": null,
+      "id": 466
+    },
+    {
+      "text": "Item (b) in section 4 of page 146 is 96 ÷ 4. What is the answer?",
+      "options": {
+        "A": "26",
+        "B": "23",
+        "C": "24",
+        "D": "42"
+      },
+      "answer": "C",
+      "difficulty": "medium",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p20",
+      "image": null,
+      "id": 467
+    },
+    {
+      "text": "Item (c) in section 4 of page 146 is 606 ÷ 6. What is the quotient?",
+      "options": {
+        "A": "110",
+        "B": "11",
+        "C": "100",
+        "D": "101"
+      },
+      "answer": "D",
+      "difficulty": "medium",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p20",
+      "image": null,
+      "id": 468
+    },
+    {
+      "text": "Item (e) in section 4 of page 146 is 595 ÷ 5. What is the answer?",
+      "options": {
+        "A": "119",
+        "B": "118",
+        "C": "110",
+        "D": "120"
+      },
+      "answer": "A",
+      "difficulty": "hard",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p20",
+      "image": null,
+      "id": 469
+    },
+    {
+      "text": "Item (f) in section 4 of page 146 is 198 ÷ 6. What is the quotient?",
+      "options": {
+        "A": "34",
+        "B": "33",
+        "C": "39",
+        "D": "32"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p20",
+      "image": null,
+      "id": 470
+    },
+    {
+      "text": "Item (h) in section 4 of page 146 is 760 ÷ 8. What is the answer?",
+      "options": {
+        "A": "94",
+        "B": "90",
+        "C": "95",
+        "D": "96"
+      },
+      "answer": "C",
+      "difficulty": "medium",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p20",
+      "image": null,
+      "id": 471
+    },
+    {
+      "text": "Item (i) in section 4 of page 146 is 984 ÷ 8. What is the quotient?",
+      "options": {
+        "A": "132",
+        "B": "122",
+        "C": "113",
+        "D": "123"
+      },
+      "answer": "D",
+      "difficulty": "hard",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p20",
+      "image": null,
+      "id": 472
+    },
+    {
+      "text": "The practice page is titled 'Division Without Remainder'. Which of these divisions has NO remainder?",
+      "options": {
+        "A": "96 ÷ 4",
+        "B": "47 ÷ 5",
+        "C": "85 ÷ 6",
+        "D": "62 ÷ 7"
+      },
+      "answer": "A",
+      "difficulty": "medium",
+      "domain": "Division",
+      "source_page": "PDF2 p20",
+      "image": null,
+      "id": 473
+    },
+    {
+      "text": "In the riddle table on page 108, which letter is written beside 9 × 7 = 63?",
+      "options": {
+        "A": "H",
+        "B": "U",
+        "C": "O",
+        "D": "R"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p21",
+      "image": null,
+      "id": 474
+    },
+    {
+      "text": "The riddle asks: 'What kind of room has no doors or windows?' The letter blanks spell out A MUSHROOM. What is the answer to the riddle?",
+      "options": {
+        "A": "A living room",
+        "B": "A classroom",
+        "C": "A mushroom",
+        "D": "A bedroom"
+      },
+      "answer": "C",
+      "difficulty": "medium",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p21",
+      "image": null,
+      "id": 475
+    },
+    {
+      "text": "In question 2(a) the picture shows 2 bunches of grapes with 9 grapes in each bunch. How many grapes are there altogether?",
+      "options": {
+        "A": "27",
+        "B": "16",
+        "C": "11",
+        "D": "18"
+      },
+      "answer": "D",
+      "difficulty": "medium",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p21",
+      "image": null,
+      "id": 476
+    },
+    {
+      "text": "The worked example on page 109 shows 6 × 9 = 45 + 9. What is 45 + 9?",
+      "options": {
+        "A": "54",
+        "B": "53",
+        "C": "45",
+        "D": "56"
+      },
+      "answer": "A",
+      "difficulty": "easy",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p21",
+      "image": null,
+      "id": 477
+    },
+    {
+      "text": "The speech bubble says: '6 × 9 is ☐ more than 5 × 9.' What number goes in the blank?",
+      "options": {
+        "A": "45",
+        "B": "9",
+        "C": "1",
+        "D": "5"
+      },
+      "answer": "B",
+      "difficulty": "easy",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p21",
+      "image": null,
+      "id": 478
+    },
+    {
+      "text": "In question 4(a), 7 × 9 is worked out as 45 + 18. What is 7 × 9?",
+      "options": {
+        "A": "56",
+        "B": "72",
+        "C": "63",
+        "D": "61"
+      },
+      "answer": "C",
+      "difficulty": "medium",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p21",
+      "image": null,
+      "id": 479
+    },
+    {
+      "text": "In question 4(b), 9 × 9 is worked out as 90 - 9. What is 9 × 9?",
+      "options": {
+        "A": "79",
+        "B": "72",
+        "C": "99",
+        "D": "81"
+      },
+      "answer": "D",
+      "difficulty": "medium",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p21",
+      "image": null,
+      "id": 480
+    },
+    {
+      "text": "In question 4(c), 8 × 9 is worked out as 90 - 18. What is 8 × 9?",
+      "options": {
+        "A": "72",
+        "B": "90",
+        "C": "70",
+        "D": "62"
+      },
+      "answer": "A",
+      "difficulty": "medium",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p21",
+      "image": null,
+      "id": 481
+    },
+    {
+      "text": "Question 5(a) on page 110 has 54 ÷ ☐ = 9. What number goes in the blank?",
+      "options": {
+        "A": "8",
+        "B": "6",
+        "C": "7",
+        "D": "9"
+      },
+      "answer": "B",
+      "difficulty": "easy",
+      "domain": "Division",
+      "source_page": "PDF2 p22",
+      "image": null,
+      "id": 482
+    },
+    {
+      "text": "Question 5(b) on page 110 has ☐ × 9 = 72. What number goes in the blank?",
+      "options": {
+        "A": "7",
+        "B": "6",
+        "C": "8",
+        "D": "9"
+      },
+      "answer": "C",
+      "difficulty": "medium",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p22",
+      "image": null,
+      "id": 483
+    },
+    {
+      "text": "Which division fact goes with 6 × 9 = 54?",
+      "options": {
+        "A": "54 × 9 = 6",
+        "B": "54 ÷ 6 = 5",
+        "C": "9 ÷ 54 = 6",
+        "D": "54 ÷ 9 = 6"
+      },
+      "answer": "D",
+      "difficulty": "medium",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p22",
+      "image": null,
+      "id": 484
+    },
+    {
+      "text": "There are 9 kg of soil in each bag. What is the total mass of the soil in 7 such bags?",
+      "options": {
+        "A": "63 kg",
+        "B": "72 kg",
+        "C": "56 kg",
+        "D": "16 kg"
+      },
+      "answer": "A",
+      "difficulty": "medium",
+      "domain": "Word Problems",
+      "source_page": "PDF2 p22",
+      "image": null,
+      "id": 485
+    },
+    {
+      "text": "Rani bought 81 packets of chips. She gave each friend 9 packets. How many friends did she give the packets to?",
+      "options": {
+        "A": "72",
+        "B": "9",
+        "C": "90",
+        "D": "8"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "domain": "Word Problems",
+      "source_page": "PDF2 p22",
+      "image": null,
+      "id": 486
+    },
+    {
+      "text": "A teacher gives 72 funfair tickets equally to 9 pupils. How many tickets does each pupil get?",
+      "options": {
+        "A": "63",
+        "B": "7",
+        "C": "8",
+        "D": "9"
+      },
+      "answer": "C",
+      "difficulty": "medium",
+      "domain": "Word Problems",
+      "source_page": "PDF2 p22",
+      "image": null,
+      "id": 487
+    },
+    {
+      "text": "In question 7, Rani works out 81 ÷ 9 = 9 and checks it with a multiplication. Which multiplication fact checks her answer?",
+      "options": {
+        "A": "9 + 9 = 18",
+        "B": "81 - 9 = 72",
+        "C": "9 × 81 = 9",
+        "D": "9 × 9 = 81"
+      },
+      "answer": "D",
+      "difficulty": "medium",
+      "domain": "Word Problems",
+      "source_page": "PDF2 p22",
+      "image": null,
+      "id": 488
+    },
+    {
+      "text": "In question 1 of the worksheet, the equation is 9 × ☐ = 63. You must fill the box with a digit from 1 to 9. Which digit works?",
+      "options": {
+        "A": "7",
+        "B": "9",
+        "C": "8",
+        "D": "6"
+      },
+      "answer": "A",
+      "difficulty": "easy",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p23",
+      "image": null,
+      "id": 489
+    },
+    {
+      "text": "The second equation in question 1 is a two-digit number divided by 9 that gives 9: ☐ ÷ 9 = 9. What is the two-digit number?",
+      "options": {
+        "A": "99",
+        "B": "81",
+        "C": "18",
+        "D": "90"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "domain": "Division",
+      "source_page": "PDF2 p23",
+      "image": null,
+      "id": 490
+    },
+    {
+      "text": "Question 2(a) says 8 × 9 = 10 × 9 - ☐ × 9. What number goes in the blank?",
+      "options": {
+        "A": "10",
+        "B": "8",
+        "C": "2",
+        "D": "1"
+      },
+      "answer": "C",
+      "difficulty": "hard",
+      "domain": "Multiplication and Division",
+      "source_page": "PDF2 p23",
+      "image": null,
+      "id": 491
+    },
+    {
+      "text": "There are 81 pupils in a computer lab. The pupils are seated in 9 equal rows. How many pupils are there in each row?",
+      "options": {
+        "A": "8",
+        "B": "10",
+        "C": "7",
+        "D": "9"
+      },
+      "answer": "D",
+      "difficulty": "medium",
+      "domain": "Word Problems",
+      "source_page": "PDF2 p23",
+      "image": null,
+      "id": 492
+    },
+    {
+      "text": "Each row of pupils receives 8 badges while playing a computer game. There are 9 rows. How many badges are given out in all?",
+      "options": {
+        "A": "72",
+        "B": "63",
+        "C": "81",
+        "D": "17"
+      },
+      "answer": "A",
+      "difficulty": "medium",
+      "domain": "Word Problems",
+      "source_page": "PDF2 p23",
+      "image": null,
+      "id": 493
+    },
+    {
+      "text": "In question 3, the 81 pupils in the lab are split into 9 equal rows. Which number sentence finds the number of pupils in each row?",
+      "options": {
+        "A": "81 - 9 = 72",
+        "B": "81 ÷ 9 = 9",
+        "C": "81 + 9 = 90",
+        "D": "81 × 9 = 729"
+      },
+      "answer": "B",
+      "difficulty": "medium",
+      "domain": "Word Problems",
+      "source_page": "PDF2 p23",
+      "image": null,
+      "id": 494
     }
   ]
 }
